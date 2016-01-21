@@ -1,10 +1,10 @@
 var fs = require("fs"),
 node_xj = require("xls-to-json"),
-input_file = "Spark Matrix Ammended V12_Mike.xls",
+input_file = "Spark Matrix Ammended V13.xls",
 output_file = null,
 output_sheet_fdm = "FDM_export",
 output_sheet_dlp = "DLP_export",
-output_file_nice = "materials_reduced.json";
+output_file_nice = "materials.json";
 index_first_empty_object = 0;	//initialize to zero
 
 var json_data_slice_fdm,   //make these values available globally
