@@ -1,0 +1,24 @@
+{
+  "name": "materials-database",
+  "version": "1.0.0",
+  "description": "Consumer 3D Printing Materials Database",
+  "main": "control.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rniice/materials-database.git"
+  },
+  "author": "Michael Crockett",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rniice/materials-database/issues"
+  },
+  "homepage": "https://github.com/rniice/materials-database",
+  "dependencies": {
+    "express": "^4.13.3",
+    "http": "0.0.0"
+  }
+}

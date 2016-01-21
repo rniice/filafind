@@ -1,0 +1,17 @@
+usage of database: 
+
+http://127.0.0.1:9995/materials?id=4D8E952A-A9D4-4264-A12F-671BB19B4975
+
+
+
+
+http://127.0.0.1:9995/materials?cost=10
+
+
+
+
+enable the user to make selection of the following customizable requirements using slider elements, and then either jQuery or Angular to update the request parameters made to the server for the return of the filtered json file.
+
+
+
+
