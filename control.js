@@ -39,10 +39,10 @@ myApp.controller('userCtrl', ['$scope', '$http', function($scope,$http) {
   $scope.temp_bed = "";
   $scope.min_nozzle_diameter = "";
   $scope.temp_extrude_default = "";
+  
 
   //initialize the first query to send out with the presets
  	generateFullQuery(scope_struct);
-
 
   //USER CONFIGURATION CHANGE DETECTION
   $scope.changeTechnology = function(technology) {
@@ -92,6 +92,13 @@ myApp.controller('userCtrl', ['$scope', '$http', function($scope,$http) {
   };
 
 
+  $scope.resetFiltering = function(){
+
+
+    generateFullQuery(scope_struct);
+  };
+
+
   $scope.changeOpacity = function(opacity) {
     $scope.opacity = opacity;
     scope_struct.opacity = opacity; //update the scope_struct
@@ -127,6 +134,7 @@ myApp.controller('userCtrl', ['$scope', '$http', function($scope,$http) {
     scope_struct.temp_extrude_default = temp_extrude_default; //update the scope_struct
     generateFullQuery(scope_struct);
   };
+
 
 	//for each value in the component,value array, run generate query
 	function generateFullQuery(obj){

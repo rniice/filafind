@@ -51,15 +51,16 @@
         </nav>
         <h3 class="text-muted">Consumer FDM Materials Database</h3>
         <br>
-        <br>
       </div>
 
       <div class="row col-lg-3">
           <h4>Available Materials: </h4>
-          <p><textarea ng-model="server_response" ng-click="" class="field-log" id="log" rows="30" cols="30" placeholder="pending server response..."></textarea></p>
+          <p><textarea ng-model="server_response" ng-click="" class="field-log" id="log" rows="35" cols="30" placeholder="pending server response..."></textarea></p>
       </div>
 
-      <div class="row filtering-elements">
+      <div class="row">
+        <h4 class = "configure-title">Configure Your Query</h4>
+
         <div class="col-lg-3">
           <h4>Basic Properties:</h4>
 
@@ -74,7 +75,7 @@
 
           <span class="" aria-hidden="true">Composition:
             <select ng-model="composition" ng-change="changeComposition(composition)">
-              <option value="">None</option>
+              <option value="">ANY</option>
               <option value="PLA">PLA</option>
               <option value="ABS">ABS</option>
               <option value="NYLON">NYLON</option>
@@ -133,6 +134,8 @@
 
           <button ng-click="disableColorFiltering()">Disable Color Filtering</button>
 
+          <button ng-click="resetFiltering()">Reset All Filters</button>
+
           <br>
 
           <br>
@@ -158,10 +161,82 @@
 
       </div>
 
+
+      <div class="col-lg-9">
+        <br>
+        <h4>Suggested Processing Parameters:</h4>
+
+        <table class="processing-parameters" style="width:100%">
+          <tr>
+            <td><strong>Name</strong></td>
+            <td><strong>Technology</strong></td>    
+            <td><strong>Composition</strong></td>
+            <td><strong>Manufacturer</strong></td>
+            <td><strong>Cost</strong></td>
+          </tr>
+          <tr>
+            <td>{{name}}</td>
+            <td>{{technology}}</td>    
+            <td>{{composition}}</td>
+            <td>{{manufacturer}}</td>
+            <td>{{cost}}</td>
+          </tr>
+          <tr>
+            <td><strong>Temp Extrude [C]</strong></td>
+            <td><strong>Temp Bed [C]</strong></td>    
+            <td><strong>Fan Speed</strong></td>
+            <td><strong>Fan Speed</strong></td>
+            <td><strong>Fan Speed</strong></td>
+          </tr>
+          <tr>
+            <td>{{temp_extrude_default}}</td>
+            <td>Temp Bed [C]</td>    
+            <td>{{extruder_fan_speed}}</td>
+            <td>{{extruder_fan_speed}}</td>
+            <td>{{extruder_fan_speed}}</td>
+          </tr>
+        </table>
+
+
+
+        website:
+
+
+        filament_diameter:
+        extrusion_to_flow_multiplier:
+        
+
+        temp_extrude_max
+        temp_extrude_min
+
+        temp_bed
+
+        extruder_fan_speed
+
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+
+        <p><strong>DISCLAIMER:</strong> Properties are automatically generated from data provided from manufacturer or supplier website.  These properties are subject to change without notice.  Always check with the supplier or source for the latest available information on the product you are seeking to use.</p>
+
+        <p><strong>CREDIT:</strong> Materials Database is made possible using components of the <a href="https://github.com/spark3dp/print-manager">Spark 3D Printing Platform.</a>  Spark is an open platform for building better 3D printing software, hardware, materials and services.</p>  
+
+        <br>
+
+      </div>
+
+
     </div> 
 
       <footer class="footer">
-        <p>&copy; Sixteen-Twenty LLC, 2016</p>
+        <p>&copy; Sixteen-Twenty LLC, 2016.  All rights reserved.</p>
       </footer>
 
     </div> <!-- /container -->

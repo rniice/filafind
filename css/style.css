@@ -2,3 +2,28 @@ textarea {
   font-size: 15px;
 
 }
+
+h4.configure-title {
+	text-align: center;
+}
+
+table.processing-parameters {
+	border: 2px solid black;
+}
+
+th.processing-parameters {
+	border: 1px solid gray;
+}
+
+td {
+	border: 1px solid gray;
+}
+
+.filtering-elements {
+	border-radius: 25px;
+    border: 2px solid #73AD21;
+    height: auto;
+    /*padding: 20px; */
+}
+
+

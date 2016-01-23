@@ -29,17 +29,10 @@ app.get('/materials', function(req, res) {
 
 //Querying DB for a specific material ID to return properties for
 app.get('/materials/:id', function(req, res) {
-	//res.send('returning specific material id');
 	materials.getMaterial(req, res);
 });
 
-/*
-app.get('/materials/find', function(req, res) {
-	var result = materials.findMaterial(req, res);
-	res.status(200);
-	res.send(result);
-});
-*/
+
 
 //Adding Material to DB
 app.post('/materials/', function(req, res){
