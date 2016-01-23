@@ -192,11 +192,8 @@ myApp.controller('userCtrl', ['$scope', '$http', function($scope,$http) {
 
 
 	function styleResponse(response) {  //takes the response from server and styles
-
-		//$scope.server_response = "<a href='google.com' class='button'>Go to Google</a>";
-
-		$scope.server_response = JSON.stringify(response.data, null, 2);
-
+		//$scope.server_response = JSON.stringify(response.data, null, 2);
+    $scope.server_response = response.data;
 	}
 
 }]);

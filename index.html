@@ -55,7 +55,12 @@
 
       <div class="row col-lg-3">
           <h4>Available Materials: </h4>
-          <p><textarea ng-model="server_response" ng-click="" class="field-log" id="log" rows="35" cols="30" placeholder="pending server response..."></textarea></p>
+          <!--<p><textarea ng-model="server_response" ng-click="" class="field-log" id="log" rows="35" cols="30" placeholder="pending server response..."></textarea></p>-->
+          <div ng-repeat="material in server_response">
+            <p>Material is {{material.id}}</p>
+
+          </div>>
+
       </div>
 
       <div class="row">
@@ -229,6 +234,14 @@
 
 
     </div> 
+
+      <div class="row">
+       <div id="server_response">
+          <p>Placeholder<p>
+       </div>
+      </div>
+
+
 
       <footer class="footer">
         <p>&copy; Sixteen-Twenty LLC, 2016.  All rights reserved.</p>
