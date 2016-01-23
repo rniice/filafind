@@ -60,7 +60,7 @@
 .angular-color-picker > ._hues > ._cursor {
     position: absolute;
     left: -7px;
-    width: 33px;
+    width: 43px;
     height: 0;
     border: 5px solid transparent;
     border-left-color: #808080;
