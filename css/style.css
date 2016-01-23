@@ -10,6 +10,8 @@ h4.configure-title {
 table.processing-parameters {
 	border: 2px solid black;
 	text-align: center;
+	table-layout: fixed;
+
 }
 
 th.processing-parameters {
@@ -18,7 +20,17 @@ th.processing-parameters {
 
 td {
 	border: 1px solid gray;
+	width: 56px;
+	height: 15px;
+	overflow: hidden;
 }
+
+td.processing-data {
+	width: 56px;
+	height: 60px;
+	overflow: hidden;
+}
+
 
 .filtering-elements {
 	border-radius: 25px;
