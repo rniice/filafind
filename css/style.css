@@ -9,6 +9,7 @@ h4.configure-title {
 
 table.processing-parameters {
 	border: 2px solid black;
+	text-align: center;
 }
 
 th.processing-parameters {
