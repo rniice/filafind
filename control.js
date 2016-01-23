@@ -19,6 +19,8 @@ var scope_struct = {
 	min_nozzle_diameter: ""
 };
 
+var scope_struct_reset = (JSON.parse(JSON.stringify(scope_struct)));   //make a deep clone of the scope struct
+
 
 myApp.controller('userCtrl', ['$scope', '$http', function($scope,$http) {
 
@@ -98,11 +100,26 @@ myApp.controller('userCtrl', ['$scope', '$http', function($scope,$http) {
 
 
   $scope.resetFiltering = function(){
+    $scope.server_response = "Available Materials: ";
+    //initialize values to these settings
+    $scope.technology = "FDM";
+    $scope.composition = "PLA";
+    $scope.filament_diameter = "1.75";
+    $scope.color = ""; 
+    $scope.opacity = "1";                   
 
+    //non-initialized settings values:
+    $scope.manufacturer = "";
+    $scope.cost = "";
+    $scope.tags = "";
+    $scope.bed_material = "";
+    $scope.temp_bed = "";
+    $scope.min_nozzle_diameter = "";
+    $scope.temp_extrude_default = "";
+
+    scope_struct = (JSON.parse(JSON.stringify(scope_struct_reset)));
     generateFullQuery(scope_struct);
   };
-
-
 
 
   $scope.changeOpacity = function(opacity) {
