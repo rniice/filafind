@@ -155,7 +155,7 @@ myApp.controller('userCtrl', ['$scope', '$http', function($scope,$http) {
     $scope.processing_temp_bed                    = material.temp_bed;
     $scope.processing_extruder_fan_speed          = material.extruder_fan_speed;
     $scope.processing_bed_material                = material.temp_bed;
-    $scope.extrusion_to_flow_multiplier           = material.extrusion_to_flow_multiplier;
+    $scope.extrusion_to_flow_multiplier           = material.filament_extrusion_to_flow_multiplier;
     $scope.processing_website                     = material.website;
 
   };
