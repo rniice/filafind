@@ -39,6 +39,11 @@ myApp.controller('userCtrl', ['$scope', '$http', function($scope,$http) {
   $scope.temp_bed = "";
   $scope.min_nozzle_diameter = "";
   $scope.temp_extrude_default = "";
+
+
+  //initialize values for the processing parameters:
+
+
   
 
   //initialize the first query to send out with the presets
@@ -94,9 +99,10 @@ myApp.controller('userCtrl', ['$scope', '$http', function($scope,$http) {
 
   $scope.resetFiltering = function(){
 
-
     generateFullQuery(scope_struct);
   };
+
+
 
 
   $scope.changeOpacity = function(opacity) {
@@ -133,6 +139,25 @@ myApp.controller('userCtrl', ['$scope', '$http', function($scope,$http) {
     $scope.temp_extrude_default = temp_extrude_default;
     scope_struct.temp_extrude_default = temp_extrude_default; //update the scope_struct
     generateFullQuery(scope_struct);
+  };
+
+  $scope.showMaterialDetails = function(material) {           //set all the properties shown in suggested processing parameters area
+
+    $scope.processing_name                        = material.name;
+    $scope.processing_technology                  = material.technology;
+    $scope.processing_composition                 = material.composition;
+    $scope.processing_filament_diameter           = material.filament_diameter;
+    $scope.processing_manufacturer                = material.manufacturer;
+    $scope.processing_cost                        = material.cost;
+    $scope.processing_temp_extrude_default        = material.temp_extrude_default;
+    $scope.processing_temp_min_extrude            = material.temp_min_extrude;
+    $scope.processing_temp_max_extrude            = material.temp_max_extrude;
+    $scope.processing_temp_bed                    = material.temp_bed;
+    $scope.processing_extruder_fan_speed          = material.extruder_fan_speed;
+    $scope.processing_bed_material                = material.temp_bed;
+    $scope.extrusion_to_flow_multiplier           = material.extrusion_to_flow_multiplier;
+    $scope.processing_website                     = material.website;
+
   };
 
 

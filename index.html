@@ -55,9 +55,9 @@
 
       <div class="row col-lg-3">
           <h4>Available Materials: </h4>
-          <!--<p><textarea ng-model="server_response" ng-click="" class="field-log" id="log" rows="35" cols="30" placeholder="pending server response..."></textarea></p>-->
-          <div ng-repeat="material in server_response">
-            <p>Material is {{material.id}}</p>
+          <div class="field-log" ng-repeat="material in server_response track by $index">
+
+            <button ng-click="showMaterialDetails(material)">{{material.name}}</button>
 
           </div>>
 
@@ -181,12 +181,12 @@
             <td><strong>Cost</strong></td>
           </tr>
           <tr>
-            <td>{{name}}</td>
-            <td>{{technology}}</td>    
-            <td>{{composition}}</td>
-            <td>{{filament_diameter}}</td>
-            <td>{{manufacturer}}</td>
-            <td>{{cost}}</td>
+            <td>{{processing_name}}</td>
+            <td>{{processing_technology}}</td>    
+            <td>{{processing_composition}}</td>
+            <td>{{processing_filament_diameter}}</td>
+            <td>{{processing_manufacturer}}</td>
+            <td>{{processing_cost}}</td>
           </tr>
           <tr>
             <td><strong>Temp Extrude [C]</strong></td>
@@ -197,24 +197,24 @@
             <td><strong>Bed Material</strong></td>
           </tr>
           <tr>
-            <td>{{temp_extrude_default}}</td>
-            <td>{{temp_min_extrude}}</td>
-            <td>{{temp_max_extrude}}</td>
-            <td>{{temp_bed}}PLACEHOLDER</td>    
-            <td>{{extruder_fan_speed}}</td>
-            <td>{{bed_material}}</td>
+            <td>{{processing_temp_extrude_default}}</td>
+            <td>{{processing_temp_min_extrude}}</td>
+            <td>{{processing_temp_max_extrude}}</td>
+            <td>{{processing_temp_bed}}</td>    
+            <td>{{processing_extruder_fan_speed}}</td>
+            <td>{{processing_bed_material}}</td>
           </tr>
           <tr>
             <td><strong>Extrusion to Flow</strong></td>
             <td><strong>Placeholder</strong></td>
-            <td colspan = "2"> Website: </td>
-            <td colspan = "2">Buy Now</td>
+            <td colspan = "2"><strong>Website</strong> </td>
+            <td colspan = "2"><strong>Buy Now</strong></td>
           </tr>
           <tr>
             <td>{{extrusion_to_flow_multiplier}}</td>
             <td>Placeholder</td>
-            <td colspan = "2">Website: </td>
-            <td colspan = "2">Buy Now</td>
+            <td colspan = "2">{{processing_website}} </td>
+            <td colspan = "2">{{processing_website}}</td>
           </tr>
         </table>
 
@@ -244,7 +244,7 @@
 
 
       <footer class="footer">
-        <p>&copy; Sixteen-Twenty LLC, 2016.  All rights reserved.</p>
+        <p>&copy; Sixteen-Twenty LLC, 2016.  All Rights Reserved.</p>
       </footer>
 
     </div> <!-- /container -->
