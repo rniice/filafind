@@ -3,6 +3,13 @@ textarea {
 
 }
 
+.field-log {
+	height: 800;
+	/*max-height: 400px;*/
+	overflow:hidden;
+}
+
+
 h4.configure-title {
 	text-align: center;
 }

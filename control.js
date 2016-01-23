@@ -218,8 +218,20 @@ myApp.controller('userCtrl', ['$scope', '$http', function($scope,$http) {
 
 	function styleResponse(response) {  //takes the response from server and styles
 		//$scope.server_response = JSON.stringify(response.data, null, 2);
-    $scope.server_response = response.data;
+    var sorted_by_cost = sortByKey(response.data, "cost");
+    var lower_25 = sorted_by_cost.slice(0,20);
+
+    $scope.server_response = lower_25;
 	}
+
+  /*http://jsfiddle.net/6Dgbu/ */
+  function sortByKey(array, key) {
+    return array.sort(function(a, b) {
+        var x = a[key]; var y = b[key];
+        return ((x < y) ? -1 : ((x > y) ? 1 : 0));
+    });
+  }
+
 
 }]);
 
