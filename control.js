@@ -219,7 +219,7 @@ myApp.controller('userCtrl', ['$scope', '$http', function($scope,$http) {
 	function styleResponse(response) {  //takes the response from server and styles
 		//$scope.server_response = JSON.stringify(response.data, null, 2);
     var sorted_by_cost = sortByKey(response.data, "cost");
-    var lower_25 = sorted_by_cost.slice(0,20);
+    var lower_25 = sorted_by_cost.slice(0,10);
 
     $scope.server_response = lower_25;
 	}

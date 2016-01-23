@@ -9,10 +9,11 @@ textarea {
 	overflow:hidden;
 }
 
-
+/*
 h4.configure-title {
 	text-align: center;
 }
+*/
 
 table.processing-parameters {
 	border: 2px solid black;
