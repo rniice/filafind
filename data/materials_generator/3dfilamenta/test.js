@@ -5,30 +5,8 @@ var Crawler = require("crawler")
 
 
 //crawler settings
-
-//exclude urls with any component that contains these strings
-var exclusion_list_items = ['wiki','google','amazon','ebay', 'reprap','youtube','twitter'
-                            ,'instagram','vimeo','github','facebook','google','linkedin'
-                            ,'youtube'];
-
-
 var filename_out = 'output';
-
-
-//NEED TO BETTER FILTER OUT CANDIDATE URLS TO ADD, CONSIDER INCLUSION KEYWORDS:
-
-//start filtering which urls get appended by checking for:
-//filament, plastic, spool, feedstock, etc.
-
 var cumulative_result = [];
-
-
-//write out the cumulative_result to file every 20 seconds
-var interval = setInterval(function() {
-    writeResults(cumulative_result, filename_out);
-    cumulative_result = [];     //clear the data in cumulative_result so it doesn't eat up all memory
-}, 2000);
-
 
 var c = new Crawler({
     maxConnections : 10,        //size of worker pool (default = 10)
@@ -183,30 +161,14 @@ var c = new Crawler({
 
     onDrain : function() {          //when there are no more queued requests
         console.log("crawling has completed no more requests");
-        clearInterval(interval);
-        writeResults(cumulative_result, filename_out);
+        writeResults(JSONToCSVConvertor(cumulative_result, "", true), filename_out);
     }
 });
 
 // Queue a list of URLs, with default callback
 c.queue(["http://3dfilamenta.com/18-3d-printer-filaments?id_category=18&n=60"]);
 
-function acceptURL(url, exclusion_items) {
-    //console.log("url is: ");
-    //console.log("exlusion items are: " + exclusion_items);
 
-    for (var i =0; i < exclusion_items.length; i++) {
-        var regex = new RegExp(exclusion_items[i],"i");
-        var matches = url.match(regex);
-
-        if(matches) {              //case insensitive regeX i,
-            return false;
-        }
-
-    }
-
-    return true;
-}
 
 
 function findValueFromKey(search_string, key) {
@@ -240,23 +202,10 @@ function findValueFromKey(search_string, key) {
 }
 
 
-function processContents() {
-
-    var processed_result = null;
-
-    return processed_result;
-}
-
-
-function compareContents() {        //make decisions on the correct values based on what is found
-
-
-}
-
-
 function writeResults(data, output_filename){
-    console.log("appending data to file");
+    //console.log("appending data to file");
 
+    /*
     fs.appendFile(output_filename + ".json", JSON.stringify(data, null, 2), function(err) {
       if (err) {
         return console.log(err);
@@ -265,35 +214,77 @@ function writeResults(data, output_filename){
         console.log('The "data to append" was appended to file!');
       }
     });
+    */
 
-    /*
-    fs.writeFile("./results/" + output_filename + ".txt", JSON.stringify(data, null, 2), function(err) {
+    fs.writeFile("./" + output_filename + ".csv", data, function(err) {
         if(err) {
             return console.log(err);
         }
 
         console.log("The file was saved!");
     }); 
-*/
 
 }
 
 
 
-// Queue using a function
+function JSONToCSVConvertor(JSONData, ReportTitle, ShowLabel) {
+    //If JSONData is not an object then JSON.parse will parse the JSON string in an Object
+    var arrData = typeof JSONData != 'object' ? JSON.parse(JSONData) : JSONData;
+    
+    var CSV = '';    
+    //Set Report title in first row or line
+    
+    CSV += ReportTitle + '\r\n\n';
 
-/*
-var googleSearch = function(search) {
-  return 'http://www.google.fr/search?q=' + search;
-};
-c.queue({
-  uri: googleSearch('3D Printer Filament')
-});
-*/
+    //This condition will generate the Label/Header
+    if (ShowLabel) {
+        var row = "";
+        
+        //This loop will extract the label from 1st index of on array
+        for (var index in arrData[0]) {
+            
+            //Now convert each value to string and comma-seprated
+            row += index + ',';
+        }
 
+        row = row.slice(0, -1);
+        
+        //append Label row with line break
+        CSV += row + '\r\n';
+    }
+    
+    //1st loop is to extract each row
+    for (var i = 0; i < arrData.length; i++) {
+        var row = "";
+        
+        //2nd loop will extract each column and convert it in string comma-seprated
+        for (var index in arrData[i]) {
+            row += '"' + arrData[i][index] + '",';
+        }
 
-// Queue some HTML code directly without grabbing (mostly for tests)
+        row.slice(0, row.length - 1);
+        
+        //add a line break after each row
+        CSV += row + '\r\n';
+    }
 
-//c.queue(['C:/Users/Mike/code/node-crawler/tests/makerbot_page.html']);
+    if (CSV == '') {        
+        alert("Invalid data");
+        return;
+    }   
+    
+    //Generate a file name
+    var fileName = "MyReport_";
+    //this will remove the blank-spaces from the title and replace it with an underscore
+    fileName += ReportTitle.replace(/ /g,"_");   
+    
+    //Initialize file format you want csv or xls
+    var uri = 'data:text/csv;charset=utf-8,' + escape(CSV);
+    
+    //console.log(CSV);
 
+    return CSV;
+
+}
 
