@@ -171,9 +171,10 @@ myApp.controller('userCtrl', ['$scope', '$http', function($scope,$http) {
     $scope.processing_temp_max_extrude            = material.temp_max_extrude;
     $scope.processing_temp_bed                    = material.temp_bed;
     $scope.processing_extruder_fan_speed          = material.extruder_fan_speed;
-    $scope.processing_bed_material                = material.temp_bed;
-    $scope.extrusion_to_flow_multiplier           = material.filament_extrusion_to_flow_multiplier;
+    $scope.processing_bed_material                = material.bed_material;
+    $scope.processing_extrusion_to_flow_multiplier= material.filament_extrusion_to_flow_multiplier;
     $scope.processing_website                     = material.website;
+    $scope.processing_buy_now                     = material.buy_now;
 
   };
 
