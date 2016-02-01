@@ -73,7 +73,7 @@
             <h4>Available Materials: </h4>
             <div class="field-log" ng-repeat="material in server_response track by $index" | limitTo:20>
 
-              <button ng-click="showMaterialDetails(material)" ng-style="{'background-color': '#{{material.color}}'}">{{material.name}}</button>
+              <button ng-click="showMaterialDetails(material)" ng-style="{'background-color': '#{{material.color}}', 'color': 'black', '-webkit-text-fill-color': 'white', '-webkit-text-stroke-width': '1px', '-webkit-text-stroke-color': 'black', 'font-weight': 'bold', 'font-size':'20px', 'border-radius': '16px', 'width':'200px'}">{{material.name}}</button>
 
             </div>>
 
