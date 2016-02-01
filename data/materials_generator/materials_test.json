@@ -22,7 +22,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -47,7 +48,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -72,7 +74,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -97,7 +100,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -122,7 +126,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -147,7 +152,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -172,7 +178,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -197,7 +204,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -222,7 +230,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -247,7 +256,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -272,7 +282,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -297,7 +308,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -322,7 +334,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -347,7 +360,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -372,7 +386,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -397,7 +412,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -422,7 +438,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -447,7 +464,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -472,7 +490,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -497,7 +516,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -522,7 +542,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -547,7 +568,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -572,7 +594,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -597,7 +620,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -622,7 +646,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -647,7 +672,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -672,7 +698,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -697,7 +724,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -722,7 +750,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -747,7 +776,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -772,7 +802,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -797,7 +828,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -822,7 +854,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -847,7 +880,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -872,7 +906,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -897,7 +932,8 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "kapton, glass, abs slurry, acrylic, blue tape"
+        "bed_material": "kapton, glass, abs slurry, acrylic, blue tape",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -922,7 +958,8 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "kapton, glass, abs slurry, acrylic, blue tape"
+        "bed_material": "kapton, glass, abs slurry, acrylic, blue tape",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -947,7 +984,8 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "kapton, glass, abs slurry, acrylic, blue tape"
+        "bed_material": "kapton, glass, abs slurry, acrylic, blue tape",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -972,7 +1010,8 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "kapton, glass, abs slurry, acrylic, blue tape"
+        "bed_material": "kapton, glass, abs slurry, acrylic, blue tape",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -997,7 +1036,8 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "kapton, glass, abs slurry, acrylic, blue tape"
+        "bed_material": "kapton, glass, abs slurry, acrylic, blue tape",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -1022,7 +1062,8 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "kapton, glass, abs slurry, acrylic, blue tape"
+        "bed_material": "kapton, glass, abs slurry, acrylic, blue tape",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -1047,7 +1088,8 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "kapton, glass, abs slurry, acrylic, blue tape"
+        "bed_material": "kapton, glass, abs slurry, acrylic, blue tape",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -1072,7 +1114,8 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "kapton, glass, abs slurry, acrylic, blue tape"
+        "bed_material": "kapton, glass, abs slurry, acrylic, blue tape",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -1097,7 +1140,8 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "kapton, glass, abs slurry, acrylic, blue tape"
+        "bed_material": "kapton, glass, abs slurry, acrylic, blue tape",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -1122,7 +1166,8 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "kapton, glass, abs slurry, acrylic, blue tape"
+        "bed_material": "kapton, glass, abs slurry, acrylic, blue tape",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -1147,7 +1192,8 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "kapton, glass, abs slurry, acrylic, blue tape"
+        "bed_material": "kapton, glass, abs slurry, acrylic, blue tape",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -1172,7 +1218,8 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "kapton, glass, abs slurry, acrylic, blue tape"
+        "bed_material": "kapton, glass, abs slurry, acrylic, blue tape",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -1197,7 +1244,8 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "kapton, glass, abs slurry, acrylic, blue tape"
+        "bed_material": "kapton, glass, abs slurry, acrylic, blue tape",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -1222,7 +1270,8 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "kapton, glass, abs slurry, acrylic, blue tape"
+        "bed_material": "kapton, glass, abs slurry, acrylic, blue tape",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -1247,7 +1296,8 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "kapton, glass, abs slurry, acrylic, blue tape"
+        "bed_material": "kapton, glass, abs slurry, acrylic, blue tape",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -1273,7 +1323,8 @@
         "temp_bed": 0,
         "min_nozzle_diameter": 0.4,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -1299,7 +1350,8 @@
         "temp_bed": 0,
         "min_nozzle_diameter": 0.4,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -1324,7 +1376,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -1349,7 +1402,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -1374,7 +1428,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -1399,7 +1454,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -1424,7 +1480,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -1449,7 +1506,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -1474,7 +1532,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -1499,7 +1558,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -1524,7 +1584,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -1549,7 +1610,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -1574,7 +1636,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -1599,7 +1662,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -1624,7 +1688,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -1649,7 +1714,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -1674,7 +1740,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -1699,7 +1766,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -1724,7 +1792,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -1749,7 +1818,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -1774,7 +1844,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -1799,7 +1870,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -1824,7 +1896,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -1849,7 +1922,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -1874,7 +1948,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -1899,7 +1974,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -1924,7 +2000,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -1949,7 +2026,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -1974,7 +2052,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -1999,7 +2078,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -2024,7 +2104,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -2050,7 +2131,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -2076,7 +2158,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -2101,7 +2184,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -2126,7 +2210,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -2151,7 +2236,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -2176,7 +2262,8 @@
         "temp_bed": 0,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -2201,7 +2288,8 @@
         "temp_bed": 0,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -2226,7 +2314,8 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -2251,7 +2340,8 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -2276,7 +2366,8 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -2301,7 +2392,8 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -2326,7 +2418,8 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -2351,7 +2444,8 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -2376,7 +2470,8 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -2401,7 +2496,8 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -2426,7 +2522,8 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -2451,7 +2548,8 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -2476,7 +2574,8 @@
         "temp_bed": 40,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -2501,7 +2600,8 @@
         "temp_bed": 40,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -2526,7 +2626,8 @@
         "temp_bed": 40,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -2552,7 +2653,8 @@
         "temp_bed": 0,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 200,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -2578,7 +2680,8 @@
         "temp_bed": 0,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 200,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -2604,7 +2707,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -2629,7 +2733,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -2654,7 +2759,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -2679,7 +2785,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -2704,7 +2811,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -2729,7 +2837,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -2754,7 +2863,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -2779,7 +2889,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -2804,7 +2915,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -2829,7 +2941,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -2854,7 +2967,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -2879,7 +2993,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -2907,7 +3022,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": 0.5,
         "extruder_fan_speed": 200,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -2935,7 +3051,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": 0.5,
         "extruder_fan_speed": 200,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -2961,7 +3078,8 @@
         "temp_bed": 0,
         "min_nozzle_diameter": 0.5,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -2988,7 +3106,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": 0.5,
         "extruder_fan_speed": 200,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -3015,7 +3134,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": 0.5,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -3040,7 +3160,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": 0.5,
         "extruder_fan_speed": 200,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -3066,7 +3187,8 @@
         "temp_bed": 50,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": null,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -3091,7 +3213,8 @@
         "temp_bed": 45,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 45,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -3116,7 +3239,8 @@
         "temp_bed": 45,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": null,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -3141,7 +3265,8 @@
         "temp_bed": 68,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -3166,7 +3291,8 @@
         "temp_bed": 45,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": null,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -3191,7 +3317,8 @@
         "temp_bed": 68,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": null,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -3216,7 +3343,8 @@
         "temp_bed": 68,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": null,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -3241,7 +3369,8 @@
         "temp_bed": 68,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": null,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -3266,7 +3395,8 @@
         "temp_bed": 68,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": null,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -3291,7 +3421,8 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -3316,7 +3447,8 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -3341,7 +3473,8 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -3366,7 +3499,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -3391,7 +3525,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -3416,7 +3551,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -3441,7 +3577,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -3466,7 +3603,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -3491,7 +3629,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -3520,7 +3659,8 @@
         "temp_bed": 65,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 200,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -3549,7 +3689,8 @@
         "temp_bed": 65,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 200,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -3578,7 +3719,8 @@
         "temp_bed": 65,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 200,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -3607,7 +3749,8 @@
         "temp_bed": 65,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 200,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -3636,7 +3779,8 @@
         "temp_bed": 65,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 200,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -3665,7 +3809,8 @@
         "temp_bed": 65,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 200,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -3694,7 +3839,8 @@
         "temp_bed": 65,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 200,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -3723,7 +3869,8 @@
         "temp_bed": 65,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 200,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -3752,7 +3899,8 @@
         "temp_bed": 65,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 200,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -3781,7 +3929,8 @@
         "temp_bed": 65,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 200,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -3810,7 +3959,8 @@
         "temp_bed": 65,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 200,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -3836,7 +3986,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": 0.4,
         "extruder_fan_speed": 200,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -3862,7 +4013,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": 0.4,
         "extruder_fan_speed": 200,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -3887,7 +4039,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 200,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -3912,7 +4065,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 200,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -3937,7 +4091,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 200,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -3962,7 +4117,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 200,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -3987,7 +4143,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 200,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -4012,7 +4169,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 200,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -4037,7 +4195,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 200,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -4062,7 +4221,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 200,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -4087,7 +4247,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 200,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -4112,7 +4273,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 200,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -4137,7 +4299,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 200,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -4162,7 +4325,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 200,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -4187,7 +4351,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 200,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -4212,7 +4377,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 200,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -4237,7 +4403,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 200,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -4262,7 +4429,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 200,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -4287,7 +4455,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 200,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -4312,7 +4481,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 200,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -4337,7 +4507,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 200,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -4362,7 +4533,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 200,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -4387,7 +4559,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 200,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -4412,7 +4585,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 200,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -4437,7 +4611,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 200,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -4462,7 +4637,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 200,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -4487,7 +4663,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 200,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -4512,7 +4689,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 200,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -4537,7 +4715,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 200,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -4562,7 +4741,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 200,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -4587,7 +4767,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 200,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -4612,7 +4793,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 200,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -4637,7 +4819,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 200,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -4663,7 +4846,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": 0.4,
         "extruder_fan_speed": 200,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -4689,7 +4873,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": 0.4,
         "extruder_fan_speed": 200,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -4718,7 +4903,8 @@
         "temp_bed": 65,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 200,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -4747,7 +4933,8 @@
         "temp_bed": 65,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 200,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -4776,7 +4963,8 @@
         "temp_bed": 65,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 200,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -4805,7 +4993,8 @@
         "temp_bed": 65,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 200,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -4834,7 +5023,8 @@
         "temp_bed": 65,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 200,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -4863,7 +5053,8 @@
         "temp_bed": 65,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 200,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -4892,7 +5083,8 @@
         "temp_bed": 65,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 200,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -4921,7 +5113,8 @@
         "temp_bed": 65,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 200,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -4950,7 +5143,8 @@
         "temp_bed": 65,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 200,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -4979,7 +5173,8 @@
         "temp_bed": 65,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 200,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -5008,7 +5203,8 @@
         "temp_bed": 65,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 200,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -5034,7 +5230,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": 0.4,
         "extruder_fan_speed": 200,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -5060,7 +5257,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": 0.4,
         "extruder_fan_speed": 200,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -5085,7 +5283,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 200,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -5110,7 +5309,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 200,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -5135,7 +5335,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 200,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -5160,7 +5361,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 200,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -5185,7 +5387,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 200,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -5210,7 +5413,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 200,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -5235,7 +5439,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 200,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -5260,7 +5465,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 200,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -5285,7 +5491,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 200,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -5310,7 +5517,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 200,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -5335,7 +5543,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 200,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -5360,7 +5569,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 200,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -5385,7 +5595,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 200,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -5410,7 +5621,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 200,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -5435,7 +5647,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 200,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -5460,7 +5673,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 200,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -5485,7 +5699,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 200,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -5510,7 +5725,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 200,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -5535,7 +5751,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 200,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -5560,7 +5777,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 200,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -5585,7 +5803,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 200,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -5610,7 +5829,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 200,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -5635,7 +5855,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 200,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -5660,7 +5881,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 200,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -5685,7 +5907,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 200,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -5710,7 +5933,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 200,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -5735,7 +5959,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 200,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -5760,7 +5985,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 200,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -5785,7 +6011,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 200,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -5810,7 +6037,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 200,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -5835,7 +6063,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 200,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -5861,7 +6090,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": 0.4,
         "extruder_fan_speed": 200,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "",
@@ -5887,7 +6117,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": 0.4,
         "extruder_fan_speed": 200,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/35-3dfm-abs-filament-natural.html",
@@ -5912,7 +6143,8 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "kapton, glass, abs slurry, acrylic, blue tape"
+        "bed_material": "kapton, glass, abs slurry, acrylic, blue tape",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-filaments/37-3dfm-abs-filament-yellow.html",
@@ -5937,7 +6169,8 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "kapton, glass, abs slurry, acrylic, blue tape"
+        "bed_material": "kapton, glass, abs slurry, acrylic, blue tape",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/36-3dfm-abs-filament-green.html",
@@ -5962,7 +6195,8 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "kapton, glass, abs slurry, acrylic, blue tape"
+        "bed_material": "kapton, glass, abs slurry, acrylic, blue tape",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/39-3dfm-abs-filament-blue.html",
@@ -5987,7 +6221,8 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "kapton, glass, abs slurry, acrylic, blue tape"
+        "bed_material": "kapton, glass, abs slurry, acrylic, blue tape",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/40-3dfm-abs-filament-black.html",
@@ -6012,7 +6247,8 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "kapton, glass, abs slurry, acrylic, blue tape"
+        "bed_material": "kapton, glass, abs slurry, acrylic, blue tape",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/41-3dfm-abs-filament-orange.html",
@@ -6037,7 +6273,8 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "kapton, glass, abs slurry, acrylic, blue tape"
+        "bed_material": "kapton, glass, abs slurry, acrylic, blue tape",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/42-3dfm-abs-filament-pink.html",
@@ -6062,7 +6299,8 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "kapton, glass, abs slurry, acrylic, blue tape"
+        "bed_material": "kapton, glass, abs slurry, acrylic, blue tape",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/43-3dfm-abs-filament-purple.html",
@@ -6087,7 +6325,8 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "kapton, glass, abs slurry, acrylic, blue tape"
+        "bed_material": "kapton, glass, abs slurry, acrylic, blue tape",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/44-3dfm-abs-filament-red.html",
@@ -6112,7 +6351,8 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "kapton, glass, abs slurry, acrylic, blue tape"
+        "bed_material": "kapton, glass, abs slurry, acrylic, blue tape",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/45-3dfm-abs-filament-white.html",
@@ -6137,7 +6377,8 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "kapton, glass, abs slurry, acrylic, blue tape"
+        "bed_material": "kapton, glass, abs slurry, acrylic, blue tape",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/46-3dfm-abs-filament-silver.html",
@@ -6162,7 +6403,8 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "kapton, glass, abs slurry, acrylic, blue tape"
+        "bed_material": "kapton, glass, abs slurry, acrylic, blue tape",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/47-3dfm-abs-filament-golden.html",
@@ -6187,7 +6429,8 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "kapton, glass, abs slurry, acrylic, blue tape"
+        "bed_material": "kapton, glass, abs slurry, acrylic, blue tape",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/48-3dfm-abs-filament-luminous-yellow.html",
@@ -6212,7 +6455,8 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "kapton, glass, abs slurry, acrylic, blue tape"
+        "bed_material": "kapton, glass, abs slurry, acrylic, blue tape",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/49-3dfm-abs-filament-luminous-green.html",
@@ -6237,7 +6481,8 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "kapton, glass, abs slurry, acrylic, blue tape"
+        "bed_material": "kapton, glass, abs slurry, acrylic, blue tape",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/50-3dfm-pla-filament-luminous-green.html",
@@ -6262,7 +6507,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/51-3dfm-pla-filament-luminous-yellow.html",
@@ -6287,7 +6533,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/52-3dfm-pla-filament-flouroscent-orange.html",
@@ -6312,7 +6559,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/53-3dfm-pla-filament-flouroscent-red.html",
@@ -6337,7 +6585,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/54-3dfm-pla-filament-flouroscent-yellow.html",
@@ -6362,7 +6611,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/55-3dfm-pla-filament-yellow.html",
@@ -6387,7 +6637,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/56-3dfm-pla-filament-orange.html",
@@ -6412,7 +6663,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/57-3dfm-pla-filament-red.html",
@@ -6437,7 +6689,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/58-3dfm-pla-filament-blue.html",
@@ -6462,7 +6715,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/59-3dfm-pla-filament-black.html",
@@ -6487,7 +6741,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/60-3dfm-pla-filament-white.html",
@@ -6512,7 +6767,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/61-3dfm-pla-filament-natural.html",
@@ -6537,7 +6793,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/62-3dfm-pla-filament-green.html",
@@ -6562,7 +6819,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/63-3dfm-pla-filament-pink.html",
@@ -6587,7 +6845,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/64-3dfm-pla-filament-purple.html",
@@ -6612,7 +6871,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/65-3dfm-pla-filament-silver.html",
@@ -6637,7 +6897,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/66-3dfm-pla-filament-golden.html",
@@ -6662,7 +6923,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/nylon-filament/67-3dfm-nylon-filament.html",
@@ -6688,7 +6950,8 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "kapton, glass, hair spray"
+        "bed_material": "kapton, glass, hair spray",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/nylon-filament/67-3dfm-nylon-filament.html",
@@ -6714,7 +6977,8 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "kapton, glass, hair spray"
+        "bed_material": "kapton, glass, hair spray",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/nylon-filament/67-3dfm-nylon-filament.html",
@@ -6740,7 +7004,8 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "kapton, glass, hair spray"
+        "bed_material": "kapton, glass, hair spray",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/68-3dfm-pva-filament.html",
@@ -6765,7 +7030,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": ""
+        "bed_material": "",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/69-3dfm-pom-filament.html",
@@ -6791,7 +7057,8 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": ""
+        "bed_material": "",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/69-3dfm-pom-filament.html",
@@ -6817,7 +7084,8 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": ""
+        "bed_material": "",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/70-3dfm-pc-filament.html",
@@ -6842,7 +7110,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": ""
+        "bed_material": "",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/70-3dfm-pc-filament.html",
@@ -6867,7 +7136,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": ""
+        "bed_material": "",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/70-3dfm-pc-filament.html",
@@ -6892,7 +7162,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": ""
+        "bed_material": "",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/71-3dfm-hips-filament.html",
@@ -6917,7 +7188,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": ""
+        "bed_material": "",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/71-3dfm-hips-filament.html",
@@ -6942,7 +7214,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": ""
+        "bed_material": "",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/71-3dfm-hips-filament.html",
@@ -6967,7 +7240,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": ""
+        "bed_material": "",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/71-3dfm-hips-filament.html",
@@ -6992,7 +7266,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": ""
+        "bed_material": "",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/71-3dfm-hips-filament.html",
@@ -7017,7 +7292,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": ""
+        "bed_material": "",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/71-3dfm-hips-filament.html",
@@ -7042,7 +7318,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": ""
+        "bed_material": "",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/71-3dfm-hips-filament.html",
@@ -7067,7 +7344,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": ""
+        "bed_material": "",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/71-3dfm-hips-filament.html",
@@ -7092,7 +7370,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": ""
+        "bed_material": "",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/72-3dfm-petg-filament.html",
@@ -7117,7 +7396,8 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": ""
+        "bed_material": "",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/72-3dfm-petg-filament.html",
@@ -7142,7 +7422,8 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": ""
+        "bed_material": "",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/73-3dfm-rubber-flex-filament.html",
@@ -7167,7 +7448,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": ""
+        "bed_material": "",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/73-3dfm-rubber-flex-filament.html",
@@ -7192,7 +7474,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": ""
+        "bed_material": "",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/73-3dfm-rubber-flex-filament.html",
@@ -7217,7 +7500,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": ""
+        "bed_material": "",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/73-3dfm-rubber-flex-filament.html",
@@ -7242,7 +7526,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": ""
+        "bed_material": "",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/73-3dfm-rubber-flex-filament.html",
@@ -7267,7 +7552,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": ""
+        "bed_material": "",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/74-3dfm-woodfill-filament.html",
@@ -7292,7 +7578,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": 0.4,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/75-3dfm-pp-filament.html",
@@ -7317,7 +7604,8 @@
         "temp_bed": 85,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, kapton"
+        "bed_material": "blue tape, kapton",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/75-3dfm-pp-filament.html",
@@ -7342,7 +7630,8 @@
         "temp_bed": 85,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, kapton"
+        "bed_material": "blue tape, kapton",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/35-3dfm-abs-filament-natural.html",
@@ -7367,7 +7656,8 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "kapton, glass, abs slurry, acrylic, blue tape"
+        "bed_material": "kapton, glass, abs slurry, acrylic, blue tape",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-filaments/37-3dfm-abs-filament-yellow.html",
@@ -7392,7 +7682,8 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "kapton, glass, abs slurry, acrylic, blue tape"
+        "bed_material": "kapton, glass, abs slurry, acrylic, blue tape",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/36-3dfm-abs-filament-green.html",
@@ -7417,7 +7708,8 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "kapton, glass, abs slurry, acrylic, blue tape"
+        "bed_material": "kapton, glass, abs slurry, acrylic, blue tape",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/39-3dfm-abs-filament-blue.html",
@@ -7442,7 +7734,8 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "kapton, glass, abs slurry, acrylic, blue tape"
+        "bed_material": "kapton, glass, abs slurry, acrylic, blue tape",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/40-3dfm-abs-filament-black.html",
@@ -7467,7 +7760,8 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "kapton, glass, abs slurry, acrylic, blue tape"
+        "bed_material": "kapton, glass, abs slurry, acrylic, blue tape",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/41-3dfm-abs-filament-orange.html",
@@ -7492,7 +7786,8 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "kapton, glass, abs slurry, acrylic, blue tape"
+        "bed_material": "kapton, glass, abs slurry, acrylic, blue tape",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/42-3dfm-abs-filament-pink.html",
@@ -7517,7 +7812,8 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "kapton, glass, abs slurry, acrylic, blue tape"
+        "bed_material": "kapton, glass, abs slurry, acrylic, blue tape",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/43-3dfm-abs-filament-purple.html",
@@ -7542,7 +7838,8 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "kapton, glass, abs slurry, acrylic, blue tape"
+        "bed_material": "kapton, glass, abs slurry, acrylic, blue tape",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/44-3dfm-abs-filament-red.html",
@@ -7567,7 +7864,8 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "kapton, glass, abs slurry, acrylic, blue tape"
+        "bed_material": "kapton, glass, abs slurry, acrylic, blue tape",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/45-3dfm-abs-filament-white.html",
@@ -7592,7 +7890,8 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "kapton, glass, abs slurry, acrylic, blue tape"
+        "bed_material": "kapton, glass, abs slurry, acrylic, blue tape",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/46-3dfm-abs-filament-silver.html",
@@ -7617,7 +7916,8 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "kapton, glass, abs slurry, acrylic, blue tape"
+        "bed_material": "kapton, glass, abs slurry, acrylic, blue tape",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/47-3dfm-abs-filament-golden.html",
@@ -7642,7 +7942,8 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "kapton, glass, abs slurry, acrylic, blue tape"
+        "bed_material": "kapton, glass, abs slurry, acrylic, blue tape",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/48-3dfm-abs-filament-luminous-yellow.html",
@@ -7667,7 +7968,8 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "kapton, glass, abs slurry, acrylic, blue tape"
+        "bed_material": "kapton, glass, abs slurry, acrylic, blue tape",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/49-3dfm-abs-filament-luminous-green.html",
@@ -7692,7 +7994,8 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "kapton, glass, abs slurry, acrylic, blue tape"
+        "bed_material": "kapton, glass, abs slurry, acrylic, blue tape",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/50-3dfm-pla-filament-luminous-green.html",
@@ -7717,7 +8020,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/51-3dfm-pla-filament-luminous-yellow.html",
@@ -7742,7 +8046,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/52-3dfm-pla-filament-flouroscent-orange.html",
@@ -7767,7 +8072,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/53-3dfm-pla-filament-flouroscent-red.html",
@@ -7792,7 +8098,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/54-3dfm-pla-filament-flouroscent-yellow.html",
@@ -7817,7 +8124,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/55-3dfm-pla-filament-yellow.html",
@@ -7842,7 +8150,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/56-3dfm-pla-filament-orange.html",
@@ -7867,7 +8176,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/57-3dfm-pla-filament-red.html",
@@ -7892,7 +8202,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/58-3dfm-pla-filament-blue.html",
@@ -7917,7 +8228,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/59-3dfm-pla-filament-black.html",
@@ -7942,7 +8254,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/60-3dfm-pla-filament-white.html",
@@ -7967,7 +8280,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/61-3dfm-pla-filament-natural.html",
@@ -7992,7 +8306,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/62-3dfm-pla-filament-green.html",
@@ -8017,7 +8332,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/63-3dfm-pla-filament-pink.html",
@@ -8042,7 +8358,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/64-3dfm-pla-filament-purple.html",
@@ -8067,7 +8384,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/65-3dfm-pla-filament-silver.html",
@@ -8092,7 +8410,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/66-3dfm-pla-filament-golden.html",
@@ -8117,7 +8436,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/nylon-filament/67-3dfm-nylon-filament.html",
@@ -8143,7 +8463,8 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "kapton, glass, hair spray"
+        "bed_material": "kapton, glass, hair spray",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/nylon-filament/67-3dfm-nylon-filament.html",
@@ -8169,7 +8490,8 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "kapton, glass, hair spray"
+        "bed_material": "kapton, glass, hair spray",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/nylon-filament/67-3dfm-nylon-filament.html",
@@ -8195,7 +8517,8 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "kapton, glass, hair spray"
+        "bed_material": "kapton, glass, hair spray",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/68-3dfm-pva-filament.html",
@@ -8220,7 +8543,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": ""
+        "bed_material": "",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/69-3dfm-pom-filament.html",
@@ -8246,7 +8570,8 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": ""
+        "bed_material": "",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/69-3dfm-pom-filament.html",
@@ -8272,7 +8597,8 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": ""
+        "bed_material": "",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/70-3dfm-pc-filament.html",
@@ -8297,7 +8623,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": ""
+        "bed_material": "",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/70-3dfm-pc-filament.html",
@@ -8322,7 +8649,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": ""
+        "bed_material": "",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/70-3dfm-pc-filament.html",
@@ -8347,7 +8675,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": ""
+        "bed_material": "",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/71-3dfm-hips-filament.html",
@@ -8372,7 +8701,8 @@
         "temp_bed": 80,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "kapton, glass, abs slurry, acrylic, blue tape"
+        "bed_material": "kapton, glass, abs slurry, acrylic, blue tape",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/71-3dfm-hips-filament.html",
@@ -8397,7 +8727,8 @@
         "temp_bed": 80,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "kapton, glass, abs slurry, acrylic, blue tape"
+        "bed_material": "kapton, glass, abs slurry, acrylic, blue tape",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/71-3dfm-hips-filament.html",
@@ -8422,7 +8753,8 @@
         "temp_bed": 80,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "kapton, glass, abs slurry, acrylic, blue tape"
+        "bed_material": "kapton, glass, abs slurry, acrylic, blue tape",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/71-3dfm-hips-filament.html",
@@ -8447,7 +8779,8 @@
         "temp_bed": 80,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "kapton, glass, abs slurry, acrylic, blue tape"
+        "bed_material": "kapton, glass, abs slurry, acrylic, blue tape",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/71-3dfm-hips-filament.html",
@@ -8472,7 +8805,8 @@
         "temp_bed": 80,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "kapton, glass, abs slurry, acrylic, blue tape"
+        "bed_material": "kapton, glass, abs slurry, acrylic, blue tape",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/71-3dfm-hips-filament.html",
@@ -8497,7 +8831,8 @@
         "temp_bed": 80,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "kapton, glass, abs slurry, acrylic, blue tape"
+        "bed_material": "kapton, glass, abs slurry, acrylic, blue tape",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/71-3dfm-hips-filament.html",
@@ -8522,7 +8857,8 @@
         "temp_bed": 80,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "kapton, glass, abs slurry, acrylic, blue tape"
+        "bed_material": "kapton, glass, abs slurry, acrylic, blue tape",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/71-3dfm-hips-filament.html",
@@ -8547,7 +8883,8 @@
         "temp_bed": 80,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "kapton, glass, abs slurry, acrylic, blue tape"
+        "bed_material": "kapton, glass, abs slurry, acrylic, blue tape",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/72-3dfm-petg-filament.html",
@@ -8572,7 +8909,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": ""
+        "bed_material": "",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/72-3dfm-petg-filament.html",
@@ -8597,7 +8935,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": ""
+        "bed_material": "",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/73-3dfm-rubber-flex-filament.html",
@@ -8623,7 +8962,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": ""
+        "bed_material": "",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/73-3dfm-rubber-flex-filament.html",
@@ -8649,7 +8989,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": ""
+        "bed_material": "",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/73-3dfm-rubber-flex-filament.html",
@@ -8675,7 +9016,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": ""
+        "bed_material": "",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/73-3dfm-rubber-flex-filament.html",
@@ -8701,7 +9043,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": ""
+        "bed_material": "",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/73-3dfm-rubber-flex-filament.html",
@@ -8728,7 +9071,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": ""
+        "bed_material": "",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/74-3dfm-woodfill-filament.html",
@@ -8753,7 +9097,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": 0.4,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/75-3dfm-pp-filament.html",
@@ -8778,7 +9123,8 @@
         "temp_bed": 85,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, kapton"
+        "bed_material": "blue tape, kapton",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/75-3dfm-pp-filament.html",
@@ -8803,7 +9149,8 @@
         "temp_bed": 85,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, kapton"
+        "bed_material": "blue tape, kapton",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568377-3mm-exotic-wood-filament",
@@ -8828,7 +9175,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": 0.4,
         "extruder_fan_speed": 200,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568462-3mm-teck-wood-filament",
@@ -8853,7 +9201,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": 0.4,
         "extruder_fan_speed": 200,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568479-3mm-liana-wood-filament",
@@ -8878,7 +9227,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": 0.4,
         "extruder_fan_speed": 200,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568376-3mm-exotic-wood-filament",
@@ -8903,7 +9253,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": 0.4,
         "extruder_fan_speed": 200,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568463-3mm-teck-wood-filament",
@@ -8928,7 +9279,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": 0.4,
         "extruder_fan_speed": 200,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568478-3mm-liana-wood-filament",
@@ -8953,7 +9305,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": 0.4,
         "extruder_fan_speed": 200,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568438-bronzefill-colorfabb-1-75mm",
@@ -8978,7 +9331,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": 0.4,
         "extruder_fan_speed": null,
-        "bed_material": ""
+        "bed_material": "",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568441-bronzefill-colorfabb-3mm",
@@ -9003,7 +9357,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": 0.4,
         "extruder_fan_speed": null,
-        "bed_material": ""
+        "bed_material": "",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568442-copperfill-colorfabb",
@@ -9028,7 +9383,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": 0.4,
         "extruder_fan_speed": null,
-        "bed_material": ""
+        "bed_material": "",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568443-copperfill-colorfabb",
@@ -9053,7 +9409,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": 0.4,
         "extruder_fan_speed": null,
-        "bed_material": ""
+        "bed_material": "",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568455-g-carbon-1-75mm-black",
@@ -9079,7 +9436,8 @@
         "temp_bed": 110,
         "min_nozzle_diameter": 0.4,
         "extruder_fan_speed": null,
-        "bed_material": ""
+        "bed_material": "",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568444-g-fil-1-75mm-translucent-blue",
@@ -9107,7 +9465,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": null,
-        "bed_material": ""
+        "bed_material": "",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568445-g-fil-1-75mm-transluscent-red",
@@ -9135,7 +9494,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": null,
-        "bed_material": ""
+        "bed_material": "",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568449-g-fil-1-75mm-translucent-green",
@@ -9163,7 +9523,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": null,
-        "bed_material": ""
+        "bed_material": "",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568450-g-fil-1-75mm-translucent-black",
@@ -9191,7 +9552,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": null,
-        "bed_material": ""
+        "bed_material": "",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568451-g-fil-1-75mm-translucent",
@@ -9219,7 +9581,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": null,
-        "bed_material": ""
+        "bed_material": "",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568452-g-fil-3mm-translucent-black",
@@ -9247,7 +9610,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": null,
-        "bed_material": ""
+        "bed_material": "",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568453-g-fil-3mm-translucent",
@@ -9275,7 +9639,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": null,
-        "bed_material": ""
+        "bed_material": "",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568476-g-carbon-3mm-black",
@@ -9301,7 +9666,8 @@
         "temp_bed": 110,
         "min_nozzle_diameter": 0.4,
         "extruder_fan_speed": null,
-        "bed_material": ""
+        "bed_material": "",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568520-g-fil-3mm-translucent-blue",
@@ -9329,7 +9695,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": null,
-        "bed_material": ""
+        "bed_material": "",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568521-g-fil-3mm-transluscent-red",
@@ -9357,7 +9724,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": null,
-        "bed_material": ""
+        "bed_material": "",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/402-pva-1-75mm-soluble-filament",
@@ -9382,7 +9750,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568382-hips-1-75mm-white",
@@ -9407,7 +9776,8 @@
         "temp_bed": 80,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "kapton, abs slurry, acrylic, blue tape"
+        "bed_material": "kapton, abs slurry, acrylic, blue tape",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568356-pva-1-75mm-soluble-filament",
@@ -9432,7 +9802,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568381-hips-3mm-black",
@@ -9457,7 +9828,8 @@
         "temp_bed": 80,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "kapton, abs slurry, acrylic, blue tape"
+        "bed_material": "kapton, abs slurry, acrylic, blue tape",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568216-abs-premium-1-75mm-silver",
@@ -9482,7 +9854,8 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "kapton, abs slurry, acrylic, blue tape"
+        "bed_material": "kapton, abs slurry, acrylic, blue tape",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568217-abs-premium-1-75mm-gold",
@@ -9507,7 +9880,8 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "kapton, abs slurry, acrylic, blue tape"
+        "bed_material": "kapton, abs slurry, acrylic, blue tape",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568218-abs-premium-1-75mm-natural",
@@ -9532,7 +9906,8 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "kapton, abs slurry, acrylic, blue tape"
+        "bed_material": "kapton, abs slurry, acrylic, blue tape",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568219-abs-premium-1-75mm-purple",
@@ -9557,7 +9932,8 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "kapton, abs slurry, acrylic, blue tape"
+        "bed_material": "kapton, abs slurry, acrylic, blue tape",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568220-abs-premium-1-75mm-black",
@@ -9582,7 +9958,8 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "kapton, abs slurry, acrylic, blue tape"
+        "bed_material": "kapton, abs slurry, acrylic, blue tape",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568221-abs-premium-1-75mm-white",
@@ -9607,7 +9984,8 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "kapton, abs slurry, acrylic, blue tape"
+        "bed_material": "kapton, abs slurry, acrylic, blue tape",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568222-abs-premium-1-75mm-red",
@@ -9632,7 +10010,8 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "kapton, abs slurry, acrylic, blue tape"
+        "bed_material": "kapton, abs slurry, acrylic, blue tape",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568379-abs-premium-1-75mm-sky-blue",
@@ -9657,7 +10036,8 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "kapton, abs slurry, acrylic, blue tape"
+        "bed_material": "kapton, abs slurry, acrylic, blue tape",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568380-abs-premium-1-75mm-grey",
@@ -9682,7 +10062,8 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "kapton, abs slurry, acrylic, blue tape"
+        "bed_material": "kapton, abs slurry, acrylic, blue tape",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568388-abs-premium-1-75mm-orange",
@@ -9707,7 +10088,8 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "kapton, abs slurry, acrylic, blue tape"
+        "bed_material": "kapton, abs slurry, acrylic, blue tape",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568389-abs-premium-1-75mm-dark-blue",
@@ -9732,7 +10114,8 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "kapton, abs slurry, acrylic, blue tape"
+        "bed_material": "kapton, abs slurry, acrylic, blue tape",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568390-abs-premium-1-75mm-pink",
@@ -9757,7 +10140,8 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "kapton, abs slurry, acrylic, blue tape"
+        "bed_material": "kapton, abs slurry, acrylic, blue tape",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568391-abs-premium-1-75mm-yellow",
@@ -9782,7 +10166,8 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "kapton, abs slurry, acrylic, blue tape"
+        "bed_material": "kapton, abs slurry, acrylic, blue tape",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568408-abs-premium-1-75mm-green-apple",
@@ -9807,7 +10192,8 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "kapton, abs slurry, acrylic, blue tape"
+        "bed_material": "kapton, abs slurry, acrylic, blue tape",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568223-abs-premium-3mm-red",
@@ -9832,7 +10218,8 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "kapton, abs slurry, acrylic, blue tape"
+        "bed_material": "kapton, abs slurry, acrylic, blue tape",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568224-abs-premium-3mm-natural",
@@ -9857,7 +10244,8 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "kapton, abs slurry, acrylic, blue tape"
+        "bed_material": "kapton, abs slurry, acrylic, blue tape",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568225-abs-premium-3mm-apple-green",
@@ -9882,7 +10270,8 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "kapton, abs slurry, acrylic, blue tape"
+        "bed_material": "kapton, abs slurry, acrylic, blue tape",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568226-abs-premium-3mm-gold",
@@ -9907,7 +10296,8 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "kapton, abs slurry, acrylic, blue tape"
+        "bed_material": "kapton, abs slurry, acrylic, blue tape",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568227-abs-premium-3mm-orange",
@@ -9932,7 +10322,8 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "kapton, abs slurry, acrylic, blue tape"
+        "bed_material": "kapton, abs slurry, acrylic, blue tape",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568228-abs-premium-3mm-purple",
@@ -9957,7 +10348,8 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "kapton, abs slurry, acrylic, blue tape"
+        "bed_material": "kapton, abs slurry, acrylic, blue tape",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568229-abs-premium-3mm-light-blue",
@@ -9982,7 +10374,8 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "kapton, abs slurry, acrylic, blue tape"
+        "bed_material": "kapton, abs slurry, acrylic, blue tape",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568230-abs-premium-3mm-pink",
@@ -10007,7 +10400,8 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "kapton, abs slurry, acrylic, blue tape"
+        "bed_material": "kapton, abs slurry, acrylic, blue tape",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568231-abs-premium-3mm-black",
@@ -10032,7 +10426,8 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "kapton, abs slurry, acrylic, blue tape"
+        "bed_material": "kapton, abs slurry, acrylic, blue tape",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568232-abs-premium-3mm-white",
@@ -10057,7 +10452,8 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "kapton, abs slurry, acrylic, blue tape"
+        "bed_material": "kapton, abs slurry, acrylic, blue tape",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568373-abs-premium-3mm-grey",
@@ -10082,7 +10478,8 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "kapton, abs slurry, acrylic, blue tape"
+        "bed_material": "kapton, abs slurry, acrylic, blue tape",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568385-abs-premium-3mm-yellow",
@@ -10107,7 +10504,8 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "kapton, abs slurry, acrylic, blue tape"
+        "bed_material": "kapton, abs slurry, acrylic, blue tape",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568392-abs-premium-3mm-silver",
@@ -10132,7 +10530,8 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "kapton, abs slurry, acrylic, blue tape"
+        "bed_material": "kapton, abs slurry, acrylic, blue tape",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568393-abs-premium-3mm-dark-blue",
@@ -10157,7 +10556,8 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "kapton, abs slurry, acrylic, blue tape"
+        "bed_material": "kapton, abs slurry, acrylic, blue tape",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568245-pla-premium-1-75mm-orange",
@@ -10182,7 +10582,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568246-pla-premium-1-75mm-purple",
@@ -10207,7 +10608,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568247-pla-premium-1-75mm-yellow",
@@ -10232,7 +10634,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568248-pla-premium-1-75mm-gold",
@@ -10257,7 +10660,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568249-pla-premium-1-75mm-light-blue",
@@ -10282,7 +10686,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568250-pla-premium-1-75mm-pink",
@@ -10307,7 +10712,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568251-pla-premium-1-75mm-grey",
@@ -10332,7 +10738,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568252-pla-premium-1-75mm-natural",
@@ -10357,7 +10764,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568253-pla-premium-1-75mm-black",
@@ -10382,7 +10790,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568254-pla-premium-1-75mm-white",
@@ -10407,7 +10816,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568255-pla-premium-1-75mm-silver",
@@ -10432,7 +10842,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568361-pla-premium-1-75mm-dark-blue",
@@ -10457,7 +10868,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568362-pla-premium-1-75mm-red",
@@ -10482,7 +10894,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568394-pla-premium-1-75mm-apple-green",
@@ -10507,7 +10920,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568395-pla-premium-1-75mm-dark-green",
@@ -10532,7 +10946,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568454-pla-premium-1-75mm-glow-in-the-dark",
@@ -10557,7 +10972,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568457-pla-premium-1-75mm-white-2-3kg",
@@ -10582,7 +10998,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568458-pla-premium-1-75mm-black-2-3kg",
@@ -10607,7 +11024,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568486-pla-premium-1-75mm-chocolate",
@@ -10632,7 +11050,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568488-pla-premium-1-75mm-thermosensitive-grey",
@@ -10657,7 +11076,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568491-pla-premium-1-75mm-black-light",
@@ -10683,7 +11103,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568233-pla-premium-3mm-silver",
@@ -10708,7 +11129,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568234-pla-premium-3mm-natural",
@@ -10733,7 +11155,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568235-pla-premium-3mm-black",
@@ -10758,7 +11181,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568236-pla-premium-3mm-red",
@@ -10783,7 +11207,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568238-pla-premium-3mm-grey",
@@ -10808,7 +11233,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568239-pla-premium-3mm-light-blue",
@@ -10833,7 +11259,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568241-pla-premium-3mm-gold",
@@ -10858,7 +11285,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568242-pla-premium-3mm-yellow",
@@ -10883,7 +11311,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568243-pla-premium-3mm-purple",
@@ -10908,7 +11337,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568244-pla-premium-3mm-orange",
@@ -10933,7 +11363,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568375-pla-premium-3mm-silver",
@@ -10958,7 +11389,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568396-pla-premium-3mm-dark-blue",
@@ -10983,7 +11415,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568397-pla-premium-3mm-dark-green",
@@ -11008,7 +11441,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568398-pla-premium-3mm-pink",
@@ -11033,7 +11467,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568411-pla-premium-3mm-apple-green",
@@ -11058,7 +11493,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568456-pla-premium-3mm-glow-in-the-dark",
@@ -11083,7 +11519,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568459-pla-premium-3mm-white-2-3kg",
@@ -11108,7 +11545,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568460-pla-premium-3mm-black-2-3kg",
@@ -11133,7 +11571,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568492-pla-premium-3mm-thermosensitive-grey",
@@ -11158,7 +11597,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568349-vege3d-1-75mm-black",
@@ -11183,7 +11623,8 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568407-crystal-food-contact-1-75mm-filament",
@@ -11210,7 +11651,8 @@
         "temp_bed": 80,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 200,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568384-crystal-food-contact-3mm-filament",
@@ -11237,7 +11679,8 @@
         "temp_bed": 80,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 200,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/11534-abs-pp3dp-official-blue",
@@ -11262,7 +11705,8 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "kapton, abs slurry, acrylic, blue tape"
+        "bed_material": "kapton, abs slurry, acrylic, blue tape",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/11536-abs-pp3dp-official-green",
@@ -11287,7 +11731,8 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "kapton, abs slurry, acrylic, blue tape"
+        "bed_material": "kapton, abs slurry, acrylic, blue tape",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/112524-abs-pp3dp-official-black",
@@ -11312,7 +11757,8 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "kapton, abs slurry, acrylic, blue tape"
+        "bed_material": "kapton, abs slurry, acrylic, blue tape",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/112530-abs-pp3dp-official-red",
@@ -11337,7 +11783,8 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "kapton, abs slurry, acrylic, blue tape"
+        "bed_material": "kapton, abs slurry, acrylic, blue tape",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/112538-abs-pp3dp-official-white",
@@ -11362,7 +11809,8 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "kapton, abs slurry, acrylic, blue tape"
+        "bed_material": "kapton, abs slurry, acrylic, blue tape",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/112565-abs-pp3dp-official-yellow",
@@ -11387,7 +11835,8 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 0,
-        "bed_material": "kapton, abs slurry, acrylic, blue tape"
+        "bed_material": "kapton, abs slurry, acrylic, blue tape",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568208-pla-pp3dp-official-grey-pompei",
@@ -11399,7 +11848,7 @@
         "cost": 60.48,
         "manufacturer": "E Motion Tech",
         "website": "http://www.reprap-3d-printer.com/",
-        "color": "ffffff",
+        "color": "",
         "opacity": 1,
         "tags": [
             ""
@@ -11412,7 +11861,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568209-pla-pp3dp-official-green-rio",
@@ -11424,7 +11874,7 @@
         "cost": 60.48,
         "manufacturer": "E Motion Tech",
         "website": "http://www.reprap-3d-printer.com/",
-        "color": "ffffff",
+        "color": "",
         "opacity": 1,
         "tags": [
             ""
@@ -11437,7 +11887,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568210-pla-pp3dp-official-blue-hawaii",
@@ -11449,7 +11900,7 @@
         "cost": 60.48,
         "manufacturer": "E Motion Tech",
         "website": "http://www.reprap-3d-printer.com/",
-        "color": "ffffff",
+        "color": "",
         "opacity": 1,
         "tags": [
             ""
@@ -11462,7 +11913,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568364-pla-pp3dp-official-natural",
@@ -11474,7 +11926,7 @@
         "cost": 60.48,
         "manufacturer": "E Motion Tech",
         "website": "http://www.reprap-3d-printer.com/",
-        "color": "ffffff",
+        "color": "",
         "opacity": 1,
         "tags": [
             ""
@@ -11487,7 +11939,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568517-pla-pp3dp-official-orange-scarlet",
@@ -11499,7 +11952,7 @@
         "cost": 60.48,
         "manufacturer": "E Motion Tech",
         "website": "http://www.reprap-3d-printer.com/",
-        "color": "ffffff",
+        "color": "",
         "opacity": 1,
         "tags": [
             ""
@@ -11512,7 +11965,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568518-pla-pp3dp-official-red-burgundy",
@@ -11524,7 +11978,7 @@
         "cost": 60.48,
         "manufacturer": "E Motion Tech",
         "website": "http://www.reprap-3d-printer.com/",
-        "color": "ffffff",
+        "color": "",
         "opacity": 1,
         "tags": [
             ""
@@ -11537,7 +11991,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568519-pla-pp3dp-official-white",
@@ -11549,7 +12004,7 @@
         "cost": 60.48,
         "manufacturer": "E Motion Tech",
         "website": "http://www.reprap-3d-printer.com/",
-        "color": "ffffff",
+        "color": "",
         "opacity": 1,
         "tags": [
             ""
@@ -11562,7 +12017,8 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": "blue tape, glass, glue stick"
+        "bed_material": "blue tape, glass, glue stick",
+        "pct_shrink": null
     },
     {
         "id": "58AA54D1-CA91-4121-A4AC-B383931B196B",
@@ -11581,7 +12037,7 @@
             "high-resolution",
             "jewelry"
         ],
-        "pct_shrink": "0",
+        "pct_shrink": 0,
         "prism_URN": "",
         "is_user": "false",
         "density [kg/L]": 1,
@@ -11607,7 +12063,7 @@
             "high-resolution",
             "jewelry"
         ],
-        "pct_shrink": "0",
+        "pct_shrink": 0,
         "prism_URN": "",
         "is_user": "false",
         "density [kg/L]": 1,
@@ -11633,7 +12089,7 @@
             "high-resolution",
             "jewelry"
         ],
-        "pct_shrink": "0",
+        "pct_shrink": 0,
         "prism_URN": "",
         "is_user": "false",
         "density [kg/L]": 1,

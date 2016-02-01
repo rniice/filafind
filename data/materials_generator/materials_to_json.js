@@ -1,10 +1,10 @@
 var fs = require("fs"),
 node_xj = require("xls-to-json"),
-input_file = "Spark Matrix Ammended V13.xls",
+input_file = "Materials_V1.xls",
 output_file = null,
 output_sheet_fdm = "FDM_export",
 output_sheet_dlp = "DLP_export",
-output_file_nice = "materials.json";
+output_file_nice = "../materials.json";
 index_first_empty_object = 0;	//initialize to zero
 
 var json_data_slice_fdm,   //make these values available globally
@@ -19,7 +19,8 @@ node_xj({
 		  console.error(err);
 		} else {
 			for (var i = 0; i < json_data.length; i++) {
-				if (json_data[i].is_user == "") {
+//				if (json_data[i].is_user == "") {
+				if (json_data[i].id == "") {
 					index_first_empty_object = i;
 					break;
 				}
@@ -33,7 +34,7 @@ node_xj({
 					json_data[i]["cost"]=parseFloat(json_data[i]["cost"]);		
 					json_data[i]["opacity"]=parseInt(json_data[i]["opacity"],10);	
 					//json_data[i]["rating"]=parseFloat(json_data[i]["rating"]);	
-					json_data[i]["pct_shrink"]=parseFloat(json_data[i]["pct_shrink"]);	
+					//json_data[i]["pct_shrink"]=parseFloat(json_data[i]["pct_shrink"]);	
 					//json_data[i]["is_user"]=JSON.parse(json_data[i]["is_user"]);	//change to boolean
 					json_data[i]["filament_diameter"]=parseFloat(json_data[i]["filament_diameter"]);	
 					json_data[i]["filament_extrusion_to_flow_multiplier"]=parseFloat(json_data[i]["filament_extrusion_to_flow_multiplier"]);	
@@ -75,7 +76,7 @@ node_xj({
 					json_data[i]["cost"]=parseFloat(json_data[i]["cost"]);
 					json_data[i]["opacity"]=parseInt(json_data[i]["opacity"],10);		
 					//json_data[i]["rating"]=parseFloat(json_data[i]["rating"]);	
-					json_data[i]["pct_shrink"]=parseFloat(json_data[i]["pct_shrink"]);	
+					//json_data[i]["pct_shrink"]=parseFloat(json_data[i]["pct_shrink"]);	
 					//json_data[i]["is_user"]=JSON.parse(json_data[i]["is_user"]);	//change to boolean
 					json_data[i]["density [kg/L]"]=parseFloat(json_data[i]["density [kg/L]"]);					
 					json_data[i]["FirstExposureSec"]=parseFloat(json_data[i]["FirstExposureSec"]);	
