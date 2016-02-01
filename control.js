@@ -7,10 +7,10 @@ var filtered_query = "";
 
 var scope_struct = {
 	technology: "FDM", 
-	composition: "PLA", 
+	composition: "", 
 	filament_diameter: "1.75", 
 	color: "",
-	opacity: "1",                           //opacity is broken for some reason
+	opacity: "",                           //opacity is broken for some reason
 	manufacturer: "", 
 	cost: "",
 	tags: "",
@@ -28,10 +28,10 @@ myApp.controller('userCtrl', ['$scope', '$http', function($scope,$http) {
 
   //initialize values to these settings
   $scope.technology = "FDM";
-  $scope.composition = "PLA";
+  $scope.composition = "";
   $scope.filament_diameter = "1.75";
   $scope.color = ""; 
-  $scope.opacity = "1";                   
+  $scope.opacity = "";                   
 
   //non-initialized settings values:
   $scope.manufacturer = "";

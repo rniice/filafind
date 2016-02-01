@@ -62,6 +62,7 @@ function getfilteredMaterials(filter) { //?technology=FDM&temp_max_extrude=250
             continue;
         }
 
+
         if (keysToParseAsFloat.indexOf(key) !== -1) {
             if (!isNaN(parseFloat(filter[key]))) {    //if can be parsed into a float value
                 filter[key] = parseFloat(filter[key]);
@@ -134,8 +135,8 @@ function getfilteredMaterials(filter) { //?technology=FDM&temp_max_extrude=250
 function getMaterials( req, res )
 {
     var query = url.parse(req.url,true).query;  
-    //console.log("query is: ", query);
-    console.log("received request");
+    console.log("query is: ", query);
+    //console.log("received request");
 
     if(_.isEmpty(query)) {                             //if no query passed, return all
         res.status(200);

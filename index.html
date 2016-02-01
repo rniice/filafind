@@ -69,16 +69,6 @@
 
       <div class="row">
 
-        <div class="row col-lg-3">
-            <h4>Available Materials: </h4>
-            <div class="field-log" ng-repeat="material in server_response track by $index" | limitTo:20>
-
-              <button ng-click="showMaterialDetails(material)" ng-style="{'background-color': '#{{material.color}}', 'color': 'black', '-webkit-text-fill-color': 'white', '-webkit-text-stroke-width': '1px', '-webkit-text-stroke-color': 'black', 'font-weight': 'bold', 'font-size':'20px', 'border-radius': '16px', 'width':'200px'}">{{material.name}}</button>
-
-            </div>>
-
-        </div>
-
         <div class="col-lg-3">
           <h4>Basic Properties:</h4>
 
@@ -94,7 +84,7 @@
 
           <span class="" aria-hidden="true">Composition:
             <select ng-model="composition" ng-change="changeComposition(composition)">
-              <option value="">ANY</option>
+              <!--<option value="ANY">ANY</option>-->
               <option value="PLA">PLA</option>
               <option value="ABS">ABS</option>
               <option value="NYLON">NYLON</option>
@@ -123,25 +113,89 @@
             </select>
           </span> 
 
-
           <br>
           <br>
 
-          <h4>Cost Properties:</h4>
-          
-            <p>Manufacturer: <br><input type="text" ng-model="manufacturer" ng-change="changeManufacturer(manufacturer)" name="fname" placeholder="e.g. 'Dremel'"></p>
-              
-            <p>Cost [$/kg] Less Than: <br><input type="text" ng-model="cost" ng-change="changeCost(cost)" name="fname" placeholder="e.g. '20'"></p>
+          <h4>Advanced Properties:</h4>
 
-            <!--
-            <input id = "angular-slider">
-              
-            </input>
-            -->
-      
+            <span class="" aria-hidden="true">Tags:
+              <select ng-model="tags" ng-change="changeTags(tags)">
+                <!--<option value="ANY">ANY</option>-->
+                <option value="bulk">bulk</option>
+                <option value="composite">composite</option>
+                <option value="wood">wood</option>
+                <option value="ceramic">ceramic</option>
+                <option value="carbon fiber">carbon fiber</option>
+                <option value="hydrophillic">hydrophillic</option>
+                <option value="heat-resistant">heat-resistant</option>
+                <option value="metal">metal</option>\
+                <option value="dissolvable in D-limonene">dissolvable in D-limonene</option>
+                <option value="dissolvable in water">dissolvable in water</option>
+                <option value="ductile">ductile</option>
+                <option value="tough">tough</option>
+                <option value="flexible">flexible</option>
+                <option value="strong">strong</option>
+                <option value="stiff">stiff</option>
+                <option value="impact-strength">impact-strength</option>
+                <option value="resilient">resilient</option>
+                <option value="stretchy">stretchy</option>
+                <option value="food-safe">food-safe</option>
+                <option value="organic">organic</option>
+                <option value="odor-neutral">odor-neutral</option>
+                <option value="glow-in-the-dark">glow-in-the-dark</option>
+                <option value="magnetic">magnetic</option>
+                <option value="transparent">transparent</option>
+                <option value="translucent">translucent</option>
+                <option value="sparkly">sparkly</option>
+                <option value="neon">neon</option>
+                <option value="black-light">black-light</option>
+                <option value="photochromatic">photochromatic</option>
+                <option value="thermosensitive">thermosensitive</option>
+
+              </select>
+            </span>
+
+            <br> 
+            
+            <span class="" aria-hidden="true">Bed Material: 
+              <select ng-model="bed_material" ng-change="changeBedMaterial(bed_material)">
+                <!--<option value="ANY">ANY</option>-->
+                <option value="blue tape">blue tape</option>
+                <option value="glass">glass</option>
+                <option value="glue stick">glue stick</option>
+                <option value="kapton tape">kapton tape</option>
+                <option value="abs slurry">abs slurry</option>
+                <option value="acrylic">acrylic</option>
+                <option value="hair spray">hair spray</option>
+                <option value="buildTak">buildTak</option>
+              </select>
+            </span>    
+
+            <br>  
+
+            <span class="" aria-hidden="true">Nozzle Diam [mm]:
+              <select ng-model="min_nozzle_diameter" ng-change="changeNozzleDiameter(min_nozzle_diameter)">
+                <!--<option value="ANY">ANY</option>  -->          
+                <option value="0.25">0.25</option>
+                <option value="0.30">0.30</option>
+                <option value="0.35">0.35</option>
+                <option value="0.40">0.40</option>
+                <option value="0.45">0.45</option>
+                <option value="0.50">0.50</option>
+              </select>
+            </span> 
+
+            <br>
+            <br>
+
+            <p>Bed Temp [C] Less Than: <br><input type="text" ng-model="temp_bed" ng-change="changeBedTemp(temp_bed)" name="fname" placeholder="e.g. '40'"></p>
+            
+            <p>Max Nozzle Temp [C]: <br><input type="text" ng-model="temp_extrude_default" ng-change="changeTempExtrudeDefault(temp_extrude_default)" name="fname" placeholder=""></p>
+
         </div>
 
-        <div class="col-lg-3">
+
+        <div class="col-lg-4">
 
           <h4>Visual Properties:</h4>
 
@@ -161,25 +215,46 @@
           
           <span class="" aria-hidden="true">Opacity:&nbsp
             <select ng-model="opacity" ng-change="changeOpacity(opacity)">
+              <!--<option value="ANY">ANY</option>-->            
               <option value="1">Opaque</option>
               <option value="2">Semi-Translucent</option>
               <option value="3">Translucent</option>
             </select>
           </span>
 
+          <h4>Cost Properties:</h4>
+          
+            <span class="" aria-hidden="true">Manufacturer:
+              <select ng-model="manufacturer" ng-change="changeManufacturer(manufacturer)">
+                <!--<option value="ANY">ANY</option>-->
+                <option value="3DFilamenta">3DFilamenta</option>
+                <option value="ColorFabb">ColorFabb</option>
+                <option value="Dremel">Dremel</option>
+                <option value="eMotion Tech">eMotion Tech</option>
+                <option value="Inventables">Inventables</option>
+                <option value="MakerBot">MakerBot</option>\
+                <option value="NinjaFlex">NinjaFlex</option>
+                <option value="Polymaker">Polymaker</option>
+                <option value="Proto-Pasta">Proto-Pasta</option>
+                <option value="Taulman">Taulman</option>
+                <option value="PP3DP">PP3DP</option>
+              </select>
+            </span> 
+
+            <p>Cost [$/kg] Less Than: <br><input type="text" ng-model="cost" ng-change="changeCost(cost)" name="fname" placeholder="e.g. '20'"></p>
+
         </div>
 
-      <div class="col-lg-3">
-        <h4>Advanced Properties:</h4>
 
-        <p>Tags: <br><input type="text" ng-model="tags" ng-change="changeTags(tags)" name="fname" placeholder="e.g. 'flexible'"></p>
-        <p>Bed Material: <br><input type="text" ng-model="bed_material" ng-change="changeBedMaterial(bed_material)" name="fname" placeholder="e.g. 'blue tape'"></p>
-        <p>Bed Temp [C] Less Than: <br><input type="text" ng-model="temp_bed" ng-change="changeBedTemp(temp_bed)" name="fname" placeholder="e.g. '40'"></p>
-        <p>Nozzle Diam [mm]: <br><input type="text" ng-model="min_nozzle_diameter" ng-change="changeNozzleDiameter(min_nozzle_diameter)" name="fname" placeholder="e.g. '0.2'"></p>
-        <p>Max Nozzle Temp [C]: <br><input type="text" ng-model="temp_extrude_default" ng-change="changeTempExtrudeDefault(temp_extrude_default)" name="fname" placeholder=""></p>
+      <div class="row col-lg-5">
+        <h4>Available Materials: </h4>
+        <div class="field-log" ng-repeat="material in server_response track by $index" | limitTo: 20>
+
+          <button ng-click="showMaterialDetails(material)" ng-style="{'background-color': '#{{material.color}}', 'color': 'black', '-webkit-text-fill-color': 'white', '-webkit-text-stroke-width': '1px', '-webkit-text-stroke-color': 'black', 'font-weight': 'bold', 'font-size':'20px', 'border-radius': '16px', 'width':'200px', 'height':'80px'}">{{material.name}}</button>
+
+        </div>
 
       </div>
-
 
       <div class="col-lg-12">
         <br>
@@ -190,9 +265,9 @@
             <td><strong>Name</strong></td>
             <td><strong>Technology</strong></td>    
             <td><strong>Composition</strong></td>
-            <td><strong>Diameter</strong></td>
+            <td><strong>Diameter [mm]</strong></td>
             <td><strong>Manufacturer</strong></td>
-            <td><strong>Cost</strong></td>
+            <td><strong>Cost [$/kg]</strong></td>
           </tr>
           <tr>
             <td class = "processing-data">{{processing_name}}</td>
@@ -227,8 +302,8 @@
           <tr>
             <td class = "processing-data">{{processing_extrusion_to_flow_multiplier}}</td>
             <td class = "processing-data">Placeholder</td>
-            <td class = "processing-data" colspan = "2">{{processing_website}} </td>
-            <td class = "processing-data" colspan = "2">{{processing_buy_now}}</td>
+            <td class = "processing-data" colspan = "2"><a href = "{{processing_buy_now}}" target="_blank">{{processing_website}}</a></td>
+            <td class = "processing-data" colspan = "2"><a href = "{{processing_buy_now}}" target="_blank">{{processing_buy_now}}</a></td>
           </tr>
         </table>
 

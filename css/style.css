@@ -6,6 +6,7 @@ textarea {
 .field-log {
 	height: 800;
 	/*max-height: 400px;*/
+	display: inline-block;
 	overflow:hidden;
 }
 
