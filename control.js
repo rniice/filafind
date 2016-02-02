@@ -107,12 +107,14 @@ myApp.controller('userCtrl', ['$scope', '$http', function($scope,$http) {
 
     //non-initialized settings values:
     $scope.manufacturer = "";
-    $scope.cost = "";
+    $scope.cost = ["",""];
+    $scope.slider_cost.minValue = 10;
+    $scope.slider_cost.maxValue = 60;
     $scope.tags = "";
     $scope.bed_material = "";
-    $scope.temp_bed = "";
+    $scope.slider_bed_temp.value = 25;
     $scope.min_nozzle_diameter = "";
-    $scope.temp_extrude_default = "";
+    $scope.slider_nozzle_temp.value = 240;
 
     scope_struct = (JSON.parse(JSON.stringify(scope_struct_reset)));
     generateFullQuery(scope_struct);
