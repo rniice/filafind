@@ -69,8 +69,8 @@
 
       <div class="row">
 
-        <div class="col-lg-3">
-          <h4>Basic Properties:</h4>
+        <div class="col-lg-4">
+          <h4>Mechanical Properties:</h4>
 
           <span class="" aria-hidden="true">Technology:&nbsp
             <select ng-model="technology" ng-change="changeTechnology(technology)">
@@ -84,7 +84,7 @@
 
           <span class="" aria-hidden="true">Composition:
             <select ng-model="composition" ng-change="changeComposition(composition)">
-              <!--<option value="ANY">ANY</option>-->
+              <option value="">ANY</option>
               <option value="PLA">PLA</option>
               <option value="ABS">ABS</option>
               <option value="NYLON">NYLON</option>
@@ -116,11 +116,11 @@
           <br>
           <br>
 
-          <h4>Advanced Properties:</h4>
+          <!--<h4>Advanced Properties:</h4>-->
 
             <span class="" aria-hidden="true">Tags:
               <select ng-model="tags" ng-change="changeTags(tags)">
-                <!--<option value="ANY">ANY</option>-->
+                <option value="">ANY</option>
                 <option value="bulk">bulk</option>
                 <option value="composite">composite</option>
                 <option value="wood">wood</option>
@@ -151,7 +151,6 @@
                 <option value="black-light">black-light</option>
                 <option value="photochromatic">photochromatic</option>
                 <option value="thermosensitive">thermosensitive</option>
-
               </select>
             </span>
 
@@ -159,7 +158,7 @@
             
             <span class="" aria-hidden="true">Bed Material: 
               <select ng-model="bed_material" ng-change="changeBedMaterial(bed_material)">
-                <!--<option value="ANY">ANY</option>-->
+                <option value="">ANY</option>
                 <option value="blue tape">blue tape</option>
                 <option value="glass">glass</option>
                 <option value="glue stick">glue stick</option>
@@ -175,7 +174,7 @@
 
             <span class="" aria-hidden="true">Nozzle Diam [mm]:
               <select ng-model="min_nozzle_diameter" ng-change="changeNozzleDiameter(min_nozzle_diameter)">
-                <!--<option value="ANY">ANY</option>  -->          
+                <option value="">ANY</option>         
                 <option value="0.25">0.25</option>
                 <option value="0.30">0.30</option>
                 <option value="0.35">0.35</option>
@@ -188,45 +187,11 @@
             <br>
             <br>
 
-            <p>Bed Temp [C] Less Than: <br><input type="text" ng-model="temp_bed" ng-change="changeBedTemp(temp_bed)" name="fname" placeholder="e.g. '40'"></p>
-            
-            <p>Max Nozzle Temp [C]: <br><input type="text" ng-model="temp_extrude_default" ng-change="changeTempExtrudeDefault(temp_extrude_default)" name="fname" placeholder=""></p>
-
-        </div>
-
-
-        <div class="col-lg-4">
-
-          <h4>Visual Properties:</h4>
-
-
-          <color-picker ng-model="color_temp" ng-click="changeColor(color_temp)" ng-init="">
-          </color-picker>
-
-          <input type="text" ng-model="color_temp" ng-init="" hidden="true"> 
-
-          <button ng-click="disableColorFiltering()">Reset Color</button>
-
-          <button ng-click="resetFiltering()">Reset All</button>
-
-          <br>
-
-          <br>
-          
-          <span class="" aria-hidden="true">Opacity:&nbsp
-            <select ng-model="opacity" ng-change="changeOpacity(opacity)">
-              <!--<option value="ANY">ANY</option>-->            
-              <option value="1">Opaque</option>
-              <option value="2">Semi-Translucent</option>
-              <option value="3">Translucent</option>
-            </select>
-          </span>
-
-          <h4>Cost Properties:</h4>
+            <!--<h4>Cost Properties:</h4>-->
           
             <span class="" aria-hidden="true">Manufacturer:
               <select ng-model="manufacturer" ng-change="changeManufacturer(manufacturer)">
-                <!--<option value="ANY">ANY</option>-->
+                <option value="">ANY</option>-->
                 <option value="3DFilamenta">3DFilamenta</option>
                 <option value="ColorFabb">ColorFabb</option>
                 <option value="Dremel">Dremel</option>
@@ -241,16 +206,56 @@
               </select>
             </span> 
 
+            <br>
+
+            <span class="" aria-hidden="true">Opacity:&nbsp
+              <select ng-model="opacity" ng-change="changeOpacity(opacity)">
+                <option value="">ANY</option>            
+                <option value="1">Opaque</option>
+                <option value="2">Semi-Translucent</option>
+                <option value="3">Translucent</option>
+              </select>
+            </span>
+
+            <br>
+            <br>
+
+            <p>Bed Temp [C] Less Than: <br><input type="text" ng-model="temp_bed" ng-change="changeBedTemp(temp_bed)" name="fname" placeholder="e.g. '40'"></p>
+            
+            <p>Max Nozzle Temp [C]: <br><input type="text" ng-model="temp_extrude_default" ng-change="changeTempExtrudeDefault(temp_extrude_default)" name="fname" placeholder=""></p>
+
             <p>Cost [$/kg] Less Than: <br><input type="text" ng-model="cost" ng-change="changeCost(cost)" name="fname" placeholder="e.g. '20'"></p>
+
 
         </div>
 
 
-      <div class="row col-lg-5">
+        <div class="col-lg-4">
+
+          <h4>Color Properties:</h4>
+
+
+          <color-picker ng-model="color_temp" ng-click="changeColor(color_temp)" ng-init="">
+          </color-picker>
+
+          <input type="text" ng-model="color_temp" ng-init="" hidden="true"> 
+
+          <div class="centered-buttons">
+            <button ng-click="disableColorFiltering()">Reset Color</button>
+            <button ng-click="resetFiltering()">Reset All</button>
+          </div>
+
+          <br>
+          <br>
+          
+        </div>
+
+
+      <div class="row col-lg-4">
         <h4>Available Materials: </h4>
         <div class="field-log" ng-repeat="material in server_response track by $index" | limitTo: 20>
 
-          <button ng-click="showMaterialDetails(material)" ng-style="{'background-color': '#{{material.color}}', 'color': 'black', '-webkit-text-fill-color': 'white', '-webkit-text-stroke-width': '1px', '-webkit-text-stroke-color': 'black', 'font-weight': 'bold', 'font-size':'20px', 'border-radius': '16px', 'width':'200px', 'height':'80px'}">{{material.name}}</button>
+          <button class="available-filament" ng-click="showMaterialDetails(material)" ng-style="{'background-color': '#{{material.color}}'}">{{material.name}}</button>
 
         </div>
 

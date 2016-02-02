@@ -103,10 +103,10 @@ myApp.controller('userCtrl', ['$scope', '$http', function($scope,$http) {
     $scope.server_response = "Available Materials: ";
     //initialize values to these settings
     $scope.technology = "FDM";
-    $scope.composition = "PLA";
+    $scope.composition = "";
     $scope.filament_diameter = "1.75";
     $scope.color = ""; 
-    $scope.opacity = "1";                   
+    $scope.opacity = "";                   
 
     //non-initialized settings values:
     $scope.manufacturer = "";
