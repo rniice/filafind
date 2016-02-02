@@ -144,13 +144,46 @@ myApp.controller('userCtrl', ['$scope', '$http', function($scope,$http) {
   };
 
 
-  $scope.slider = {
-    id: 'cost',
-    minValue: 5,
+  $scope.slider_nozzle_temp = {
+    value: 240,
+    options: {
+      id: 'nozzle-temp',
+      floor: 120,
+      ceil: 300,
+      onChange: function(sliderId, temp_nozzle) {
+        $scope.changeTempExtrudeDefault(temp_nozzle);
+        //alert("nozzle temp value is: " + temp_nozzle);
+      },
+      translate: function(temp_nozzle) {
+        return temp_nozzle + '\u00B0' + 'C';
+      }
+    }
+  };
+
+  $scope.slider_bed_temp = {
+    value: 240,
+    options: {
+      id: 'bed-temp',
+      floor: 120,
+      ceil: 300,
+      onChange: function(sliderId, temp_bed) {
+        $scope.changeBedTemp(temp_bed);
+        //alert("bed temp value is: " + temp_bed);
+      },
+      translate: function(temp_bed) {
+        return temp_bed + '\u00B0' + 'C';
+      }
+    }
+  };
+
+
+  $scope.slider_cost = {
+    minValue: 10,
     maxValue: 60,
     options: {
+      id: 'cost',
       floor: 0,
-      ceil: 100,
+      ceil: 150,
       onChange: function(sliderId, lowValue, highValue) {
         $scope.changeCost(lowValue, highValue);
         //alert("lowValue is: " + lowValue);

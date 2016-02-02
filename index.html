@@ -217,14 +217,20 @@
             <br>
             <br>
 
-            <p>Bed Temp [C] Less Than: <br><input type="text" ng-model="temp_bed" ng-change="changeBedTemp(temp_bed)" name="fname" placeholder="e.g. '40'"></p>
+            <span class="" aria-hidden="true">Max Bed Temp [C]:
+              <rzslider class="bed-temp-slider" rz-slider-model="slider_bed_temp.value"
+                rz-slider-options="slider_bed_temp.options"></rzslider>
+            </span>
             
-            <p>Max Nozzle Temp [C]: <br><input type="text" ng-model="temp_extrude_default" ng-change="changeTempExtrudeDefault(temp_extrude_default)" name="fname" placeholder=""></p>
+            <span class="" aria-hidden="true">Max Nozzle Temp [C]:
+              <rzslider class="nozzle-temp-slider" rz-slider-model="slider_nozzle_temp.value"
+                rz-slider-options="slider_nozzle_temp.options"></rzslider>
+            </span>
 
             <span class="" aria-hidden="true">Cost [$/kg]:
-              <rzslider class="cost-slider" rz-slider-model="slider.minValue"
-                rz-slider-high="slider.maxValue"
-                rz-slider-options="slider.options"></rzslider>
+              <rzslider class="cost-slider" rz-slider-model="slider_cost.minValue"
+                rz-slider-high="slider_cost.maxValue"
+                rz-slider-options="slider_cost.options"></rzslider>
             </span>
 
         </div>
