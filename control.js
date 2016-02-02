@@ -131,7 +131,7 @@ myApp.controller('userCtrl', ['$scope', '$http', function($scope,$http) {
     generateFullQuery(scope_struct);
   };
 
-  $scope.changeBedMtl = function(opacity) {
+  $scope.changeBedMtl = function(bed_material) {
     $scope.bed_material = bed_material;
     scope_struct.bed_material = bed_material; //update the scope_struct
     generateFullQuery(scope_struct);

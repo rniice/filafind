@@ -51,11 +51,11 @@ function getfilteredMaterials(filter) { //?technology=FDM&temp_max_extrude=250
     var materials_temp = materials;
     var keysToParseAsFloat = ['version', 'opacity', 'rating', 'pct_shrink',
         'filament_diameter', 'filament_extrusion_to_flow_multiplier', 'temp_min_extrude',
-        'temp_max_extrude', 'min_nozzle_diameter', 'extruder_fan_speed',
-        'FirstExposureSec', 'BurnInLayers', 'BurnInExposureSec', 'ModelExposureSec', 'density'
+        'temp_max_extrude', 'extruder_fan_speed', 'FirstExposureSec', 'BurnInLayers', 
+        'BurnInExposureSec', 'ModelExposureSec', 'density'
     ];
 
-    //removed 'temp_bed' from keysToParseAsFloat
+    //removed 'temp_bed' and 'min_nozzle_diameter' from keysToParseAsFloat
 
 
     for (var key in filter) {
@@ -108,6 +108,29 @@ function getfilteredMaterials(filter) { //?technology=FDM&temp_max_extrude=250
 
             delete filter[key];  //delete the filter and key associated so that _.where functionality is not rendered useless
         } 
+        else if (key === "min_nozzle_diameter") { //returns only min_nozzle_diameter < param
+            (function() {
+                var diam_threshold = parseFloat(filter[key]);
+                var diam_temp_value = parseFloat(filter[key]);
+
+                //removes anything exceeding user param cost from list of materials_temp copied from materials
+                materials_temp = materials_temp.filter(function(material_item) {
+                    if(diam_threshold==""){
+                        return true;
+                    }
+                    else if (material_item["min_nozzle_diameter"] <= diam_threshold) {
+                        //return valid_temp_value && (material_item["temp_bed"] <= temp_threshold);
+                        //return (material_item["temp_bed"] <= temp_threshold);
+                        return true;
+                    }
+                    else{
+                        return false;
+                    }
+                });
+            })();
+
+            delete filter[key];  //delete the filter and key associated so that _.where functionality is not rendered useless
+        } 
         else if (key === "temp_extrude_default") { //returns only temp_extrude_default < param
             (function() {
                 var temp_threshold = parseFloat(filter[key]);
@@ -141,6 +164,46 @@ function getfilteredMaterials(filter) { //?technology=FDM&temp_max_extrude=250
 
             delete filter[key];  //delete the filter and key associated so that _.where functionality is not rendered useless
         }
+        else if (key === "tags") { //returns only tags within value
+            (function() {
+                var selected_tag = filter[key];
+                //console.log("selected tag is: " + selected_tag);
+
+                materials_temp = materials_temp.filter(function(material_item) {
+                    if(material_item["tags"].indexOf(selected_tag) > -1) {
+                        return true;
+                    }
+                    else {
+                        return false;
+                    }
+                });
+
+            })();
+
+            delete filter[key];  //delete the filter and key associated so that _.where functionality is not rendered useless
+        }
+        else if (key === "bed_material") { //returns only tags within value
+            (function() {
+                var selected_bed_material = filter[key];
+                //console.log("selected bed_material is: " + selected_bed_material);
+                //removes anything exceeding user param cost from list of materials_temp copied from materials
+                materials_temp = materials_temp.filter(function(material_item) {
+                    //console.log(material_item["bed_material"]);
+                    //console.log(material_item["id"]);
+
+                    if(material_item["bed_material"].indexOf(selected_bed_material) > -1) {
+                        return true;
+                    }
+                    else {
+                        return false;
+                    }
+                });
+
+            })();
+
+            delete filter[key];  //delete the filter and key associated so that _.where functionality is not rendered useless
+        }
+
     }
     return _.where(materials_temp, filter);
 }

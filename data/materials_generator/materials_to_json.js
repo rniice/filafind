@@ -53,6 +53,7 @@ node_xj({
 	}
 );
 
+/*
 node_xj({
 	input: input_file,  		// input xls
 	output: output_file, 		// output json
@@ -120,12 +121,14 @@ node_xj({
 		}
 	}
 );
+*/
 
 
 //combine all of of the different material slices using simple timeout
 setTimeout(function(){
 	//combine elements of two exported files then write to file.
-	var combined_json = json_data_slice_fdm.concat(json_data_slice_dlp);
+	//var combined_json = json_data_slice_fdm.concat(json_data_slice_dlp);
+	var combined_json = json_data_slice_fdm;
 	combined_json = JSON.stringify(combined_json, null, 4).toString();
 	combined_json = "{ \"materials\" : " + combined_json + "}" ;
 

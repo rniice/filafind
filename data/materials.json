@@ -2949,7 +2949,7 @@
         "opacity": 1,
         "tags": [
             "composite",
-            " carbon fiber"
+            " carbon-fiber"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -6762,7 +6762,7 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": ""
+        "bed_material": "unknown"
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/69-3dfm-pom-filament.html",
@@ -6788,7 +6788,7 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": ""
+        "bed_material": "unknown"
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/69-3dfm-pom-filament.html",
@@ -6814,7 +6814,7 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": ""
+        "bed_material": "unknown"
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/70-3dfm-pc-filament.html",
@@ -6839,7 +6839,7 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": ""
+        "bed_material": "unknown"
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/70-3dfm-pc-filament.html",
@@ -6864,7 +6864,7 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": ""
+        "bed_material": "unknown"
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/70-3dfm-pc-filament.html",
@@ -6889,7 +6889,7 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": ""
+        "bed_material": "unknown"
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/71-3dfm-hips-filament.html",
@@ -6914,7 +6914,7 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": ""
+        "bed_material": "unknown"
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/71-3dfm-hips-filament.html",
@@ -6939,7 +6939,7 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": ""
+        "bed_material": "unknown"
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/71-3dfm-hips-filament.html",
@@ -6964,7 +6964,7 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": ""
+        "bed_material": "unknown"
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/71-3dfm-hips-filament.html",
@@ -6989,7 +6989,7 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": ""
+        "bed_material": "unknown"
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/71-3dfm-hips-filament.html",
@@ -7014,7 +7014,7 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": ""
+        "bed_material": "unknown"
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/71-3dfm-hips-filament.html",
@@ -7039,7 +7039,7 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": ""
+        "bed_material": "unknown"
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/71-3dfm-hips-filament.html",
@@ -7064,7 +7064,7 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": ""
+        "bed_material": "unknown"
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/71-3dfm-hips-filament.html",
@@ -7089,7 +7089,7 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": ""
+        "bed_material": "unknown"
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/72-3dfm-petg-filament.html",
@@ -7114,7 +7114,7 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": ""
+        "bed_material": "unknown"
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/72-3dfm-petg-filament.html",
@@ -7139,7 +7139,7 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": ""
+        "bed_material": "unknown"
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/73-3dfm-rubber-flex-filament.html",
@@ -7164,7 +7164,7 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": ""
+        "bed_material": "unknown"
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/73-3dfm-rubber-flex-filament.html",
@@ -7189,7 +7189,7 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": ""
+        "bed_material": "unknown"
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/73-3dfm-rubber-flex-filament.html",
@@ -7214,7 +7214,7 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": ""
+        "bed_material": "unknown"
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/73-3dfm-rubber-flex-filament.html",
@@ -7239,7 +7239,7 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": ""
+        "bed_material": "unknown"
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/73-3dfm-rubber-flex-filament.html",
@@ -7264,7 +7264,7 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": ""
+        "bed_material": "unknown"
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/74-3dfm-woodfill-filament.html",
@@ -8217,7 +8217,7 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": ""
+        "bed_material": "unknown"
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/69-3dfm-pom-filament.html",
@@ -8243,7 +8243,7 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": ""
+        "bed_material": "unknown"
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/69-3dfm-pom-filament.html",
@@ -8269,7 +8269,7 @@
         "temp_bed": 110,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": ""
+        "bed_material": "unknown"
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/70-3dfm-pc-filament.html",
@@ -8294,7 +8294,7 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": ""
+        "bed_material": "unknown"
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/70-3dfm-pc-filament.html",
@@ -8319,7 +8319,7 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": ""
+        "bed_material": "unknown"
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/70-3dfm-pc-filament.html",
@@ -8344,7 +8344,7 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": ""
+        "bed_material": "unknown"
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/71-3dfm-hips-filament.html",
@@ -8569,7 +8569,7 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": ""
+        "bed_material": "unknown"
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/72-3dfm-petg-filament.html",
@@ -8594,7 +8594,7 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": ""
+        "bed_material": "unknown"
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/73-3dfm-rubber-flex-filament.html",
@@ -8620,7 +8620,7 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": ""
+        "bed_material": "unknown"
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/73-3dfm-rubber-flex-filament.html",
@@ -8646,7 +8646,7 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": ""
+        "bed_material": "unknown"
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/73-3dfm-rubber-flex-filament.html",
@@ -8672,7 +8672,7 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": ""
+        "bed_material": "unknown"
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/73-3dfm-rubber-flex-filament.html",
@@ -8698,7 +8698,7 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": ""
+        "bed_material": "unknown"
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/73-3dfm-rubber-flex-filament.html",
@@ -8725,7 +8725,7 @@
         "temp_bed": 60,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
-        "bed_material": ""
+        "bed_material": "unknown"
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/74-3dfm-woodfill-filament.html",
@@ -8975,7 +8975,7 @@
         "temp_bed": 55,
         "min_nozzle_diameter": 0.4,
         "extruder_fan_speed": null,
-        "bed_material": ""
+        "bed_material": "unknown"
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568441-bronzefill-colorfabb-3mm",
@@ -9000,7 +9000,7 @@
         "temp_bed": 55,
         "min_nozzle_diameter": 0.4,
         "extruder_fan_speed": null,
-        "bed_material": ""
+        "bed_material": "unknown"
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568442-copperfill-colorfabb",
@@ -9025,7 +9025,7 @@
         "temp_bed": 55,
         "min_nozzle_diameter": 0.4,
         "extruder_fan_speed": null,
-        "bed_material": ""
+        "bed_material": "unknown"
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568443-copperfill-colorfabb",
@@ -9050,7 +9050,7 @@
         "temp_bed": 55,
         "min_nozzle_diameter": 0.4,
         "extruder_fan_speed": null,
-        "bed_material": ""
+        "bed_material": "unknown"
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568455-g-carbon-1-75mm-black",
@@ -9076,7 +9076,7 @@
         "temp_bed": 110,
         "min_nozzle_diameter": 0.4,
         "extruder_fan_speed": null,
-        "bed_material": ""
+        "bed_material": "unknown"
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568444-g-fil-1-75mm-translucent-blue",
@@ -9104,7 +9104,7 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": null,
-        "bed_material": ""
+        "bed_material": "unknown"
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568445-g-fil-1-75mm-transluscent-red",
@@ -9132,7 +9132,7 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": null,
-        "bed_material": ""
+        "bed_material": "unknown"
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568449-g-fil-1-75mm-translucent-green",
@@ -9160,7 +9160,7 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": null,
-        "bed_material": ""
+        "bed_material": "unknown"
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568450-g-fil-1-75mm-translucent-black",
@@ -9188,7 +9188,7 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": null,
-        "bed_material": ""
+        "bed_material": "unknown"
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568451-g-fil-1-75mm-translucent",
@@ -9216,7 +9216,7 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": null,
-        "bed_material": ""
+        "bed_material": "unknown"
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568452-g-fil-3mm-translucent-black",
@@ -9244,7 +9244,7 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": null,
-        "bed_material": ""
+        "bed_material": "unknown"
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568453-g-fil-3mm-translucent",
@@ -9272,7 +9272,7 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": null,
-        "bed_material": ""
+        "bed_material": "unknown"
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568476-g-carbon-3mm-black",
@@ -9288,7 +9288,8 @@
         "opacity": 1,
         "tags": [
             "stiff",
-            " impact strength"
+            " impact strength",
+            " carbon-fiber"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1.04,
@@ -9298,7 +9299,7 @@
         "temp_bed": 110,
         "min_nozzle_diameter": 0.4,
         "extruder_fan_speed": null,
-        "bed_material": ""
+        "bed_material": "unknown"
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568520-g-fil-3mm-translucent-blue",
@@ -9326,7 +9327,7 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": null,
-        "bed_material": ""
+        "bed_material": "unknown"
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568521-g-fil-3mm-transluscent-red",
@@ -9354,7 +9355,7 @@
         "temp_bed": 55,
         "min_nozzle_diameter": null,
         "extruder_fan_speed": null,
-        "bed_material": ""
+        "bed_material": "unknown"
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/402-pva-1-75mm-soluble-filament",
@@ -11560,83 +11561,5 @@
         "min_nozzle_diameter": null,
         "extruder_fan_speed": 255,
         "bed_material": "blue tape, glass, glue stick"
-    },
-    {
-        "id": "58AA54D1-CA91-4121-A4AC-B383931B196B",
-        "version": 1,
-        "name": "4D",
-        "technology": "DLP",
-        "composition": "unknown",
-        "printer_types": "7FAF097F-DB2E-45DC-9395-A30210E789AA",
-        "cost": 100,
-        "manufacturer": "Autodesk",
-        "website": "www.autodesk.com",
-        "color": "cad1db",
-        "opacity": 3,
-        "rating": "4",
-        "tags": [
-            "high-resolution",
-            "jewelry"
-        ],
-        "pct_shrink": "0",
-        "prism_URN": "",
-        "is_user": "false",
-        "density [kg/L]": 1,
-        "FirstExposureSec": 10,
-        "BurnInLayers": 1,
-        "BurnInExposureSec": 7,
-        "ModelExposureSec": 2.5
-    },
-    {
-        "id": "503B3D00-446C-4BCA-890B-BCA7B1CE784F",
-        "version": 1,
-        "name": "PR26",
-        "technology": "DLP",
-        "composition": "unknown",
-        "printer_types": "7FAF097F-DB2E-45DC-9395-A30210E789AA",
-        "cost": 100,
-        "manufacturer": "Autodesk",
-        "website": "www.autodesk.com",
-        "color": "cad1db",
-        "opacity": 3,
-        "rating": "4",
-        "tags": [
-            "high-resolution",
-            "jewelry"
-        ],
-        "pct_shrink": "0",
-        "prism_URN": "",
-        "is_user": "false",
-        "density [kg/L]": 1,
-        "FirstExposureSec": 10,
-        "BurnInLayers": 1,
-        "BurnInExposureSec": 4,
-        "ModelExposureSec": 1.5
-    },
-    {
-        "id": "88E7EF39-61F0-4F23-8EA5-289EED717E67",
-        "version": 1,
-        "name": "PR48",
-        "technology": "DLP",
-        "composition": "unknown",
-        "printer_types": "7FAF097F-DB2E-45DC-9395-A30210E789AA",
-        "cost": 100,
-        "manufacturer": "Autodesk",
-        "website": "www.autodesk.com",
-        "color": "cad1db",
-        "opacity": 3,
-        "rating": "4",
-        "tags": [
-            "high-resolution",
-            "jewelry"
-        ],
-        "pct_shrink": "0",
-        "prism_URN": "",
-        "is_user": "false",
-        "density [kg/L]": 1,
-        "FirstExposureSec": 10,
-        "BurnInLayers": 4,
-        "BurnInExposureSec": 4,
-        "ModelExposureSec": 2.5
     }
 ]}
