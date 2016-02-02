@@ -32,6 +32,9 @@ textarea {
 	/*text-align: left;*/
 }
 
+span.pull-down-heading {
+	/*font-weight: bold; */
+}
 
 select {
 	float: right;

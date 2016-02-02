@@ -60,7 +60,7 @@
             
           </ul>
         </nav>
-        <h3 class="text-muted">Consumer FDM Materials Database</h3>
+        <h3 class="text-muted">Consumer FDM Materials Database [BETA]</h3>
         <br>
       </div>
 
@@ -69,7 +69,7 @@
         <div class="col-lg-4">
           <h4>Mechanical Properties:</h4>
 
-          <span class="" aria-hidden="true">Technology:&nbsp
+          <span class="pull-down-heading" aria-hidden="true"><strong>Technology:</strong>
             <select ng-model="technology" ng-change="changeTechnology(technology)">
               <option value="FDM">FDM</option>
               <option value="DLP">DLP</option>
@@ -79,7 +79,7 @@
 
           <br>   
 
-          <span class="" aria-hidden="true">Composition:
+          <span class="pull-down-heading" aria-hidden="true"><strong>Composition:</strong>
             <select ng-model="composition" ng-change="changeComposition(composition)">
               <option value="">ANY</option>
               <option value="PLA">PLA</option>
@@ -103,7 +103,7 @@
 
           <br>
 
-          <span class="" aria-hidden="true">Diameter:&nbsp&nbsp&nbsp&nbsp&nbsp
+          <span class="pull-down-heading" aria-hidden="true"><strong>Diameter:</strong>
             <select ng-model="filament_diameter" ng-change="changeFilamentDiameter(filament_diameter)">
               <option value="1.75">1.75mm</option>
               <option value="2.85">2.85mm</option>
@@ -115,7 +115,7 @@
 
           <!--<h4>Advanced Properties:</h4>-->
 
-            <span class="" aria-hidden="true">Tags:
+            <span class="pull-down-heading" aria-hidden="true"><strong>Tags:</strong>
               <select ng-model="tags" ng-change="changeTags(tags)">
                 <option value="">ANY</option>
                 <option value="bulk">bulk</option>
@@ -153,7 +153,7 @@
 
             <br> 
             
-            <span class="" aria-hidden="true">Bed Material: 
+            <span class="pull-down-heading" aria-hidden="true"><strong>Bed Material:</strong>
               <select ng-model="bed_material" ng-change="changeBedMaterial(bed_material)">
                 <option value="">ANY</option>
                 <option value="blue tape">blue tape</option>
@@ -169,7 +169,7 @@
 
             <br>  
 
-            <span class="" aria-hidden="true">Nozzle Diam [mm]:
+            <span class="pull-down-heading" aria-hidden="true"><strong>Nozzle Diam [mm]:</strong>
               <select ng-model="min_nozzle_diameter" ng-change="changeNozzleDiameter(min_nozzle_diameter)">
                 <option value="">ANY</option>         
                 <option value="0.25">0.25</option>
@@ -186,7 +186,7 @@
 
             <!--<h4>Cost Properties:</h4>-->
           
-            <span class="" aria-hidden="true">Manufacturer:
+            <span class="pull-down-heading" aria-hidden="true"><strong>Supplier:</strong>
               <select ng-model="manufacturer" ng-change="changeManufacturer(manufacturer)">
                 <option value="">ANY</option>-->
                 <option value="3DFilamenta">3DFilamenta</option>
@@ -205,7 +205,7 @@
 
             <br>
 
-            <span class="" aria-hidden="true">Opacity:&nbsp
+            <span class="pull-down-heading" aria-hidden="true"><strong>Opacity:</strong>
               <select ng-model="opacity" ng-change="changeOpacity(opacity)">
                 <option value="">ANY</option>            
                 <option value="1">Opaque</option>
@@ -217,17 +217,17 @@
             <br>
             <br>
 
-            <span class="" aria-hidden="true">Max Bed Temp [C]:
+            <span class="slider-heading" aria-hidden="true"><strong>Ideal Bed Temp [C]:</strong>
               <rzslider class="bed-temp-slider" rz-slider-model="slider_bed_temp.value"
                 rz-slider-options="slider_bed_temp.options"></rzslider>
             </span>
             
-            <span class="" aria-hidden="true">Max Nozzle Temp [C]:
+            <span class="slider-heading" aria-hidden="true"><strong>Ideal Nozzle Temp [C]:</strong>
               <rzslider class="nozzle-temp-slider" rz-slider-model="slider_nozzle_temp.value"
                 rz-slider-options="slider_nozzle_temp.options"></rzslider>
             </span>
 
-            <span class="" aria-hidden="true">Cost [$/kg]:
+            <span class=""slider-heading aria-hidden="true"><strong>Cost [$/kg]:</strong>
               <rzslider class="cost-slider" rz-slider-model="slider_cost.minValue"
                 rz-slider-high="slider_cost.maxValue"
                 rz-slider-options="slider_cost.options"></rzslider>
@@ -259,7 +259,7 @@
 
       <div class="row col-lg-4">
         <h4>Available Materials: </h4>
-        <div class="field-log" ng-repeat="material in server_response track by $index" | limitTo: 20>
+        <div class="field-log" ng-repeat="material in server_response track by $index" | limitTo: 10>
 
           <button class="available-filament" ng-click="showMaterialDetails(material)" ng-style="{'background-color': '#{{material.color}}'}">{{material.name}}</button>
 
@@ -306,13 +306,13 @@
           </tr>
           <tr>
             <td><strong>Extrusion to Flow</strong></td>
-            <td><strong>Placeholder</strong></td>
+            <td><strong>Opacity</strong></td>
             <td colspan = "2"><strong>Website</strong> </td>
             <td colspan = "2"><strong>Buy Now</strong></td>
           </tr>
           <tr>
             <td class = "processing-data">{{processing_extrusion_to_flow_multiplier}}</td>
-            <td class = "processing-data">Placeholder</td>
+            <td class = "processing-data">{{processing_opacity}}</td>
             <td class = "processing-data" colspan = "2"><a href = "{{processing_buy_now}}" target="_blank">{{processing_website}}</a></td>
             <td class = "processing-data" colspan = "2"><a href = "{{processing_buy_now}}" target="_blank">{{processing_buy_now}}</a></td>
           </tr>
@@ -333,7 +333,7 @@
 
       </div>
         <footer class="footer">
-          <p>&copy; Sixteen-Twenty LLC, 2016.  <strong>All Rights Reserved.</strong></p>
+          <p>&copy; Michael Crockett, 2016.  <strong>All Rights Reserved.</strong></p>
         </footer>
 
       </div> <!-- /container -->

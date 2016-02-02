@@ -161,11 +161,11 @@ myApp.controller('userCtrl', ['$scope', '$http', function($scope,$http) {
   };
 
   $scope.slider_bed_temp = {
-    value: 240,
+    value: 25,
     options: {
       id: 'bed-temp',
-      floor: 120,
-      ceil: 300,
+      floor: 25,
+      ceil: 150,
       onChange: function(sliderId, temp_bed) {
         $scope.changeBedTemp(temp_bed);
         //alert("bed temp value is: " + temp_bed);
@@ -223,9 +223,20 @@ myApp.controller('userCtrl', ['$scope', '$http', function($scope,$http) {
     $scope.processing_extruder_fan_speed          = material.extruder_fan_speed;
     $scope.processing_bed_material                = material.bed_material;
     $scope.processing_extrusion_to_flow_multiplier= material.filament_extrusion_to_flow_multiplier;
+    //logic to decompose the integer for opacity into a string
+    if(material.opacity == 1){
+      $scope.processing_opacity                   = "Opaque";
+    }
+    else if (material.opacity == 2){
+      $scope.processing_opacity                   = "Semi-Translucent";
+    }
+    else {
+      $scope.processing_opacity                   = "Translucent";
+
+    }
+
     $scope.processing_website                     = material.website;
     $scope.processing_buy_now                     = material.buy_now;
-
   };
 
 

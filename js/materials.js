@@ -51,10 +51,11 @@ function getfilteredMaterials(filter) { //?technology=FDM&temp_max_extrude=250
     var materials_temp = materials;
     var keysToParseAsFloat = ['version', 'opacity', 'rating', 'pct_shrink',
         'filament_diameter', 'filament_extrusion_to_flow_multiplier', 'temp_min_extrude',
-        'temp_max_extrude', 'temp_bed', 'min_nozzle_diameter', 'extruder_fan_speed',
+        'temp_max_extrude', 'min_nozzle_diameter', 'extruder_fan_speed',
         'FirstExposureSec', 'BurnInLayers', 'BurnInExposureSec', 'ModelExposureSec', 'density'
     ];
 
+    //removed 'temp_bed' from keysToParseAsFloat
 
 
     for (var key in filter) {
@@ -91,7 +92,17 @@ function getfilteredMaterials(filter) { //?technology=FDM&temp_max_extrude=250
 
                 //removes anything exceeding user param cost from list of materials_temp copied from materials
                 materials_temp = materials_temp.filter(function(material_item) {
-                    return valid_temp_value && (material_item["temp_bed"] <= temp_threshold);
+                    if(temp_threshold<=60){
+                        return true;
+                    }
+                    else if (material_item["temp_bed"] <= temp_threshold) {
+                        //return valid_temp_value && (material_item["temp_bed"] <= temp_threshold);
+                        //return (material_item["temp_bed"] <= temp_threshold);
+                        return true;
+                    }
+                    else{
+                        return false;
+                    }
                 });
             })();
 
@@ -148,6 +159,10 @@ function getMaterials( req, res )
 
     else {
         var result = getfilteredMaterials(query);      //if query passed, run filter
+        
+        result = result.sort(sortByProperty('cost')).slice(0,10);  //return only 10 sorted by cost
+
+        //console.log(result);
         res.status(200);
         res.send(result);
     }
@@ -271,6 +286,23 @@ function hexToRgb(hex) {
     } : null;
 }
 
+
+function sortByProperty(property) {
+    'use strict';
+    return function (a, b) {
+        var sortStatus = 0;
+        if (a[property] < b[property]) {
+            sortStatus = -1;
+        } else if (a[property] > b[property]) {
+            sortStatus = 1;
+        }
+        else {
+            return 0;
+        }
+ 
+        return sortStatus;
+    };
+}
 
 module.exports = exports = {
     'initialize' : initialize,
