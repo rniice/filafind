@@ -68,14 +68,17 @@ function getfilteredMaterials(filter) { //?technology=FDM&temp_max_extrude=250
                 filter[key] = parseFloat(filter[key]);
             }
         }
-        else if (key === "cost") { //returns only cost < param
+        else if (key === "cost") { //returns only minValue < cost < maxValue
             (function() {
-                var cost_threshold = parseFloat(filter[key]);
-                var valid_cost_value = parseFloat(filter[key]);
+                var cost_parts = filter[key].split(',');
+
+                var cost_min = parseFloat(cost_parts[0]);
+                var cost_max = parseFloat(cost_parts[1]);
+                var valid_cost_value = parseFloat(cost_parts[0]);
 
                 //removes anything exceeding user param cost from list of materials_temp copied from materials
                 materials_temp = materials_temp.filter(function(material_item) {
-                    return valid_cost_value && (material_item["cost"] <= cost_threshold);
+                    return valid_cost_value && (material_item["cost"] <= cost_max) && (material_item["cost"] >= cost_min);
                 });
             })();
 

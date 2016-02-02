@@ -36,18 +36,13 @@ myApp.controller('userCtrl', ['$scope', '$http', function($scope,$http) {
 
   //non-initialized settings values:
   $scope.manufacturer = "";
-  $scope.cost = "";
+  $scope.cost = ["",""];
   $scope.tags = "";
   $scope.bed_material = "";
   $scope.temp_bed = "";
   $scope.min_nozzle_diameter = "";
   $scope.temp_extrude_default = "";
 
-
-  //initialize values for the processing parameters:
-
-
-  
 
   //initialize the first query to send out with the presets
  	generateFullQuery(scope_struct);
@@ -77,12 +72,13 @@ myApp.controller('userCtrl', ['$scope', '$http', function($scope,$http) {
     generateFullQuery(scope_struct);
   };
 
-  $scope.changeCost = function(cost) {
-    $scope.cost = cost;
-    scope_struct.cost = cost; //update the scope_struct
+  
+  $scope.changeCost = function(lowValue, highValue) {
+    $scope.cost = [lowValue, highValue];
+    scope_struct.cost = [lowValue, highValue]; //update the scope_struct
     generateFullQuery(scope_struct);
   };
-
+  
  
   $scope.changeColor = function(color_temp) {
   	var color_parsed = color_temp.substring(1);
@@ -146,14 +142,20 @@ myApp.controller('userCtrl', ['$scope', '$http', function($scope,$http) {
     scope_struct.temp_bed = temp_bed; //update the scope_struct
     generateFullQuery(scope_struct);
   };
-  
+
 
   $scope.slider = {
-    minValue: 100,
-    maxValue: 400,
+    id: 'cost',
+    minValue: 5,
+    maxValue: 60,
     options: {
       floor: 0,
-      ceil: 500,
+      ceil: 100,
+      onChange: function(sliderId, lowValue, highValue) {
+        $scope.changeCost(lowValue, highValue);
+        //alert("lowValue is: " + lowValue);
+        //alert("highValue is: " + highValue);
+      },
       translate: function(value) {
         return '$' + value;
       }

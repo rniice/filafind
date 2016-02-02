@@ -16,28 +16,17 @@
 
     <title>Consumer 3D Printing Materials Database</title>
 
-    <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="./css/bootstrap.min.css" >
-    <link rel="stylesheet" href="./css/angular-slider.css" >
-    <link rel="stylesheet" href="./css/rzslider.min.css" >
-
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="./css/style.css" >
-
     <!-- Angular Color Picker Styling s inject 'mp.colorPicker' -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" >   
     <link rel="stylesheet" href="./css/angular-color-picker.css">
-    
+    <link rel="stylesheet" href="./css/rzslider.min.css" >
+    <link rel="stylesheet" href="./css/style.css" >
 
     <!-- INCLUDE THE NG-APP CONTROLLER FOR ANGULAR JS -->
     <script src= "./js/angular.min.js"></script>
     <script src="./js/angular-color-picker.js"></script>
-    <script src= "./js/angular-slider.js"></script>
     <script src= "./js/rzslider.min.js"></script>
-    <!--extra stuff to try and fix bug -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.14.3/ui-bootstrap-tpls.js"></script>
-    <!--<script src="lib/highlight.min.js"></script>
-    <script src="lib/angular-highlightjs.min.js"></script>-->
-
     <script src= "control.min.js"></script>
 
 
@@ -232,13 +221,11 @@
             
             <p>Max Nozzle Temp [C]: <br><input type="text" ng-model="temp_extrude_default" ng-change="changeTempExtrudeDefault(temp_extrude_default)" name="fname" placeholder=""></p>
 
-            <rzslider class="cost-slider" rz-slider-model="slider.minValue"
-              rz-slider-high="slider.maxValue"
-              rz-slider-options="slider.options"></rzslider>
-
-
-            <p>Cost [$/kg] Less Than: <br><input type="text" ng-model="cost" ng-change="changeCost(cost)" name="fname" placeholder="e.g. '20'"></p>
-
+            <span class="" aria-hidden="true">Cost [$/kg]:
+              <rzslider class="cost-slider" rz-slider-model="slider.minValue"
+                rz-slider-high="slider.maxValue"
+                rz-slider-options="slider.options"></rzslider>
+            </span>
 
         </div>
 
