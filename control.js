@@ -1,4 +1,5 @@
-var myApp = angular.module('myApp', ['mp.colorPicker']);
+var myApp = angular.module('myApp', ['mp.colorPicker', 'rzModule', 'ui.bootstrap']);
+//var myApp = angular.module('myApp', ['mp.colorPicker']);
 
 var base_query = "http://localhost:8080/materials";
 //var base_query = "https://stark-tundra-90514.herokuapp.com/materials";
@@ -145,6 +146,20 @@ myApp.controller('userCtrl', ['$scope', '$http', function($scope,$http) {
     scope_struct.temp_bed = temp_bed; //update the scope_struct
     generateFullQuery(scope_struct);
   };
+  
+
+  $scope.slider = {
+    minValue: 100,
+    maxValue: 400,
+    options: {
+      floor: 0,
+      ceil: 500,
+      translate: function(value) {
+        return '$' + value;
+      }
+    }
+  };
+
 
   $scope.changeNozzleDiameter = function(min_nozzle_diameter) {
     $scope.min_nozzle_diameter = min_nozzle_diameter;
