@@ -259,10 +259,9 @@
 
       <div class="row col-lg-4">
         <h4>Available Materials: </h4>
-        <div class="field-log" ng-repeat="material in server_response track by $index" | limitTo: 10>
-
+        <!--<div class="field-log" ng-repeat="material in server_response track by $index">-->
+        <div class="field-log" ng-repeat="material in server_response">
           <button class="available-filament" ng-click="showMaterialDetails(material)" ng-style="{'background-color': '#{{material.color}}'}">{{material.name}}</button>
-
         </div>
 
       </div>

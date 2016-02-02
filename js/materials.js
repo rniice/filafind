@@ -115,7 +115,7 @@ function getfilteredMaterials(filter) { //?technology=FDM&temp_max_extrude=250
 
                 //removes anything exceeding user param cost from list of materials_temp copied from materials
                 materials_temp = materials_temp.filter(function(material_item) {
-                    if(diam_threshold==""){
+                    if( (diam_threshold =="") || (material_item["min_nozzle_diameter"]==0) ) {
                         return true;
                     }
                     else if (material_item["min_nozzle_diameter"] <= diam_threshold) {
