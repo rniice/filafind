@@ -32,6 +32,10 @@ app.get('/materials/:id', function(req, res) {
 	materials.getMaterial(req, res);
 });
 
+//respond with facebook og open graph image
+app.get('/img', function(req, res) {
+	res.sendFile(path.join(__dirname + '/og_image.jpg'));
+});
 
 
 //Adding Material to DB
