@@ -229,10 +229,10 @@ myApp.controller('userCtrl', ['$scope', '$http', function($scope,$http) {
       $scope.processing_opacity                   = "Opaque";
     }
     else if (material.opacity == 2){
-      $scope.processing_opacity                   = "Semi-Translucent";
+      $scope.processing_opacity                   = "Translucent";
     }
     else {
-      $scope.processing_opacity                   = "Translucent";
+      $scope.processing_opacity                   = "Transparent";
 
     }
 
