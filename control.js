@@ -1,7 +1,7 @@
 var myApp = angular.module('myApp', ['mp.colorPicker', 'rzModule', 'ui.bootstrap']);
 
-var base_query = "http://localhost:8080/materials";
-//var base_query = "https://stark-tundra-90514.herokuapp.com/materials";
+//var base_query = "http://localhost:8080/materials";
+var base_query = "https://stark-tundra-90514.herokuapp.com/materials";
 
 var filtered_query = "";      
 
@@ -299,12 +299,13 @@ myApp.controller('userCtrl', ['$scope', '$http', function($scope,$http) {
 	function styleResponse(response) {  //takes the response from server and styles
 		//$scope.server_response = JSON.stringify(response.data, null, 2);
     
+    /*
     for (var prop in response.data) {
       if( response.data.hasOwnProperty( prop ) ) {
         alert("response.data." + prop + " = " + JSON.parse(JSON.stringify(response.data[prop])));
       } 
     }
-
+    */
 
     //alert(JSON.stringify(response.data.toString("utf-8")));
 
@@ -322,6 +323,9 @@ myApp.controller('userCtrl', ['$scope', '$http', function($scope,$http) {
     var encoding = "utf-8";
 
     data_json = JSON.parse(JSON.stringify(data_json_mangled));
+    //data_json = JSON.parse(data_json_mangled.toString(encoding));
+    //data_json = data_json_mangled.toString(encoding);
+    //alert(data_json);
 
     //alert(data_json_mangled.toString(encoding));
     //decode the buffer
