@@ -296,6 +296,35 @@ myApp.controller('userCtrl', ['$scope', '$http', function($scope,$http) {
 		}
 
 
+  function generateEncryptionKey(){
+    //do some sort of pseudo-random key generation buffer
+
+
+    return generated_key;
+  }
+
+
+  function encryptRequest(request, key) {
+
+    //access the library included on the server that runs the encryption process
+
+
+    return request_encrypted;
+  }
+
+
+  function decryptResponse(response_encrypted, key) {
+
+    //take the server response and apply logic using key
+
+    //have the format of the key vary so it is more difficult to crack decryption process
+
+
+
+    return response_decrypted;
+  }
+
+
 	function styleResponse(response) {  //takes the response from server and styles
 		//$scope.server_response = JSON.stringify(response.data, null, 2);
     var sorted_by_cost = sortByKey(response.data, "cost");

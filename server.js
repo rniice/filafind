@@ -50,3 +50,36 @@ app.listen(port, function() {
     console.log('Our app is running on http://localhost:' + port);
     materials.initialize();	
 });
+
+
+//see if protoBuf allows for encryption/decryption too?
+
+
+
+function generateEncryptionKey(){
+//do some sort of pseudo-random key generation buffer
+
+
+return generated_key;
+}
+
+
+function encryptRequest(request, key) {
+
+//access the library included on the server that runs the encryption process
+
+
+return request_encrypted;
+}
+
+
+function decryptResponse(response_encrypted, key) {
+
+//take the server response and apply logic using key
+
+//have the format of the key vary so it is more difficult to crack decryption process
+
+
+
+return response_decrypted;
+}
