@@ -52,17 +52,5 @@ app.listen(port, function() {
 });
 
 
-function mangleJSON(data_json, reverse) {
-	var data_json_mangled;
-	var encoding = "base64";
-
-	//create a buffer using data_json with specified encoding
-	var buf = new Buffer(data_json, encoding);
-
-	data_json_mangled = buf;
-
-	//then reverse the result
-	return data_json_mangled;
-}
 
 

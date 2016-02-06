@@ -216,19 +216,25 @@ function getMaterials( req, res )
     //console.log("received request");
 
     if(_.isEmpty(query)) {                             //if no query passed, return all
+        var result = materials.sort(sortByProperty('cost')).slice(0,10);  //return only 10 sorted by cost
+        result = mangleJSON(result);
+        //console.log(result);
+
         res.status(200);
-        res.send(materials);
+        res.send(result);
     }
 
     else {
         var result = getfilteredMaterials(query);      //if query passed, run filter
         
         result = result.sort(sortByProperty('cost')).slice(0,10);  //return only 10 sorted by cost
-
+        result = mangleJSON(result);
         //console.log(result);
+
         res.status(200);
         res.send(result);
     }
+
 }
 
 
@@ -366,6 +372,22 @@ function sortByProperty(property) {
         return sortStatus;
     };
 }
+
+
+function mangleJSON(data_json) {
+    var data_json_mangled;
+    //var encoding = "base64";
+    var encoding = "utf-8";
+
+    //create a buffer using data_json with specified encoding
+    var buf = new Buffer(JSON.stringify(data_json), encoding);
+    //var buf = JSON.stringify(data_json);
+    data_json_mangled = buf;
+
+    //then reverse the result
+    return data_json_mangled;
+}
+
 
 module.exports = exports = {
     'initialize' : initialize,

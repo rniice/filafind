@@ -1,7 +1,7 @@
 var myApp = angular.module('myApp', ['mp.colorPicker', 'rzModule', 'ui.bootstrap']);
 
-//var base_query = "http://localhost:8080/materials";
-var base_query = "https://stark-tundra-90514.herokuapp.com/materials";
+var base_query = "http://localhost:8080/materials";
+//var base_query = "https://stark-tundra-90514.herokuapp.com/materials";
 
 var filtered_query = "";      
 
@@ -289,8 +289,6 @@ myApp.controller('userCtrl', ['$scope', '$http', function($scope,$http) {
 		  url: address,
 		  config: "",
 			}).then(function success(response) {
-
-
 			    styleResponse(response);
 			  }, function error(response) {
 			    alert("there was an error with your request");
@@ -298,24 +296,51 @@ myApp.controller('userCtrl', ['$scope', '$http', function($scope,$http) {
 		}
 
 
-  function demangleJSON(data_json_mangled) {
-    var data_json;
-    var encoding = "base64";
-
-    //decode the buffer
-    data_json = data_json_mangled.toString(encoding);
-
-    return data_json;
-  }
-
-
 	function styleResponse(response) {  //takes the response from server and styles
 		//$scope.server_response = JSON.stringify(response.data, null, 2);
-    var sorted_by_cost = sortByKey(response.data, "cost");
+    
+    for (var prop in response.data) {
+      if( response.data.hasOwnProperty( prop ) ) {
+        alert("response.data." + prop + " = " + JSON.parse(JSON.stringify(response.data[prop])));
+      } 
+    }
+
+
+    //alert(JSON.stringify(response.data.toString("utf-8")));
+
+    response = demangleJSON(response.data);  //decode the encoded buffer
+
+    var sorted_by_cost = sortByKey(response, "cost");
     var lower_10 = sorted_by_cost.slice(0,10);
 
     $scope.server_response = lower_10;
 	}
+
+  function demangleJSON(data_json_mangled) {
+    var data_json;
+    //var encoding = "base64";
+    var encoding = "utf-8";
+
+    data_json = JSON.parse(JSON.stringify(data_json_mangled));
+
+    //alert(data_json_mangled.toString(encoding));
+    //decode the buffer
+    //data_json = JSON.parse(data_json_mangled.toString(encoding));
+    //data_json = JSON.parse(data_json_mangled);
+    //data_json = data_json_mangled.toString(encoding).trim()
+
+    //alert("data_json_mangled.data" + " = " + data_json_mangled['data']);
+
+    /*
+    for (var prop in data_json_mangled) {
+      if( data_json_mangled.hasOwnProperty( prop ) ) {
+        alert("data_json_mangled." + prop + " = " + data_json_mangled[prop]);
+      } 
+    }
+    */
+
+    return data_json;
+  }
 
   /*http://jsfiddle.net/6Dgbu/ */
   function sortByKey(array, key) {
