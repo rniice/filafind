@@ -52,34 +52,17 @@ app.listen(port, function() {
 });
 
 
-//see if protoBuf allows for encryption/decryption too?
+function mangleJSON(data_json, reverse) {
+	var data_json_mangled;
+	var encoding = "base64";
 
+	//create a buffer using data_json with specified encoding
+	var buf = new Buffer(data_json, encoding);
 
+	data_json_mangled = buf;
 
-function generateEncryptionKey(){
-//do some sort of pseudo-random key generation buffer
-
-
-return generated_key;
+	//then reverse the result
+	return data_json_mangled;
 }
 
 
-function encryptRequest(request, key) {
-
-//access the library included on the server that runs the encryption process
-
-
-return request_encrypted;
-}
-
-
-function decryptResponse(response_encrypted, key) {
-
-//take the server response and apply logic using key
-
-//have the format of the key vary so it is more difficult to crack decryption process
-
-
-
-return response_decrypted;
-}

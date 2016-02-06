@@ -289,6 +289,8 @@ myApp.controller('userCtrl', ['$scope', '$http', function($scope,$http) {
 		  url: address,
 		  config: "",
 			}).then(function success(response) {
+
+
 			    styleResponse(response);
 			  }, function error(response) {
 			    alert("there was an error with your request");
@@ -296,41 +298,23 @@ myApp.controller('userCtrl', ['$scope', '$http', function($scope,$http) {
 		}
 
 
-  function generateEncryptionKey(){
-    //do some sort of pseudo-random key generation buffer
+  function demangleJSON(data_json_mangled) {
+    var data_json;
+    var encoding = "base64";
 
+    //decode the buffer
+    data_json = data_json_mangled.toString(encoding);
 
-    return generated_key;
-  }
-
-
-  function encryptRequest(request, key) {
-
-    //access the library included on the server that runs the encryption process
-
-
-    return request_encrypted;
-  }
-
-
-  function decryptResponse(response_encrypted, key) {
-
-    //take the server response and apply logic using key
-
-    //have the format of the key vary so it is more difficult to crack decryption process
-
-
-
-    return response_decrypted;
+    return data_json;
   }
 
 
 	function styleResponse(response) {  //takes the response from server and styles
 		//$scope.server_response = JSON.stringify(response.data, null, 2);
     var sorted_by_cost = sortByKey(response.data, "cost");
-    var lower_25 = sorted_by_cost.slice(0,10);
+    var lower_10 = sorted_by_cost.slice(0,10);
 
-    $scope.server_response = lower_25;
+    $scope.server_response = lower_10;
 	}
 
   /*http://jsfiddle.net/6Dgbu/ */
