@@ -203,6 +203,27 @@ function getfilteredMaterials(filter) { //?technology=FDM&temp_max_extrude=250
 
             delete filter[key];  //delete the filter and key associated so that _.where functionality is not rendered useless
         }
+        else if (key === "location") { //returns only tags within value
+            (function() {
+                var selected_location = filter[key];
+                //console.log("selected bed_material is: " + selected_bed_material);
+                //removes anything exceeding user param cost from list of materials_temp copied from materials
+                materials_temp = materials_temp.filter(function(material_item) {
+                    //console.log(material_item["bed_material"]);
+                    //console.log(material_item["id"]);
+
+                    if(material_item["location"].indexOf(selected_location) > -1) {
+                        return true;
+                    }
+                    else {
+                        return false;
+                    }
+                });
+
+            })();
+
+            delete filter[key];  //delete the filter and key associated so that _.where functionality is not rendered useless
+        }
 
     }
     return _.where(materials_temp, filter);
