@@ -34,7 +34,7 @@ textarea {
 .centered-buttons {
 	float: right;
 	position: relative;
-	left: -40%; /* or right 50% */
+	left: -15%; /* or right 50% */
 	/*text-align: left;*/
 }
 
