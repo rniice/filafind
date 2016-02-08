@@ -1,0 +1,3 @@
+version,name,technology,composition,cost,manufacturer,website,color,opacity,tags,filament_diameter,filament_extrusion_to_flow_multiplier,temp_extrude_default,temp_min_extrude,temp_max_extrude,temp_bed,min_nozzle_diameter,extruder_fan_speed,bed_material,buy_now
+1,3DFM NYLON -Black,FDM,NYLON,23.90 ,3DFilamenta,http://3dfilamenta.com/,211d23,1,"tough, strong",2.85,1,265,250,280,110,0,0,"kapton, glass, hair spray",http://3dfilamenta.com/3dfmstore/nylon-filament/67-3dfm-nylon-filament.html
+1,ABS Premium Silver,FDM,ABS,22.67,eMotion Tech,http://www.reprap-3d-printer.com/,a1a1a1,1,undefined,1.75,1,230,200,250,110,0,0,"kapton, abs slurry, acrylic, blue tape",http://www.reprap-3d-printer.com/product/1234568216-abs-premium-1-75mm-silver

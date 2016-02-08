@@ -7,7 +7,10 @@
     <meta name="description" content="Use FilaFind to filter through the vast array of emerging 3D consumer 3D printer materials to discover what your project needs.">
     <meta name="keywords" content="FilaFind, 3D Printer, filament, material, diy">
     <meta name="robots" content="index, nofollow">
+    
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=320, height=device-height, target-densitydpi=medium-dpi">-->
+
     <meta name="author" content="Michael Crockett">
     <meta name="marked method llc" content="markedmethod.com">
 
@@ -68,7 +71,46 @@
 
       <div class="row">
 
-        <div class="col-lg-4">
+        <div class="col-lg-2" id="#sidebar">
+
+          <br>
+          <div class = "list-group">
+            <a href = "/howto" class = "list-group-item" target = "_blank">
+              <h4 class = "list-group-item-heading">How To</h4>
+              <p class = "list-group-item-text">1. Filter Properties</p>
+              <p class = "list-group-item-text">2. Select Color</p>
+              <p class = "list-group-item-text">3. Filter Price</p>
+              <p class = "list-group-item-text">4. Select Material</p>
+              <p class = "list-group-item-text">5. Evaluate Results</p>
+            </a>
+          </div>
+          <div class = "list-group">
+            <a href = "/about" class = "list-group-item" target = "_blank">
+              <h4 class = "list-group-item-heading">About</h4>
+              <p class = "list-group-item-text">1. Discover</p>
+              <p class = "list-group-item-text">2. Select</p>
+              <p class = "list-group-item-text">3. Print</p>
+              <!--<p class = "list-group-item-text">Developed to aid in the discovery, selection, and correct processing of consumer 3D printer filaments by consolidating information in a single database.</p> -->
+            </a>
+          </div>
+          <div class = "list-group">
+            <a href = "/suppliers" class = "list-group-item" target = "_blank">
+              <h4 class = "list-group-item-heading">Suppliers</h4>
+              <p class = "list-group-item-text">Details on how to join FilaFind</p>
+            </a>
+          </div>
+
+          <div id = "#advertise-here">
+
+          </div>
+
+          <div id = "#advertise-here">
+
+          </div>
+
+        </div>
+
+        <div class="col-lg-3">
           <h4>Mechanical Properties:</h4>
 
           <span class="pull-down-heading" aria-hidden="true"><strong>Technology:</strong>
@@ -175,15 +217,15 @@
 
             <br>  
 
-            <span class="pull-down-heading" aria-hidden="true"><strong>Nozzle Diam [mm]:</strong>
+            <span class="pull-down-heading" aria-hidden="true"><strong>Nozzle Diam:</strong>
               <select ng-model="min_nozzle_diameter" ng-change="changeNozzleDiameter(min_nozzle_diameter)">
                 <option value="">ANY</option>         
-                <option value="0.25">0.25</option>
-                <option value="0.30">0.30</option>
-                <option value="0.35">0.35</option>
-                <option value="0.40">0.40</option>
-                <option value="0.45">0.45</option>
-                <option value="0.50">0.50</option>
+                <option value="0.25">0.25mm</option>
+                <option value="0.30">0.30mm</option>
+                <option value="0.35">0.35mm</option>
+                <option value="0.40">0.40mm</option>
+                <option value="0.45">0.45mm</option>
+                <option value="0.50">0.50mm</option>
               </select>
             </span> 
 
@@ -250,7 +292,7 @@
                 rz-slider-options="slider_nozzle_temp.options"></rzslider>
             </span>
 
-            <span class=""slider-heading aria-hidden="true"><strong>Cost [$/kg]:</strong>
+            <span class=""slider-heading aria-hidden="true"><strong>Price [$/kg]:</strong>
               <rzslider class="cost-slider" rz-slider-model="slider_cost.minValue"
                 rz-slider-high="slider_cost.maxValue"
                 rz-slider-options="slider_cost.options"></rzslider>
@@ -259,7 +301,7 @@
         </div>
 
 
-        <div class="col-lg-4">
+        <div class="col-lg-3">
 
           <h4>Color Properties:</h4>
 
@@ -280,14 +322,17 @@
         </div>
 
 
-      <div class="row col-lg-4">
-        <h4>Available Materials: </h4>
-        <!--<div class="field-log" ng-repeat="material in server_response track by $index">-->
-        <div class="field-log" ng-repeat="material in server_response">
-          <button class="available-filament" ng-click="showMaterialDetails(material)" ng-style="{'background-color': '#{{material.color}}'}">{{material.name}}</button>
+        <div class="col-lg-4">
+          <h4>Available Materials: </h4>
+          <!--<div class="field-log" ng-repeat="material in server_response track by $index">-->
+          <div class="field-log" ng-repeat="material in server_response">
+            <button class="available-filament" ng-click="showMaterialDetails(material)" ng-style="{'background-color': '#{{material.color}}'}">{{material.name}}</button>
+          </div>
+
         </div>
 
-      </div>
+      <!--<div class="col-lg-2">
+      </div> -->
 
       <div class="col-lg-12">
         <br>
@@ -357,7 +402,14 @@
 
       </div>
         <footer class="footer">
-          <p>&copy; Marked Method LLC, 2016.  <strong>All Rights Reserved.</strong></p>
+          <!--<div class="col-lg-2">
+          </div>-->
+
+          <!--<div class="col-lg-12"> -->
+          <br>
+            <p>&copy; Marked Method LLC, 2016.  <strong>All Rights Reserved.</strong></p>
+          <!--</div>-->
+
         </footer>
 
       </div> <!-- /container -->

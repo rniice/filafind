@@ -1,6 +1,7 @@
 var express = require('express');
 var http = require('http');
 var app = express();
+var path = require('path');
 var fs = require('fs');
 
 var config = require('./js/config.json');
@@ -34,7 +35,20 @@ app.get('/materials/:id', function(req, res) {
 
 //respond with facebook og open graph image
 app.get('/img', function(req, res) {
-	res.sendFile(path.join(__dirname + '/og_image.jpg'));
+	console.log("operating in dirname: " + __dirname);
+	res.sendFile(path.join(__dirname + '/img/og_image.jpg'));
+});
+
+app.get('/howto', function(req, res) {
+	res.sendFile(path.join(__dirname + '/html/howto.html'));
+});
+
+app.get('/about', function(req, res) {
+	res.sendFile(path.join(__dirname + '/html/about.html'));
+});
+
+app.get('/suppliers', function(req, res) {
+	res.sendFile(path.join(__dirname + '/html/suppliers.html'));
 });
 
 
