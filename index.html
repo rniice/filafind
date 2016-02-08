@@ -88,7 +88,8 @@
               <option value="ABS">ABS</option>
               <option value="NYLON">NYLON</option>
               <option value="PETT">PETT</option>
-              <option value="PETT">TPE</option>
+              <option value="PETG">PETG</option>
+              <option value="TPE">TPE</option>
               <option value="PLA / WOOD">PLA / WOOD</option>\
               <option value="HIPS">HIPS</option>
               <option value="PLA / PHA">PLA / PHA</option>
@@ -98,6 +99,7 @@
               <option value="PLA / Stainless Steel">PLA / Stainless Steel</option>
               <option value="PLA / Iron">PLA / Iron</option>
               <option value="PLA / Carbon Fiber">PLA / Carbon Fiber</option>
+              <option value="PETG / Carbon">PETG / Carbon</option>
               <option value="PLA / Mineral">PLA / Mineral</option>
               <option value="ABS / PC">ABS / PC</option>
             </select>
@@ -138,11 +140,13 @@
                 <option value="impact-strength">impact-strength</option>
                 <option value="resilient">resilient</option>
                 <option value="stretchy">stretchy</option>
+                <option value="low-friction">low-friction</option>
                 <option value="food-safe">food-safe</option>
                 <option value="organic">organic</option>
                 <option value="odor-neutral">odor-neutral</option>
                 <option value="glow-in-the-dark">glow-in-the-dark</option>
                 <option value="magnetic">magnetic</option>
+                <option value="conductive">conductive</option>
                 <option value="transparent">transparent</option>
                 <option value="translucent">translucent</option>
                 <option value="sparkly">sparkly</option>
@@ -187,7 +191,24 @@
             <br>
 
             <!--<h4>Cost Properties:</h4>-->
-          
+            <span class="pull-down-heading" aria-hidden="true"><strong>Location:</strong>
+              <select ng-model="location" ng-change="changeLocation(location)">
+                <option value="">ANY</option>-->
+                <option value="North America">North America</option>
+                <option value="South America">South America</option>
+                <option value="Western Europe">Western Europe</option>
+                <option value="Eastern Europe">Eastern Europe</option>
+                <option value="Africa">Africa</option>
+                <option value="Asia">Asia</option>
+                <option value="Southeast Asia">Southeast Asia</option>\
+                <option value="Africa">Africa</option>
+                <option value="Australia">Australia</option>
+                <option value="Antarctica">Antarctica</option>
+              </select>
+            </span> 
+
+            <br>
+
             <span class="pull-down-heading" aria-hidden="true"><strong>Supplier:</strong>
               <select ng-model="manufacturer" ng-change="changeManufacturer(manufacturer)">
                 <option value="">ANY</option>-->

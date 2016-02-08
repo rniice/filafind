@@ -1,7 +1,7 @@
 var myApp = angular.module('myApp', ['mp.colorPicker', 'rzModule', 'ui.bootstrap']);
 
-//var base_query = "http://localhost:8080/materials";
-var base_query = "https://stark-tundra-90514.herokuapp.com/materials";
+var base_query = "http://localhost:8080/materials";
+//var base_query = "https://stark-tundra-90514.herokuapp.com/materials";
 
 var filtered_query = "";      
 
@@ -11,7 +11,8 @@ var scope_struct = {
 	filament_diameter: "1.75", 
 	color: "",
 	opacity: "",                           //opacity is broken for some reason
-	manufacturer: "", 
+	location: "",
+  manufacturer: "", 
 	cost: "",
 	tags: "",
 	bed_material: "",
@@ -34,6 +35,7 @@ myApp.controller('userCtrl', ['$scope', '$http', function($scope,$http) {
   $scope.opacity = "";                   
 
   //non-initialized settings values:
+  $scope.location = "";
   $scope.manufacturer = "";
   $scope.cost = ["",""];
   $scope.tags = "";
@@ -71,6 +73,13 @@ myApp.controller('userCtrl', ['$scope', '$http', function($scope,$http) {
     generateFullQuery(scope_struct);
   };
 
+
+  $scope.changeLocation = function(location) {
+    $scope.location = location;
+    scope_struct.location = location; //update the scope_struct
+    generateFullQuery(scope_struct);
+  };
+
   
   $scope.changeCost = function(lowValue, highValue) {
     $scope.cost = [lowValue, highValue];
@@ -105,7 +114,8 @@ myApp.controller('userCtrl', ['$scope', '$http', function($scope,$http) {
     $scope.opacity = "";                   
 
     //non-initialized settings values:
-    $scope.manufacturer = "";
+    $scope.location = "";
+    $scope.manufacturer = "";   
     $scope.cost = ["",""];
     $scope.slider_cost.minValue = 10;
     $scope.slider_cost.maxValue = 60;
@@ -215,6 +225,7 @@ myApp.controller('userCtrl', ['$scope', '$http', function($scope,$http) {
     $scope.processing_technology                  = material.technology;
     $scope.processing_composition                 = material.composition;
     $scope.processing_filament_diameter           = material.filament_diameter;
+    $scope.processing_location                    = material.location;
     $scope.processing_manufacturer                = material.manufacturer;
     $scope.processing_cost                        = material.cost;
     $scope.processing_temp_extrude_default        = material.temp_extrude_default;

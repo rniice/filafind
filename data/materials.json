@@ -12,7 +12,7 @@
         "color": "ed3225",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -37,7 +37,7 @@
         "color": "fc8023",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -62,7 +62,7 @@
         "color": "42b549",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -87,7 +87,7 @@
         "color": "145fa9",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -112,7 +112,7 @@
         "color": "841a81",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -137,7 +137,7 @@
         "color": "000000",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -162,7 +162,7 @@
         "color": "ffffff",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -187,7 +187,7 @@
         "color": "f4f9f3",
         "opacity": 3,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -250,19 +250,19 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "unavailable",
         "id": "2A339AFE-64BE-452C-BE43-26FE0EE82B93",
         "version": 1,
         "name": "Red PLA 3D Printer Filament",
         "technology": "FDM",
         "composition": "PLA",
-        "cost": 39,
+        "cost": 999,
         "manufacturer": "Inventables",
         "website": "https://www.inventables.com/categories/materials/3d-printer-filament",
         "color": "e02726",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -275,13 +275,13 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "unavailable",
         "id": "C6644F62-1A47-4D2B-8ABC-DB4FFC3B1D89",
         "version": 1,
         "name": "Neon Orange PLA 3D Printer Filament",
         "technology": "FDM",
         "composition": "PLA",
-        "cost": 39,
+        "cost": 999,
         "manufacturer": "Inventables",
         "website": "https://www.inventables.com/categories/materials/3d-printer-filament",
         "color": "ed9421",
@@ -300,19 +300,19 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "unavailable",
         "id": "8D3CBFD9-45BA-4F61-8B46-A2135A82B210",
         "version": 1,
         "name": "Yellow PLA 3D Printer Filament",
         "technology": "FDM",
         "composition": "PLA",
-        "cost": 39,
+        "cost": 999,
         "manufacturer": "Inventables",
         "website": "https://www.inventables.com/categories/materials/3d-printer-filament",
         "color": "fad23e",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -325,13 +325,13 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "unavailable",
         "id": "59469728-9464-471E-B090-1A8CEBFB7132",
         "version": 1,
         "name": "Neon Yellow PLA 3D Printer Filament",
         "technology": "FDM",
         "composition": "PLA",
-        "cost": 39,
+        "cost": 999,
         "manufacturer": "Inventables",
         "website": "https://www.inventables.com/categories/materials/3d-printer-filament",
         "color": "fde650",
@@ -350,19 +350,19 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "unavailable",
         "id": "BCA92384-92B6-4C07-A211-523C41879CF2",
         "version": 1,
         "name": "Light Green PLA 3D Printer Filament",
         "technology": "FDM",
         "composition": "PLA",
-        "cost": 39,
+        "cost": 999,
         "manufacturer": "Inventables",
         "website": "https://www.inventables.com/categories/materials/3d-printer-filament",
         "color": "2cda77",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -375,19 +375,19 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "unavailable",
         "id": "F81E45CC-7CB0-4035-B569-4FC222D13053",
         "version": 1,
         "name": "Dark Green PLA 3D Printer Filament",
         "technology": "FDM",
         "composition": "PLA",
-        "cost": 39,
+        "cost": 999,
         "manufacturer": "Inventables",
         "website": "https://www.inventables.com/categories/materials/3d-printer-filament",
         "color": "318254",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -400,13 +400,13 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "unavailable",
         "id": "FAD22FFA-8910-4656-9B56-B2524F5C1568",
         "version": 1,
         "name": "Neon Blue PLA 3D Printer Filament",
         "technology": "FDM",
         "composition": "PLA",
-        "cost": 39,
+        "cost": 999,
         "manufacturer": "Inventables",
         "website": "https://www.inventables.com/categories/materials/3d-printer-filament",
         "color": "6fdffe",
@@ -425,19 +425,19 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "unavailable",
         "id": "E96BADE3-BDF9-4610-9CC4-6D7BA5B4E660",
         "version": 1,
         "name": "Light Blue PLA 3D Printer Filament",
         "technology": "FDM",
         "composition": "PLA",
-        "cost": 39,
+        "cost": 999,
         "manufacturer": "Inventables",
         "website": "https://www.inventables.com/categories/materials/3d-printer-filament",
         "color": "347fcd",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -450,19 +450,19 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "unavailable",
         "id": "E56C56D3-EE6E-4A6C-A864-A7D02E83BBD5",
         "version": 1,
         "name": "Dark Blue PLA 3D Printer Filament",
         "technology": "FDM",
         "composition": "PLA",
-        "cost": 39,
+        "cost": 999,
         "manufacturer": "Inventables",
         "website": "https://www.inventables.com/categories/materials/3d-printer-filament",
         "color": "354572",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -475,19 +475,19 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "unavailable",
         "id": "1D4AE028-D580-4119-AD3E-19B51F6B2AD2",
         "version": 1,
         "name": "Grape PLA 3D Printer Filament",
         "technology": "FDM",
         "composition": "PLA",
-        "cost": 39,
+        "cost": 999,
         "manufacturer": "Inventables",
         "website": "https://www.inventables.com/categories/materials/3d-printer-filament",
         "color": "bca0f9",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -500,19 +500,19 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "unavailable",
         "id": "5C66374E-B1F5-4406-BAAA-A73F9D6E4123",
         "version": 1,
         "name": "Magenta PLA 3D Printer Filament",
         "technology": "FDM",
         "composition": "PLA",
-        "cost": 39,
+        "cost": 999,
         "manufacturer": "Inventables",
         "website": "https://www.inventables.com/categories/materials/3d-printer-filament",
         "color": "d84889",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -525,19 +525,19 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "unavailable",
         "id": "8629392D-9EBC-4284-97CA-431D6776012B",
         "version": 1,
         "name": "Black PLA 3D Printer Filament",
         "technology": "FDM",
         "composition": "PLA",
-        "cost": 39,
+        "cost": 999,
         "manufacturer": "Inventables",
         "website": "https://www.inventables.com/categories/materials/3d-printer-filament",
         "color": "0c0c0c",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -550,19 +550,19 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "unavailable",
         "id": "57CAA913-EAB5-44B8-8214-5B3CC30D640A",
         "version": 1,
         "name": "White PLA 3D Printer Filament",
         "technology": "FDM",
         "composition": "PLA",
-        "cost": 39,
+        "cost": 999,
         "manufacturer": "Inventables",
         "website": "https://www.inventables.com/categories/materials/3d-printer-filament",
         "color": "f1ede2",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -575,19 +575,19 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "unavailable",
         "id": "880FAC38-DB37-4AAE-B36B-85E898E0C8FD",
         "version": 1,
         "name": "Brown PLA 3D Printer Filament",
         "technology": "FDM",
         "composition": "PLA",
-        "cost": 39,
+        "cost": 999,
         "manufacturer": "Inventables",
         "website": "https://www.inventables.com/categories/materials/3d-printer-filament",
         "color": "813b26",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -600,19 +600,19 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "unavailable",
         "id": "D1237F21-6D29-46AB-BF67-EC98A7941455",
         "version": 1,
         "name": "Translucent Red PLA 3D Printer Filament",
         "technology": "FDM",
         "composition": "PLA",
-        "cost": 65,
+        "cost": 999,
         "manufacturer": "Inventables",
         "website": "https://www.inventables.com/categories/materials/3d-printer-filament",
         "color": "8c081e",
         "opacity": 3,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -625,19 +625,19 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "unavailable",
         "id": "E6909C20-B4DA-4F53-9A79-6AC5CDBB75F3",
         "version": 1,
         "name": "Translucent Green PLA 3D Printer Filament",
         "technology": "FDM",
         "composition": "PLA",
-        "cost": 65,
+        "cost": 999,
         "manufacturer": "Inventables",
         "website": "https://www.inventables.com/categories/materials/3d-printer-filament",
         "color": "33592c",
         "opacity": 3,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -650,19 +650,19 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "unavailable",
         "id": "D7F51D3B-1268-4F08-9EDD-767489D1D926",
         "version": 1,
         "name": "Translucent Blue PLA 3D Printer Filament",
         "technology": "FDM",
         "composition": "PLA",
-        "cost": 65,
+        "cost": 999,
         "manufacturer": "Inventables",
         "website": "https://www.inventables.com/categories/materials/3d-printer-filament",
         "color": "7388b2",
         "opacity": 3,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -675,19 +675,19 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "unavailable",
         "id": "83775C71-2ACD-4C89-B00D-47CCF7930EC5",
         "version": 1,
         "name": "Natural PLA 3D Printer Filament",
         "technology": "FDM",
         "composition": "PLA",
-        "cost": 39,
+        "cost": 999,
         "manufacturer": "Inventables",
         "website": "https://www.inventables.com/categories/materials/3d-printer-filament",
         "color": "eee7c3",
         "opacity": 3,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -700,19 +700,19 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "unavailable",
         "id": "9D7BE29E-3EEC-42F5-B7D0-C8084836C09C",
         "version": 1,
         "name": "Semi-Translucent Red PLA 3D Printer Filament",
         "technology": "FDM",
         "composition": "PLA",
-        "cost": 24,
+        "cost": 999,
         "manufacturer": "Inventables",
         "website": "https://www.inventables.com/categories/materials/3d-printer-filament",
         "color": "c02126",
         "opacity": 2,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -725,19 +725,19 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "unavailable",
         "id": "4F708089-585F-42B4-89F3-E863D552177A",
         "version": 1,
         "name": "Semi-Translucent Yellow PLA 3D Printer Filament",
         "technology": "FDM",
         "composition": "PLA",
-        "cost": 24,
+        "cost": 999,
         "manufacturer": "Inventables",
         "website": "https://www.inventables.com/categories/materials/3d-printer-filament",
         "color": "fad23e",
         "opacity": 2,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -750,19 +750,19 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "unavailable",
         "id": "C47B8EB2-EDF6-4B5C-936E-3D240B430A58",
         "version": 1,
         "name": "Semi-Translucent Green PLA 3D Printer Filament",
         "technology": "FDM",
         "composition": "PLA",
-        "cost": 24,
+        "cost": 999,
         "manufacturer": "Inventables",
         "website": "https://www.inventables.com/categories/materials/3d-printer-filament",
         "color": "80c571",
         "opacity": 2,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -775,19 +775,19 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "unavailable",
         "id": "766DA066-6295-4E8E-BABA-C4D29F22AFE7",
         "version": 1,
         "name": "Semi-Translucent Blue PLA 3D Printer Filament",
         "technology": "FDM",
         "composition": "PLA",
-        "cost": 24,
+        "cost": 999,
         "manufacturer": "Inventables",
         "website": "https://www.inventables.com/categories/materials/3d-printer-filament",
         "color": "373e98",
         "opacity": 2,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -800,19 +800,19 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "unavailable",
         "id": "5C864705-FA19-4B68-8C8D-6AB3BBEF132B",
         "version": 1,
         "name": "Gold PLA 3D Filament",
         "technology": "FDM",
         "composition": "PLA",
-        "cost": 39,
+        "cost": 999,
         "manufacturer": "Inventables",
         "website": "https://www.inventables.com/categories/materials/3d-printer-filament",
         "color": "bd9c47",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -825,13 +825,13 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "unavailable",
         "id": "D4B7847D-B84D-4613-8DC6-C3492C0F98DB",
         "version": 1,
         "name": "Silver PLA 3D Printer Filament",
         "technology": "FDM",
         "composition": "PLA",
-        "cost": 39,
+        "cost": 999,
         "manufacturer": "Inventables",
         "website": "https://www.inventables.com/categories/materials/3d-printer-filament",
         "color": "8d8e8e",
@@ -850,13 +850,13 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "unavailable",
         "id": "707A483D-B047-4C68-AA7C-FEE4BBCE4E54",
         "version": 1,
         "name": "Glow in the Dark PLA 3D Printer Filament",
         "technology": "FDM",
         "composition": "PLA",
-        "cost": 35,
+        "cost": 999,
         "manufacturer": "Inventables",
         "website": "https://www.inventables.com/categories/materials/3d-printer-filament",
         "color": "a1ad66",
@@ -881,13 +881,13 @@
         "name": "Red ABS 3D Printer Filament",
         "technology": "FDM",
         "composition": "ABS",
-        "cost": 39,
+        "cost": 999,
         "manufacturer": "Inventables",
         "website": "https://www.inventables.com/categories/materials/3d-printer-filament",
         "color": "e32326",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -906,13 +906,13 @@
         "name": "Neon Orange ABS 3D Printer Filament",
         "technology": "FDM",
         "composition": "ABS",
-        "cost": 39,
+        "cost": 999,
         "manufacturer": "Inventables",
         "website": "https://www.inventables.com/categories/materials/3d-printer-filament",
         "color": "f79431",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -931,13 +931,13 @@
         "name": "Yellow ABS 3D Printer Filament",
         "technology": "FDM",
         "composition": "ABS",
-        "cost": 39,
+        "cost": 999,
         "manufacturer": "Inventables",
         "website": "https://www.inventables.com/categories/materials/3d-printer-filament",
         "color": "fbe03b",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -956,13 +956,13 @@
         "name": "Light Green ABS 3D Printer Filament",
         "technology": "FDM",
         "composition": "ABS",
-        "cost": 39,
+        "cost": 999,
         "manufacturer": "Inventables",
         "website": "https://www.inventables.com/categories/materials/3d-printer-filament",
         "color": "93eca0",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -981,13 +981,13 @@
         "name": "Green ABS 3D Printer Filament",
         "technology": "FDM",
         "composition": "ABS",
-        "cost": 39,
+        "cost": 999,
         "manufacturer": "Inventables",
         "website": "https://www.inventables.com/categories/materials/3d-printer-filament",
         "color": "30b36a",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -1006,13 +1006,13 @@
         "name": "Light Blue ABS 3D Printer Filament",
         "technology": "FDM",
         "composition": "ABS",
-        "cost": 39,
+        "cost": 999,
         "manufacturer": "Inventables",
         "website": "https://www.inventables.com/categories/materials/3d-printer-filament",
         "color": "1e73c7",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -1031,13 +1031,13 @@
         "name": "Blue ABS 3D Printer Filament",
         "technology": "FDM",
         "composition": "ABS",
-        "cost": 39,
+        "cost": 999,
         "manufacturer": "Inventables",
         "website": "https://www.inventables.com/categories/materials/3d-printer-filament",
         "color": "3a5ba8",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -1056,13 +1056,13 @@
         "name": "Dark Blue ABS 3D Printer Filament",
         "technology": "FDM",
         "composition": "ABS",
-        "cost": 39,
+        "cost": 999,
         "manufacturer": "Inventables",
         "website": "https://www.inventables.com/categories/materials/3d-printer-filament",
         "color": "354572",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -1081,13 +1081,13 @@
         "name": "Grape ABS 3D Printer Filament",
         "technology": "FDM",
         "composition": "ABS",
-        "cost": 39,
+        "cost": 999,
         "manufacturer": "Inventables",
         "website": "https://www.inventables.com/categories/materials/3d-printer-filament",
         "color": "ad90df",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -1106,13 +1106,13 @@
         "name": "Magenta ABS 3D Printer Filament",
         "technology": "FDM",
         "composition": "ABS",
-        "cost": 39,
+        "cost": 999,
         "manufacturer": "Inventables",
         "website": "https://www.inventables.com/categories/materials/3d-printer-filament",
         "color": "eb5a9f",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -1131,13 +1131,13 @@
         "name": "Black ABS 3D Printer Filament",
         "technology": "FDM",
         "composition": "ABS",
-        "cost": 39,
+        "cost": 999,
         "manufacturer": "Inventables",
         "website": "https://www.inventables.com/categories/materials/3d-printer-filament",
         "color": "111114",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -1156,13 +1156,13 @@
         "name": "White ABS 3D Printer Filament",
         "technology": "FDM",
         "composition": "ABS",
-        "cost": 39,
+        "cost": 999,
         "manufacturer": "Inventables",
         "website": "https://www.inventables.com/categories/materials/3d-printer-filament",
         "color": "f3eddd",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -1181,13 +1181,13 @@
         "name": "Natural ABS 3D Printer Filament",
         "technology": "FDM",
         "composition": "ABS",
-        "cost": 39,
+        "cost": 999,
         "manufacturer": "Inventables",
         "website": "https://www.inventables.com/categories/materials/3d-printer-filament",
         "color": "e4d8b0",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -1206,13 +1206,13 @@
         "name": "Brown ABS 3D Printer Filament",
         "technology": "FDM",
         "composition": "ABS",
-        "cost": 39,
+        "cost": 999,
         "manufacturer": "Inventables",
         "website": "https://www.inventables.com/categories/materials/3d-printer-filament",
         "color": "754338",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -1231,7 +1231,7 @@
         "name": "Silver ABS 3D Printer Filament",
         "technology": "FDM",
         "composition": "ABS",
-        "cost": 39,
+        "cost": 999,
         "manufacturer": "Inventables",
         "website": "https://www.inventables.com/categories/materials/3d-printer-filament",
         "color": "9b9da0",
@@ -1257,7 +1257,7 @@
         "technology": "FDM",
         "composition": "PLA / BRICK",
         "cost": 120,
-        "manufacturer": "Kai Parthy",
+        "manufacturer": "MatterHackers",
         "website": "https://www.matterhackers.com/store/3d-printer-filament?t=Kai%20Parthy%20Lay%20Series",
         "color": "c4c1b3",
         "opacity": 1,
@@ -1283,7 +1283,7 @@
         "technology": "FDM",
         "composition": "PLA / WOOD",
         "cost": 120,
-        "manufacturer": "Kai Parthy",
+        "manufacturer": "MatterHackers",
         "website": "https://www.matterhackers.com/store/3d-printer-filament?t=Kai%20Parthy%20Lay%20Series",
         "color": "7f5f3e",
         "opacity": 1,
@@ -1302,7 +1302,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "https://store.makerbot.com/filament/pla#rep2-truered",
         "id": "48B9B872-0E05-46C9-9C41-1C790A87B093",
         "version": 1,
         "name": "True Red PLA",
@@ -1314,7 +1314,7 @@
         "color": "cf1231",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -1327,7 +1327,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "https://store.makerbot.com/filament/pla#rep2-trueorange",
         "id": "DC408EF8-4847-4F30-9009-828788995746",
         "version": 1,
         "name": "True Orange PLA",
@@ -1339,7 +1339,7 @@
         "color": "f05922",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -1352,7 +1352,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "https://store.makerbot.com/filament/pla#rep2-neonorange",
         "id": "FAB11734-DA2B-47A2-B459-FDCB60E6F380",
         "version": 1,
         "name": "Neon Orange PLA",
@@ -1364,7 +1364,7 @@
         "color": "f97221",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -1377,7 +1377,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "https://store.makerbot.com/filament/pla#rep2-trueyellow",
         "id": "FB738E74-8824-40E8-8738-4219E2BAAFB9",
         "version": 1,
         "name": "True Yellow PLA",
@@ -1389,7 +1389,7 @@
         "color": "fcc11a",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -1402,7 +1402,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "https://store.makerbot.com/filament/pla#rep2-lemondrop",
         "id": "DDF28389-2D89-49BE-895A-5BBE08D43F63",
         "version": 1,
         "name": "Martha Stewart - Lemon Drop",
@@ -1414,7 +1414,7 @@
         "color": "fbe4a2",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -1427,7 +1427,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "https://store.makerbot.com/filament/pla#rep2-jadeite",
         "id": "D0270328-C452-4AD5-8225-C6B372CA35DD",
         "version": 1,
         "name": "Martha Stewart - Jadeite",
@@ -1439,7 +1439,7 @@
         "color": "cad5bd",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -1452,7 +1452,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "https://store.makerbot.com/filament/pla#rep2-neongreen",
         "id": "3F0BEF0B-4862-4498-88A8-75A2CF177468",
         "version": 1,
         "name": "Neon Green PLA",
@@ -1464,7 +1464,7 @@
         "color": "83f52c",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -1477,7 +1477,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "https://store.makerbot.com/filament/pla#rep2-truegreen",
         "id": "F8EB57FE-3019-4B90-8D57-12D45731A012",
         "version": 1,
         "name": "True Green PLA",
@@ -1489,7 +1489,7 @@
         "color": "3a8e56",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -1502,7 +1502,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "https://store.makerbot.com/filament/pla#rep2-robinsegg",
         "id": "506B86D2-BCE0-45DA-8E50-41C64CF1375A",
         "version": 1,
         "name": "Martha Stewart - Robin's Egg",
@@ -1514,7 +1514,7 @@
         "color": "acd5db",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -1527,7 +1527,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "https://store.makerbot.com/filament/pla#rep2-trueblue",
         "id": "D10D7796-8559-4EF7-89D2-6C13903D697B",
         "version": 1,
         "name": "True Blue PLA",
@@ -1539,7 +1539,7 @@
         "color": "0a99e8",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -1552,7 +1552,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "https://store.makerbot.com/filament/pla#rep2-oceanblue",
         "id": "527CCE5E-F998-43BF-980D-E393E861C3FC",
         "version": 1,
         "name": "Ocean Blue PLA",
@@ -1564,7 +1564,7 @@
         "color": "191f3f",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -1577,7 +1577,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "https://store.makerbot.com/filament/pla#rep2-truepurple",
         "id": "B073D876-B7B4-4B9D-AB8C-DE57FFF01187",
         "version": 1,
         "name": "True Purple PLA",
@@ -1589,7 +1589,7 @@
         "color": "862576",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -1602,7 +1602,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "https://store.makerbot.com/filament/pla#rep2-neonpink",
         "id": "9877D88A-D04A-4872-982E-BF10F9B49D6A",
         "version": 1,
         "name": "Neon Pink PLA",
@@ -1614,7 +1614,7 @@
         "color": "ff69b4",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -1627,7 +1627,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "https://store.makerbot.com/filament/pla#rep2-trueblack",
         "id": "8B71753C-1F6C-4E64-9103-4226A6485C59",
         "version": 1,
         "name": "True Black PLA",
@@ -1639,7 +1639,7 @@
         "color": "17130f",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -1652,7 +1652,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "https://store.makerbot.com/filament/pla#rep2-coolgray",
         "id": "5C80A0F6-8037-47E0-A70C-D53107EF8836",
         "version": 1,
         "name": "Cool Gray PLA",
@@ -1664,7 +1664,7 @@
         "color": "908b87",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -1677,7 +1677,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "https://store.makerbot.com/filament/pla#rep2-truewhite",
         "id": "EBD91643-1339-4765-80A9-D141D035816E",
         "version": 1,
         "name": "True White PLA",
@@ -1689,7 +1689,7 @@
         "color": "ffffff",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -1702,7 +1702,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "https://store.makerbot.com/filament/pla#rep2-warmgray",
         "id": "CAFE8850-0389-4222-99F9-6A61F1EF387E",
         "version": 1,
         "name": "Warm Gray PLA",
@@ -1714,7 +1714,7 @@
         "color": "eae2cb",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -1727,7 +1727,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "https://store.makerbot.com/filament/pla#rep2-natural",
         "id": "F345550C-90D8-438E-AB8C-59E99D66731A",
         "version": 1,
         "name": "Natural PLA",
@@ -1739,7 +1739,7 @@
         "color": "e1d5b6",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -1752,7 +1752,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "https://store.makerbot.com/filament/pla#rep2-armygreen",
         "id": "2BA16A03-8962-4123-9DE0-B5FB0E94377B",
         "version": 1,
         "name": "Army Green PLA",
@@ -1764,7 +1764,7 @@
         "color": "524719",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -1777,7 +1777,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "https://store.makerbot.com/filament/pla#rep2-truebrown",
         "id": "3DC5594D-3DA1-4B33-A7D7-22ED3884B953",
         "version": 1,
         "name": "True Brown PLA",
@@ -1789,7 +1789,7 @@
         "color": "995d15",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -1802,7 +1802,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "https://store.makerbot.com/filament/pla#rep2-lightbrown",
         "id": "90C2F53F-C412-4B74-82E8-437A871C15AD",
         "version": 1,
         "name": "Light Brown PLA",
@@ -1814,7 +1814,7 @@
         "color": "c38d4d",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -1827,7 +1827,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "https://store.makerbot.com/filament/pla#rep2-khaki",
         "id": "D5E52F07-4458-4FDF-963C-6C42A77C60D0",
         "version": 1,
         "name": "Khaki PLA",
@@ -1839,7 +1839,7 @@
         "color": "d5b18d",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -1852,7 +1852,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "https://store.makerbot.com/filament/pla#rep2-peach",
         "id": "0F3C7F1C-741C-4B49-90EA-4B50CB4DF6C5",
         "version": 1,
         "name": "Peach PLA",
@@ -1864,7 +1864,7 @@
         "color": "ddc5b2",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -1877,7 +1877,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "https://store.makerbot.com/filament/pla#rep2-translucentred",
         "id": "7334D6A1-A406-4C7C-9706-E2D144D61E5E",
         "version": 1,
         "name": "Translucent Red PLA",
@@ -1889,7 +1889,7 @@
         "color": "b3131a",
         "opacity": 3,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -1902,7 +1902,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "https://store.makerbot.com/filament/pla#rep2-translucentorange",
         "id": "F6328CC5-D90B-4360-8FEF-6CF82018C5FE",
         "version": 1,
         "name": "Translucent Orange PLA",
@@ -1914,7 +1914,7 @@
         "color": "f44c27",
         "opacity": 3,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -1927,7 +1927,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "https://store.makerbot.com/filament/pla#rep2-translucentyellow",
         "id": "7C3139B7-CEF5-4164-A91F-1CC5EC8134F3",
         "version": 1,
         "name": "Translucent Yellow PLA",
@@ -1939,7 +1939,7 @@
         "color": "f6ea44",
         "opacity": 3,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -1952,7 +1952,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "https://store.makerbot.com/filament/pla#rep2-translucentgreen",
         "id": "FDF84AE7-EA2A-4C24-B10D-33CB6C4E5586",
         "version": 1,
         "name": "Translucent Green PLA",
@@ -1964,7 +1964,7 @@
         "color": "1b944f",
         "opacity": 3,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -1977,7 +1977,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "https://store.makerbot.com/filament/pla#rep2-translucentblue",
         "id": "2DC1F486-3126-460D-88B9-A0ADE3F9AFCC",
         "version": 1,
         "name": "Translucent Blue PLA",
@@ -1989,7 +1989,7 @@
         "color": "8992b9",
         "opacity": 3,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -2002,7 +2002,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "https://store.makerbot.com/filament/pla#rep2-translucentpurple",
         "id": "CA06301E-030D-46A0-ACC0-45FEFBBDB065",
         "version": 1,
         "name": "Translucent Purple PLA",
@@ -2014,7 +2014,7 @@
         "color": "672641",
         "opacity": 3,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -2027,7 +2027,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "https://store.makerbot.com/filament/pla#rep2-sparklydarkblue",
         "id": "587B28E3-D164-4C10-8B51-1AAC9E23D23D",
         "version": 1,
         "name": "Sparkly Dark Blue PLA",
@@ -2052,7 +2052,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "https://store.makerbot.com/filament/pla#rep2-sparklyblack",
         "id": "2772F870-FE00-4412-AD21-1445619CADEA",
         "version": 1,
         "name": "Sparkly Black PLA",
@@ -2077,7 +2077,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "https://store.makerbot.com/filament/pla#rep2-glowinthedark",
         "id": "616E7E2C-6DEA-4C0F-A8EA-AD3BB1DE74A4",
         "version": 1,
         "name": "Glow in the Dark PLA",
@@ -2102,7 +2102,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "https://store.makerbot.com/filament/pla#rep2-magentaphotochromatic",
         "id": "57F51E9B-5512-4C58-86DA-62D33F122EDC",
         "version": 1,
         "name": "Magenta Photochromatic PLA",
@@ -2127,7 +2127,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "https://store.makerbot.com/filament/pla#rep2-bluephotochromatic",
         "id": "DD6051B3-97DC-4E63-9E05-9F5DE738BBC6",
         "version": 1,
         "name": "Blue Photochromatic PLA",
@@ -2152,7 +2152,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "https://store.makerbot.com/dissolvable-filament.html",
         "id": "A6C5E744-D737-4A98-92B5-F59F98AF9727",
         "version": 1,
         "name": "Dissolvable",
@@ -2177,19 +2177,20 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "https://store.makerbot.com/filament/flexible",
         "id": "C643727E-A369-46C5-819A-5C49883E89ED",
         "version": 1,
         "name": "Flexible Filament",
         "technology": "FDM",
-        "composition": "unknown",
+        "composition": "TPE",
         "cost": 130,
         "manufacturer": "MakerBot",
         "website": "https://store.makerbot.com/filament",
         "color": "efece6",
         "opacity": 1,
         "tags": [
-            "flexible"
+            "flexible",
+            "stretchy"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -2202,7 +2203,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "https://store.makerbot.com/filament/abs",
         "id": "BAE815EE-6159-4C63-927C-57CE09B71E2A",
         "version": 1,
         "name": "True Red ABS",
@@ -2214,7 +2215,7 @@
         "color": "d41c25",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -2227,7 +2228,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "https://store.makerbot.com/filament/abs",
         "id": "4C487CF6-C316-4D74-BEC5-AA85392CA87C",
         "version": 1,
         "name": "True Orange ABS",
@@ -2239,7 +2240,7 @@
         "color": "ea8034",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -2252,7 +2253,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "https://store.makerbot.com/filament/abs",
         "id": "2E5157B2-2ED9-4C93-82BF-2FF884707A47",
         "version": 1,
         "name": "True Yellow ABS",
@@ -2264,7 +2265,7 @@
         "color": "fcce4c",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -2277,7 +2278,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "https://store.makerbot.com/filament/abs",
         "id": "E27784DF-F217-4733-871B-7FA095A8C036",
         "version": 1,
         "name": "True Green ABS",
@@ -2289,7 +2290,7 @@
         "color": "298148",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -2302,7 +2303,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "https://store.makerbot.com/filament/abs",
         "id": "4A86F9AE-BCB0-4838-9E1D-F3E5D94B8007",
         "version": 1,
         "name": "True Blue ABS",
@@ -2314,7 +2315,7 @@
         "color": "1b70c7",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -2327,7 +2328,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "https://store.makerbot.com/filament/abs",
         "id": "D11551CB-B02D-410A-8410-3C4FF454CC7F",
         "version": 1,
         "name": "True Purple ABS",
@@ -2339,7 +2340,7 @@
         "color": "a13ac7",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -2352,7 +2353,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "https://store.makerbot.com/filament/abs",
         "id": "FA4CE58D-7ED1-4366-9245-E9B581533773",
         "version": 1,
         "name": "True Black ABS",
@@ -2364,7 +2365,7 @@
         "color": "000000",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -2377,7 +2378,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "https://store.makerbot.com/filament/abs",
         "id": "1169BB68-2976-4AE1-817B-A9DE1F2565D1",
         "version": 1,
         "name": "True Gray ABS",
@@ -2389,7 +2390,7 @@
         "color": "a1a5a6",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -2402,7 +2403,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "https://store.makerbot.com/filament/abs",
         "id": "A98EA5D1-8352-47D8-9D91-A2C3362FD5A7",
         "version": 1,
         "name": "True White ABS",
@@ -2414,7 +2415,7 @@
         "color": "fcfaee",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -2427,7 +2428,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "https://store.makerbot.com/filament/abs",
         "id": "8DC454BA-8B72-4695-8877-41ED1200F8BF",
         "version": 1,
         "name": "Natural ABS",
@@ -2439,7 +2440,7 @@
         "color": "daddc2",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -2452,7 +2453,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://www.ninjaflex3d.com/",
         "id": "07BF90B6-C441-4D3F-B179-C338DEB9FC07",
         "version": 1,
         "name": "Blue NinjaFlex 3D Printer Filament",
@@ -2460,7 +2461,7 @@
         "composition": "TPE",
         "cost": 104,
         "manufacturer": "NinjaFlex",
-        "website": "",
+        "website": "http://www.ninjaflex3d.com/",
         "color": "496db3",
         "opacity": 1,
         "tags": [
@@ -2477,7 +2478,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://www.ninjaflex3d.com/",
         "id": "D9A983E1-382F-4F58-B9E3-9C467423FDC2",
         "version": 1,
         "name": "Black NinjaFlex 3D Printer Filament",
@@ -2485,7 +2486,7 @@
         "composition": "TPE",
         "cost": 104,
         "manufacturer": "NinjaFlex",
-        "website": "",
+        "website": "http://www.ninjaflex3d.com/",
         "color": "1e1e21",
         "opacity": 1,
         "tags": [
@@ -2502,7 +2503,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://www.ninjaflex3d.com/",
         "id": "7E32E2C7-09F1-4D3C-A603-6FDC52E68F99",
         "version": 1,
         "name": "White NinjaFlex 3D Printer Filament",
@@ -2510,7 +2511,7 @@
         "composition": "TPE",
         "cost": 104,
         "manufacturer": "NinjaFlex",
-        "website": "",
+        "website": "http://www.ninjaflex3d.com/",
         "color": "edede8",
         "opacity": 1,
         "tags": [
@@ -2527,12 +2528,12 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://www.polymaker.com/shop/polyflex/",
         "id": "539B5E2E-5C3C-4E8E-95E2-F22A68AB4D6E",
         "version": 1,
         "name": "PolyFlex True Black",
         "technology": "FDM",
-        "composition": "unknown",
+        "composition": "TPE",
         "cost": 76,
         "manufacturer": "Polymaker",
         "website": "http://www.polymaker.com/",
@@ -2553,12 +2554,12 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://www.polymaker.com/shop/polyflex/",
         "id": "EFDF0A4D-8CE2-4C81-88BD-A6AC175ADDCA",
         "version": 1,
         "name": "PolyFlex True White",
         "technology": "FDM",
-        "composition": "unknown",
+        "composition": "TPE",
         "cost": 76,
         "manufacturer": "Polymaker",
         "website": "http://www.polymaker.com/",
@@ -2579,7 +2580,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://www.polymaker.com/shop/polymax/",
         "id": "E67CA928-AE30-4EE0-B089-5CD9F1BFFF47",
         "version": 1,
         "name": "PolyMax PLA True White",
@@ -2592,7 +2593,7 @@
         "opacity": 1,
         "tags": [
             "ductile",
-            " tough"
+            "tough"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -2605,7 +2606,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://www.polymaker.com/shop/polyplus-true-colour/",
         "id": "1E40BDBC-D5D1-47F1-B765-C6C379AD4442",
         "version": 1,
         "name": "PolyPlus PLA Translucent Yellow",
@@ -2617,7 +2618,7 @@
         "color": "ecd567",
         "opacity": 2,
         "tags": [
-            "undefined"
+            "translucent"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -2630,7 +2631,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://www.polymaker.com/shop/polyplus-true-colour/",
         "id": "0CD00D43-105B-4711-B935-5AFFF8729F4E",
         "version": 1,
         "name": "PolyPlus PLA Translucent Orange",
@@ -2642,7 +2643,7 @@
         "color": "fcb360",
         "opacity": 2,
         "tags": [
-            "undefined"
+            "translucent"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -2655,7 +2656,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://www.polymaker.com/shop/polyplus-true-colour/",
         "id": "02802E42-49DB-40C4-BCC2-CAC55847F283",
         "version": 1,
         "name": "PolyPlus PLA Translucent Red",
@@ -2667,7 +2668,7 @@
         "color": "f76559",
         "opacity": 2,
         "tags": [
-            "undefined"
+            "translucent"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -2680,7 +2681,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://www.polymaker.com/shop/polyplus-true-colour/",
         "id": "F8D00172-8872-45CF-9051-DEB547AE1E3E",
         "version": 1,
         "name": "PolyPlus PLA Translucent Blue",
@@ -2692,7 +2693,7 @@
         "color": "72b1ca",
         "opacity": 2,
         "tags": [
-            "undefined"
+            "translucent"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -2705,7 +2706,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://www.polymaker.com/shop/polyplus-true-colour/",
         "id": "5A943F1A-5471-4AAE-8F7C-F9CFE1ED68B4",
         "version": 1,
         "name": "PolyPlus PLA True Natural",
@@ -2717,7 +2718,7 @@
         "color": "cfccba",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -2730,7 +2731,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://www.polymaker.com/shop/polyplus-true-colour/",
         "id": "68A53FB4-D043-4ABE-847C-ACAA675BCF1B",
         "version": 1,
         "name": "PolyPlus PLA True White",
@@ -2742,7 +2743,7 @@
         "color": "edeae6",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -2755,7 +2756,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://www.polymaker.com/shop/polyplus-true-colour/",
         "id": "BBDEDEDD-4A10-4ECF-855D-797B23EDA51D",
         "version": 1,
         "name": "PolyPlus PLA True Yellow",
@@ -2767,7 +2768,7 @@
         "color": "dfc910",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -2780,7 +2781,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://www.polymaker.com/shop/polyplus-true-colour/",
         "id": "22BB9287-8781-4A72-9DB7-C4441B2042E6",
         "version": 1,
         "name": "PolyPlus PLA True Orange",
@@ -2792,7 +2793,7 @@
         "color": "ff7000",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -2805,7 +2806,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://www.polymaker.com/shop/polyplus-true-colour/",
         "id": "56930083-27B4-470D-AC30-97AF75F559B6",
         "version": 1,
         "name": "PolyPlus PLA True Red",
@@ -2817,7 +2818,7 @@
         "color": "d43a30",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -2830,7 +2831,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://www.polymaker.com/shop/polyplus-true-colour/",
         "id": "305D6CBB-5146-4538-9755-EA93290B36D8",
         "version": 1,
         "name": "PolyPlus PLA True Blue",
@@ -2842,7 +2843,7 @@
         "color": "4b5691",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -2855,7 +2856,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://www.polymaker.com/shop/polyplus-true-colour/",
         "id": "258E7F8F-3EDE-4CB1-B44E-CFD0EC318835",
         "version": 1,
         "name": "PolyPlus PLA True Black",
@@ -2867,7 +2868,7 @@
         "color": "edeae6",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -2880,7 +2881,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://www.proto-pasta.com/",
         "id": "B0810028-C7B6-40F7-BC04-168D8AC56C28",
         "version": 1,
         "name": "PC-ABS Black",
@@ -2908,7 +2909,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://www.proto-pasta.com/",
         "id": "CC19B6EB-E6C4-4E13-B2B3-A075F09E8351",
         "version": 1,
         "name": "PC-ABS Natural",
@@ -2936,12 +2937,12 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://www.proto-pasta.com/",
         "id": "D3514DA7-CED7-43A9-BA2B-E278EACDD666",
         "version": 1,
         "name": "Carbon Fiber",
         "technology": "FDM",
-        "composition": "PLA / CF",
+        "composition": "PLA / Carbon Fiber",
         "cost": 80,
         "manufacturer": "Proto-Pasta",
         "website": "http://www.proto-pasta.com/",
@@ -2949,7 +2950,7 @@
         "opacity": 1,
         "tags": [
             "composite",
-            " carbon-fiber"
+            "carbon-fiber"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -2962,7 +2963,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://www.proto-pasta.com/",
         "id": "00301118-CE20-4BCD-9297-C033C4DA0E06",
         "version": 1,
         "name": "Magnetic Iron",
@@ -2975,7 +2976,7 @@
         "opacity": 1,
         "tags": [
             "metal",
-            " magnetic"
+            "magnetic"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -2988,7 +2989,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://www.proto-pasta.com/",
         "id": "860F6BF5-D2E6-4457-AC58-580B8D78DC6D",
         "version": 1,
         "name": "High Temp PLA",
@@ -3015,7 +3016,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://www.proto-pasta.com/",
         "id": "CF761D56-0FC9-42B7-BCC7-E74AA9BB4833",
         "version": 1,
         "name": "Stainless Steel",
@@ -3040,7 +3041,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://taulman3d.com/",
         "id": "B654F90B-2FA2-43FD-9F81-5009FACA9B46",
         "version": 1,
         "name": "Taulman PCTPE",
@@ -3066,7 +3067,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://taulman3d.com/",
         "id": "4F9EE3E4-5BB8-4130-B750-2C9BAAD3603E",
         "version": 1,
         "name": "Taulman Nylon 618 3D Printer Filament",
@@ -3078,7 +3079,7 @@
         "color": "f7f7f7",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -3091,7 +3092,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://taulman3d.com/",
         "id": "AF170074-A0BD-4403-A034-B2C8BF5F504B",
         "version": 1,
         "name": "Taulman Nylon 645",
@@ -3103,7 +3104,7 @@
         "color": "f7f7f7",
         "opacity": 2,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -3116,7 +3117,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://taulman3d.com/",
         "id": "A81F274D-0835-444E-8C5C-EAB05296C9BF",
         "version": 1,
         "name": "Taulman T-Glase - Clear",
@@ -3128,7 +3129,7 @@
         "color": "fffffe",
         "opacity": 3,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -3141,7 +3142,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://taulman3d.com/",
         "id": "42F0F9E1-BD5E-4087-B4A3-524684A5B4EC",
         "version": 1,
         "name": "Taulman Bridge Nylon",
@@ -3153,7 +3154,7 @@
         "color": "f7f7f7",
         "opacity": 2,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -3166,7 +3167,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://taulman3d.com/",
         "id": "664CFBA1-B4B0-4EA8-BF7E-1458CFBE34B2",
         "version": 1,
         "name": "Taulman T-Glase - Red Star",
@@ -3178,7 +3179,7 @@
         "color": "c5103a",
         "opacity": 3,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -3191,7 +3192,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://taulman3d.com/",
         "id": "E680B173-A6B7-4B6C-9A5A-A556B45F9CB5",
         "version": 1,
         "name": "Taulman T-Glase - Green Lens",
@@ -3203,7 +3204,7 @@
         "color": "24c352",
         "opacity": 3,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -3216,7 +3217,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://taulman3d.com/",
         "id": "94E53494-D49A-4E2B-8285-8E9B66C7A1FB",
         "version": 1,
         "name": "Taulman T-Glase - Orion Blue",
@@ -3228,7 +3229,7 @@
         "color": "012260",
         "opacity": 3,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -3241,7 +3242,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://taulman3d.com/",
         "id": "12C227B1-787D-447A-AE14-5A6933A44B84",
         "version": 1,
         "name": "Taulman T-Glase - Black",
@@ -3253,7 +3254,7 @@
         "color": "17130f",
         "opacity": 2,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -3266,7 +3267,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://www.pp3dp.com/",
         "id": "FC626074-F8A8-48E2-AD10-6D9F9DBCD383",
         "version": 1,
         "name": "Rio Green PLA",
@@ -3274,11 +3275,11 @@
         "composition": "PLA",
         "cost": 64,
         "manufacturer": "UP PP3DP",
-        "website": "http://www.amazon.com/",
+        "website": "http://www.pp3dp.com/",
         "color": "8ac656",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -3291,7 +3292,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://www.pp3dp.com/",
         "id": "FFF6C470-1199-4099-9A4F-4F16BD318CED",
         "version": 1,
         "name": "Hawaii Blue PLA",
@@ -3299,11 +3300,11 @@
         "composition": "PLA",
         "cost": 64,
         "manufacturer": "UP PP3DP",
-        "website": "http://www.amazon.com/",
+        "website": "http://www.pp3dp.com/",
         "color": "a5def8",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -3316,7 +3317,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://www.pp3dp.com/",
         "id": "000EB4D5-6CF1-4754-B080-CC9D606F81B4",
         "version": 1,
         "name": "Pompeii Gray PLA",
@@ -3324,11 +3325,11 @@
         "composition": "PLA",
         "cost": 64,
         "manufacturer": "UP PP3DP",
-        "website": "http://www.amazon.com/",
+        "website": "http://www.pp3dp.com/",
         "color": "eeedf6",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -3341,7 +3342,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://www.pp3dp.com/",
         "id": "DD74737E-DB2B-48D2-BA79-D1215E63D7FE",
         "version": 1,
         "name": "Red ABS",
@@ -3349,11 +3350,11 @@
         "composition": "ABS",
         "cost": 64,
         "manufacturer": "UP PP3DP",
-        "website": "http://www.amazon.com/",
+        "website": "http://www.pp3dp.com/",
         "color": "e61e25",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -3366,7 +3367,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://www.pp3dp.com/",
         "id": "A2F6C5A1-165B-45E4-B54B-51131FA33FDB",
         "version": 1,
         "name": "Yellow ABS",
@@ -3374,11 +3375,11 @@
         "composition": "ABS",
         "cost": 64,
         "manufacturer": "UP PP3DP",
-        "website": "http://www.amazon.com/",
+        "website": "http://www.pp3dp.com/",
         "color": "fbae1c",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -3391,7 +3392,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://www.pp3dp.com/",
         "id": "19204AE0-1D5B-4559-8B2B-38D5B588584F",
         "version": 1,
         "name": "Green ABS",
@@ -3399,11 +3400,11 @@
         "composition": "ABS",
         "cost": 64,
         "manufacturer": "UP PP3DP",
-        "website": "http://www.amazon.com/",
+        "website": "http://www.pp3dp.com/",
         "color": "2a924d",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -3416,7 +3417,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://www.pp3dp.com/",
         "id": "C9484240-50A3-4E2E-A98B-EF0CC69CAF8C",
         "version": 1,
         "name": "Blue ABS",
@@ -3424,11 +3425,11 @@
         "composition": "ABS",
         "cost": 64,
         "manufacturer": "UP PP3DP",
-        "website": "http://www.amazon.com/",
+        "website": "http://www.pp3dp.com/",
         "color": "194b9f",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -3441,7 +3442,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://www.pp3dp.com/",
         "id": "D929FADD-7B43-4BC9-A470-C972549EAFEE",
         "version": 1,
         "name": "Black ABS",
@@ -3449,11 +3450,11 @@
         "composition": "ABS",
         "cost": 64,
         "manufacturer": "UP PP3DP",
-        "website": "http://www.amazon.com/",
+        "website": "http://www.pp3dp.com/",
         "color": "0b0b09",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -3466,7 +3467,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://www.pp3dp.com/",
         "id": "73F21AC8-E566-4F5E-B058-005F1482E3D0",
         "version": 1,
         "name": "White ABS",
@@ -3474,11 +3475,11 @@
         "composition": "ABS",
         "cost": 64,
         "manufacturer": "UP PP3DP",
-        "website": "http://www.amazon.com/",
+        "website": "http://www.pp3dp.com/",
         "color": "f2f4ee",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -3491,7 +3492,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://colorfabb.com/xt-red",
         "id": "60812268-4AD5-4C62-BF46-E26E1A0250EA",
         "version": 1,
         "name": "XT Red",
@@ -3520,7 +3521,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://colorfabb.com/xt-orange",
         "id": "B6D9A235-DB8B-43BA-8E16-45FC213568F8",
         "version": 1,
         "name": "XT Orange",
@@ -3549,7 +3550,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://colorfabb.com/xt-yellow",
         "id": "29795EF3-B3DA-46C0-B57C-7210A474E50D",
         "version": 1,
         "name": "XT Yellow",
@@ -3578,7 +3579,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://colorfabb.com/xt-light-green",
         "id": "48C1A036-B703-4471-88B5-8EB428BD0D4E",
         "version": 1,
         "name": "XT Light Green",
@@ -3607,7 +3608,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://colorfabb.com/xt-dark-green",
         "id": "5D4D0A92-0863-48E5-BF67-810C1FED3E2D",
         "version": 1,
         "name": "XT Dark Green",
@@ -3636,7 +3637,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://colorfabb.com/xt-light-blue",
         "id": "9BD36CA3-FF35-4EC5-A389-6BE11B7AE075",
         "version": 1,
         "name": "XT Light Blue",
@@ -3665,7 +3666,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://colorfabb.com/xt-purple",
         "id": "F68D94A9-576E-4AA4-93BE-8514DCADD319",
         "version": 1,
         "name": "XT Purple",
@@ -3694,7 +3695,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://colorfabb.com/xt-pink",
         "id": "76FCE225-D748-4028-A1A8-3ED764D5B9F2",
         "version": 1,
         "name": "XT Pink",
@@ -3723,7 +3724,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://colorfabb.com/xt-black",
         "id": "EC20D382-7A5C-451A-9833-824076076606",
         "version": 1,
         "name": "XT Black",
@@ -3752,7 +3753,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://colorfabb.com/xt-white",
         "id": "436C1E89-7D9F-4A83-81D7-6EBEEBBDF0D2",
         "version": 1,
         "name": "XT White",
@@ -3781,7 +3782,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://colorfabb.com/xt",
         "id": "729ED6DB-F33E-4DDC-8D12-4A614C8B3965",
         "version": 1,
         "name": "XT",
@@ -3810,7 +3811,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://colorfabb.com/bronzefill",
         "id": "BB9E3863-A327-44EB-B592-64FDFABDF70A",
         "version": 1,
         "name": "bronzeFill",
@@ -3836,7 +3837,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://colorfabb.com/copperfill",
         "id": "E48C7ECC-C792-4459-A4B6-917A885D9346",
         "version": 1,
         "name": "copperFill",
@@ -3862,7 +3863,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://colorfabb.com/glowfill",
         "id": "446BEF1D-7903-4706-9315-6C5E38B95C8A",
         "version": 1,
         "name": "glowFill",
@@ -3887,7 +3888,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://colorfabb.com/traffic-red",
         "id": "6401F836-61D7-4D0E-B0A9-0E8D70D3422F",
         "version": 1,
         "name": "Traffic Red",
@@ -3899,7 +3900,7 @@
         "color": "fb452b",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -3912,7 +3913,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://colorfabb.com/warm-red",
         "id": "6458E2F3-59DB-4D62-8161-E9B123529285",
         "version": 1,
         "name": "Warm Red",
@@ -3924,7 +3925,7 @@
         "color": "f7743d",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -3937,7 +3938,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://colorfabb.com/dutch-orange",
         "id": "543BC457-78FB-4DFD-9AB9-46C65FC5EDBB",
         "version": 1,
         "name": "Dutch Orange",
@@ -3949,7 +3950,7 @@
         "color": "ffbe5e",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -3962,7 +3963,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://colorfabb.com/signal-yellow",
         "id": "679F569E-9AB8-435E-ADA4-AF81F1771B2B",
         "version": 1,
         "name": "Signal Yellow",
@@ -3974,7 +3975,7 @@
         "color": "ffe944",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -3987,7 +3988,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://colorfabb.com/flourescent-green",
         "id": "144B7BF4-B867-49E2-91F4-1F3605200246",
         "version": 1,
         "name": "Flourescent Green",
@@ -4012,7 +4013,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://colorfabb.com/intense-green",
         "id": "EBDE3A18-6973-42F1-AA7E-B71CEE007E76",
         "version": 1,
         "name": "Intense Green",
@@ -4024,7 +4025,7 @@
         "color": "a8da3a",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -4037,7 +4038,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://colorfabb.com/leaf-green",
         "id": "B921B6D6-104A-42D3-8910-0BE8D9B3D5E2",
         "version": 1,
         "name": "Leaf Green",
@@ -4049,7 +4050,7 @@
         "color": "27863a",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -4062,7 +4063,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://colorfabb.com/mint-turquoise",
         "id": "87D4D78C-ACB6-4F51-87EE-9F592D25A080",
         "version": 1,
         "name": "Mint Turquoise",
@@ -4074,7 +4075,7 @@
         "color": "54c3b2",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -4087,7 +4088,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://colorfabb.com/sky-blue",
         "id": "B2EE6971-CE46-42DF-A511-B38C37816F6B",
         "version": 1,
         "name": "Sky Blue",
@@ -4099,7 +4100,7 @@
         "color": "10aef3",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -4112,7 +4113,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://colorfabb.com/ultramarine-blue",
         "id": "BB0A0FDC-4348-499C-9FB4-0EC7D397DB84",
         "version": 1,
         "name": "Ultramarine Blue",
@@ -4124,7 +4125,7 @@
         "color": "0c1c92",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -4137,7 +4138,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://colorfabb.com/lila",
         "id": "5CFEA74F-777B-4928-8797-A381BA22D97A",
         "version": 1,
         "name": "Lila",
@@ -4149,7 +4150,7 @@
         "color": "c7b6ff",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -4162,7 +4163,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://colorfabb.com/magenta",
         "id": "C540425E-B801-4C50-9738-A2F823805AE5",
         "version": 1,
         "name": "Magenta",
@@ -4174,7 +4175,7 @@
         "color": "ff73db",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -4187,7 +4188,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://colorfabb.com/fluorescent-pink",
         "id": "84530914-C01F-47CF-B3CF-BB614EBBA2E0",
         "version": 1,
         "name": "Fluorescent Pink",
@@ -4212,7 +4213,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://colorfabb.com/standard-black",
         "id": "9D3130F8-1F05-4362-B01B-4140C618D104",
         "version": 1,
         "name": "Standard Black",
@@ -4224,7 +4225,7 @@
         "color": "262723",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -4237,7 +4238,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://colorfabb.com/blue-grey",
         "id": "4F21EA58-FE6C-4F27-B183-41948DB33450",
         "version": 1,
         "name": "Blue Grey",
@@ -4249,7 +4250,7 @@
         "color": "88a2bd",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -4262,7 +4263,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://colorfabb.com/bluish-white",
         "id": "C2731678-4FC9-40D8-ACAD-8C091308A7F5",
         "version": 1,
         "name": "Bluish White",
@@ -4274,7 +4275,7 @@
         "color": "f8f9fa",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -4287,7 +4288,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://colorfabb.com/standard-white",
         "id": "F5DE5943-A2F6-4110-B0B7-547EC02C5E2A",
         "version": 1,
         "name": "Standard White",
@@ -4299,7 +4300,7 @@
         "color": "fffef8",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -4312,7 +4313,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://colorfabb.com/greenish-beige",
         "id": "FAA27690-4B5A-4F4B-90EA-81A030306EBB",
         "version": 1,
         "name": "Greenish Beige",
@@ -4324,7 +4325,7 @@
         "color": "c0bd95",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -4337,7 +4338,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://colorfabb.com/olive-green",
         "id": "B6C243EF-8EFA-49FE-B463-79F981D1A569",
         "version": 1,
         "name": "Olive Green",
@@ -4349,7 +4350,7 @@
         "color": "858967",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -4362,7 +4363,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://colorfabb.com/chocolate-brown",
         "id": "17F1BD70-B3F7-472E-8B60-058EEA69E09E",
         "version": 1,
         "name": "Chocolate Brown",
@@ -4374,7 +4375,7 @@
         "color": "573a30",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -4387,7 +4388,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://colorfabb.com/light-brown",
         "id": "DCD57B24-962C-48CF-806C-AF107225D033",
         "version": 1,
         "name": "Light Brown",
@@ -4399,7 +4400,7 @@
         "color": "c38853",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -4412,7 +4413,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://colorfabb.com/violet-transparent",
         "id": "E3233543-91C5-4113-BC61-EA207F7673D1",
         "version": 1,
         "name": "Violet Transparent",
@@ -4424,7 +4425,7 @@
         "color": "c71d51",
         "opacity": 3,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -4437,7 +4438,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://colorfabb.com/red-transparent",
         "id": "06426590-E954-464E-81E6-76AC04AB95FF",
         "version": 1,
         "name": "Red Transparent",
@@ -4449,7 +4450,7 @@
         "color": "ea3f39",
         "opacity": 3,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -4462,7 +4463,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://colorfabb.com/orange-translucent",
         "id": "CE481E9F-B6D1-41E1-B0A8-E317773E3B3A",
         "version": 1,
         "name": "Orange Translucent",
@@ -4474,7 +4475,7 @@
         "color": "fc9f2c",
         "opacity": 3,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -4487,7 +4488,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://colorfabb.com/yellow-transparent",
         "id": "BDE7BF58-2EBB-44E1-9DFE-3DA7FB1205B6",
         "version": 1,
         "name": "Yellow Transparent",
@@ -4499,7 +4500,7 @@
         "color": "f2ec42",
         "opacity": 3,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -4512,7 +4513,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://colorfabb.com/green-transparent",
         "id": "C44DA484-6FA6-4DB4-ABA5-40E01122C283",
         "version": 1,
         "name": "Green Transparent",
@@ -4524,7 +4525,7 @@
         "color": "488a36",
         "opacity": 3,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -4537,7 +4538,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://colorfabb.com/naturel",
         "id": "94D82113-A974-4396-AEB6-F82572F1C92F",
         "version": 1,
         "name": "Naturel",
@@ -4549,7 +4550,7 @@
         "color": "e8d8b7",
         "opacity": 2,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -4562,7 +4563,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://colorfabb.com/olympic-gold",
         "id": "C28D8C98-105C-4341-8FDF-690C341181BA",
         "version": 1,
         "name": "Olympic Gold",
@@ -4574,7 +4575,7 @@
         "color": "f3c720",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -4587,7 +4588,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://colorfabb.com/pale-gold",
         "id": "CA6FB073-DE10-4F7B-8376-FFF95C4F5026",
         "version": 1,
         "name": "Pale Gold",
@@ -4612,7 +4613,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://colorfabb.com/shining-silver",
         "id": "FBCD8CD5-CC39-4969-9457-2703374E7A0A",
         "version": 1,
         "name": "Shining Silver",
@@ -4637,7 +4638,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://colorfabb.com/woodfill-fine",
         "id": "4AC240D0-AF0C-4505-8578-00F05789B39F",
         "version": 1,
         "name": "woodFill Fine",
@@ -4650,7 +4651,7 @@
         "opacity": 1,
         "tags": [
             "composite",
-            " wood"
+            "wood"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1.05,
@@ -4663,7 +4664,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://colorfabb.com/bamboofill",
         "id": "A2536490-3D3C-4B11-8653-77DAD065EE3B",
         "version": 1,
         "name": "bambooFill",
@@ -4676,7 +4677,7 @@
         "opacity": 1,
         "tags": [
             "composite",
-            " wood"
+            "wood"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1.05,
@@ -4689,7 +4690,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://colorfabb.com/xt-red",
         "id": "7BFEDC11-FD6F-4163-A74A-140E692930B4",
         "version": 1,
         "name": "XT Red",
@@ -4718,7 +4719,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://colorfabb.com/xt-orange",
         "id": "58BD1397-0F98-4563-94EF-B019069818F7",
         "version": 1,
         "name": "XT Orange",
@@ -4747,7 +4748,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://colorfabb.com/xt-yellow",
         "id": "229FD7D3-DE50-4909-B414-5FD16D482610",
         "version": 1,
         "name": "XT Yellow",
@@ -4776,7 +4777,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://colorfabb.com/xt-light-green",
         "id": "BBED3908-DA61-4727-9E6F-C6E9AE374C43",
         "version": 1,
         "name": "XT Light Green",
@@ -4805,7 +4806,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://colorfabb.com/xt-dark-green",
         "id": "4DB4DBD2-C354-4DFC-93A2-3276B6746B0E",
         "version": 1,
         "name": "XT Dark Green",
@@ -4834,7 +4835,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://colorfabb.com/xt-light-blue",
         "id": "10C0F1CA-2E41-40A9-A8A6-C9482CCDECAA",
         "version": 1,
         "name": "XT Light Blue",
@@ -4863,7 +4864,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://colorfabb.com/xt-purple",
         "id": "80C7F5CE-757D-41D3-830B-9DEFD78A7628",
         "version": 1,
         "name": "XT Purple",
@@ -4892,7 +4893,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://colorfabb.com/xt-pink",
         "id": "6FD2E219-E1EE-403C-8CD7-21347B28B012",
         "version": 1,
         "name": "XT Pink",
@@ -4921,7 +4922,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://colorfabb.com/xt-black",
         "id": "48C30B62-0E6D-4A2D-8185-A72A54CEBB21",
         "version": 1,
         "name": "XT Black",
@@ -4950,7 +4951,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://colorfabb.com/xt-white",
         "id": "44F103DD-ED99-41F6-87BF-88162E43388C",
         "version": 1,
         "name": "XT White",
@@ -4979,7 +4980,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://colorfabb.com/xt",
         "id": "5898B815-A336-4036-887E-0F427B05D9B4",
         "version": 1,
         "name": "XT",
@@ -5008,7 +5009,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://colorfabb.com/bronzefill",
         "id": "2AAE74E5-4412-4EDC-A992-8DB6B2DAFAC3",
         "version": 1,
         "name": "bronzeFill",
@@ -5034,7 +5035,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://colorfabb.com/copperfill",
         "id": "A753BFAF-9832-4E2A-8F16-3B76791C85BF",
         "version": 1,
         "name": "copperFill",
@@ -5060,7 +5061,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://colorfabb.com/glowfill",
         "id": "4DC38F23-4184-46FF-BB2A-9BEC43D33393",
         "version": 1,
         "name": "glowFill",
@@ -5085,7 +5086,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://colorfabb.com/traffic-red",
         "id": "C7F08C5D-AE9C-468C-AA36-C5AA83D017C4",
         "version": 1,
         "name": "Traffic Red",
@@ -5097,7 +5098,7 @@
         "color": "fb452b",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -5110,7 +5111,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://colorfabb.com/warm-red",
         "id": "EF499F2E-04D4-4209-849D-A66B8387454A",
         "version": 1,
         "name": "Warm Red",
@@ -5122,7 +5123,7 @@
         "color": "f7743d",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -5135,7 +5136,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://colorfabb.com/dutch-orange",
         "id": "D476CBD8-C876-4758-B8B7-1C9F4DB25D07",
         "version": 1,
         "name": "Dutch Orange",
@@ -5147,7 +5148,7 @@
         "color": "ffbe5e",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -5160,7 +5161,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://colorfabb.com/signal-yellow",
         "id": "6DD1CF66-2052-4224-877B-365D8370B7C6",
         "version": 1,
         "name": "Signal Yellow",
@@ -5172,7 +5173,7 @@
         "color": "ffe944",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -5185,7 +5186,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://colorfabb.com/flourescent-green",
         "id": "403CA8B9-CA22-46D6-844F-98F9F80D67D4",
         "version": 1,
         "name": "Flourescent Green",
@@ -5210,7 +5211,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://colorfabb.com/intense-green",
         "id": "2A6851D7-DDC9-435A-A281-0B08C0CD4E9B",
         "version": 1,
         "name": "Intense Green",
@@ -5222,7 +5223,7 @@
         "color": "a8da3a",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -5235,7 +5236,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://colorfabb.com/leaf-green",
         "id": "DB41112B-4BA8-4DF4-9391-F176DE08A219",
         "version": 1,
         "name": "Leaf Green",
@@ -5247,7 +5248,7 @@
         "color": "27863a",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -5260,7 +5261,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://colorfabb.com/mint-turquoise",
         "id": "4D8958CF-2DCA-4DC8-B181-0A770374A584",
         "version": 1,
         "name": "Mint Turquoise",
@@ -5272,7 +5273,7 @@
         "color": "54c3b2",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -5285,7 +5286,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://colorfabb.com/sky-blue",
         "id": "E6726255-114F-4906-8DF1-DCCACAA7FE1E",
         "version": 1,
         "name": "Sky Blue",
@@ -5297,7 +5298,7 @@
         "color": "10aef3",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -5310,7 +5311,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://colorfabb.com/ultramarine-blue",
         "id": "F0241BB2-B4C8-40D3-99BB-77EB1E907DA7",
         "version": 1,
         "name": "Ultramarine Blue",
@@ -5322,7 +5323,7 @@
         "color": "0c1c92",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -5335,7 +5336,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://colorfabb.com/lila",
         "id": "4F6C4C8A-DD1D-4457-8339-D32A538EFF05",
         "version": 1,
         "name": "Lila",
@@ -5347,7 +5348,7 @@
         "color": "c7b6ff",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -5360,7 +5361,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://colorfabb.com/magenta",
         "id": "EED8CC01-EA9F-457F-B90C-5282E2AD1E68",
         "version": 1,
         "name": "Magenta",
@@ -5372,7 +5373,7 @@
         "color": "ff73db",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -5385,7 +5386,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://colorfabb.com/fluorescent-pink",
         "id": "2B721871-CDAF-4E77-B062-31D84DD06CB9",
         "version": 1,
         "name": "Fluorescent Pink",
@@ -5410,7 +5411,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://colorfabb.com/standard-black",
         "id": "931908F5-B313-455F-89B6-631DCB2079BD",
         "version": 1,
         "name": "Standard Black",
@@ -5422,7 +5423,7 @@
         "color": "262723",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -5435,7 +5436,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://colorfabb.com/blue-grey",
         "id": "5B773647-F1E8-4B11-BF3C-2AC506A9E7FF",
         "version": 1,
         "name": "Blue Grey",
@@ -5447,7 +5448,7 @@
         "color": "88a2bd",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -5460,7 +5461,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://colorfabb.com/bluish-white",
         "id": "BB75AFFE-84E2-4F0B-96B2-B65F5A14FC35",
         "version": 1,
         "name": "Bluish White",
@@ -5472,7 +5473,7 @@
         "color": "f8f9fa",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -5485,7 +5486,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://colorfabb.com/standard-white",
         "id": "FF57CE0E-4713-4AC9-B4A3-367126E8FB02",
         "version": 1,
         "name": "Standard White",
@@ -5497,7 +5498,7 @@
         "color": "fffef8",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -5510,7 +5511,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://colorfabb.com/greenish-beige",
         "id": "80FB09B1-35FC-4215-A316-ACDD6C12BF9F",
         "version": 1,
         "name": "Greenish Beige",
@@ -5522,7 +5523,7 @@
         "color": "c0bd95",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -5535,7 +5536,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://colorfabb.com/olive-green",
         "id": "CA4DA5D1-AC21-4640-8E38-C72CF2C0CEFD",
         "version": 1,
         "name": "Olive Green",
@@ -5547,7 +5548,7 @@
         "color": "858967",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -5560,7 +5561,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://colorfabb.com/chocolate-brown",
         "id": "32B45666-10BC-471E-AFBC-08CEBD223607",
         "version": 1,
         "name": "Chocolate Brown",
@@ -5572,7 +5573,7 @@
         "color": "573a30",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -5585,7 +5586,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://colorfabb.com/light-brown",
         "id": "BF4CDEC4-8809-4B39-8F74-5961037C8E2A",
         "version": 1,
         "name": "Light Brown",
@@ -5597,7 +5598,7 @@
         "color": "c38853",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -5610,7 +5611,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://colorfabb.com/violet-transparent",
         "id": "5427DB6E-3ADE-41F7-B74E-72682AA9B43C",
         "version": 1,
         "name": "Violet Transparent",
@@ -5622,7 +5623,7 @@
         "color": "c71d51",
         "opacity": 3,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -5635,7 +5636,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://colorfabb.com/red-transparent",
         "id": "6923CA58-D87F-4C53-A39A-A2D31B109BAE",
         "version": 1,
         "name": "Red Transparent",
@@ -5647,7 +5648,7 @@
         "color": "ea3f39",
         "opacity": 3,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -5660,7 +5661,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://colorfabb.com/orange-translucent",
         "id": "A7DB9DD1-068A-4BF0-802C-47D6D5AB5C8B",
         "version": 1,
         "name": "Orange Translucent",
@@ -5672,7 +5673,7 @@
         "color": "fc9f2c",
         "opacity": 3,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -5685,7 +5686,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://colorfabb.com/yellow-transparent",
         "id": "59048077-55D4-41A3-95F3-A555ABA56FE2",
         "version": 1,
         "name": "Yellow Transparent",
@@ -5697,7 +5698,7 @@
         "color": "f2ec42",
         "opacity": 3,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -5710,7 +5711,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://colorfabb.com/green-transparent",
         "id": "0215ECF0-8981-4654-BD51-E04C2417F6B1",
         "version": 1,
         "name": "Green Transparent",
@@ -5722,7 +5723,7 @@
         "color": "488a36",
         "opacity": 3,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -5735,7 +5736,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://colorfabb.com/naturel",
         "id": "AE7071BF-A2D7-4E0D-9425-AEAFB227C5D1",
         "version": 1,
         "name": "Naturel",
@@ -5747,7 +5748,7 @@
         "color": "e8d8b7",
         "opacity": 2,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -5760,7 +5761,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://colorfabb.com/olympic-gold",
         "id": "2B57B683-22B6-4279-9D0C-40CD79FB5CAE",
         "version": 1,
         "name": "Olympic Gold",
@@ -5772,7 +5773,7 @@
         "color": "f3c720",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -5785,7 +5786,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://colorfabb.com/pale-gold",
         "id": "58423C14-23F6-4575-AFBA-BD89224AAD22",
         "version": 1,
         "name": "Pale Gold",
@@ -5810,7 +5811,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://colorfabb.com/shining-silver",
         "id": "096A9850-12DB-4E11-B91D-C0C7AFAA8EBD",
         "version": 1,
         "name": "Shining Silver",
@@ -5835,7 +5836,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://colorfabb.com/woodfill-fine",
         "id": "DFA23DAD-B07C-4349-B67C-A416FCF72079",
         "version": 1,
         "name": "woodFill Fine",
@@ -5848,7 +5849,7 @@
         "opacity": 1,
         "tags": [
             "composite",
-            " wood"
+            "wood"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1.05,
@@ -5861,7 +5862,7 @@
         "bed_material": "blue tape, glass, glue stick"
     },
     {
-        "buy_now": "undefined",
+        "buy_now": "http://colorfabb.com/bamboofill",
         "id": "19C04A02-F196-4904-8D49-4329782538F5",
         "version": 1,
         "name": "bambooFill",
@@ -5874,7 +5875,7 @@
         "opacity": 1,
         "tags": [
             "composite",
-            " wood"
+            "wood"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1.05,
@@ -5899,7 +5900,7 @@
         "color": "d2d2d0",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -5924,7 +5925,7 @@
         "color": "f4de02",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -5949,7 +5950,7 @@
         "color": "009087",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -5974,7 +5975,7 @@
         "color": "1255d6",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -5999,7 +6000,7 @@
         "color": "0e0e0e",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -6024,7 +6025,7 @@
         "color": "ff5d09",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -6049,7 +6050,7 @@
         "color": "d59cbf",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -6074,7 +6075,7 @@
         "color": "200b66",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -6099,7 +6100,7 @@
         "color": "fc1802",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -6124,7 +6125,7 @@
         "color": "ded7cd",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -6149,7 +6150,7 @@
         "color": "727177",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -6174,7 +6175,7 @@
         "color": "6e3c0d",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -6199,7 +6200,7 @@
         "color": "f7e03a",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "neon"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -6224,7 +6225,7 @@
         "color": "b6df09",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "neon"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -6249,7 +6250,7 @@
         "color": "b6df09",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "neon"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -6274,7 +6275,7 @@
         "color": "e2bd66",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "neon"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -6299,7 +6300,7 @@
         "color": "e83f1e",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "neon"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -6324,7 +6325,7 @@
         "color": "f11e1b",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "neon"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -6349,7 +6350,7 @@
         "color": "f9c949",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "neon"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -6374,7 +6375,7 @@
         "color": "f9e505",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -6399,7 +6400,7 @@
         "color": "f46300",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -6424,7 +6425,7 @@
         "color": "f81600",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -6449,7 +6450,7 @@
         "color": "2161de",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -6474,7 +6475,7 @@
         "color": "060606",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -6499,7 +6500,7 @@
         "color": "efeae5",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -6524,7 +6525,7 @@
         "color": "cececa",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -6549,7 +6550,7 @@
         "color": "07978e",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -6574,7 +6575,7 @@
         "color": "e8b3d4",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -6599,7 +6600,7 @@
         "color": "543b95",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -6624,7 +6625,7 @@
         "color": "9b9aa0",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -6649,7 +6650,7 @@
         "color": "774b1b",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -6675,7 +6676,7 @@
         "opacity": 1,
         "tags": [
             "tough",
-            " strong"
+            "strong"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -6701,7 +6702,7 @@
         "opacity": 1,
         "tags": [
             "tough",
-            " strong"
+            "strong"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -6727,7 +6728,7 @@
         "opacity": 3,
         "tags": [
             "tough",
-            " strong"
+            "strong"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -6762,7 +6763,7 @@
         "temp_bed": 60,
         "min_nozzle_diameter": 0,
         "extruder_fan_speed": 255,
-        "bed_material": "unknown"
+        "bed_material": "blue tape, glass, glue stick"
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/69-3dfm-pom-filament.html",
@@ -6778,7 +6779,8 @@
         "opacity": 1,
         "tags": [
             "tough",
-            " strong"
+            "strong",
+            "low-friction"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -6804,7 +6806,8 @@
         "opacity": 1,
         "tags": [
             "tough",
-            " strong"
+            "strong",
+            "low-friction"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -6829,17 +6832,19 @@
         "color": "c4d1cb",
         "opacity": 2,
         "tags": [
-            "undefined"
+            "tough",
+            "strong",
+            "impact-strength"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
-        "temp_extrude_default": 200,
-        "temp_min_extrude": 190,
-        "temp_max_extrude": 210,
-        "temp_bed": 60,
+        "temp_extrude_default": 265,
+        "temp_min_extrude": 250,
+        "temp_max_extrude": 280,
+        "temp_bed": 110,
         "min_nozzle_diameter": 0,
         "extruder_fan_speed": 255,
-        "bed_material": "unknown"
+        "bed_material": "glass,kapton"
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/70-3dfm-pc-filament.html",
@@ -6854,17 +6859,19 @@
         "color": "112351",
         "opacity": 2,
         "tags": [
-            "undefined"
+            "tough",
+            "strong",
+            "impact-strength"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
-        "temp_extrude_default": 200,
-        "temp_min_extrude": 190,
-        "temp_max_extrude": 210,
-        "temp_bed": 60,
+        "temp_extrude_default": 265,
+        "temp_min_extrude": 250,
+        "temp_max_extrude": 280,
+        "temp_bed": 110,
         "min_nozzle_diameter": 0,
         "extruder_fan_speed": 255,
-        "bed_material": "unknown"
+        "bed_material": "glass,kapton"
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/70-3dfm-pc-filament.html",
@@ -6879,17 +6886,19 @@
         "color": "c8f3ec",
         "opacity": 2,
         "tags": [
-            "undefined"
+            "tough",
+            "strong",
+            "impact-strength"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
-        "temp_extrude_default": 200,
-        "temp_min_extrude": 190,
-        "temp_max_extrude": 210,
-        "temp_bed": 60,
+        "temp_extrude_default": 265,
+        "temp_min_extrude": 250,
+        "temp_max_extrude": 280,
+        "temp_bed": 110,
         "min_nozzle_diameter": 0,
         "extruder_fan_speed": 255,
-        "bed_material": "unknown"
+        "bed_material": "glass,kapton"
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/71-3dfm-hips-filament.html",
@@ -6914,7 +6923,7 @@
         "temp_bed": 60,
         "min_nozzle_diameter": 0,
         "extruder_fan_speed": 255,
-        "bed_material": "unknown"
+        "bed_material": "blue tape, glass, kapton"
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/71-3dfm-hips-filament.html",
@@ -6939,7 +6948,7 @@
         "temp_bed": 60,
         "min_nozzle_diameter": 0,
         "extruder_fan_speed": 255,
-        "bed_material": "unknown"
+        "bed_material": "blue tape, glass, kapton"
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/71-3dfm-hips-filament.html",
@@ -6964,7 +6973,7 @@
         "temp_bed": 60,
         "min_nozzle_diameter": 0,
         "extruder_fan_speed": 255,
-        "bed_material": "unknown"
+        "bed_material": "blue tape, glass, kapton"
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/71-3dfm-hips-filament.html",
@@ -6989,7 +6998,7 @@
         "temp_bed": 60,
         "min_nozzle_diameter": 0,
         "extruder_fan_speed": 255,
-        "bed_material": "unknown"
+        "bed_material": "blue tape, glass, kapton"
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/71-3dfm-hips-filament.html",
@@ -7014,7 +7023,7 @@
         "temp_bed": 60,
         "min_nozzle_diameter": 0,
         "extruder_fan_speed": 255,
-        "bed_material": "unknown"
+        "bed_material": "blue tape, glass, kapton"
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/71-3dfm-hips-filament.html",
@@ -7039,7 +7048,7 @@
         "temp_bed": 60,
         "min_nozzle_diameter": 0,
         "extruder_fan_speed": 255,
-        "bed_material": "unknown"
+        "bed_material": "blue tape, glass, kapton"
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/71-3dfm-hips-filament.html",
@@ -7064,7 +7073,7 @@
         "temp_bed": 60,
         "min_nozzle_diameter": 0,
         "extruder_fan_speed": 255,
-        "bed_material": "unknown"
+        "bed_material": "blue tape, glass, kapton"
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/71-3dfm-hips-filament.html",
@@ -7089,7 +7098,7 @@
         "temp_bed": 60,
         "min_nozzle_diameter": 0,
         "extruder_fan_speed": 255,
-        "bed_material": "unknown"
+        "bed_material": "blue tape, glass, kapton"
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/72-3dfm-petg-filament.html",
@@ -7104,7 +7113,8 @@
         "color": "d9d8d2",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "strong",
+            "impact-strength"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -7129,7 +7139,9 @@
         "color": "f2f0f3",
         "opacity": 3,
         "tags": [
-            "undefined"
+            "strong",
+            "impact-strength",
+            "transparent"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -7154,17 +7166,18 @@
         "color": "dfddeb",
         "opacity": 2,
         "tags": [
-            "undefined"
+            "flexible",
+            "stretchy"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
-        "temp_extrude_default": 200,
-        "temp_min_extrude": 190,
-        "temp_max_extrude": 210,
-        "temp_bed": 60,
+        "temp_extrude_default": 210,
+        "temp_min_extrude": 200,
+        "temp_max_extrude": 220,
+        "temp_bed": 70,
         "min_nozzle_diameter": 0,
         "extruder_fan_speed": 255,
-        "bed_material": "unknown"
+        "bed_material": "blue tape, glass, glue stick"
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/73-3dfm-rubber-flex-filament.html",
@@ -7179,17 +7192,18 @@
         "color": "030303",
         "opacity": 2,
         "tags": [
-            "undefined"
+            "flexible",
+            "stretchy"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
-        "temp_extrude_default": 200,
-        "temp_min_extrude": 190,
-        "temp_max_extrude": 210,
-        "temp_bed": 60,
+        "temp_extrude_default": 210,
+        "temp_min_extrude": 200,
+        "temp_max_extrude": 220,
+        "temp_bed": 70,
         "min_nozzle_diameter": 0,
         "extruder_fan_speed": 255,
-        "bed_material": "unknown"
+        "bed_material": "blue tape, glass, glue stick"
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/73-3dfm-rubber-flex-filament.html",
@@ -7204,17 +7218,18 @@
         "color": "002b7a",
         "opacity": 2,
         "tags": [
-            "undefined"
+            "flexible",
+            "stretchy"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
-        "temp_extrude_default": 200,
-        "temp_min_extrude": 190,
-        "temp_max_extrude": 210,
-        "temp_bed": 60,
+        "temp_extrude_default": 210,
+        "temp_min_extrude": 200,
+        "temp_max_extrude": 220,
+        "temp_bed": 70,
         "min_nozzle_diameter": 0,
         "extruder_fan_speed": 255,
-        "bed_material": "unknown"
+        "bed_material": "blue tape, glass, glue stick"
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/73-3dfm-rubber-flex-filament.html",
@@ -7229,17 +7244,18 @@
         "color": "99b40b",
         "opacity": 2,
         "tags": [
-            "undefined"
+            "flexible",
+            "stretchy"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
-        "temp_extrude_default": 200,
-        "temp_min_extrude": 190,
-        "temp_max_extrude": 210,
-        "temp_bed": 60,
+        "temp_extrude_default": 210,
+        "temp_min_extrude": 200,
+        "temp_max_extrude": 220,
+        "temp_bed": 70,
         "min_nozzle_diameter": 0,
         "extruder_fan_speed": 255,
-        "bed_material": "unknown"
+        "bed_material": "blue tape, glass, glue stick"
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/73-3dfm-rubber-flex-filament.html",
@@ -7254,17 +7270,19 @@
         "color": "d8d9db",
         "opacity": 3,
         "tags": [
-            "undefined"
+            "flexible",
+            "stretchy",
+            "transparent"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
-        "temp_extrude_default": 200,
-        "temp_min_extrude": 190,
-        "temp_max_extrude": 210,
-        "temp_bed": 60,
+        "temp_extrude_default": 210,
+        "temp_min_extrude": 200,
+        "temp_max_extrude": 220,
+        "temp_bed": 70,
         "min_nozzle_diameter": 0,
         "extruder_fan_speed": 255,
-        "bed_material": "unknown"
+        "bed_material": "blue tape, glass, glue stick"
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/74-3dfm-woodfill-filament.html",
@@ -7354,7 +7372,7 @@
         "color": "d2d2d0",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -7379,7 +7397,7 @@
         "color": "f4de02",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -7404,7 +7422,7 @@
         "color": "009087",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -7429,7 +7447,7 @@
         "color": "1255d6",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -7454,7 +7472,7 @@
         "color": "0e0e0e",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -7479,7 +7497,7 @@
         "color": "ff5d09",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -7504,7 +7522,7 @@
         "color": "d59cbf",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -7529,7 +7547,7 @@
         "color": "200b66",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -7554,7 +7572,7 @@
         "color": "fc1802",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -7579,7 +7597,7 @@
         "color": "ded7cd",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -7604,7 +7622,7 @@
         "color": "727177",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -7629,7 +7647,7 @@
         "color": "6e3c0d",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -7654,7 +7672,7 @@
         "color": "f7e03a",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "neon"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -7679,7 +7697,7 @@
         "color": "b6df09",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "neon"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -7704,7 +7722,7 @@
         "color": "b6df09",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "neon"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -7729,7 +7747,7 @@
         "color": "e2bd66",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "neon"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -7754,7 +7772,7 @@
         "color": "e83f1e",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "neon"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -7779,7 +7797,7 @@
         "color": "f11e1b",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "neon"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -7804,7 +7822,7 @@
         "color": "f9c949",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "neon"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -7829,7 +7847,7 @@
         "color": "f9e505",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -7854,7 +7872,7 @@
         "color": "f46300",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -7879,7 +7897,7 @@
         "color": "f81600",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -7904,7 +7922,7 @@
         "color": "2161de",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -7929,7 +7947,7 @@
         "color": "060606",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -7954,7 +7972,7 @@
         "color": "efeae5",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -7979,7 +7997,7 @@
         "color": "cececa",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -8004,7 +8022,7 @@
         "color": "07978e",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -8029,7 +8047,7 @@
         "color": "e8b3d4",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -8054,7 +8072,7 @@
         "color": "543b95",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -8079,7 +8097,7 @@
         "color": "9b9aa0",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -8104,7 +8122,7 @@
         "color": "774b1b",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -8130,7 +8148,7 @@
         "opacity": 1,
         "tags": [
             "tough",
-            " strong"
+            "strong"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -8156,7 +8174,7 @@
         "opacity": 1,
         "tags": [
             "tough",
-            " strong"
+            "strong"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -8182,7 +8200,7 @@
         "opacity": 3,
         "tags": [
             "tough",
-            " strong"
+            "strong"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -8217,7 +8235,7 @@
         "temp_bed": 60,
         "min_nozzle_diameter": 0,
         "extruder_fan_speed": 255,
-        "bed_material": "unknown"
+        "bed_material": "blue tape, glass, glue stick"
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/69-3dfm-pom-filament.html",
@@ -8233,7 +8251,7 @@
         "opacity": 1,
         "tags": [
             "tough",
-            " strong"
+            "strong"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -8259,7 +8277,7 @@
         "opacity": 1,
         "tags": [
             "tough",
-            " strong"
+            "strong"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -8284,17 +8302,19 @@
         "color": "c4d1cb",
         "opacity": 2,
         "tags": [
-            "undefined"
+            "tough",
+            "strong",
+            "impact-strength"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1,
-        "temp_extrude_default": 200,
-        "temp_min_extrude": 190,
-        "temp_max_extrude": 210,
-        "temp_bed": 60,
+        "temp_extrude_default": 265,
+        "temp_min_extrude": 250,
+        "temp_max_extrude": 280,
+        "temp_bed": 110,
         "min_nozzle_diameter": 0,
         "extruder_fan_speed": 255,
-        "bed_material": "unknown"
+        "bed_material": "glass,kapton"
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/70-3dfm-pc-filament.html",
@@ -8309,17 +8329,19 @@
         "color": "112351",
         "opacity": 2,
         "tags": [
-            "undefined"
+            "tough",
+            "strong",
+            "impact-strength"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1,
-        "temp_extrude_default": 200,
-        "temp_min_extrude": 190,
-        "temp_max_extrude": 210,
-        "temp_bed": 60,
+        "temp_extrude_default": 265,
+        "temp_min_extrude": 250,
+        "temp_max_extrude": 280,
+        "temp_bed": 110,
         "min_nozzle_diameter": 0,
         "extruder_fan_speed": 255,
-        "bed_material": "unknown"
+        "bed_material": "glass,kapton"
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/70-3dfm-pc-filament.html",
@@ -8334,17 +8356,19 @@
         "color": "c8f3ec",
         "opacity": 2,
         "tags": [
-            "undefined"
+            "tough",
+            "strong",
+            "impact-strength"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1,
-        "temp_extrude_default": 200,
-        "temp_min_extrude": 190,
-        "temp_max_extrude": 210,
-        "temp_bed": 60,
+        "temp_extrude_default": 265,
+        "temp_min_extrude": 250,
+        "temp_max_extrude": 280,
+        "temp_bed": 110,
         "min_nozzle_diameter": 0,
         "extruder_fan_speed": 255,
-        "bed_material": "unknown"
+        "bed_material": "glass,kapton"
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/71-3dfm-hips-filament.html",
@@ -8559,14 +8583,15 @@
         "color": "d9d8d2",
         "opacity": 3,
         "tags": [
-            "transparent"
+            "strong",
+            "impact-strength"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1,
-        "temp_extrude_default": 200,
-        "temp_min_extrude": 190,
-        "temp_max_extrude": 210,
-        "temp_bed": 60,
+        "temp_extrude_default": 230,
+        "temp_min_extrude": 200,
+        "temp_max_extrude": 240,
+        "temp_bed": 110,
         "min_nozzle_diameter": 0,
         "extruder_fan_speed": 255,
         "bed_material": "unknown"
@@ -8584,14 +8609,16 @@
         "color": "f2f0f3",
         "opacity": 3,
         "tags": [
+            "strong",
+            "impact-strength",
             "transparent"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1,
-        "temp_extrude_default": 200,
-        "temp_min_extrude": 190,
-        "temp_max_extrude": 210,
-        "temp_bed": 60,
+        "temp_extrude_default": 230,
+        "temp_min_extrude": 200,
+        "temp_max_extrude": 240,
+        "temp_bed": 110,
         "min_nozzle_diameter": 0,
         "extruder_fan_speed": 255,
         "bed_material": "unknown"
@@ -8610,17 +8637,17 @@
         "opacity": 1,
         "tags": [
             "flexible",
-            " stretchy"
+            "stretchy"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1,
-        "temp_extrude_default": 200,
-        "temp_min_extrude": 190,
-        "temp_max_extrude": 210,
-        "temp_bed": 60,
+        "temp_extrude_default": 210,
+        "temp_min_extrude": 200,
+        "temp_max_extrude": 220,
+        "temp_bed": 70,
         "min_nozzle_diameter": 0,
         "extruder_fan_speed": 255,
-        "bed_material": "unknown"
+        "bed_material": "blue tape, glass, glue stick"
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/73-3dfm-rubber-flex-filament.html",
@@ -8636,17 +8663,17 @@
         "opacity": 2,
         "tags": [
             "flexible",
-            " stretchy"
+            "stretchy"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1,
-        "temp_extrude_default": 200,
-        "temp_min_extrude": 190,
-        "temp_max_extrude": 210,
-        "temp_bed": 60,
+        "temp_extrude_default": 210,
+        "temp_min_extrude": 200,
+        "temp_max_extrude": 220,
+        "temp_bed": 70,
         "min_nozzle_diameter": 0,
         "extruder_fan_speed": 255,
-        "bed_material": "unknown"
+        "bed_material": "blue tape, glass, glue stick"
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/73-3dfm-rubber-flex-filament.html",
@@ -8662,17 +8689,17 @@
         "opacity": 2,
         "tags": [
             "flexible",
-            " stretchy"
+            "stretchy"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1,
-        "temp_extrude_default": 200,
-        "temp_min_extrude": 190,
-        "temp_max_extrude": 210,
-        "temp_bed": 60,
+        "temp_extrude_default": 210,
+        "temp_min_extrude": 200,
+        "temp_max_extrude": 220,
+        "temp_bed": 70,
         "min_nozzle_diameter": 0,
         "extruder_fan_speed": 255,
-        "bed_material": "unknown"
+        "bed_material": "blue tape, glass, glue stick"
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/73-3dfm-rubber-flex-filament.html",
@@ -8688,17 +8715,17 @@
         "opacity": 2,
         "tags": [
             "flexible",
-            " stretchy"
+            "stretchy"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1,
-        "temp_extrude_default": 200,
-        "temp_min_extrude": 190,
-        "temp_max_extrude": 210,
-        "temp_bed": 60,
+        "temp_extrude_default": 210,
+        "temp_min_extrude": 200,
+        "temp_max_extrude": 220,
+        "temp_bed": 70,
         "min_nozzle_diameter": 0,
         "extruder_fan_speed": 255,
-        "bed_material": "unknown"
+        "bed_material": "blue tape, glass, glue stick"
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/73-3dfm-rubber-flex-filament.html",
@@ -8714,18 +8741,18 @@
         "opacity": 3,
         "tags": [
             "flexible",
-            " stretchy",
-            " transparent"
+            "stretchy",
+            "transparent"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1,
-        "temp_extrude_default": 200,
-        "temp_min_extrude": 190,
-        "temp_max_extrude": 210,
-        "temp_bed": 60,
+        "temp_extrude_default": 210,
+        "temp_min_extrude": 200,
+        "temp_max_extrude": 220,
+        "temp_bed": 70,
         "min_nozzle_diameter": 0,
         "extruder_fan_speed": 255,
-        "bed_material": "unknown"
+        "bed_material": "blue tape, glass, glue stick"
     },
     {
         "buy_now": "http://3dfilamenta.com/3dfmstore/3d-printer-consumables/74-3dfm-woodfill-filament.html",
@@ -8975,7 +9002,7 @@
         "temp_bed": 55,
         "min_nozzle_diameter": 0.4,
         "extruder_fan_speed": 0,
-        "bed_material": "unknown"
+        "bed_material": "blue tape, glass, glue stick"
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568441-bronzefill-colorfabb-3mm",
@@ -9000,7 +9027,7 @@
         "temp_bed": 55,
         "min_nozzle_diameter": 0.4,
         "extruder_fan_speed": 0,
-        "bed_material": "unknown"
+        "bed_material": "blue tape, glass, glue stick"
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568442-copperfill-colorfabb",
@@ -9025,7 +9052,7 @@
         "temp_bed": 55,
         "min_nozzle_diameter": 0.4,
         "extruder_fan_speed": 0,
-        "bed_material": "unknown"
+        "bed_material": "blue tape, glass, glue stick"
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568443-copperfill-colorfabb",
@@ -9050,7 +9077,7 @@
         "temp_bed": 55,
         "min_nozzle_diameter": 0.4,
         "extruder_fan_speed": 0,
-        "bed_material": "unknown"
+        "bed_material": "blue tape, glass, glue stick"
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568455-g-carbon-1-75mm-black",
@@ -9066,7 +9093,7 @@
         "opacity": 1,
         "tags": [
             "stiff",
-            " impact strength"
+            "impact-strength"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1.04,
@@ -9076,7 +9103,7 @@
         "temp_bed": 110,
         "min_nozzle_diameter": 0.4,
         "extruder_fan_speed": 0,
-        "bed_material": "unknown"
+        "bed_material": "blue tape, glass, glue stick"
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568444-g-fil-1-75mm-translucent-blue",
@@ -9092,9 +9119,9 @@
         "opacity": 2,
         "tags": [
             "translucent",
-            " hydrophobic",
-            " food-safe",
-            " odor-neutral"
+            "hydrophobic",
+            "food-safe",
+            "odor-neutral"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -9104,7 +9131,7 @@
         "temp_bed": 55,
         "min_nozzle_diameter": 0,
         "extruder_fan_speed": 0,
-        "bed_material": "unknown"
+        "bed_material": "blue tape, glass, glue stick"
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568445-g-fil-1-75mm-transluscent-red",
@@ -9120,9 +9147,9 @@
         "opacity": 2,
         "tags": [
             "translucent",
-            " hydrophobic",
-            " food-safe",
-            " odor-neutral"
+            "hydrophobic",
+            "food-safe",
+            "odor-neutral"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -9132,7 +9159,7 @@
         "temp_bed": 55,
         "min_nozzle_diameter": 0,
         "extruder_fan_speed": 0,
-        "bed_material": "unknown"
+        "bed_material": "blue tape, glass, glue stick"
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568449-g-fil-1-75mm-translucent-green",
@@ -9148,9 +9175,9 @@
         "opacity": 2,
         "tags": [
             "translucent",
-            " hydrophobic",
-            " food-safe",
-            " odor-neutral"
+            "hydrophobic",
+            "food-safe",
+            "odor-neutral"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -9160,7 +9187,7 @@
         "temp_bed": 55,
         "min_nozzle_diameter": 0,
         "extruder_fan_speed": 0,
-        "bed_material": "unknown"
+        "bed_material": "blue tape, glass, glue stick"
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568450-g-fil-1-75mm-translucent-black",
@@ -9176,9 +9203,9 @@
         "opacity": 2,
         "tags": [
             "translucent",
-            " hydrophobic",
-            " food-safe",
-            " odor-neutral"
+            "hydrophobic",
+            "food-safe",
+            "odor-neutral"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -9188,7 +9215,7 @@
         "temp_bed": 55,
         "min_nozzle_diameter": 0,
         "extruder_fan_speed": 0,
-        "bed_material": "unknown"
+        "bed_material": "blue tape, glass, glue stick"
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568451-g-fil-1-75mm-translucent",
@@ -9204,9 +9231,9 @@
         "opacity": 2,
         "tags": [
             "translucent",
-            " hydrophobic",
-            " food-safe",
-            " odor-neutral"
+            "hydrophobic",
+            "food-safe",
+            "odor-neutral"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -9216,7 +9243,7 @@
         "temp_bed": 55,
         "min_nozzle_diameter": 0,
         "extruder_fan_speed": 0,
-        "bed_material": "unknown"
+        "bed_material": "blue tape, glass, glue stick"
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568452-g-fil-3mm-translucent-black",
@@ -9232,9 +9259,9 @@
         "opacity": 2,
         "tags": [
             "translucent",
-            " hydrophobic",
-            " food-safe",
-            " odor-neutral"
+            "hydrophobic",
+            "food-safe",
+            "odor-neutral"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -9244,7 +9271,7 @@
         "temp_bed": 55,
         "min_nozzle_diameter": 0,
         "extruder_fan_speed": 0,
-        "bed_material": "unknown"
+        "bed_material": "blue tape, glass, glue stick"
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568453-g-fil-3mm-translucent",
@@ -9260,9 +9287,9 @@
         "opacity": 2,
         "tags": [
             "translucent",
-            " hydrophobic",
-            " food-safe",
-            " odor-neutral"
+            "hydrophobic",
+            "food-safe",
+            "odor-neutral"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -9272,7 +9299,7 @@
         "temp_bed": 55,
         "min_nozzle_diameter": 0,
         "extruder_fan_speed": 0,
-        "bed_material": "unknown"
+        "bed_material": "blue tape, glass, glue stick"
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568476-g-carbon-3mm-black",
@@ -9288,8 +9315,8 @@
         "opacity": 1,
         "tags": [
             "stiff",
-            " impact strength",
-            " carbon-fiber"
+            "impact-strength",
+            "carbon-fiber"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1.04,
@@ -9299,7 +9326,7 @@
         "temp_bed": 110,
         "min_nozzle_diameter": 0.4,
         "extruder_fan_speed": 0,
-        "bed_material": "unknown"
+        "bed_material": "blue tape, glass, glue stick"
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568520-g-fil-3mm-translucent-blue",
@@ -9315,9 +9342,9 @@
         "opacity": 2,
         "tags": [
             "translucent",
-            " hydrophobic",
-            " food-safe",
-            " odor-neutral"
+            "hydrophobic",
+            "food-safe",
+            "odor-neutral"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -9327,7 +9354,7 @@
         "temp_bed": 55,
         "min_nozzle_diameter": 0,
         "extruder_fan_speed": 0,
-        "bed_material": "unknown"
+        "bed_material": "blue tape, glass, glue stick"
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/1234568521-g-fil-3mm-transluscent-red",
@@ -9343,9 +9370,9 @@
         "opacity": 2,
         "tags": [
             "translucent",
-            " hydrophobic",
-            " food-safe",
-            " odor-neutral"
+            "hydrophobic",
+            "food-safe",
+            "odor-neutral"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -9355,7 +9382,7 @@
         "temp_bed": 55,
         "min_nozzle_diameter": 0,
         "extruder_fan_speed": 0,
-        "bed_material": "unknown"
+        "bed_material": "blue tape, glass, glue stick"
     },
     {
         "buy_now": "http://www.reprap-3d-printer.com/product/402-pva-1-75mm-soluble-filament",
@@ -9470,7 +9497,7 @@
         "color": "a1a1a1",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -9495,7 +9522,7 @@
         "color": "edb953",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -9520,7 +9547,7 @@
         "color": "f1ead5",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -9545,7 +9572,7 @@
         "color": "854c90",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -9570,7 +9597,7 @@
         "color": "252422",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -9595,7 +9622,7 @@
         "color": "f1eadf",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -9620,7 +9647,7 @@
         "color": "da2226",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -9645,7 +9672,7 @@
         "color": "1595dd",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -9670,7 +9697,7 @@
         "color": "616066",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -9695,7 +9722,7 @@
         "color": "f98704",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -9720,7 +9747,7 @@
         "color": "1039a4",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -9745,7 +9772,7 @@
         "color": "dc3056",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -9770,7 +9797,7 @@
         "color": "f0a50e",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -9795,7 +9822,7 @@
         "color": "7cac24",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -9820,7 +9847,7 @@
         "color": "da2226",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -9845,7 +9872,7 @@
         "color": "f1ead5",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -9870,7 +9897,7 @@
         "color": "86b62c",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -9895,7 +9922,7 @@
         "color": "edb953",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -9920,7 +9947,7 @@
         "color": "f98704",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -9945,7 +9972,7 @@
         "color": "854c90",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -9970,7 +9997,7 @@
         "color": "1595dd",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -9995,7 +10022,7 @@
         "color": "dc3056",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -10020,7 +10047,7 @@
         "color": "252422",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -10045,7 +10072,7 @@
         "color": "f1eadf",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -10070,7 +10097,7 @@
         "color": "616066",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -10095,7 +10122,7 @@
         "color": "f0a50e",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -10120,7 +10147,7 @@
         "color": "a1a1a1",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -10145,7 +10172,7 @@
         "color": "1039a4",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -10170,7 +10197,7 @@
         "color": "f68000",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -10195,7 +10222,7 @@
         "color": "9159a0",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -10220,7 +10247,7 @@
         "color": "efb806",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -10245,7 +10272,7 @@
         "color": "cd9f41",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -10270,7 +10297,7 @@
         "color": "3999cf",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -10295,7 +10322,7 @@
         "color": "e1395c",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -10320,7 +10347,7 @@
         "color": "54595f",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -10345,7 +10372,7 @@
         "color": "e8e3d0",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -10370,7 +10397,7 @@
         "color": "25221d",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -10395,7 +10422,7 @@
         "color": "f3e9df",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -10420,7 +10447,7 @@
         "color": "a5a5a5",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -10445,7 +10472,7 @@
         "color": "0051bf",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -10470,7 +10497,7 @@
         "color": "f6232a",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -10495,7 +10522,7 @@
         "color": "84b130",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -10520,7 +10547,7 @@
         "color": "14876a",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -10620,7 +10647,7 @@
         "color": "5a3a2d",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -10671,7 +10698,7 @@
         "opacity": 1,
         "tags": [
             "neon",
-            " black-light"
+            "black-light"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -10696,7 +10723,7 @@
         "color": "a1a1a1",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -10721,7 +10748,7 @@
         "color": "e8e3d0",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -10746,7 +10773,7 @@
         "color": "25221d",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -10771,7 +10798,7 @@
         "color": "da2226",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -10796,7 +10823,7 @@
         "color": "616066",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -10821,7 +10848,7 @@
         "color": "1595dd",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -10846,7 +10873,7 @@
         "color": "edb953",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -10871,7 +10898,7 @@
         "color": "f0a50e",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -10896,7 +10923,7 @@
         "color": "9159a0",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -10921,7 +10948,7 @@
         "color": "f68000",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -10946,7 +10973,7 @@
         "color": "a1a1a1",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -10971,7 +10998,7 @@
         "color": "0051bf",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -10996,7 +11023,7 @@
         "color": "14876a",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -11021,7 +11048,7 @@
         "color": "e1395c",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -11046,7 +11073,7 @@
         "color": "84b130",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -11197,8 +11224,8 @@
         "opacity": 2,
         "tags": [
             "food-safe",
-            " strong",
-            " flexible"
+            "strong",
+            "flexible"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -11224,8 +11251,8 @@
         "opacity": 2,
         "tags": [
             "food-safe",
-            " strong",
-            " flexible"
+            "strong",
+            "flexible"
         ],
         "filament_diameter": 2.85,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -11250,7 +11277,7 @@
         "color": "1f9de4",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -11275,7 +11302,7 @@
         "color": "17a748",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -11300,7 +11327,7 @@
         "color": "242422",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -11325,7 +11352,7 @@
         "color": "da1e22",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -11350,7 +11377,7 @@
         "color": "ebebe9",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -11375,7 +11402,7 @@
         "color": "e4ac1d",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -11397,10 +11424,10 @@
         "cost": 60.48,
         "manufacturer": "eMotion Tech",
         "website": "http://www.reprap-3d-printer.com/",
-        "color": "ffffff",
+        "color": "8e9da4",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -11422,10 +11449,10 @@
         "cost": 60.48,
         "manufacturer": "eMotion Tech",
         "website": "http://www.reprap-3d-printer.com/",
-        "color": "ffffff",
+        "color": "8ad869",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -11447,10 +11474,10 @@
         "cost": 60.48,
         "manufacturer": "eMotion Tech",
         "website": "http://www.reprap-3d-printer.com/",
-        "color": "ffffff",
+        "color": "69d3e2",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -11472,10 +11499,10 @@
         "cost": 60.48,
         "manufacturer": "eMotion Tech",
         "website": "http://www.reprap-3d-printer.com/",
-        "color": "ffffff",
+        "color": "d6dece",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -11497,10 +11524,10 @@
         "cost": 60.48,
         "manufacturer": "eMotion Tech",
         "website": "http://www.reprap-3d-printer.com/",
-        "color": "ffffff",
+        "color": "eb3e16",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -11522,10 +11549,10 @@
         "cost": 60.48,
         "manufacturer": "eMotion Tech",
         "website": "http://www.reprap-3d-printer.com/",
-        "color": "ffffff",
+        "color": "95362b",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
@@ -11547,10 +11574,10 @@
         "cost": 60.48,
         "manufacturer": "eMotion Tech",
         "website": "http://www.reprap-3d-printer.com/",
-        "color": "ffffff",
+        "color": "e4e4e1",
         "opacity": 1,
         "tags": [
-            "undefined"
+            "none"
         ],
         "filament_diameter": 1.75,
         "filament_extrusion_to_flow_multiplier": 1,
