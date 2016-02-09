@@ -1,7 +1,7 @@
-var myApp = angular.module('myApp', ['mp.colorPicker', 'rzModule', 'ui.bootstrap']);
+var myApp = angular.module('myApp', ['ngTouch','mp.colorPicker', 'rzModule', 'ui.bootstrap']);
 
-//var base_query = "http://localhost:8080/materials";
-var base_query = "https://stark-tundra-90514.herokuapp.com/materials";
+var base_query = "http://localhost:8080/materials";
+//var base_query = "https://stark-tundra-90514.herokuapp.com/materials";
 
 var filtered_query = "";      
 
@@ -24,6 +24,7 @@ var scope_struct_reset = (JSON.parse(JSON.stringify(scope_struct)));   //make a 
 
 
 myApp.controller('userCtrl', ['$scope', '$http', function($scope,$http) {
+  //$TouchProvider.ngClickOverrideEnabled(true);  //override onClick using angular with the touch provider library for mobile devices
 
 	$scope.server_response = "Available Materials: ";
 
