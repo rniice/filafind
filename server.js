@@ -17,7 +17,7 @@ app.use(express.static(__dirname));
 
 //MAIN landing URL
 app.get('/', function(req, res) {
-	console.log("operating in dirname: " + __dirname);
+	//console.log("operating in dirname: " + __dirname);
 	res.sendFile(path.join(__dirname + '/index.html'));
 });
 
@@ -35,7 +35,7 @@ app.get('/materials/:id', function(req, res) {
 
 //respond with facebook og open graph image
 app.get('/img', function(req, res) {
-	console.log("operating in dirname: " + __dirname);
+	//console.log("operating in dirname: " + __dirname);
 	res.sendFile(path.join(__dirname + '/img/og_image.jpg'));
 });
 

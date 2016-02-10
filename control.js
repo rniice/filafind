@@ -124,7 +124,7 @@ myApp.controller('userCtrl', ['$scope', '$http', function($scope,$http) {
     $scope.bed_material = "";
     $scope.slider_bed_temp.value = 25;
     $scope.min_nozzle_diameter = "";
-    $scope.slider_nozzle_temp.value = 240;
+    $scope.slider_nozzle_temp.value = 220;
 
     scope_struct = (JSON.parse(JSON.stringify(scope_struct_reset)));
     generateFullQuery(scope_struct);
@@ -157,7 +157,7 @@ myApp.controller('userCtrl', ['$scope', '$http', function($scope,$http) {
 
 
   $scope.slider_nozzle_temp = {
-    value: 240,
+    value: 220,
     options: {
       id: 'nozzle-temp',
       floor: 120,

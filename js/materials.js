@@ -87,22 +87,40 @@ function getfilteredMaterials(filter) { //?technology=FDM&temp_max_extrude=250
         } 
         else if (key === "temp_bed") { //returns only temp_bed < param
             (function() {
+                var tolerance = 20.0;
                 var temp_threshold = parseFloat(filter[key]);
                 var valid_temp_value = parseFloat(filter[key]);
 
                 //removes anything exceeding user param cost from list of materials_temp copied from materials
                 materials_temp = materials_temp.filter(function(material_item) {
-                    if(temp_threshold<=60){
+                    if( (temp_threshold <= 60) && (material_item["temp_bed"] <=80) ) {
                         return true;
                     }
-                    else if (material_item["temp_bed"] <= temp_threshold) {
-                        //return valid_temp_value && (material_item["temp_bed"] <= temp_threshold);
-                        //return (material_item["temp_bed"] <= temp_threshold);
+                    else if ( (temp_threshold - tolerance <= material_item["temp_bed"] ) && (material_item["temp_bed"] <= temp_threshold + tolerance) ) {  
                         return true;
                     }
                     else{
                         return false;
                     }
+                });
+            })();
+
+            delete filter[key];  //delete the filter and key associated so that _.where functionality is not rendered useless
+        } 
+        else if (key === "temp_extrude_default") { //returns only temp_extrude_default < param
+            (function() {
+                var tolerance = 20.0;
+                var temp_threshold = parseFloat(filter[key]);
+                var valid_temp_value = parseFloat(filter[key]);
+
+                //removes anthing exceeding user param cost from list of materials_temp copied from materials
+                materials_temp = materials_temp.filter(function(material_item) {
+                    if ( (temp_threshold - tolerance <= material_item["temp_extrude_default"] ) && (material_item["temp_extrude_default"] <= temp_threshold + tolerance) ) {  
+                        return true;
+                    }
+                    else{
+                        return false;
+                    }                  
                 });
             })();
 
@@ -126,19 +144,6 @@ function getfilteredMaterials(filter) { //?technology=FDM&temp_max_extrude=250
                     else{
                         return false;
                     }
-                });
-            })();
-
-            delete filter[key];  //delete the filter and key associated so that _.where functionality is not rendered useless
-        } 
-        else if (key === "temp_extrude_default") { //returns only temp_extrude_default < param
-            (function() {
-                var temp_threshold = parseFloat(filter[key]);
-                var valid_temp_value = parseFloat(filter[key]);
-
-                //removes anthing exceeding user param cost from list of materials_temp copied from materials
-                materials_temp = materials_temp.filter(function(material_item) {
-                    return valid_temp_value && (material_item["temp_extrude_default"] <= temp_threshold);
                 });
             })();
 
@@ -233,7 +238,7 @@ function getfilteredMaterials(filter) { //?technology=FDM&temp_max_extrude=250
 function getMaterials( req, res )
 {
     var query = url.parse(req.url,true).query;  
-    console.log("query is: ", query);
+    //console.log("query is: ", query);
     //console.log("received request");
 
     if(_.isEmpty(query)) {                             //if no query passed, return all
