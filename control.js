@@ -309,17 +309,6 @@ myApp.controller('userCtrl', ['$scope', '$http', function($scope,$http) {
 
 
 	function styleResponse(response) {  //takes the response from server and styles
-		//$scope.server_response = JSON.stringify(response.data, null, 2);
-    
-    /*
-    for (var prop in response.data) {
-      if( response.data.hasOwnProperty( prop ) ) {
-        alert("response.data." + prop + " = " + JSON.parse(JSON.stringify(response.data[prop])));
-      } 
-    }
-    */
-
-    //alert(JSON.stringify(response.data.toString("utf-8")));
 
     response = demangleJSON(response.data);  //decode the encoded buffer
 
@@ -332,28 +321,12 @@ myApp.controller('userCtrl', ['$scope', '$http', function($scope,$http) {
   function demangleJSON(data_json_mangled) {
     var data_json;
     //var encoding = "base64";
-    var encoding = "utf-8";
+    //var encoding = "utf-8";
 
-    data_json = JSON.parse(JSON.stringify(data_json_mangled));
-    //data_json = JSON.parse(data_json_mangled.toString(encoding));
-    //data_json = data_json_mangled.toString(encoding);
-    //alert(data_json);
-
-    //alert(data_json_mangled.toString(encoding));
-    //decode the buffer
-    //data_json = JSON.parse(data_json_mangled.toString(encoding));
-    //data_json = JSON.parse(data_json_mangled);
-    //data_json = data_json_mangled.toString(encoding).trim()
+    //data_json = JSON.parse(JSON.stringify(data_json_mangled));
+    data_json = data_json_mangled;
 
     //alert("data_json_mangled.data" + " = " + data_json_mangled['data']);
-
-    /*
-    for (var prop in data_json_mangled) {
-      if( data_json_mangled.hasOwnProperty( prop ) ) {
-        alert("data_json_mangled." + prop + " = " + data_json_mangled[prop]);
-      } 
-    }
-    */
 
     return data_json;
   }

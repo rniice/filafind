@@ -403,12 +403,13 @@ function sortByProperty(property) {
 function mangleJSON(data_json) {
     var data_json_mangled;
     //var encoding = "base64";
-    var encoding = "utf-8";
+    //var encoding = "utf-8";
 
     //create a buffer using data_json with specified encoding
-    var buf = new Buffer(JSON.stringify(data_json), encoding);
+    //var buf = new Buffer(JSON.stringify(data_json), encoding);
     //var buf = JSON.stringify(data_json);
-    data_json_mangled = buf;
+    //data_json_mangled = buf;
+    data_json_mangled = data_json;
 
     //then reverse the result
     return data_json_mangled;
