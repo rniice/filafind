@@ -1,7 +1,7 @@
 var myApp = angular.module('myApp', ['ngTouch','mp.colorPicker', 'rzModule', 'ui.bootstrap']);
 
-//var base_query = "http://localhost:8080/materials";
-var base_query = "https://stark-tundra-90514.herokuapp.com/materials";
+var base_query = "http://localhost:8080/materials";
+//var base_query = "https://stark-tundra-90514.herokuapp.com/materials";
 
 var filtered_query = "";      
 
@@ -236,6 +236,8 @@ myApp.controller('userCtrl', ['$scope', '$http', function($scope,$http) {
     $scope.processing_extruder_fan_speed          = material.extruder_fan_speed;
     $scope.processing_bed_material                = material.bed_material;
     $scope.processing_extrusion_to_flow_multiplier= material.filament_extrusion_to_flow_multiplier;
+
+    $scope.processing_color                       = material.color;
     //logic to decompose the integer for opacity into a string
     if(material.opacity == 1){
       $scope.processing_opacity                   = "Opaque";
@@ -337,6 +339,14 @@ myApp.controller('userCtrl', ['$scope', '$http', function($scope,$http) {
         var x = a[key]; var y = b[key];
         return ((x < y) ? -1 : ((x > y) ? 1 : 0));
     });
+  }
+
+
+  /*STUFF FOR THREEJS SCRIPTS*/
+  $scope.scripts = [];
+
+  $scope.addScript = function() {
+    $scope.scripts.push({src: 'js/render_application.js'});
   }
 
 
