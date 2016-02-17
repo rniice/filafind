@@ -1,4 +1,4 @@
-var RenderObject = function(color){
+var RenderObject = function(color, opacity){
 	this.target_canvas = document.getElementById('3js-canvas');
 
 	this.scene = new THREE.Scene();
@@ -20,9 +20,11 @@ var RenderObject = function(color){
 	this.geometry = new THREE.BoxGeometry( 3, 3, 3 );
 
 	this.color_selected = parseInt( ("0x" + color), 16);
+	this.opacity 		= opacity;
+	//window.alert(this.opacity);
 	//var color_selected = parseInt( ("0x" + "00ff00"), 16);
 	//this.material = new THREE.MeshBasicMaterial( { color: this.color_selected }, {alphaMap: 0x000000} );  //set the color of the material
-	this.material = new THREE.MeshLambertMaterial({ color: this.color_selected });  //set the color of the material
+	this.material = new THREE.MeshLambertMaterial({ color: this.color_selected}, {alphaMap: this.opacity} );  //set the color of the material
 
 	this.cube = new THREE.Mesh( this.geometry, this.material );
 	this.scene.add( this.cube );
