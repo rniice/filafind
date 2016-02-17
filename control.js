@@ -46,6 +46,16 @@ myApp.controller('userCtrl', ['$scope', '$http', '$window', function($scope,$htt
   $scope.temp_extrude_default = "";
 
 
+    /*STUFF FOR THREEJS SCRIPTS*/
+  $scope.scripts = [];
+
+  $scope.addScript = function() {
+    $scope.scripts.push({src: 'js/render_application.js'});
+    //$scope.scripts[0] = ({src: 'js/render_application.js'});
+
+  }
+
+
   //initialize the first query to send out with the presets
  	generateFullQuery(scope_struct);
 
@@ -242,17 +252,21 @@ myApp.controller('userCtrl', ['$scope', '$http', '$window', function($scope,$htt
     //logic to decompose the integer for opacity into a string
     if(material.opacity == 1){
       $scope.processing_opacity                   = "Opaque";
+      $scope.render_opacity                       = 1.0;
     }
     else if (material.opacity == 2){
       $scope.processing_opacity                   = "Translucent";
+      $scope.render_opacity                       = 0.5;
     }
     else {
       $scope.processing_opacity                   = "Transparent";
-
+      $scope.render_opacity                       = 0.05;
     }
 
     $scope.processing_website                     = material.website;
     $scope.processing_buy_now                     = material.buy_now;
+
+    $scope.addScript();                           //call addScript to update the render color
   };
 
 
@@ -340,17 +354,6 @@ myApp.controller('userCtrl', ['$scope', '$http', '$window', function($scope,$htt
         var x = a[key]; var y = b[key];
         return ((x < y) ? -1 : ((x > y) ? 1 : 0));
     });
-  }
-
-
-  /*STUFF FOR THREEJS SCRIPTS*/
-  $scope.scripts = [];
-
-  $scope.addScript = function() {
-    $scope.scripts.push({src: 'js/render_application.js'});
-    //$scope.scripts[0] = ({src: 'js/render_application.js'});
-
-
   }
 
 
