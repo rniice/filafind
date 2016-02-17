@@ -23,7 +23,7 @@ var scope_struct = {
 var scope_struct_reset = (JSON.parse(JSON.stringify(scope_struct)));   //make a deep clone of the scope struct
 
 
-myApp.controller('userCtrl', ['$scope', '$http', function($scope,$http) {
+myApp.controller('userCtrl', ['$scope', '$http', '$window', function($scope,$http,$window) {
   //$TouchProvider.ngClickOverrideEnabled(true);  //override onClick using angular with the touch provider library for mobile devices
 
 	$scope.server_response = "Available Materials: ";
@@ -238,6 +238,7 @@ myApp.controller('userCtrl', ['$scope', '$http', function($scope,$http) {
     $scope.processing_extrusion_to_flow_multiplier= material.filament_extrusion_to_flow_multiplier;
 
     $scope.processing_color                       = material.color;
+    $window.reserved_color_variable               = material.color;
     //logic to decompose the integer for opacity into a string
     if(material.opacity == 1){
       $scope.processing_opacity                   = "Opaque";
@@ -347,6 +348,9 @@ myApp.controller('userCtrl', ['$scope', '$http', function($scope,$http) {
 
   $scope.addScript = function() {
     $scope.scripts.push({src: 'js/render_application.js'});
+    //$scope.scripts[0] = ({src: 'js/render_application.js'});
+
+
   }
 
 
