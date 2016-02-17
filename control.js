@@ -50,8 +50,9 @@ myApp.controller('userCtrl', ['$scope', '$http', '$window', function($scope,$htt
   $scope.scripts = [];
 
   $scope.addScript = function() {
-    $scope.scripts.push({src: 'js/render_application.js'});
-    //$scope.scripts[0] = ({src: 'js/render_application.js'});
+    //$scope.scripts.push({src: 'js/render_application.js'});
+    //$scope.scripts.push({src: 'js/RenderObject.js'});
+    $scope.scripts[0] = ({src: 'js/update_render.js'});
 
   }
 

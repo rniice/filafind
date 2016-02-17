@@ -1,4 +1,5 @@
-	
+//EXECUTE THE BELOW CODE NO MATTER WHAT
+
 var target_canvas = document.getElementById('3js-canvas');
 
 var scene = new THREE.Scene();
@@ -15,18 +16,21 @@ var color_selected = parseInt( ("0x" + window.reserved_color_variable), 16);
 //var color_selected = parseInt( ("0x" + "00ff00"), 16);
 var material = new THREE.MeshBasicMaterial( { color: color_selected }, {alphaMap: 0x000000} );  //set the color of the material
 
-var cube = new THREE.Mesh( geometry, material );
-scene.add( cube );
+//var cube = new THREE.Mesh( geometry, material );
+//scene.add( cube );
+window.cube = new THREE.Mesh( geometry, material );
+scene.add( window.cube );
 
 camera.position.z = 5;
 
 function render() {
-requestAnimationFrame( render );
+	var new_animation_frame = requestAnimationFrame( render );
 
-cube.rotation.x += 0.01;   //rotate the cube at this rate on refresh
-cube.rotation.y += 0.01;   //rotate the cube at this rate on refresh
+	window.cube.rotation.x += 0.01;   //rotate the cube at this rate on refresh
+	window.cube.rotation.y += 0.01;   //rotate the cube at this rate on refresh
 
-renderer.render( scene, camera );
+	renderer.render( scene, camera );
 }
+
 
 render();
