@@ -7,11 +7,22 @@ var RenderObject = function(color){
 	this.renderer = new THREE.WebGLRenderer({canvas: this.target_canvas});
 	this.renderer.setSize(220, 220);
 
+    // add subtle ambient lighting
+    this.ambientLight = new THREE.AmbientLight(0x0c0c0c);
+    this.scene.add(this.ambientLight);
+    // add spotlight for the shadows
+    this.spotLight = new THREE.SpotLight(0xffffff);
+    this.spotLight.position.set(-30, 60, 60);
+    this.spotLight.castShadow = true;
+    this.scene.add(this.spotLight);
+
+
 	this.geometry = new THREE.BoxGeometry( 3, 3, 3 );
 
 	this.color_selected = parseInt( ("0x" + color), 16);
 	//var color_selected = parseInt( ("0x" + "00ff00"), 16);
-	this.material = new THREE.MeshBasicMaterial( { color: this.color_selected }, {alphaMap: 0x000000} );  //set the color of the material
+	//this.material = new THREE.MeshBasicMaterial( { color: this.color_selected }, {alphaMap: 0x000000} );  //set the color of the material
+	this.material = new THREE.MeshLambertMaterial({ color: this.color_selected });  //set the color of the material
 
 	this.cube = new THREE.Mesh( this.geometry, this.material );
 	this.scene.add( this.cube );
