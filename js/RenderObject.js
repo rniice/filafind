@@ -5,7 +5,7 @@ var RenderObject = function(color){
 	this.camera = new THREE.PerspectiveCamera( 100, this.target_canvas.width/this.target_canvas.height, 0.1, 1000 );
 
 	this.renderer = new THREE.WebGLRenderer({canvas: this.target_canvas});
-	this.renderer.setSize(250, 250);
+	this.renderer.setSize(220, 220);
 
 	this.geometry = new THREE.BoxGeometry( 3, 3, 3 );
 
