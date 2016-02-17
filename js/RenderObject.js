@@ -1,11 +1,11 @@
 var RenderObject = function(color, opacity){
-	this.target_canvas = document.getElementById('3js-canvas');
+	this.target_canvas = document.getElementById('threeJS-Canvas');
 
 	this.scene = new THREE.Scene();
 	this.camera = new THREE.PerspectiveCamera( 100, this.target_canvas.width/this.target_canvas.height, 0.1, 1000 );
 
 	this.renderer = new THREE.WebGLRenderer({canvas: this.target_canvas});
-	this.renderer.setSize(220, 220);
+	this.renderer.setSize(180, 180);
 
     // add subtle ambient lighting
     this.ambientLight = new THREE.AmbientLight(0x0c0c0c);
@@ -17,7 +17,7 @@ var RenderObject = function(color, opacity){
     this.scene.add(this.spotLight);
 
 
-	this.geometry = new THREE.BoxGeometry( 3, 3, 3 );
+	this.geometry = new THREE.BoxGeometry( 4, 4, 4 );
 
 	this.color_selected = parseInt( ("0x" + color), 16);
 	this.opacity 		= opacity;
@@ -29,7 +29,7 @@ var RenderObject = function(color, opacity){
 	this.cube = new THREE.Mesh( this.geometry, this.material );
 	this.scene.add( this.cube );
 
-	this.camera.position.z = 5;
+	this.camera.position.z = 6;
 
 }	
 

@@ -317,12 +317,10 @@
           <input type="text" ng-model="color_temp" ng-init="" hidden="true"> 
 
           <div class="centered-buttons">
-            <br>
             <button ng-click="disableColorFiltering()">Reset Color</button>
             <button ng-click="resetFiltering()">Reset All</button>
           </div>
 
-          <br>
           <br>
 
           <div class="3d-render">
@@ -331,11 +329,15 @@
 
               <br>
               <br>
-              <canvas id="3js-canvas" width="220" height="220" style="background-color: #000000">
+              <canvas id="threeJS-Canvas" width="180" height="180" style="background-color: #000000">
             
               <!--Placeholder for 3JS Rendered Area-->
-              <script id="3js-script"></script> 
+              <script id="threeJS-Script"></script> 
 
+              <script id="initialize-render">
+                render_object_instance = new RenderObject("33CC33", 0xFFFFFF );
+                render_object_instance.render();
+              </script>
           </div>
           
         </div>

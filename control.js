@@ -1,7 +1,7 @@
 var myApp = angular.module('myApp', ['ngTouch','mp.colorPicker', 'rzModule', 'ui.bootstrap']);
 
-//var base_query = "http://localhost:8080/materials";
-var base_query = "https://stark-tundra-90514.herokuapp.com/materials";
+var base_query = "http://localhost:8080/materials";
+//var base_query = "https://stark-tundra-90514.herokuapp.com/materials";
 
 var filtered_query = "";      
 
@@ -53,7 +53,6 @@ myApp.controller('userCtrl', ['$scope', '$http', '$window', function($scope,$htt
     //$scope.scripts.push({src: 'js/render_application.js'});
     //$scope.scripts.push({src: 'js/RenderObject.js'});
     $scope.scripts[0] = ({src: 'js/update_render.js'});
-
   }
 
 

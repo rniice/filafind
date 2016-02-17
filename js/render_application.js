@@ -1,6 +1,6 @@
 //EXECUTE THE BELOW CODE NO MATTER WHAT
 
-var target_canvas = document.getElementById('3js-canvas');
+var target_canvas = document.getElementById('threeJS-Canvas');
 
 var scene = new THREE.Scene();
 var camera = new THREE.PerspectiveCamera( 100, target_canvas.width/target_canvas.height, 0.1, 1000 );
