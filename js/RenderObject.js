@@ -35,6 +35,7 @@ var RenderObject = function(color, opacity){
 
 RenderObject.prototype.render = function (){
 	//this.frameID = requestAnimationFrame( this.render.bind(this));
+	//this.frameID = requestAnimationFrame( this.render.bind(this) );
 	this.frameID = requestAnimationFrame( this.render.bind(this) );
 
 	this.cube.rotation.x += 0.01;   //rotate the cube at this rate on refresh

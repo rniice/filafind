@@ -1,9 +1,8 @@
-try {
-	delete window.render_object_instance;
-}
-catch(err) {
-	console.log(err);
+function updateColor(color) {
+	var new_color_selected = parseInt( ("0x" + color), 16);
+
+	render_object_instance.material.color.setHex(new_color_selected);
+
 }
 
-window.render_object_instance = new RenderObject(window.reserved_color_variable, window.reserved_opacity_variable );
-window.render_object_instance.render();
+updateColor(window.reserved_color_variable );
