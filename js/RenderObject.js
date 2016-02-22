@@ -33,7 +33,7 @@ var RenderObject = function(color, opacity){
 	//window.alert(this.opacity);
 	//var color_selected = parseInt( ("0x" + "00ff00"), 16);
 	this.material 			= new THREE.MeshLambertMaterial({ color: this.color_selected, transparent: true, opacity: 1.0 } );  //set the color of the material
-	this.texture_material 	= new THREE.MeshLambertMaterial( { map: this.texture, transparent: true, opacity: 0.75 } );  							//set the color of the material
+	this.texture_material 	= new THREE.MeshLambertMaterial( { map: this.texture, transparent: true, opacity: 0.40 } );  							//set the color of the material
 
 	this.cube 		   		= new THREE.Mesh( this.geometry, this.material );
 	this.cube_textured 		= new THREE.Mesh( this.geometry, this.texture_material );
