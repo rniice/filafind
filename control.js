@@ -252,15 +252,15 @@ myApp.controller('userCtrl', ['$scope', '$http', '$window', function($scope,$htt
     //logic to decompose the integer for opacity into a string
     if(material.opacity == 1){
       $scope.processing_opacity                   = "Opaque";
-      $window.reserved_opacity_variable           = 0xFFFFFF;
+      $window.reserved_opacity_variable           = 1.0;
     }
     else if (material.opacity == 2){
       $scope.processing_opacity                   = "Translucent";
-      $window.reserved_opacity_variable           = 0x555555;
+      $window.reserved_opacity_variable           = 0.50;
     }
     else {
       $scope.processing_opacity                   = "Transparent";
-      $window.reserved_opacity_variable           = 0x222222;
+      $window.reserved_opacity_variable           = 0.10;
     }
 
     $scope.processing_website                     = material.website;
