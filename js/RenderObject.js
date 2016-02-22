@@ -19,28 +19,38 @@ var RenderObject = function(color, opacity){
 
 	this.geometry = new THREE.BoxGeometry( 4, 4, 4 );
 
+	this.texture = new THREE.TextureLoader().load("../css/texture_fdm.png");
+		this.texture.wrapS = THREE.RepeatWrapping;
+		this.texture.wrapT = THREE.RepeatWrapping;
+		this.texture.repeat.set( 1, 1 );
+
+
+
 	this.color_selected = parseInt( ("0x" + color), 16);
 	this.opacity 		= opacity;
 	//window.alert(this.opacity);
 	//var color_selected = parseInt( ("0x" + "00ff00"), 16);
-	//this.material = new THREE.MeshBasicMaterial( { color: this.color_selected }, {alphaMap: 0x000000} );  //set the color of the material
 	this.material = new THREE.MeshLambertMaterial({ color: this.color_selected}, {alphaMap: this.opacity} );  //set the color of the material
+	this.texture_material = new THREE.MeshLambertMaterial( { map: this.texture, transparent: true, opacity: 0.75 } );  							//set the color of the material
 
-	this.cube = new THREE.Mesh( this.geometry, this.material );
+	this.cube 		   	= new THREE.Mesh( this.geometry, this.material );
+	this.cube_textured 	= new THREE.Mesh( this.geometry, this.texture_material );
+	
 	this.scene.add( this.cube );
+	this.scene.add( this.cube_textured );
 
 	this.camera.position.z = 6;
-
-}	
+};
 
 RenderObject.prototype.render = function (){
-	//this.frameID = requestAnimationFrame( this.render.bind(this));
-	//this.frameID = requestAnimationFrame( this.render.bind(this) );
 	this.frameID = requestAnimationFrame( this.render.bind(this) );
 
 	this.cube.rotation.x += 0.01;   //rotate the cube at this rate on refresh
 	this.cube.rotation.y += 0.01;   //rotate the cube at this rate on refresh
 
+	this.cube_textured.rotation.x += 0.01;   //rotate the cube texture at this rate on refresh
+	this.cube_textured.rotation.y += 0.01;   //rotate the cube texture at this rate on refresh
+
 	this.renderer.render( this.scene, this.camera );
-}
+};
 
