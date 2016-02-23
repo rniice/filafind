@@ -4,8 +4,8 @@ var app = express();
 var path = require('path');
 var fs = require('fs');
 
-var config = require('./js/config.json');
-var materials = require('./js/materials.js');
+var config = require('./private/config.json');
+var materials = require('./private/js/materials.js');
 
 
 // set the port of our application
@@ -13,12 +13,14 @@ var materials = require('./js/materials.js');
 var port = process.env.PORT || 8080;
 
 // make express look in the public directory for assets (css/js/img)
-app.use(express.static(__dirname));
+var public_directory = path.join(__dirname, "public")
+
+app.use(express.static(public_directory));
 
 //MAIN landing URL
 app.get('/', function(req, res) {
 	//console.log("operating in dirname: " + __dirname);
-	res.sendFile(path.join(__dirname + '/index.html'));
+	res.sendFile(path.join(public_directory + '/index.html'));
 });
 
 
@@ -36,19 +38,19 @@ app.get('/materials/:id', function(req, res) {
 //respond with facebook og open graph image
 app.get('/img', function(req, res) {
 	//console.log("operating in dirname: " + __dirname);
-	res.sendFile(path.join(__dirname + '/img/og_image.jpg'));
+	res.sendFile(path.join(public_directory + '/img/og_image.jpg'));
 });
 
 app.get('/howto', function(req, res) {
-	res.sendFile(path.join(__dirname + '/html/howto.html'));
+	res.sendFile(path.join(public_directory + '/html/howto.html'));
 });
 
 app.get('/about', function(req, res) {
-	res.sendFile(path.join(__dirname + '/html/about.html'));
+	res.sendFile(path.join(public_directory + '/html/about.html'));
 });
 
 app.get('/suppliers', function(req, res) {
-	res.sendFile(path.join(__dirname + '/html/suppliers.html'));
+	res.sendFile(path.join(public_directory + '/html/suppliers.html'));
 });
 
 

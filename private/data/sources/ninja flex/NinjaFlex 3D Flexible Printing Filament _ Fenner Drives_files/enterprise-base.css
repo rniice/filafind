@@ -1,0 +1,1372 @@
+/*======================================================================
+    SFDC Special rules - Hides certain SFDC default output
+    TYI: 06/25/2012
+----------------------------------------------------------------------*/
+/* hide the page block header div */
+.pbHeader 
+{
+    display: none;
+}
+/* field level validation error messages */
+.errorMsg
+{
+    color: Red;
+}
+/*======================================================================
+    Fenner Drives
+    --------------------------------------------------------------------
+
+    Colors:
+
+    #002444     Dark blue       Page header background
+    #003461     Dark blue       UI link text, page title background
+    #00203b     Dark blue       Page title text background
+    #06559C     Bright blue     Link text
+    #3384cb     Bright blue     Header link text
+    #1d5f99     Medium blue     Button background
+    #ededec     Light gray      Footer background
+    #434343     Dark gray       Body text
+    #d7d7d1     Silver          Page column borders
+
+    Font sizes:
+
+     9px    0.75em;
+    10px    0.833em;
+    11px    0.917em;
+    12px    1em;
+    13px    1.083em;
+    14px    1.167em;
+    15px    1.25em;
+    16px    1.333em;
+    17px    1.417em;
+    18px    1.5em;
+    19px    1.583em;
+    20px    1.667em;
+    21px    1.75em;
+    22px    1.833em;
+    23px    1.917em;
+    24px    2em;
+    36px    3em;
+
+----------------------------------------------------------------------*/
+
+/*======================================================================
+    ZurichBT-ExtraCondensed
+----------------------------------------------------------------------*/
+@font-face {
+    font-family: 'ZurichBT-ExtraCondensed';
+    src: url('/_resources/www/fennerdrives/fonts/1B2673_0_0.eot');
+    src: url('/_resources/www/fennerdrives/fonts/1B2673_0_0.eot?#iefix') format('embedded-opentype'),
+         url('/_resources/www/fennerdrives/fonts/1B2673_0_0.woff') format('woff'),
+         url('/_resources/www/fennerdrives/fonts/1B2673_0_0.ttf') format('truetype');
+}
+
+/*======================================================================
+    Text defaults
+----------------------------------------------------------------------*/
+body {
+    font-size: 75%;
+    line-height: 1.6;
+}
+body,
+legend,
+button,
+input,
+select,
+textarea {
+    font-family: arial, sans-serif;
+    color: #434343;
+}
+
+/*======================================================================
+    Sectioning elements
+----------------------------------------------------------------------*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 0;
+    line-height: 1.2;
+}
+h1 {
+    margin: 0 0 0.5em;
+    font-size: 3em;
+}
+h2 {
+    margin: 0 0 1.5em;
+    font-size: 1.167em;
+}
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 0.5em;
+    font-size: 1em;
+}
+address {
+    margin: 0 0 1.5em;
+    padding: 0;
+    font-style: normal;
+}
+    address .address-group-name,
+    address .address-group-company,
+    address .address-group-address,
+    address .address-group-location,
+    address .address-group-country {
+        display: block;
+    }
+
+/*======================================================================
+    Grouping elements
+----------------------------------------------------------------------*/
+p {
+    margin: 0 0 1.5em;
+    padding: 0;
+}
+blockquote {
+    margin: 0;
+    padding: 0;
+    font-style: italic;
+}
+ol {
+    margin: 0 0 1.5em 2em;
+    padding: 0;
+}
+    ol ol {
+        margin-bottom: 0;
+    }
+ul {
+    margin: 0 0 1.5em 2em;
+    padding: 0;
+}
+    ul ul {
+        margin-bottom: 0;
+    }
+    li {
+        margin: 0;
+        padding: 0;
+    }
+dl {
+    margin: 0 0 1.5em;
+    padding: 0;
+}
+    dt {
+        margin: 0;
+        padding: 0;
+    }
+    dd {
+        margin: 0 0 0 1.5em;
+        padding: 0;
+    }
+
+/*======================================================================
+    Text-level semantics
+----------------------------------------------------------------------*/
+a {
+    color: #06559C;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a span {
+    cursor: pointer; /* IE6-7 */
+}
+abbr {
+    border: none;
+}
+small {
+    font-size: 0.923em;
+    color: #666;
+}
+
+/*======================================================================
+    Embedded content
+----------------------------------------------------------------------*/
+img {
+    border: none;
+}
+
+/*======================================================================
+    Tabular data
+----------------------------------------------------------------------*/
+table {
+    margin: 0 0 1em;
+}
+    th,
+    td {}
+
+/*======================================================================
+    Form-associated elements
+----------------------------------------------------------------------*/
+form {
+    margin: 0;
+    padding: 0;
+}
+    fieldset {
+        margin: 0;
+        padding: 0;
+        border: none;
+    }
+        legend {
+            margin: 0;
+            padding: 0;
+            *margin-left: -7px;
+        }
+            legend span {
+                display: block;
+                padding-bottom: 1em;
+            }
+        label,
+        button,
+        input,
+        select,
+        textarea {
+            margin: 0;
+            font-size: 1em;
+        }
+        button {
+            overflow: visible; /* IE6-7 */
+            cursor: pointer;
+        }
+        textarea {
+            height: 60px;
+            vertical-align: top;
+        }
+        .input-radio input,
+        .input-checkbox input {
+            padding: 0;
+        }
+
+/*======================================================================
+    wl-textbox
+----------------------------------------------------------------------*/
+.wl-textbox {
+    padding: 4px 5px;
+    width: 189px;
+    line-height: 1.2;
+    border: 1px solid #a09f9f;
+}
+.wl-textbox:focus {
+    background: #ffffcc;
+    outline: none;
+}
+
+/*======================================================================
+    wl-button
+----------------------------------------------------------------------*/
+.wl-button {
+    position: relative;
+    padding: 6px 12px;
+    float: left;
+    font-family: arial, sans-serif;
+    font-weight: bold;
+    line-height: 1;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fcfcfd;
+    background: #1d5f99;
+    border: none;
+    white-space: nowrap;
+}
+.wl-button:hover,
+.wl-button:focus {
+    text-decoration: none;
+    background: #5294ce;
+    outline: none;
+}
+    .wl-button .ico {
+        display: none;
+    }
+    .wl-button:hover .ico,
+    .wl-button:focus .ico {
+        border-color: #5294ce #fcfcfd;
+    }
+    /* TYI: Modified background URL for SFDC Zip file reference */
+    .wl-button .crn {
+        _display: none;
+        position: absolute;
+        width: 8px;
+        height: 12px;
+        background: url(images/sprite_buttons.png);
+        overflow: hidden; /* IE6 */
+    }
+    .wl-button .crn-tl {
+        left: 0;
+        top: 0;
+        background-position: 0 0;
+    }
+    .wl-button .crn-tr {
+        right: 0;
+        top: 0;
+        background-position: -10px 0;
+    }
+    .wl-button .crn-bl {
+        left: 0;
+        bottom: 0;
+        background-position: 0 -20px;
+    }
+    .wl-button .crn-br {
+        right: 0;
+        bottom: 0;
+        background-position: -10px -20px;
+    }
+    /* TYI: 07/03/2012: Added class for sfdc-button */
+    .wl-button .sfdc-button 
+    {
+        position: absolute;
+        display: block;
+        top: 0;
+        left: 0;
+        width: 75px;
+        height: 16px;
+        background-color: transparent;
+        z-index: 1000;
+        border: 0;
+        cursor: pointer;
+        color: #fff;
+    }
+
+/* wl-button-alt1 - gray page background */
+.wl-button-alt1 {}
+    .wl-button-alt1 .crn-tl {
+        background-position: -20px 0;
+    }
+    .wl-button-alt1 .crn-tr {
+        background-position: -30px 0;
+    }
+    .wl-button-alt1 .crn-bl {
+        background-position: -20px -20px;
+    }
+    .wl-button-alt1 .crn-br {
+        background-position: -30px -20px;
+    }
+
+/* wl-button-small - 10px text, gray button background */
+.wl-button-small {
+    padding: 3px 16px 2px 8px;
+    font-size: 0.833em;
+    color: #fff;
+    background: #b4b4aa;
+}
+    .wl-button-small .crn-tl {
+        display: none;
+    }
+    .wl-button-small .crn-tr {
+        background-position: -10px 0;
+    }
+    .wl-button-small .crn-bl {
+        display: none;
+    }
+    .wl-button-small .crn-br {
+        background-position: -10px -20px;
+    }
+
+/* wl-button-large - login and checkout buttons */
+.wl-button-large {
+    padding: 6px 30px 4px 12px;
+    min-width: 114px;
+    _width: 114px;
+    font-family: ZurichBT-ExtraCondensed, arial, sans-serif;
+    font-size: 2em;
+    font-weight: normal;
+}
+    .wl-button-large .ico {
+        display: block;
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 7px 0 7px 8px;
+        border-color: #1d5f99 #fcfcfd;
+        overflow: hidden; /* IE6 */
+    }
+    .wl-button-large .crn {
+        width: 10px;
+        height: 17px;
+    }
+    .wl-button-large .crn-tl {
+        display: none;
+    }
+    .wl-button-large .crn-tr {
+        background-position: -50px 0;
+    }
+    .wl-button-large .crn-bl {
+        display: none;
+    }
+    .wl-button-large .crn-br {
+        background-position: -50px -20px;
+    }
+
+/* wl-button-alt2 - page header search button */
+.wl-button-alt2 {
+    padding: 3px 13px 3px 8px;
+    padding: 4px 13px 2px 8px;
+    font-family: ZurichBT-ExtraCondensed, arial, sans-serif;
+    font-size: 1.333em;
+    font-weight: normal;
+    background: #1d5f99;
+}
+    .wl-button-alt2 .ico {
+        display: block;
+        position: absolute;
+        right: 6px;
+        top: 7px;
+        *top: 6px;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 4px 0 4px 5px;
+        border-color: #1d5f99 #fcfcfd;
+        overflow: hidden; /* IE6 */
+    }
+    .wl-button-alt2 .crn {
+        width: 6px;
+        height: 11px;
+    }
+    .wl-button-alt2 .crn-tl {
+        background-position: 0 -40px;
+    }
+    .wl-button-alt2 .crn-tr {
+        background-position: -10px -40px;
+    }
+    .wl-button-alt2 .crn-bl {
+        background-position: 0 -60px;
+    }
+    .wl-button-alt2 .crn-br {
+        background-position: -10px -60px;
+    }
+
+/* wl-button-alt3 - page footer submit button */
+.wl-button-alt3 {
+    padding: 3px 14px 3px 10px;
+    font-family: ZurichBT-ExtraCondensed, arial, sans-serif;
+    font-size: 1.25em;
+    font-weight: normal;
+    background: #1d5f99;
+}
+    .wl-button-alt3 .ico {
+        display: block;
+        position: absolute;
+        right: 6px;
+        top: 7px;
+        *top: 6px;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 4px 0 4px 5px;
+        border-color: #1d5f99 #fcfcfd;
+        overflow: hidden; /* IE6 */
+    }
+    .wl-button-alt3 .crn {
+        width: 6px;
+        height: 11px;
+    }
+    .wl-button-alt3 .crn-tl {
+        background-position: -20px -40px;
+    }
+    .wl-button-alt3 .crn-tr {
+        background-position: -30px -40px;
+    }
+    .wl-button-alt3 .crn-bl {
+        background-position: -20px -60px;
+    }
+    .wl-button-alt3 .crn-br {
+        background-position: -30px -60px;
+    }
+
+/* wl-button-alt4 - cart dropdown checkout button */
+.wl-button-alt4 {
+    padding: 4px 13px 2px 8px;
+    font-family: ZurichBT-ExtraCondensed, arial, sans-serif;
+    font-size: 1.333em;
+    font-weight: normal;
+    background: #1d5f99;
+}
+    .wl-button-alt4 .ico {
+        display: block;
+        position: absolute;
+        right: 6px;
+        top: 7px;
+        *top: 6px;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 4px 0 4px 5px;
+        border-color: #1d5f99 #fcfcfd;
+        overflow: hidden; /* IE6 */
+    }
+    .wl-button-alt4 .crn {
+        width: 6px;
+        height: 11px;
+    }
+    .wl-button-alt4 .crn-tl {
+        background-position: 0 -40px;
+    }
+    .wl-button-alt4 .crn-tr {
+        background-position: -10px -40px;
+    }
+    .wl-button-alt4 .crn-bl {
+        background-position: 0 -60px;
+    }
+    .wl-button-alt4 .crn-br {
+        background-position: -10px -60px;
+    }
+
+/* wl-button-alt5 - use with wl-button-large over a gray page background */
+.wl-button-alt5 {}
+    .wl-button-alt5 .crn-tr {
+        background-position: -70px 0;
+    }
+    .wl-button-alt5 .crn-br {
+        background-position: -70px -20px;
+    }
+
+/* wl-button-alt6 - use with wl-button-small over a gray page background */
+.wl-button-alt6 {}
+    .wl-button-alt6 .crn-tr {
+        background-position: -30px 0;
+    }
+    .wl-button-alt6 .crn-br {
+        background-position: -30px -20px;
+    }
+
+/*======================================================================
+    validation errors
+----------------------------------------------------------------------*/
+.validation-errors {
+    margin: 0 0 1.5em 0;
+    padding: 1em;
+    font-weight: bold;
+    color: #f00;
+    background-color: #fff1f1;
+    line-height: 1.3;
+    border: 1px solid #f00;
+}
+    .validation-errors ul {
+        margin-bottom: 0;
+        padding: 0.5em;
+        color: #434343;
+    }
+
+/*======================================================================
+    pairinglist
+----------------------------------------------------------------------*/
+.pairinglist {}
+    .pairinglist .pairings {
+        margin: 0;
+        list-style: none;
+    }
+        .pairinglist .pairing {
+            margin: 0;
+            padding: 0 0 11px;
+        }
+            .pairinglist .primary {}
+                .pairinglist .required,
+                .pairinglist .optional {
+                    font-size: 0.833em;
+                }
+                .pairinglist .pairing-note {
+                    font-size: 0.833em;
+                }
+            .pairinglist .pairing-content {}
+                .pairinglist .pairing-controls {}
+
+        /* pairing-vertical */
+        .pairinglist .pairing-vertical {}
+            .pairinglist .pairing-vertical .primary {
+                display: block;
+                padding: 0 0 2px;
+            }
+
+        /* pairing-horizontal */
+        .pairinglist .pairing-horizontal {}
+
+        /* pairing-checkbox */
+        .pairinglist .pairing-checkbox {}
+            .pairinglist .pairing-checkbox .primary {
+                position: absolute;
+                left: -999em;
+            }
+
+        /* defaultstatus-pairing */
+        .defaultstatus-pairing {}
+            .defaultstatus-pairing .pairing-controls input {
+                margin: 0 3px 0 0;
+                padding: 0;
+                height: 13px;
+                width: 13px;
+            }
+
+/*======================================================================
+    wl-requirementdefault
+    --------------------------------------------------------------------
+    Set the default requirement for a set of form fields. Only show
+    notes (like "required" and "optional") for those that differ
+    from the default
+----------------------------------------------------------------------*/
+.wl-requirementdefault {}
+    .wl-requirementdefault-optional .pairinglist .optional {
+        position: absolute;
+        left: -999em;
+    }
+    .wl-requirementdefault-required .pairinglist .required {
+        position: absolute;
+        left: -999em;
+    }
+    .wl-requirementdefault-hide .pairinglist .optional,
+    .wl-requirementdefault-hide .pairinglist .required {
+        position: absolute;
+        left: -999em;
+    }
+
+/*======================================================================
+    actionlist
+----------------------------------------------------------------------*/
+.actionlist {}
+    .actionlist .actions {
+        margin: 0;
+        list-style: none;
+    }
+        .actionlist .action {
+            margin: 0;
+        }
+        .actionlist .action-primary {}
+        .actionlist .action-secondary {}
+
+/* actionlist-full */
+.actionlist-full {
+    padding: 12px 0 6px;
+    background: #e8e8e4;
+}
+    .actionlist-full .actions {}
+        .actionlist-full .action-primary {
+            margin: 0 auto;
+            padding: 0 0 5px;
+            width: 215px;
+        }
+            .actionlist-full .action-primary .wl-button {
+                display: block;
+                float: none;
+            }
+        .actionlist-full .action-secondary {
+            text-align: center;
+            font-size: 0.917em;
+        }
+
+/*======================================================================
+    advanced-selector
+----------------------------------------------------------------------*/
+.advanced-selector {
+    margin-left: 0;
+}
+    .advanced-selector .advanced-selector-item {
+        margin: 0 5px 10px 0;
+        min-height: 170px;
+        _height: 170px;
+        width: 225px;
+        list-style: none;
+        float: left;
+    }
+    .advanced-selector li {}
+    .advanced-selector .mod-3 {}
+        .advanced-selector .item {
+            margin-bottom: 8px;
+            padding: 7px;
+            border: 1px solid #e8e8e4;
+        }
+        .advanced-selector .hover .item {
+            background-color: #fdfdfd;
+        }
+        .advanced-selector .selected .item {
+            padding: 5px; 
+            border: 3px solid #1d609b;
+        }
+            .advanced-selector .item-term {}
+                .advanced-selector .item-term label {}
+            .advanced-selector .item-definition {
+                margin-left: 16px;
+            }
+            .advanced-selector .selected .item-definition {
+            }
+                .advanced-selector .item-definition address {
+                    margin-bottom: 0;
+                }
+                .advanced-selector .item-definition dl {}
+                    .advanced-selector .item-definition dt {}
+                    .advanced-selector .item-definition dd {}
+        .advanced-selector .action {
+            float: left;
+        }
+        
+/*======================================================================
+    messagelist
+----------------------------------------------------------------------*/
+.messagelist {}
+    .messagelist .messages {
+        margin: 0 0 1em;
+        list-style: none;
+    }
+        .messagelist .message {
+            padding: 1em 1em 1em 4em;
+        }
+        .messagelist .message-information {
+            color: #032e4e;
+            background: #d8e6f0 url(../../../_global/images/icons/icon_shoppe/disco/24/comment.png) 10px center no-repeat;
+            border: 3px double #fff;
+        }
+        .messagelist .message-authenticationrequired {
+            padding: 0.6em 28px;
+            font-size: 0.917em;
+            color: #333;
+            background: #f3f4f5 url(../../../_global/images/icons/icon_shoppe/disco/16/locked.png) 6px center no-repeat;
+            border: 1px solid #bfcbd4;
+        }
+        .messagelist .message-confirmation {
+            color: #333;
+            background: #f1f1f1 url(../../../_global/images/icons/icon_shoppe/disco/24/minus.png) 10px center no-repeat;
+            border: 2px solid #757575;
+        }
+        .messagelist .message-warning {
+            color: #333;
+            background: #fff0e3 url(../../../_global/images/icons/icon_shoppe/disco/24/alert.png) 10px center no-repeat;
+            border: 2px solid #f8891f;
+        }
+        .messagelist .message-error {
+            color: #000;
+            background: #fef2f1 url(../../../_global/images/icons/icon_shoppe/disco/24/!.png) 10px center no-repeat;
+            border: 2px solid #b61a1a;
+        }
+        .messagelist .message-success {
+            color: #333;
+            background: #f3ffe9 url(../../../_global/images/icons/icon_shoppe/disco/24/check.png) 10px 10px no-repeat;
+            border: 2px solid #65a63e;
+        }
+        .messagelist .message-blank {
+            color: #333;
+            background: #f1f1f1 10px center no-repeat;
+            border: 2px solid #757575;
+        }
+            .messagelist .message span {
+                font-weight: bold;
+            }
+            .messagelist .submessages {
+                margin: 0;
+                list-style: none;
+            }
+                .messagelist .submessage {
+                    padding: 2px 0 2px 20px;
+                    background-position: 0 3px;
+                    background-repeat: no-repeat;
+                }
+                .messagelist .submessage-information {
+                    background-image: url(../../../_global/images/icons/icon_shoppe/disco/16/comment.png);
+                }
+                .messagelist .submessage-authenticationrequired {
+                    background-image: url(../../../_global/images/icons/icon_shoppe/disco/16/locked.png);
+                }
+                .messagelist .submessage-confirmation {
+                    background-image: url(../../../_global/images/icons/icon_shoppe/disco/16/minus.png);
+                }
+                .messagelist .submessage-warning {
+                    background-image: url(../../../_global/images/icons/icon_shoppe/disco/16/alert.png);
+                }
+                .messagelist .submessage-error {
+                    background-image: url(../../../_global/images/icons/icon_shoppe/disco/16/!.png);
+                }
+                .messagelist .submessage-success {
+                    background-image: url(../../../_global/images/icons/icon_shoppe/disco/16/check.png);
+                }
+
+/*======================================================================
+    order-data
+----------------------------------------------------------------------*/
+.order-data {}
+    .order-data .shipments {}
+        .order-data .shipments .info h4 {}
+            .order-data .shipments .info h4 span {}
+        .order-data .shipments .info dl {}
+        .order-data .shipmentlist {
+            margin: 0;
+            list-style: none;	
+        }
+            .order-data .shipmentlist .shipment {}
+    .order-data .shipments-single h2,
+    .order-data .shipments-single h3 {}
+    .order-data .shipments-single .info {}
+        .order-data .shipments .info h4 span {}
+        .order-data .shipments .info .address,
+        .order-data .shipments .info .method,
+        .order-data .shipments .info .meta {
+            float: left;
+            margin-right: 30px;
+            padding-right: 30px;
+            width: 258px;
+            min-height: 140px;
+            _height: 140px;
+            border-right: 1px solid #e8e8e4;
+        }
+        .order-data .shipments-single .info .method {}
+            .order-data .shipments-single .info .method div {
+                margin-bottom: 1.5em;
+            }
+        .order-data .shipments-single .info .meta {
+            margin-right: 0;
+            border-right: none;
+        }
+    .order-data .shipments-multiple .shipmentlist {}
+        .order-data .shipments-multiple .shipmentlist .shipment {}
+        .order-data .shipments-multiple .shipmentlist .shipment-last {}
+            .order-data .shipments-multiple .info {}
+                .order-data .shipments-multiple .info h3 {}
+                .order-data .shipments-multiple .info h4 {}
+                .order-data .shipments-multiple .info .address,
+                .order-data .shipments-multiple .info .method,
+                .order-data .shipments-multiple .info .meta {}
+            .order-data .shipments-multiple .items {}
+                .order-data .shipments-multiple .items .u-shipment-items {}
+            .order-data .shipments-multiple .u-miscellaneous-totalstable {}
+    .order-data .tenders {}
+        .order-data .tenders table.base {}
+    .order-data .totals {}
+        .order-data .totals h2 {}
+        .order-data .totals .wl-table-totals {
+            width: 308px;
+            float: right;
+        }
+        .order-data .totals .u-miscellaneous-totalstable {}
+            .order-data .totals .u-miscellaneous-totalstable table {}
+
+/*======================================================================
+    wl-table
+----------------------------------------------------------------------*/
+.wl-table {
+    width: 100%;
+    border: none;
+    border-collapse: collapse;
+}
+    .wl-table th,
+    .wl-table td {
+        border: none;
+        border-bottom: 1px solid #d7d7d1;
+    }
+    .wl-table th {
+        padding: 0.5em;
+        font-size: 1.083em;
+        text-align: left;
+        background: #ededec;
+    }
+    .wl-table td {
+        padding: 0.5em;
+        vertical-align: top;
+    }
+
+/*======================================================================
+    wl-table--compare
+----------------------------------------------------------------------*/
+.wl-table--compare {
+    table-layout: fixed;
+}
+    .wl-table--compare th {
+        width: 95px;
+    }
+
+/*======================================================================
+    wl-table-lineitems
+----------------------------------------------------------------------*/
+.wl-table-lineitems {}
+    .wl-table-lineitems .col-remove {
+        text-align: center;
+    }
+    .wl-table-lineitems .wl-product {}
+        .wl-table-lineitems .wl-product .image {
+            margin: 0 5px 0 0;
+            width: 50px;
+            height: 50px;
+            float: left;
+            border: 1px solid #e8e8e4;
+            overflow: hidden;
+        }
+            .wl-table-lineitems .wl-product .image img {
+                float: left;
+            }
+        .wl-table-lineitems .wl-product .info {}
+            .wl-table-lineitems .wl-product .info {
+                float: left;
+            }
+                .wl-table-lineitems .wl-product .info h3 {
+                    margin: 0 0 2px;
+                }
+                .wl-table-lineitems .wl-product .info .product-fulfillmentsystemid {
+                    display: block;
+                    line-height: 1.2;
+                }
+                .wl-table-lineitems .wl-product .info .statuses {
+                    margin: 0;
+                }
+                    .wl-table-lineitems .wl-product .info .statuses li {
+                        list-style-type: none;
+                    }
+
+    .wl-table-lineitems .col-price {
+        text-align: right;
+    }
+    .wl-table-lineitems .col-quantity {
+        text-align: center;
+    }
+        .wl-table-lineitems .col-quantity dd {
+            margin: 0;
+        }
+        .wl-table-lineitems .col-quantity input {
+            text-align: center;
+        }
+    .wl-table-lineitems .col-total {
+        text-align: right;
+    }
+    
+/*======================================================================
+    wl-productoptions
+----------------------------------------------------------------------*/
+.wl-productoptions {}
+    .wl-productoptions .productoptionslist {
+        margin: 0;
+        list-style-type: none;
+    }
+        .wl-productoptions .productoption {}
+            .wl-productoptions dl {
+                margin: 0;
+            }
+                .wl-productoptions dt {
+                    font-weight: bold;
+                }
+                .wl-productoptions dd {
+                    margin: 0;
+                }
+/*======================================================================
+    tooltip styling
+----------------------------------------------------------------------*/
+.tooltip {
+    position: absolute;
+    padding: 3px;
+    background-color: #d8d8d2;
+    z-index: 11;
+}
+
+/*======================================================================
+    jQuery UI Dialogs
+----------------------------------------------------------------------*/
+.ui-widget-overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #000;
+    opacity: 0.65;
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=65);
+}
+.ui-dialog {
+    position: absolute;
+    padding: 0 0 10px;
+    float: left;
+    background: white;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
+}
+    .ui-dialog-titlebar {
+        padding: 5px 10px;
+        text-align: right;
+        background: #ededec;
+        -webkit-border-top-left-radius: 10px;
+        -webkit-border-top-right-radius: 10px;
+        -moz-border-radius-topleft: 10px;
+        -moz-border-radius-topright: 10px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+        .ui-dialog-title {
+            display: none;
+        }
+        .ui-dialog-titlebar-close {
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+    .ui-dialog-content {
+        padding: 10px;
+        float: left;
+    }
+    .ui-dialog-buttonpane {
+        padding: 0 10px 10px;
+        text-align: right;
+    }
+        .ui-dialog-buttonpane button {
+            margin: 0 5px;
+        }
+
+/*======================================================================
+    jQuery UI Datepickers
+----------------------------------------------------------------------*/
+.ui-datepicker {
+    display: none;
+    position: absolute;
+    padding: 5px;
+    width: 220px;
+    background: #fff;
+    border: 1px solid #ccc;
+}
+    .ui-datepicker-header {
+        padding: 5px;
+        text-align: center;
+    }
+        .ui-datepicker-prev {
+            float: left;
+        }
+        .ui-datepicker-next {
+            float: right;
+        }
+        .ui-datepicker-title {}
+    .ui-datepicker-calendar {
+        width: 100%;
+        border: none;
+    }
+        .ui-datepicker-calendar th,
+        .ui-datepicker-calendar td {
+            text-align: center;
+            border: none;
+        }
+            .ui-datepicker-calendar a {
+                display: block;
+                text-align: center;
+                text-decoration: underline;
+            }
+            .ui-datepicker-calendar a.ui-state-active {
+                background: #eee;
+            }
+    /* iframe is in IE6 only */
+    .ui-datepicker iframe {
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: -1;
+    }
+
+/*======================================================================
+    wl-tabs
+----------------------------------------------------------------------*/
+.wl-tabs {}
+    .wl-tabs .tabsnav {
+        position: relative;
+        margin: 0;
+        list-style: none;
+        z-index: 20; /* over .section */
+    }
+        .wl-tabs .tabsnav li {
+            margin: 0;
+            float: left;
+        }
+            .wl-tabs .tabsnav a {
+                display: inline; /* IE6 */
+                margin: 5px 0 0 4px;
+                padding: 4px 19px 5px;
+                float: left;
+                background: #ededeb;
+                border-bottom: 1px solid #d8d8d2;
+            }
+            .wl-tabs .ui-tabs-selected a {
+                margin-top: 0;
+                padding: 7px 19px;
+                background: #d8d8d2;
+            }
+            .wl-tabs .ui-tabs-selected a:hover {
+                text-decoration: none;
+                cursor: default;
+            }
+    .wl-tabs .section {
+        position: relative;
+        top: -1px;
+        padding: 15px 5px 1px;
+        border-top: 1px solid #d8d8d2;
+        z-index: 10; /* under .tabsnav */
+    }
+    .wl-tabs .ui-tabs-hide {
+        display: none;
+    }
+/* Alternate tab style */
+.wl-tabs-alt {}
+    .wl-tabs-alt .tabsnav {
+        position: static;
+        padding: 9px 8px 0;
+        background: #c3c4be url(../images/layout/bg_tabs-2.png) repeat-x;
+    }
+        .wl-tabs-alt .tabsnav li {}
+            .wl-tabs-alt .tabsnav a {
+                border: none;
+            }
+            .wl-tabs-alt .ui-tabs-selected a {
+                background: #fff;
+            }
+    .wl-tabs-alt .section {
+        position: static;
+        border: none;
+    }
+
+/*======================================================================
+    wl-advancedcontent
+----------------------------------------------------------------------*/
+.wl-advancedcontent {
+    margin: 0 0 20px;
+}
+
+/*======================================================================
+    wl-contentarea
+----------------------------------------------------------------------*/
+.wl-contentarea {
+    padding: 15px 10px 0;
+}
+
+/*======================================================================
+    wl-customertenderform
+----------------------------------------------------------------------*/
+.wl-customertenderform {}
+    .wl-customertenderform .creditcardinformation {}
+        .wl-customertenderform .creditcardinformation .pairing {
+            margin-right: 10px;
+            float: left;
+        }
+            .wl-customertenderform .creditcardinformation .pairing .pairing-content label {
+                display: none;
+            }
+        .wl-customertenderform .creditcardinformation .securitycode-pairing {}
+            .wl-customertenderform .creditcardinformation .securitycode-pairing .pairing-content {}
+                .wl-customertenderform .creditcardinformation .securitycode-pairing .pairing-controls {}
+                    .wl-customertenderform .creditcardinformation .securitycode-pairing input {
+                        width: 52px;
+                    }
+
+/*======================================================================
+    wl-loginform
+----------------------------------------------------------------------*/
+.wl-loginform {}
+    .wl-loginform .action-primary {
+        margin-bottom: 25px;
+    }
+
+/*======================================================================
+    wl-contentitemslist
+----------------------------------------------------------------------*/
+.wl-contentitemslist {}
+    .wl-contentitemslist h2 {
+        font-size: 1em;
+    }
+    .wl-contentitemslist .node {
+        margin: 0 0 25px;
+        clear: both;
+    }
+        .wl-contentitemslist .image {
+            margin: 0;
+            padding: 5px;
+            height: 83px;
+            width: 88px;
+            float: left;
+            background-color: #e8e8e4;
+            overflow: hidden;
+        }
+        .wl-contentitemslist .info {
+            margin-left: 108px;
+        }
+            .wl-contentitemslist h3 {
+                padding: 0 0 7px;
+                margin: 0 0 5px;
+                border-bottom: 1px solid #dddddd;
+                font-size: 1.167em;
+            }
+            .wl-contentitemslist p {
+                line-height: 1.333;
+            }
+            
+/*======================================================================
+    wl-media-gallery
+----------------------------------------------------------------------*/
+.wl-media-gallery {}
+    .wl-tabs .wl-media-gallery {
+        padding: 15px 0;
+    }
+    .wl-media-gallery .item {
+        display: inline;
+        margin-left: 5px;
+        margin-bottom: 10px;
+        padding: 15px 8px;
+        width: 163px;
+        float: left;
+        border: 1px solid #dedede;
+    }
+        .wl-media-gallery .item p.image {
+            margin: 0 auto 1.5em;
+            width: 120px;
+            height: 90px;
+        }
+        .wl-media-gallery .item .info {
+            padding-top: 15px;
+            height: 154px;
+            border-top: 1px solid #d6d6ce;
+            width: 163px;
+            overflow: hidden;
+        }
+            .wl-media-gallery .item .info h3 {
+                margin: 0;
+                padding: 0 3px;
+                line-height: 1.6;
+            }
+
+/*======================================================================
+    wl-quickorder
+----------------------------------------------------------------------*/
+.wl-quickorder {}
+    .wl-quickorder .wl-quickadd {}
+        .wl-quickorder .wl-quickadd .order {
+            float: left;
+            width: 369px;
+        }
+    .wl-quickorder .wl-quickadd .actionlist {}
+        .wl-quickorder .wl-quickadd .actions {}
+            .wl-quickorder .wl-quickadd .action {
+                float: left;
+                margin-right: 5px;
+            }
+    .wl-quickorder .wl-quickadd h2 {
+        margin-bottom: 0.5em;
+    }
+    .wl-quickorder .wl-quickadd table {
+        margin-bottom: 1em;
+    }
+        .wl-quickorder .wl-quickadd table th {
+            padding: 5px;
+        }
+        .wl-quickorder .wl-quickadd table td {
+            padding: 5px 0 0 0;
+        }
+        .wl-quickorder .wl-quickadd table .col-qty {
+            padding-left: 5px;
+        }
+            .wl-quickorder .wl-quickadd table .col-qty .wl-textbox {
+                width: 40px;
+            }
+    .wl-quickorder .wl-quickadd dl {
+        margin-bottom: 5px;
+    }
+        .wl-quickorder .wl-quickadd dt {}
+        .wl-quickorder .wl-quickadd dd {
+            margin: 0;
+        }
+/*======================================================================
+    Media Dialogs
+    --------------------------------------------------------------------
+    Used to display details of strategic content photos/videos
+----------------------------------------------------------------------*/
+.mediadialog {
+    padding: 10px;
+}
+    .mediadialog .media {
+        margin: 0 15px 0 0;
+        float: left;
+    }
+    .mediadialog .info {
+        width: 235px;
+        float: left;
+    }
+        .mediadialog .info h3 {
+            margin: 0 0 6px;
+        }
+        .mediadialog .info p {
+            margin: 6px 0;
+        }
+        .mediadialog .info .date {
+            font-style: italic;
+        }
+        .mediadialog .info .desc {
+            max-height: 450px;
+            overflow: auto;
+        }
+
+/*======================================================================
+    clearfix
+----------------------------------------------------------------------*/
+.clearfix,
+.wl-cf {
+    zoom: 1;
+}
+.clearfix:before,
+.clearfix:after,
+.wl-cf:before,
+.wl-cf:after {
+    display: block;
+    height: 0;
+    content: ".";
+    overflow: hidden;
+    visibility: hidden;
+}
+.clearfix:after,
+.wl-cf:after {
+    clear: both;
+}
+
+/*======================================================================
+    wl-visuallyhidden
+----------------------------------------------------------------------*/
+.wl-visuallyhidden {
+    position: absolute;
+    left: -9999em;
+}
+
+/*======================================================================
+    weblinc-developer-toolbar
+----------------------------------------------------------------------*/
+.weblinc-developer-toolbar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 48px;
+    min-height: 25px;
+    background: transparent url(../../_default/images/developerbar/bg_dev-bar.png) 0 0 no-repeat;
+}
+    .weblinc-developer-toolbar a.weblinc-developer-toolbar-anchor {
+        display: block;
+        position: absolute; 
+        top: 0;
+        left: 0;
+        width: 25px;
+        height: 25px;
+        font-size: 1px;
+        text-indent: -9999px;
+        background: transparent url(../../_default/images/developerbar/dev-bar-open-close.png) 0 -2px no-repeat;
+        outline: none;
+    }
+        .weblinc-developer-toolbar a:hover.weblinc-developer-toolbar-anchor {
+            background-position: -36px -2px;
+        }
+        .weblinc-developer-toolbar.open a.weblinc-developer-toolbar-anchor {
+            background-color: transparent;
+            background-position: 0 -26px;
+        }
+        .weblinc-developer-toolbar.open a:hover.weblinc-developer-toolbar-anchor {
+            background-color: transparent;
+            background-position: -36px -26px;
+        }
+    .weblinc-developer-toolbar.open {
+        width: 100%;
+        background-color: #666;
+    }
+        .weblinc-developer-toolbar .weblinc-developer-toolbar-content {
+            display: none;
+            padding-left: 60px;
+        }
+        .weblinc-developer-toolbar.open .weblinc-developer-toolbar-content {
+            display: block;
+        }

@@ -1,0 +1,39 @@
+.box-product .btn-compare {
+	width:70px;
+	float:right;
+	color:#fff;
+	background:#e27043;
+	text-align:center;
+	cursor:pointer;
+	white-space:nowrap;
+	font-size:12px;
+	padding:0px;
+	margin-right: 0px;
+}
+
+.product-info .product-info-icons {
+	padding-top:0px;
+	text-align: left;
+	padding-bottom:0px;
+        float:left;
+	width: 250px;
+	overflow: auto;
+}
+
+
+.product-list .list-product-item .center-block .btn-product img	 {
+	padding-right: 3px;
+}
+
+.box-product .slide-block .image-rating {
+        height:20px;
+}
+
+.slide-block .btn-compare {
+	clear: both;
+	width:106px;
+	margin:0px;
+	padding:0px;
+	float: none;
+	background:#e27043;
+}

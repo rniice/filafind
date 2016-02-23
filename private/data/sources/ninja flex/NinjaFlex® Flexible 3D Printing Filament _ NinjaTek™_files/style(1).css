@@ -1,0 +1,72 @@
+/*Avenir Book*/
+@font-face {
+    font-family: 'avenir_book';
+    src: url('AvenirLTStd-Book.eot');
+    src: url('AvenirLTStd-Book.eot?#iefix') format('embedded-opentype'),
+         url('AvenirLTStd-Book.woff') format('woff'),
+         url('AvenirLTStd-Book.ttf') format('truetype'),
+         url('AvenirLTStd-Book.svg#avenirbook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*Avenir Book Oblique*/
+@font-face {
+    font-family: 'avenir_book_oblique';
+    src: url('AvenirLTStd-BookOblique.eot.eot');
+    src: url('AvenirLTStd-BookOblique.eot.eot?#iefix') format('embedded-opentype'),
+         url('AvenirLTStd-BookOblique.eot.woff') format('woff'),
+         url('AvenirLTStd-BookOblique.eot.ttf') format('truetype'),
+         url('AvenirLTStd-BookOblique.eot.svg#avenirbookoblique') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*Avenir Light*/
+@font-face {
+    font-family: 'avenir_light';
+    src: url('AvenirLTStd-Light.eot');
+    src: url('AvenirLTStd-Light.eot?#iefix') format('embedded-opentype'),
+         url('AvenirLTStd-Light.woff') format('woff'),
+         url('AvenirLTStd-Light.ttf') format('truetype'),
+         url('AvenirLTStd-Light.svg#avenirlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*Avenir Light Oblique*/
+@font-face {
+    font-family: 'avenir_light_oblique';
+    src: url('AvenirLTStd-LightOblique.eot.eot');
+    src: url('AvenirLTStd-LightOblique.eot.eot?#iefix') format('embedded-opentype'),
+         url('AvenirLTStd-LightOblique.eot.woff') format('woff'),
+         url('AvenirLTStd-LightOblique.eot.ttf') format('truetype'),
+         url('AvenirLTStd-LightOblique.eot.svg#avenirlightoblique') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*Avenir Heavy*/
+@font-face {
+    font-family: 'avenir_heavy';
+    src: url('AvenirLTStd-Heavy.eot');
+    src: url('AvenirLTStd-Heavy.eot?#iefix') format('embedded-opentype'),
+         url('AvenirLTStd-Heavy.woff') format('woff'),
+         url('AvenirLTStd-Heavy.ttf') format('truetype'),
+         url('AvenirLTStd-Heavy.svg#avenirlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*Avenir Light Oblique*/
+@font-face {
+    font-family: 'avenir_heavy_oblique';
+    src: url('AvenirLTStd-HeavyOblique.eot.eot');
+    src: url('AvenirLTStd-HeavyOblique.eot.eot?#iefix') format('embedded-opentype'),
+         url('AvenirLTStd-HeavyOblique.eot.woff') format('woff'),
+         url('AvenirLTStd-HeavyOblique.eot.ttf') format('truetype'),
+         url('AvenirLTStd-HeavyOblique.eot.svg#avenirheavyoblique') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

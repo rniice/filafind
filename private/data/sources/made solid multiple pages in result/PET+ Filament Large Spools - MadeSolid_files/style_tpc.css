@@ -1,0 +1,37 @@
+h1 {color:#c2c839!important;}
+
+h2 {font-size: 38px!important;
+  line-height: 1.5em;
+  margin: 0 auto 15px;
+  clear: both;
+  font-weight: lighter;
+  padding-top: 4px;
+  color:#fff!important;
+  text-align:center;}
+  
+  h2.products {font-size: 22px!important; color:#000!important; text-align:left!important;}
+  
+  h4.printer {font-size: 20px; text-align: left!important; text-transform: uppercase; color: #449ad4; padding-bottom: 0px; margin-bottom: 0px; letter-spacing: 0px;}
+  
+  .general {background: #eee; padding: 30px;}
+  
+  ul.no_bullets li {list-style-type:none;}
+  
+  .printer_h5 {padding-bottom:0px;}
+  
+  .printer_ul (padding-bottom:1em;)
+  
+ul {font-size:14px!important;}
+
+.back_to_top {background:#254066; color: #fff!important; padding: 5px 15px 5px 15px; }
+#habla_beta_container_do_not_rely_on_div_classes_or_names #habla_topbar_div, #habla_offline_submit_input {background-color: #234073!important;}
+
+
+@media only screen and (max-width: 767px){
+.index .logo img{display:none;}
+.index .logo {background-image: url('http://cdn.shopify.com/s/files/1/0161/4152/t/49/assets/logo_home.png'); background-position: center center; height:50px; background-size: 300px 44px; background-repeat:no-repeat;}
+.flex-caption .headline {font-size: 2.1em!important; margin-top:-15px!important;}
+.flex-caption p.subtitle {font-size: 0.9em!important; line-height: 1.2em!important; margin-bottom: .5em!important; width: 140px; margin-left: 20px;}
+  
+  .flex-caption .action_button {margin: 0px 0px 0px 0px!important;}
+}

@@ -1,0 +1,926 @@
+/* the container */
+.thumbnailContainer {
+	position: relative;
+	height: 101px;
+	width: 350px;
+}
+.thumbnailContainer img {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.thumbnailContainer .stripe {
+	position: absolute;
+	display: block;
+	height: 100%;
+	z-index: 10;
+}
+.thumbnailContainer .block {
+	position: absolute;
+	display: block;
+	z-index: 10;
+	xborder: 1px solid #FF0000;
+}
+
+/**COOL SKIN***/
+
+.thumbnailContainer .bannerControls {
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 100;
+}
+
+.thumbnailContainer .leftNav {
+	position: absolute;
+	left: 0px;
+	top: 50%;
+	margin-top: -20px; /* height/2 */
+	width: 22px;
+	height: 75px;
+	/*	background:url(/static/leftNavOFF.png) 0 0 no-repeat;
+	 */
+	cursor: pointer;
+}
+
+.thumbnailContainer .leftNav:hover {
+	/*	background:url(/static/leftNavON.png) 0 0 no-repeat;
+	 */
+}
+.thumbnailContainer .rightNav {
+	position: absolute;
+	right: 0px;
+	top: 50%;
+	margin-top: -20px; /* height/2 */
+	width: 22px;
+	height: 75px;
+	/*	background:url(/static/rightNavOFF.png) 0 0 no-repeat;
+	 */
+	cursor: pointer;
+}
+.thumbnailContainer .rightNav:hover {
+	/*	background:url(/static/rightNavON.png) 0 0 no-repeat;
+	 */
+}
+.thumbnailContainer .thumbsHolderWrapper {
+	position: absolute;
+	background: #FFFFFF;
+	height: 101px;
+	width: 110%;
+	overflow: hidden;
+}
+@media screen and (min-width: 992px) and (max-width:1475px){
+	.thumbnailContainer .thumbsHolderWrapper {width:105%}
+}
+.thumbnailContainer .thumbsHolderVisibleWrapper {
+	position: absolute;
+	width: 100%;
+	height: 101px;
+	overflow: hidden;
+}
+.thumbnailContainer .thumbsHolder {
+	position: absolute;
+	overflow: hidden;
+	height: 100px;
+}
+.thumbnailContainer .thumbsHolder_ThumbOFF {
+	float: left;
+	display: block;
+	width: 110px;
+	height: 65px;
+	xmargin-left: 20px;
+	cursor: pointer;
+}
+
+.thumbnailContainer .thumbsHolder_ThumbOFF img {
+	position: relative;
+	xborder: 3px solid #FFF;
+	xmargin-top: 25px;
+	xpadding-top: 10px;
+}
+
+.thumbnailContainer .thumbsHolder_ThumbON img {
+	border: 1px solid #005195 !important;
+	-webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0 1px 5px rgba(0,0,0,0.5);
+	-ms-box-shadow: 0 1px 5px rgba(0,0,0,0.5);
+	-o-box-shadow: 0 1px 5px rgba(0,0,0,0.5);
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.thumbnailContainer .imageHolder {
+
+	margin-top: 11px;
+	width: 110px;
+	height: 86px;
+	overflow-x: hidden;
+	overflow-y: hidden;
+
+}
+
+.thumbnailContainer .imageHolder img {
+	border: 1px solid #CCC;
+	-moz-border-radius: 6px;
+	webkit-border-radius: 6px;
+	-o-border-radius: 6px;
+	border-radius: 6px;
+}
+
+.thumbnailContainer .imageHolder img:hover {
+	border: 1px solid #da932b !important;
+	-webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0 1px 5px rgba(0,0,0,0.5);
+	-ms-box-shadow: 0 1px 5px rgba(0,0,0,0.5);
+	-o-box-shadow: 0 1px 5px rgba(0,0,0,0.5);
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+	
+}
+
+.thumbnailContainer .thumbsHolderHover {
+	background: url(/static/thumbHoverArrow.png) center 0px no-repeat;
+}
+
+.thumbnailContainer .thumbsHolder_ThumbON {
+	background: url(/static/thumbActiveArrow.png) center 0px no-repeat;
+}
+.thumbnailContainer .carouselLeftNav {
+	position: absolute;
+	width: 29px;
+	height: 101px;
+	background: url(/static/carouselLeftNav.png) 0 0 no-repeat;
+	cursor: pointer;
+}
+
+.largeImageContainer {
+	position: relative;
+}
+
+.largeImageHolder {
+	position: absolute;
+	right: 0;
+	border: 0px solid #005195;
+	-moz-border-radius: 6px;
+	webkit-border-radius: 6px;
+	-o-border-radius: 6px;
+	border-radius: 6px;
+	height:440px;overflow:hidden;
+}
+
+.thumbnailContainer .carouselLeftNav:hover {
+	background: url(/static/carouselLeftNavOn.png) 0 0 no-repeat;
+}
+
+.thumbnailContainer .carouselLeftNavDisabled {
+	xbackground: #FFF;
+	background: url(/static/carouselLeftNavDisable.png) 0 0 no-repeat;
+	cursor: default;
+}
+.thumbnailContainer .carouselLeftNavDisabled:hover {
+	xbackground: #FFF;
+	background: url(/static/carouselLeftNavDisable.png) 0 0 no-repeat;
+}
+
+.thumbnailContainer .carouselRightNav {
+	position: absolute;
+	width: 29px;
+	height: 101px;
+	background: url(/static/carouselRightNav.png) 0 0 no-repeat;
+	cursor: pointer;
+}
+
+.thumbnailContainer .carouselRightNav:hover {
+	background: url(/static/carouselRightNavOn.png) 0 0 no-repeat;
+}
+
+.thumbnailContainer .carouselRightNavDisabled {
+	xbackground: #FFF;
+	background: url(/static/carouselRightNavDisable.png) 0 0 no-repeat;
+	cursor: default;
+}
+.thumbnailContainer .carouselRightNavDisabled:hover {
+	xbackground: #FFF;
+	background: url(/static/carouselRightNavDisable.png) 0 0 no-repeat;
+}
+
+/**SIMPLE SKIN***/
+
+.allinone_thumbnailsBanner.simple .bannerControls {
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 100;
+}
+
+.allinone_thumbnailsBanner.simple .leftNav {
+	position: absolute;
+	left: 0px;
+	top: 50%;
+	margin-top: -35px; /* height/2 */
+	width: 31px;
+	height: 71px;
+	background: url(../skins/simple/leftNavOFF.png) 0 0 no-repeat;
+	cursor: pointer;
+}
+
+.allinone_thumbnailsBanner.simple .leftNav:hover {
+	background: url(../skins/simple/leftNavON.png) 0 0 no-repeat;
+}
+.allinone_thumbnailsBanner.simple .rightNav {
+	position: absolute;
+	right: 0px;
+	top: 50%;
+	margin-top: -35px; /* height/2 */
+	width: 31px;
+	height: 71px;
+	background: url(../skins/simple/rightNavOFF.png) 0 0 no-repeat;
+	cursor: pointer;
+}
+.allinone_thumbnailsBanner.simple .rightNav:hover {
+	background: url(../skins/simple/rightNavON.png) 0 0 no-repeat;
+}
+.allinone_thumbnailsBanner.simple .thumbsHolderWrapper {
+	position: absolute;
+	background: #FFFFFF;
+	border-top: 1px solid #23b6ed;
+	height: 98px;
+	width: 100%;
+	overflow: hidden;
+}
+.allinone_thumbnailsBanner.simple .thumbsHolderVisibleWrapper {
+	position: absolute;
+	width: 100%;
+	height: 101px;
+	overflow: hidden;
+}
+.allinone_thumbnailsBanner.simple .thumbsHolder {
+	position: absolute;
+}
+.allinone_thumbnailsBanner.simple .thumbsHolder_ThumbOFF {
+	float: left;
+	display: block;
+	width: 110px;
+	height: 65px;
+	xmargin-left: 20px;
+	cursor: pointer;
+}
+
+.allinone_thumbnailsBanner.simple .thumbsHolder_ThumbOFF img {
+	position: relative;
+	xborder: 3px solid #FFF;
+	xmargin-top: 25px;
+	xpadding-top: 10px;
+}
+
+.allinone_thumbnailsBanner.simple .thumbsHolder_ThumbON {
+	background: url(../skins/simple/thumbActiveArrow.png) center 0px no-repeat;
+}
+.allinone_thumbnailsBanner.simple .carouselLeftNav {
+	position: absolute;
+	width: 46px;
+	height: 98px;
+	background: url(../skins/simple/carouselLeftNav.png) 0 0 no-repeat;
+	cursor: pointer;
+}
+
+.allinone_thumbnailsBanner.simple .carouselLeftNav:hover {
+	background: url(../skins/simple/carouselLeftNavOn.png) 0 0 no-repeat;
+}
+
+.allinone_thumbnailsBanner.simple .carouselLeftNavDisabled {
+	xbackground: #FFF;
+	background: url(../skins/simple/carouselLeftNavDisable.png) 0 0 no-repeat;
+	cursor: default;
+}
+.allinone_thumbnailsBanner.simple .carouselLeftNavDisabled:hover {
+	xbackground: #FFF;
+	background: url(../skins/simple/carouselLeftNavDisable.png) 0 0 no-repeat;
+}
+
+.allinone_thumbnailsBanner.simple .carouselRightNav {
+	position: absolute;
+	width: 46px;
+	height: 98px;
+	background: url(../skins/simple/carouselRightNav.png) 0 0 no-repeat;
+	cursor: pointer;
+}
+
+.allinone_thumbnailsBanner.simple .carouselRightNav:hover {
+	background: url(../skins/simple/carouselRightNavOn.png) 0 0 no-repeat;
+}
+.allinone_thumbnailsBanner.simple .carouselRightNavDisabled {
+	xbackground: #FFF;
+	background: url(../skins/simple/carouselRightNavDisable.png) 0 0 no-repeat;
+	cursor: default;
+}
+.allinone_thumbnailsBanner.simple .carouselRightNavDisabled:hover {
+	xbackground: #FFF;
+	background: url(../skins/simple/carouselRightNavDisable.png) 0 0 no-repeat;
+}
+
+/**CRAZY SKIN***/
+
+.allinone_thumbnailsBanner.crazy .bannerControls {
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 100;
+}
+
+.allinone_thumbnailsBanner.crazy .leftNav {
+	position: absolute;
+	left: 110px;
+	top: 50%;
+	margin-top: -20px; /* height/2 */
+	width: 31px;
+	height: 71px;
+	background: url(../skins/crazy/leftNavOFF.png) 0 0 no-repeat;
+	cursor: pointer;
+	z-index: 1005
+}
+
+.allinone_thumbnailsBanner.crazy .leftNav:hover {
+	background: url(../skins/crazy/leftNavON.png) 0 0 no-repeat;
+}
+.allinone_thumbnailsBanner.crazy .rightNav {
+	position: absolute;
+	right: 110px;
+	top: 50%;
+	margin-top: -20px; /* height/2 */
+	width: 31px;
+	height: 71px;
+	background: url(../skins/crazy/rightNavOFF.png) 0 0 no-repeat;
+	cursor: pointer;
+	z-index: 1004;
+}
+.allinone_thumbnailsBanner.crazy .rightNav:hover {
+	background: url(../skins/crazy/rightNavON.png) 0 0 no-repeat;
+}
+.allinone_thumbnailsBanner.crazy .thumbsHolderWrapper {
+	position: absolute;
+	margin-top: -35px;
+	xpadding-top: 0;
+	xbackground: #333333;
+	xborder: 1px solid #e66b19;
+	height: 98px;
+	width: 100%;
+	xwidth: 800px;
+	overflow: hidden;
+}
+.allinone_thumbnailsBanner.crazy .thumbsHolderVisibleWrapper {
+	position: absolute;
+	width: 100%;
+	height: 98px;
+	overflow: hidden;
+}
+
+.allinone_thumbnailsBanner.crazy .thumbsHolder {
+	position: absolute;
+	margin-top: 0px;
+	height: 98px;
+	z-index: 1000;
+}
+.allinone_thumbnailsBanner.crazy .thumbsHolder_ThumbOFF {
+	float: left;
+	display: block;
+	width: 110px;
+	height: 65px;
+	margin-top: -3px;
+	xmargin-left: 20px;
+	cursor: pointer;
+}
+
+.allinone_thumbnailsBanner.crazy .thumbsHolder_ThumbOFF img {
+	position: relative;
+	xborder: 3px solid #FFF;
+	xmargin-top: -25px;
+	xpadding-top: 10px;
+}
+
+.allinone_thumbnailsBanner.crazy .thumbsHolder_ThumbON {
+	margin-top: -3px;
+	xborder: #F00 1px solid;
+	background: url(../skins/crazy/thumbActiveArrow.png) center 3px no-repeat;
+}
+.allinone_thumbnailsBanner.crazy .carouselLeftNav {
+	position: absolute;
+	width: 205px;
+	height: 98px;
+	xleft: -30px;
+	background: url(../skins/crazy/carouselLeftNav.png) 0 0 no-repeat;
+	cursor: pointer;
+	z-index: 1002;
+}
+
+.allinone_thumbnailsBanner.crazy .carouselLeftNav:hover {
+	background: url(../skins/crazy/carouselLeftNavOn.png) 0 0 no-repeat;
+}
+
+.allinone_thumbnailsBanner.crazy .carouselLeftNavDisabled {
+	background: url(../skins/crazy/carouselLeftNavDisable.png) 0 0 no-repeat;
+	cursor: default;
+}
+.allinone_thumbnailsBanner.crazy .carouselLeftNavDisabled:hover {
+	background: url(../skins/crazy/carouselLeftNavDisable.png) 0 0 no-repeat;
+}
+
+.allinone_thumbnailsBanner.crazy .carouselRightNav {
+	position: absolute;
+	width: 205px;
+	height: 98px;
+	xright: -30px;
+	background: url(../skins/crazy/carouselRightNav.png) 0 0 no-repeat;
+	cursor: pointer;
+	z-index: 1003;
+}
+
+.allinone_thumbnailsBanner.crazy .carouselRightNav:hover {
+	background: url(../skins/crazy/carouselRightNavOn.png) 0 0 no-repeat;
+}
+
+.allinone_thumbnailsBanner.crazy .carouselRightNavDisabled {
+	background: url(../skins/crazy/carouselRightNavDisable.png) 0 0 no-repeat;
+	cursor: default;
+}
+.allinone_thumbnailsBanner.crazy .carouselRightNavDisabled:hover {
+	background: url(../skins/crazy/carouselRightNavDisable.png) 0 0 no-repeat;
+}
+
+/**Texts**/
+/****/
+
+.textElement11_cool {
+	xbackground: #512d5d;
+	font: bold 24px 'Cabin', Verdana, Helvetica, sans-serif;
+	text-transform: uppercase;
+	padding: 6px 15px 6px 15px;
+	color: #000000;
+}
+.textElement12_cool {
+	xbackground: #512d5d;
+	font: bold 18px 'Cabin', Verdana, Helvetica, sans-serif;
+	text-transform: uppercase;
+	padding: 6px 15px 6px 15px;
+	color: #000000;
+}
+
+.textElement21_cool {
+	xbackground: #000000;
+	font: bold 32px/1.0em 'Cabin', Verdana, Helvetica, sans-serif;
+	text-transform: uppercase;
+	padding: 6px 15px 6px 15px;
+	color: #ffffff;
+}
+.textElement22_cool {
+	xbackground: #e4e4e4;
+	font: bold 18px 'Cabin', Verdana, Helvetica, sans-serif;
+	text-transform: uppercase;
+	padding: 6px 15px 6px 15px;
+	color: #ffffff;
+}
+
+.textElement31_cool {
+	xbackground: #a32a19;
+	font: bold 18px 'Cabin', Verdana, Helvetica, sans-serif;
+	xtext-transform: uppercase;
+	padding: 0px 15px 3px 15px;
+	color: #FFFFFF;
+}
+
+.textElement32_cool {
+	xbackground: #512d5d;
+	font: bold 26px 'Cabin', Verdana, Helvetica, sans-serif;
+	text-transform: uppercase;
+	padding: 6px 15px 6px 15px;
+	color: #FFFFFF;
+}
+
+.textElement33_cool {
+	xbackground: #FFFFFF;
+	font: bold 18px 'Cabin', Verdana, Helvetica, sans-serif;
+	xtext-transform: uppercase;
+	padding: 4px 15px 6px 15px;
+	color: #FFFFFF;
+}
+
+.textElement41_cool {
+	xbackground: #a32a19;
+	font: bold 40px 'Cabin', Verdana, Helvetica, sans-serif;
+	text-transform: uppercase;
+	padding: 6px 15px 6px 15px;
+	color: #000000;
+}
+.textElement42_cool {
+	xbackground: #d3762d;
+	font: bold 20px 'Cabin', Verdana, Helvetica, sans-serif;
+	text-transform: uppercase;
+	padding: 6px 15px 6px 15px;
+	color: #000000;
+}
+
+.textElement51_cool a {
+	font: bold 28px 'Cabin', Verdana, Helvetica, sans-serif;
+	text-transform: uppercase;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.textElement51_cool a:hover {
+	color: #000000;
+}
+
+.textElement52_cool {
+	width: 481px;
+	background: url(/static/textBg_transparency.png);
+	font: 14px/1.3em 'Arial', Verdana, Helvetica, sans-serif;
+	padding: 15px 15px 15px 15px;
+	color: #FFF;
+}
+
+.textElement52_cool a {
+	font: bold 14px 'Arial', Verdana, Helvetica, sans-serif;
+	color: #FF0000;
+	text-decoration: none;
+}
+
+.textElement52_cool a:hover {
+	color: #FFF;
+	text-decoration: none;
+}
+
+.textElement53_cool a {
+	xbackground: #000000;
+	background: url(/static/textBg_transparency.png);
+	font: bold 14px 'Cabin', Verdana, Helvetica, sans-serif;
+	text-transform: uppercase;
+	padding: 6px 15px 6px 15px;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.textElement53_cool a:hover {
+	background: #FFFFFF;
+	padding: 6px 15px 6px 15px;
+	xborder: #512d5d 1px solid;
+	color: #512d5d;
+}
+
+/****SIMPLE***/
+
+.textbg_simple {
+	width: 940px;
+	background: url(../skins/simple/textBg_transparency.png);
+	padding: 10px;
+}
+
+.textbg_simple_width {
+	width: 280px;
+	height: 354px;
+	background: url(../skins/simple/textBg_transparency.png);
+	padding: 15px;
+	color: #FFF;
+}
+
+.textbg_simple_width2 {
+	width: 320px;
+	background: url(../skins/simple/textBg_transparency.png);
+	padding: 15px;
+	color: #FFF;
+}
+
+.textElement11_simple {
+	xbackground: #512d5d;
+	font: bold 24px 'Cabin', Verdana, Helvetica, sans-serif;
+	text-transform: uppercase;
+	padding: 3px 15px 3px 15px;
+	color: #ffffff;
+}
+.textElement12_simple {
+	xbackground: #512d5d;
+	font: bold 18px 'Cabin', Verdana, Helvetica, sans-serif;
+	text-transform: uppercase;
+	padding: 0px 15px 3px 15px;
+	color: #ffffff;
+}
+
+.textElement21_simple {
+	xbackground: #000000;
+	font: bold 32px/1.0em 'Cabin', Verdana, Helvetica, sans-serif;
+	text-transform: uppercase;
+	padding: 6px 15px 6px 15px;
+	color: #ffffff;
+}
+.textElement22_simple {
+	xbackground: #e4e4e4;
+	font: bold 18px 'Cabin', Verdana, Helvetica, sans-serif;
+	text-transform: uppercase;
+	padding: 6px 15px 6px 15px;
+	color: #ffffff;
+}
+.textElement23_simple {
+	xbackground: #e4e4e4;
+	font: bold 12px 'Cabin', Verdana, Helvetica, sans-serif;
+	text-transform: uppercase;
+	padding: 6px 15px 6px 15px;
+	line-height: 1.3em;
+	color: #ffffff;
+}
+
+.textElement31_simple {
+	xbackground: #a32a19;
+	font: bold 18px 'Cabin', Verdana, Helvetica, sans-serif;
+	xtext-transform: uppercase;
+	padding: 0px 15px 3px 15px;
+	color: #FFFFFF;
+}
+
+.textElement32_simple {
+	xbackground: #512d5d;
+	font: bold 26px 'Cabin', Verdana, Helvetica, sans-serif;
+	text-transform: uppercase;
+	padding: 6px 15px 6px 15px;
+	color: #FFFFFF;
+}
+
+.textElement33_simple {
+	xbackground: #FFFFFF;
+	font: bold 18px 'Cabin', Verdana, Helvetica, sans-serif;
+	xtext-transform: uppercase;
+	padding: 4px 15px 6px 15px;
+	color: #FFFFFF;
+}
+
+.textElement41_simple {
+	xbackground: #a32a19;
+	font: bold 30px 'Cabin', Verdana, Helvetica, sans-serif;
+	text-transform: uppercase;
+	padding: 6px 15px 6px 15px;
+	color: #ffffff;
+}
+.textElement42_simple {
+	xbackground: #d3762d;
+	font: bold 20px 'Cabin', Verdana, Helvetica, sans-serif;
+	text-transform: uppercase;
+	padding: 6px 15px 6px 15px;
+	color: #ffffff;
+}
+
+.textElement51_simple {
+	xbackground: #512d5d;
+	font: bold 24px 'Cabin', Verdana, Helvetica, sans-serif;
+	text-transform: uppercase;
+	padding: 3px 15px 3px 15px;
+	color: #ffffff;
+}
+.textElement52_simple {
+	xbackground: #512d5d;
+	font: bold 18px 'Cabin', Verdana, Helvetica, sans-serif;
+	text-transform: uppercase;
+	padding: 0px 15px 3px 15px;
+	color: #ffffff;
+}
+
+.textElement53_simple a {
+	xbackground: #000000;
+	background: url(../skins/simple/textBg_transparency.png);
+	font: bold 14px 'Cabin', Verdana, Helvetica, sans-serif;
+	text-transform: uppercase;
+	padding: 6px 15px 6px 15px;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.textElement53_simple a:hover {
+	background: #FFFFFF;
+	padding: 6px 15px 6px 15px;
+	xborder: #512d5d 1px solid;
+	color: #512d5d;
+}
+
+/****CRAZY***/
+
+.textRibbonRight_crazy {
+	xwidth: 29px;
+	background: url(../skins/crazy/backRibbonRight.png) top right no-repeat;
+	xpadding: 10px;
+}
+
+.textRibbonLeft_crazy {
+	xwidth: 29px;
+	background: url(../skins/crazy/backRibbonLeft.png) top left no-repeat;
+	xpadding: 10px;
+}
+
+.textRibbonTopRight_crazy {
+	xwidth: 29px;
+	background: url(../skins/crazy/backRibbonTopRight.png) top left no-repeat;
+	xpadding: 10px;
+}
+
+#topCrazyTextBgRight {
+	float: left;
+	background: #b0010c;
+	margin-left: 13px;
+	margin-top: -19px;
+}
+
+.textRibbonTopLeft_crazy {
+	xwidth: 29px;
+	background: url(../skins/crazy/backRibbonTopLeft.png) top right no-repeat;
+	xpadding: 10px;
+}
+
+#topCrazyTextBgLeft {
+	float: right;
+	width: 320px;
+	xbackground: #b0010c;
+	background: url(../skins/crazy/textBg_transparency.png);
+	margin-right: 13px;
+	margin-top: -20px;
+	padding: 14px 5px 20px 5px;
+}
+
+.float-block {
+	float: left;
+	display: block;
+}
+
+#textElement3_crazy_list {
+	padding: 0;
+}
+#textElement3_crazy_list ul {
+	padding-left: 15px;
+}
+
+#textElement3_crazy_list ul li {
+	color: #ffffff;
+	font: bold 14px/1.3em 'Droid Sans', Verdana, Helvetica, sans-serif;
+	font-style: italic;
+	padding: 0 0 15px 30px;
+	list-style: none;
+	background: url(../skins/crazy/listIcon.png) 0px 2px no-repeat;
+}
+
+.icon {
+	width: 16px;
+	height: 21px;
+	background: url(../skins/crazy/listIcon.png) top left no-repeat;
+	padding: 0;
+	margin-top: 3px;
+	xborder: #FF0 1px solid;
+}
+
+.textbg_crazy {
+	width: 940px;
+	background: url(../skins/crazy/textBg_transparency.png);
+	padding: 10px;
+}
+
+.textbg_crazy_width {
+	width: 280px;
+	height: 354px;
+	background: url(../skins/crazy/textBg_transparency.png);
+	padding: 15px;
+	color: #FFF;
+}
+
+.textbg_crazy_width2 {
+	width: 320px;
+	background: url(../skins/crazy/textBg_transparency.png);
+	padding: 15px;
+	color: #FFF;
+}
+
+.textElement11_crazy {
+	background: #03c9bd;
+	text-align: right;
+	width: 350px;
+	xbackground: url(../skins/crazy/bgRibbon.png) top left repeat-x;
+	font: bold 26px 'Droid Sans', Verdana, Helvetica, sans-serif;
+	text-transform: uppercase;
+	margin-left: 44px;
+	margin-top: -6px;
+	padding: 4px 20px 4px 15px;
+	color: #ffffff;
+}
+.textElement12_crazy {
+	background: #aa4778;
+	text-align: right;
+	width: 310px;
+	margin-left: 91px;
+	font: bold 18px 'Droid Sans', Verdana, Helvetica, sans-serif;
+	text-transform: uppercase;
+	padding: 6px 20px 6px 8px;
+	color: #ffffff;
+}
+
+.textElement21_crazy {
+	background: #333333;
+	text-align: left;
+	width: 460px;
+	xbackground: url(../skins/crazy/bgRibbon.png) top left repeat-x;
+	font: bold 24px 'Droid Sans', Verdana, Helvetica, sans-serif;
+	text-transform: uppercase;
+	margin-right: 44px;
+	margin-top: -6px;
+	padding: 4px 4px 4px 20px;
+	color: #ffffff;
+}
+.textElement22_crazy {
+	background: #aa4778;
+	text-align: left;
+	width: 320px;
+	margin-right: 84px;
+	font: bold 20px 'Droid Sans', Verdana, Helvetica, sans-serif;
+	text-transform: uppercase;
+	padding: 4px 4px 10px 20px;
+	color: #ffffff;
+}
+
+.textElement31_crazy {
+	xbackground: #a32a19;
+	font: bold 16px 'Droid Sans', Verdana, Helvetica, sans-serif;
+	xtext-transform: uppercase;
+	padding: 0px 15px 3px 15px;
+	color: #FFFFFF;
+}
+
+.textElement32_crazy {
+	xbackground: #512d5d;
+	font: bold 26px 'Droid Sans', Verdana, Helvetica, sans-serif;
+	text-transform: uppercase;
+	padding: 6px 15px 6px 15px;
+	color: #FFFFFF;
+}
+
+.textElement33_crazy {
+	xbackground: #FFFFFF;
+	font: bold 18px 'Droid Sans', Verdana, Helvetica, sans-serif;
+	xtext-transform: uppercase;
+	padding: 4px 15px 6px 15px;
+	color: #FFFFFF;
+}
+
+.textElement41_crazy {
+	xbackground: #a32a19;
+	font: bold 30px 'Droid Sans', Verdana, Helvetica, sans-serif;
+	text-transform: uppercase;
+	padding: 6px 15px 6px 15px;
+	color: #ffffff;
+}
+.textElement42_crazy {
+	xbackground: #d3762d;
+	font: bold 20px 'Droid Sans', Verdana, Helvetica, sans-serif;
+	text-transform: uppercase;
+	padding: 0px 15px 15px 15px;
+	color: #ffffff;
+}
+
+.textElement51_crazy {
+	xbackground: #512d5d;
+	font: bold 24px 'Droid Sans', Verdana, Helvetica, sans-serif;
+	text-transform: uppercase;
+	padding: 3px 15px 3px 15px;
+	color: #ffffff;
+}
+
+.textElement52_crazy {
+	xbackground: #512d5d;
+	font: bold 18px 'Droid Sans', Verdana, Helvetica, sans-serif;
+	text-transform: uppercase;
+	padding: 0px 15px 10px 15px;
+	color: #ffffff;
+}
+
+.textElement53_crazy a {
+	xbackground: #000000;
+	background: url(../skins/crazy/textBg_transparency.png);
+	font: bold 14px 'Droid Sans', Verdana, Helvetica, sans-serif;
+	text-transform: uppercase;
+	padding: 6px 15px 6px 15px;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.textElement53_crazy a:hover {
+	background: #FFFFFF;
+	padding: 6px 15px 6px 15px;
+	xborder: #512d5d 1px solid;
+	color: #512d5d;
+}
+
+.allinone_thumbnailsBanner_texts {
+	position: absolute;
+	z-index: 120;
+	display: none;
+	width: 100%;
+	text-align: left;
+}
+
+.allinone_thumbnailsBanner_text_line {
+	position: absolute;
+}
+
+.hideElement {
+	display: none;
+}
+
