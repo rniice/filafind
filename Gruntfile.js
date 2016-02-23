@@ -10,8 +10,8 @@ module.exports = function(grunt) {
       build: {
         //src: 'src/<%= pkg.name %>.js',
         //dest: 'build/<%= pkg.name %>.min.js'
-        src: './control.js',
-        dest: './control.min.js'
+        src: './private/js/control.js',
+        dest: './public/js/control.min.js'
 
       }
     }
