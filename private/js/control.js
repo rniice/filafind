@@ -2,7 +2,8 @@ var myApp = angular.module('myApp', ['ngTouch','mp.colorPicker', 'rzModule', 'ui
 
 //var base_query = "http://localhost:8080/materials";
 //var base_query = "https://stark-tundra-90514.herokuapp.com/materials";
-var base_query = "http://stark-tundra-90514.herokuapp.com/materials";
+//var base_query = "http://stark-tundra-90514.herokuapp.com/materials";
+var base_query = "https://filafind.com/materials";
 
 var filtered_query = "";      
 
