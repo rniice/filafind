@@ -27,8 +27,9 @@ h2 {
 	color: white;
 }
 
-.text-muted{
+h3.text-muted {
 	color: white;
+	text-align: center;
 
 }
 
@@ -61,7 +62,7 @@ h4 {
 	-webkit-text-stroke-width: 0.5px;
 	-webkit-text-stroke-color: black;
 	font-weight: bold;
-	font-size: 15px;
+	font-size: 16px;
 	border-radius: 16px;
 	border-color: gray;
 	width: 170px;
@@ -140,6 +141,7 @@ td.processing-data {
 }
 
 
+/* ------CSS FOR THE THREEJS CANVAS------- */
 /*#threeJSCanvas { */
 canvas {
     padding-left: 0;
@@ -150,6 +152,7 @@ canvas {
     background-color: #3A3A3A;
 }
 
+/* ------CSS FOR THE COLOR PICKER------- */
 .angular-color-picker {
 	background: #3A3A3A;
 	/*border: 1px solid #ddd;*/
@@ -158,6 +161,7 @@ canvas {
 	border: none;
 }
 
+/* ------CSS FOR THE SLIDERS------- */
 
 rzslider .rz-pointer {
 	top:-14px;
@@ -181,6 +185,12 @@ rzslider .rz-bar .rz-selection {
 	-moz-border-radius:2px;
 	border-radius:2px
 }
+
+rzslider .rz-bubble .rz-limit{
+	color:white;
+}
+
+
 /*
 rzslider .rz-ticks .tick .tick-value{position:absolute;top:-60px;transform:translate(-100%,0)}
 */
