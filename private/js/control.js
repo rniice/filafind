@@ -330,7 +330,7 @@ myApp.controller('userCtrl', ['$scope', '$http', '$window', function($scope,$htt
     response = demangleJSON(response.data);  //decode the encoded buffer
 
     var sorted_by_cost = sortByKey(response, "cost");
-    var lower_10 = sorted_by_cost.slice(0,10);
+    var lower_10 = sorted_by_cost.slice(0,12);
 
     $scope.server_response = lower_10;
 	}

@@ -243,7 +243,7 @@ function getMaterials( req, res )
     //console.log("received request");
 
     if(_.isEmpty(query)) {                             //if no query passed, return all
-        var result = materials.sort(sortByProperty('cost')).slice(0,10);  //return only 10 sorted by cost
+        var result = materials.sort(sortByProperty('cost')).slice(0,12);  //return only 12 sorted by cost
         result = mangleJSON(result);
         //console.log(result);
 
@@ -254,7 +254,7 @@ function getMaterials( req, res )
     else {
         var result = getfilteredMaterials(query);      //if query passed, run filter
         
-        result = result.sort(sortByProperty('cost')).slice(0,10);  //return only 10 sorted by cost
+        result = result.sort(sortByProperty('cost')).slice(0,12);  //return only 12 sorted by cost
         result = mangleJSON(result);
         //console.log(result);
 
