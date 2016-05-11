@@ -2,11 +2,48 @@ html, body {
     margin: 0 !important;
     padding: 0 !important;
     width: 100%;
+    background-color: #3A3A3A;
 }
 
 textarea {
   font-size: 15px;
 
+}
+
+p {
+	color: white;
+
+}
+
+strong {
+	color: white;
+}
+
+h1 {
+	color: white;
+}
+
+h2 {
+	color: white;
+}
+
+.text-muted{
+	color: white;
+
+}
+
+h4 {
+	color: white;
+
+}
+
+.list-group-item {
+	background: gray;
+	border: 2px solid gray;
+}
+
+.list-group-item-heading {
+	color: white;
 }
 
 .field-log {
@@ -26,6 +63,7 @@ textarea {
 	font-weight: bold;
 	font-size: 20px;
 	border-radius: 16px;
+	border-color: gray;
 	width: 170px;
 	height: 100px;
 }
@@ -47,6 +85,9 @@ select {
     text-align:right;
     width: 160px;
     direction: rtl;
+    background: gray;
+    color: white;
+
 }
 
 option {
@@ -54,6 +95,7 @@ option {
     text-align:right;
     width: 160px;
     direction: rtl;
+    color: white;
 }
 
 
@@ -64,27 +106,29 @@ h4.configure-title {
 */
 
 table.processing-parameters {
-	border: 2px solid black;
+	border: 2px solid white;
 	text-align: center;
 	table-layout: fixed;
 
 }
 
 th.processing-parameters {
-	border: 1px solid gray;
+	border: 1px solid white;
 }
 
 td {
-	border: 1px solid gray;
+	border: 1px solid white;
 	width: 56px;
 	height: 15px;
 	overflow: hidden;
+	color: white;
 }
 
 td.processing-data {
 	width: 56px;
 	height: 50px;
 	overflow: hidden;
+	color: white;
 }
 
 
@@ -103,4 +147,21 @@ canvas {
     margin-left: auto;
     margin-right: auto;
     display: block;
+    background-color: #3A3A3A;
+}
+
+.angular-color-picker {
+	background: #3A3A3A;
+	/*border: 1px solid #ddd;*/
+	border: none;
+}
+
+rzslider.rz-bubble.rz-selection {
+	color: green;
+
+}
+
+rzslider.rz-bubble.rz-limit {
+	color: green;
+
 }

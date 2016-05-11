@@ -5,7 +5,7 @@ var RenderObject = function(color, opacity){
 	this.camera = new THREE.PerspectiveCamera( 100, this.target_canvas.width/this.target_canvas.height, 0.1, 1000 );
 
 	this.renderer = new THREE.WebGLRenderer( {canvas: this.target_canvas, alpha: true} );
-		this.renderer.setClearColor( 0xffffff, 1 ); // the default
+		this.renderer.setClearColor( 0x3A3A3A, 1 ); // the default
 		this.renderer.setSize(180, 180);
 
     // add subtle ambient lighting
