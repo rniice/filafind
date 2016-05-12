@@ -39,13 +39,20 @@ h4 {
 }
 
 .list-group-item {
-	background: gray;
+	background: white;
 	border: 2px solid gray;
 }
 
-.list-group-item-heading {
+.list-group-item-text {
+	color: #3A3A3A;
+
+}
+
+h4 .list-group-item-heading {
 	color: white;
 }
+
+
 
 .field-log {
 	height: 800;
@@ -164,3 +171,6 @@ canvas {
 /* ------CSS FOR THE SLIDERS------- */
 /* REBUILD https://github.com/angular-slider/angularjs-slider LESS FILE */
 
+footer {
+	text-align: center;
+}
