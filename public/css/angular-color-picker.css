@@ -6,14 +6,14 @@
 }
 .angular-color-picker > ._variations {
     border: 1px solid #808080;
-    width: 200px;
-    height: 200px;
+    width: 160px;
+    height: 160px;
     float: left;
     transition: background-color 250ms;
 }
 .angular-color-picker > ._variations > ._whites {
-    width: 200px;
-    height: 200px;
+    width: 160px;
+    height: 160px;
     background: -webkit-linear-gradient(left, #fff 0, transparent 100%);
     background: -moz-linear-gradient(left, #fff 0, transparent 100%);
     background: -ms-linear-gradient(left, #fff 0, transparent 100%);
@@ -21,8 +21,8 @@
     filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#00ffffff', GradientType='1')";
 }
 .angular-color-picker > ._variations > ._whites > ._blacks {
-    width: 200px;
-    height: 200px;
+    width: 160px;
+    height: 160px;
     background: -webkit-linear-gradient(top, transparent 0, #000 100%);
     background: -moz-linear-gradient(top, transparent 0, #000 100%);
     background: -ms-linear-gradient(top, transparent 0, #000 100%);
@@ -43,14 +43,14 @@
 .angular-color-picker > ._variations > ._whites > ._blacks > ._mouse-trap {
     position: relative;
     z-index: 1;
-    width: 200px;
-    height: 200px;
+    width: 160px;
+    height: 160px;
 }
 .angular-color-picker > ._hues {
     border: 1px solid #808080;
     position: relative;
-    margin-left: 210px;
-    height: 200px;
+    margin-left: 180px;
+    height: 160px;
     width: 30px;
     background: -webkit-linear-gradient(top, #ff0000 0%, #ffff00 17%, #00ff00 33%, #00ffff 50%, #0000ff 67%, #ff00ff 83%, #ff0000 100%);
     background: -moz-linear-gradient(top, #ff0000 0%, #ffff00 17%, #00ff00 33%, #00ffff 50%, #0000ff 67%, #ff00ff 83%, #ff0000 100%);
@@ -59,8 +59,8 @@
 }
 .angular-color-picker > ._hues > ._cursor {
     position: absolute;
-    left: -7px;
-    width: 43px;
+    left: -8px;
+    width: 45px;
     height: 0;
     border: 5px solid transparent;
     border-left-color: #808080;
@@ -72,7 +72,7 @@
     top: 0;
     left: 0;
     width: 30px;
-    height: 200px;
+    height: 160px;
 }
 /* Heavily based on: http://jsfiddle.net/bgrins/Whc6Z/ */
 .angular-color-picker > ._hues > ._ie-1 {

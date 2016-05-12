@@ -35,7 +35,7 @@ h3.text-muted {
 
 h4 {
 	color: white;
-
+	text-align: center;
 }
 
 .list-group-item {
@@ -48,8 +48,8 @@ h4 {
 
 }
 
-h4 .list-group-item-heading {
-	color: white;
+.list-group-item-heading {
+	text-align: left;
 }
 
 
@@ -80,7 +80,7 @@ h4 .list-group-item-heading {
 .centered-buttons {
 	float: right;
 	position: relative;
-	left: -20%; /* or right 50% */
+	left: -12%; /* or right 50% */
 	/*text-align: left;*/
 }
 
@@ -163,10 +163,12 @@ canvas {
 .angular-color-picker {
 	background: #3A3A3A;
 	/*border: 1px solid #ddd;*/
-	/*padding: 20px;*/
-	padding: 5px;
+	padding-left: 40px;
+	/*padding-left: 30px;*/
+	text-align: center;
 	border: none;
 }
+
 
 /* ------CSS FOR THE SLIDERS------- */
 /* REBUILD https://github.com/angular-slider/angularjs-slider LESS FILE */
