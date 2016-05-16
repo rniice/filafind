@@ -120,171 +120,180 @@
         <div class="col-lg-3">
           <h4>Mechanical Properties:</h4>
 
-          <span class="pull-down-heading" aria-hidden="true"><strong>Technology:</strong>
-            <select ng-model="technology" ng-change="changeTechnology(technology)">
-              <option value="FDM">FDM</option>
-              <option value="DLP">DLP</option>
-            </select>
+           <table class="table-centered" style="width:100%">
+              <tr> 
+                <td>
+                  <span class="pull-down-heading" aria-hidden="true"><strong>Technology:</strong>
+                    <select ng-model="technology" ng-change="changeTechnology(technology)">
+                      <option value="FDM">FDM</option>
+                      <option value="DLP">DLP</option>
+                    </select>
+                  </span>
+                </td>
+              </tr>
+              <tr> 
+                <td>
+                  <span class="pull-down-heading" aria-hidden="true"><strong>Composition:</strong>
+                    <select ng-model="composition" ng-change="changeComposition(composition)">
+                      <option value="">ANY</option>
+                      <option value="PLA">PLA</option>
+                      <option value="ABS">ABS</option>
+                      <option value="NYLON">NYLON</option>
+                      <option value="PETT">PETT</option>
+                      <option value="PETG">PETG</option>
+                      <option value="TPE">TPE</option>
+                      <option value="PLA / WOOD">PLA / WOOD</option>\
+                      <option value="HIPS">HIPS</option>
+                      <option value="PLA / PHA">PLA / PHA</option>
+                      <option value="CoPolyester">CoPolyester</option>
+                      <option value="PLA / Bronze">PLA / Bronze</option>
+                      <option value="PLA / Copper">PLA / Copper</option>
+                      <option value="PLA / Stainless Steel">PLA / Stainless Steel</option>
+                      <option value="PLA / Iron">PLA / Iron</option>
+                      <option value="PLA / Carbon Fiber">PLA / Carbon Fiber</option>
+                      <option value="PETG / Carbon">PETG / Carbon</option>
+                      <option value="PLA / Mineral">PLA / Mineral</option>
+                      <option value="ABS / PC">ABS / PC</option>
+                    </select>
+                  </span>    
+                </td>
+              </tr>
+              <tr> 
+                <td>
+                  <span class="pull-down-heading" aria-hidden="true"><strong>Diameter:</strong>
+                    <select ng-model="filament_diameter" ng-change="changeFilamentDiameter(filament_diameter)">
+                      <option value="1.75">1.75mm</option>
+                      <option value="2.85">2.85mm</option>
+                    </select>
+                  </span> 
+                </td>
+              </tr>
+              <tr> 
+                <td>
+                  <span class="pull-down-heading" aria-hidden="true"><strong>Tags:</strong>
+                    <select ng-model="tags" ng-change="changeTags(tags)">
+                      <option value="">ANY</option>
+                      <option value="bulk">bulk</option>
+                      <option value="composite">composite</option>
+                      <option value="wood">wood</option>
+                      <option value="ceramic">ceramic</option>
+                      <option value="carbon-fiber">carbon-fiber</option>
+                      <option value="hydrophillic">hydrophillic</option>
+                      <option value="heat-resistant">heat-resistant</option>
+                      <option value="metal">metal</option>\
+                      <option value="dissolvable in D-limonene">dissolvable in D-limonene</option>
+                      <option value="dissolvable in water">dissolvable in water</option>
+                      <option value="ductile">ductile</option>
+                      <option value="tough">tough</option>
+                      <option value="flexible">flexible</option>
+                      <option value="strong">strong</option>
+                      <option value="stiff">stiff</option>
+                      <option value="impact-strength">impact-strength</option>
+                      <option value="resilient">resilient</option>
+                      <option value="stretchy">stretchy</option>
+                      <option value="low-friction">low-friction</option>
+                      <option value="food-safe">food-safe</option>
+                      <option value="organic">organic</option>
+                      <option value="odor-neutral">odor-neutral</option>
+                      <option value="glow-in-the-dark">glow-in-the-dark</option>
+                      <option value="magnetic">magnetic</option>
+                      <option value="conductive">conductive</option>
+                      <option value="transparent">transparent</option>
+                      <option value="translucent">translucent</option>
+                      <option value="sparkly">sparkly</option>
+                      <option value="neon">neon</option>
+                      <option value="black-light">black-light</option>
+                      <option value="photochromatic">photochromatic</option>
+                      <option value="thermosensitive">thermosensitive</option>
+                    </select>
+                  </span>
+                </td>
+              </tr>
+              <tr> 
+                <td>
+                  <span class="pull-down-heading" aria-hidden="true"><strong>Bed Material:</strong>
+                    <select ng-model="bed_material" ng-change="changeBedMtl(bed_material)">
+                      <option value="">ANY</option>
+                      <option value="blue tape">blue tape</option>
+                      <option value="glass">glass</option>
+                      <option value="glue stick">glue stick</option>
+                      <option value="kapton tape">kapton tape</option>
+                      <option value="abs slurry">abs slurry</option>
+                      <option value="acrylic">acrylic</option>
+                      <option value="hair spray">hair spray</option>
+                      <option value="buildTak">buildTak</option>
+                    </select>
+                  </span> 
+                </td>
+              </tr>
+              <tr> 
+                <td>
+                  <span class="pull-down-heading" aria-hidden="true"><strong>Nozzle Diam:</strong>
+                    <select ng-model="min_nozzle_diameter" ng-change="changeNozzleDiameter(min_nozzle_diameter)">
+                      <option value="">ANY</option>         
+                      <option value="0.25">0.25mm</option>
+                      <option value="0.30">0.30mm</option>
+                      <option value="0.35">0.35mm</option>
+                      <option value="0.40">0.40mm</option>
+                      <option value="0.45">0.45mm</option>
+                      <option value="0.50">0.50mm</option>
+                    </select>
+                  </span> 
+                </td>
+              </tr>
+              <tr> 
+                <td>
+                  <span class="pull-down-heading" aria-hidden="true"><strong>Location:</strong>
+                    <select ng-model="location" ng-change="changeLocation(location)">
+                      <option value="">ANY</option>-->
+                      <option value="North America">North America</option>
+                      <option value="South America">South America</option>
+                      <option value="Western Europe">Western Europe</option>
+                      <option value="Eastern Europe">Eastern Europe</option>
+                      <option value="Africa">Africa</option>
+                      <option value="Asia">Asia</option>
+                      <option value="Southeast Asia">Southeast Asia</option>\
+                      <option value="Africa">Africa</option>
+                      <option value="Australia">Australia</option>
+                      <option value="Antarctica">Antarctica</option>
+                    </select>
+                  </span> 
+                </td>
+              </tr>
+              <tr> 
+                <td>
+                  <span class="pull-down-heading" aria-hidden="true"><strong>Supplier:</strong>
+                    <select ng-model="manufacturer" ng-change="changeManufacturer(manufacturer)">
+                      <option value="">ANY</option>-->
+                      <option value="3DFilamenta">3DFilamenta</option>
+                      <option value="ColorFabb">ColorFabb</option>
+                      <option value="Dremel">Dremel</option>
+                      <option value="eMotion Tech">eMotion Tech</option>
+                      <option value="Inventables">Inventables</option>
+                      <option value="MakerBot">MakerBot</option>\
+                      <option value="NinjaFlex">NinjaFlex</option>
+                      <option value="Polymaker">Polymaker</option>
+                      <option value="Proto-Pasta">Proto-Pasta</option>
+                      <option value="Taulman">Taulman</option>
+                      <option value="PP3DP">PP3DP</option>
+                    </select>
+                  </span> 
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <span class="pull-down-heading" aria-hidden="true"><strong>Opacity:</strong>
+                    <select ng-model="opacity" ng-change="changeOpacity(opacity)">
+                      <option value="">ANY</option>            
+                      <option value="1">Opaque</option>
+                      <option value="2">Translucent</option>
+                      <option value="3">Transparent</option>
+                    </select>
+                  </span>
+                </td>
+              </tr>
+            </table>
 
-          </span>
-
-          <!--<br>   -->
-
-          <span class="pull-down-heading" aria-hidden="true"><strong>Composition:</strong>
-            <select ng-model="composition" ng-change="changeComposition(composition)">
-              <option value="">ANY</option>
-              <option value="PLA">PLA</option>
-              <option value="ABS">ABS</option>
-              <option value="NYLON">NYLON</option>
-              <option value="PETT">PETT</option>
-              <option value="PETG">PETG</option>
-              <option value="TPE">TPE</option>
-              <option value="PLA / WOOD">PLA / WOOD</option>\
-              <option value="HIPS">HIPS</option>
-              <option value="PLA / PHA">PLA / PHA</option>
-              <option value="CoPolyester">CoPolyester</option>
-              <option value="PLA / Bronze">PLA / Bronze</option>
-              <option value="PLA / Copper">PLA / Copper</option>
-              <option value="PLA / Stainless Steel">PLA / Stainless Steel</option>
-              <option value="PLA / Iron">PLA / Iron</option>
-              <option value="PLA / Carbon Fiber">PLA / Carbon Fiber</option>
-              <option value="PETG / Carbon">PETG / Carbon</option>
-              <option value="PLA / Mineral">PLA / Mineral</option>
-              <option value="ABS / PC">ABS / PC</option>
-            </select>
-          </span>  
-
-          <br>
-
-          <span class="pull-down-heading" aria-hidden="true"><strong>Diameter:</strong>
-            <select ng-model="filament_diameter" ng-change="changeFilamentDiameter(filament_diameter)">
-              <option value="1.75">1.75mm</option>
-              <option value="2.85">2.85mm</option>
-            </select>
-          </span> 
-
-          <br>
-
-          <!--<h4>Advanced Properties:</h4>-->
-
-            <span class="pull-down-heading" aria-hidden="true"><strong>Tags:</strong>
-              <select ng-model="tags" ng-change="changeTags(tags)">
-                <option value="">ANY</option>
-                <option value="bulk">bulk</option>
-                <option value="composite">composite</option>
-                <option value="wood">wood</option>
-                <option value="ceramic">ceramic</option>
-                <option value="carbon-fiber">carbon-fiber</option>
-                <option value="hydrophillic">hydrophillic</option>
-                <option value="heat-resistant">heat-resistant</option>
-                <option value="metal">metal</option>\
-                <option value="dissolvable in D-limonene">dissolvable in D-limonene</option>
-                <option value="dissolvable in water">dissolvable in water</option>
-                <option value="ductile">ductile</option>
-                <option value="tough">tough</option>
-                <option value="flexible">flexible</option>
-                <option value="strong">strong</option>
-                <option value="stiff">stiff</option>
-                <option value="impact-strength">impact-strength</option>
-                <option value="resilient">resilient</option>
-                <option value="stretchy">stretchy</option>
-                <option value="low-friction">low-friction</option>
-                <option value="food-safe">food-safe</option>
-                <option value="organic">organic</option>
-                <option value="odor-neutral">odor-neutral</option>
-                <option value="glow-in-the-dark">glow-in-the-dark</option>
-                <option value="magnetic">magnetic</option>
-                <option value="conductive">conductive</option>
-                <option value="transparent">transparent</option>
-                <option value="translucent">translucent</option>
-                <option value="sparkly">sparkly</option>
-                <option value="neon">neon</option>
-                <option value="black-light">black-light</option>
-                <option value="photochromatic">photochromatic</option>
-                <option value="thermosensitive">thermosensitive</option>
-              </select>
-            </span>
-
-            <br> 
-            
-            <span class="pull-down-heading" aria-hidden="true"><strong>Bed Material:</strong>
-              <select ng-model="bed_material" ng-change="changeBedMtl(bed_material)">
-                <option value="">ANY</option>
-                <option value="blue tape">blue tape</option>
-                <option value="glass">glass</option>
-                <option value="glue stick">glue stick</option>
-                <option value="kapton tape">kapton tape</option>
-                <option value="abs slurry">abs slurry</option>
-                <option value="acrylic">acrylic</option>
-                <option value="hair spray">hair spray</option>
-                <option value="buildTak">buildTak</option>
-              </select>
-            </span>    
-
-            <br>  
-
-            <span class="pull-down-heading" aria-hidden="true"><strong>Nozzle Diam:</strong>
-              <select ng-model="min_nozzle_diameter" ng-change="changeNozzleDiameter(min_nozzle_diameter)">
-                <option value="">ANY</option>         
-                <option value="0.25">0.25mm</option>
-                <option value="0.30">0.30mm</option>
-                <option value="0.35">0.35mm</option>
-                <option value="0.40">0.40mm</option>
-                <option value="0.45">0.45mm</option>
-                <option value="0.50">0.50mm</option>
-              </select>
-            </span> 
-
-            <br>
-
-            <!--<h4>Cost Properties:</h4>-->
-            <span class="pull-down-heading" aria-hidden="true"><strong>Location:</strong>
-              <select ng-model="location" ng-change="changeLocation(location)">
-                <option value="">ANY</option>-->
-                <option value="North America">North America</option>
-                <option value="South America">South America</option>
-                <option value="Western Europe">Western Europe</option>
-                <option value="Eastern Europe">Eastern Europe</option>
-                <option value="Africa">Africa</option>
-                <option value="Asia">Asia</option>
-                <option value="Southeast Asia">Southeast Asia</option>\
-                <option value="Africa">Africa</option>
-                <option value="Australia">Australia</option>
-                <option value="Antarctica">Antarctica</option>
-              </select>
-            </span> 
-
-            <br>
-
-            <span class="pull-down-heading" aria-hidden="true"><strong>Supplier:</strong>
-              <select ng-model="manufacturer" ng-change="changeManufacturer(manufacturer)">
-                <option value="">ANY</option>-->
-                <option value="3DFilamenta">3DFilamenta</option>
-                <option value="ColorFabb">ColorFabb</option>
-                <option value="Dremel">Dremel</option>
-                <option value="eMotion Tech">eMotion Tech</option>
-                <option value="Inventables">Inventables</option>
-                <option value="MakerBot">MakerBot</option>\
-                <option value="NinjaFlex">NinjaFlex</option>
-                <option value="Polymaker">Polymaker</option>
-                <option value="Proto-Pasta">Proto-Pasta</option>
-                <option value="Taulman">Taulman</option>
-                <option value="PP3DP">PP3DP</option>
-              </select>
-            </span> 
-
-            <br>
-
-            <span class="pull-down-heading" aria-hidden="true"><strong>Opacity:</strong>
-              <select ng-model="opacity" ng-change="changeOpacity(opacity)">
-                <option value="">ANY</option>            
-                <option value="1">Opaque</option>
-                <option value="2">Translucent</option>
-                <option value="3">Transparent</option>
-              </select>
-            </span>
-
-            <br>
             <br>
 
             <span class="slider-heading" aria-hidden="true"><strong>Ideal Bed Temp [C]:</strong>
@@ -309,16 +318,27 @@
         <div class="col-lg-3">
 
           <h4>Color Properties:</h4>
+            <table class="table-centered" style="width:100%">
+              <tr>
+                <td>
+                  <color-picker class="centered-color-picker" ng-model="color_temp" ng-click="changeColor(color_temp)" ng-init="">
+                  </color-picker>
 
-          <color-picker ng-model="color_temp" ng-click="changeColor(color_temp)" ng-init="">
-          </color-picker>
+                  <input type="text" ng-model="color_temp" ng-init="" hidden="true"> 
+                </td>
+              </tr>
+            </table>
 
-          <input type="text" ng-model="color_temp" ng-init="" hidden="true"> 
-
-          <div class="centered-buttons">
-            <button ng-click="disableColorFiltering()">Reset Color</button>
-            <button ng-click="resetFiltering()">Reset All</button>
-          </div>
+            <table class="table-centered" style="width:100%">
+              <tr>
+                <td>
+                  <button class ="full-button" ng-click="disableColorFiltering()">Reset Color</button>
+                </td>
+                <td>
+                  <button class ="full-button" ng-click="resetFiltering()">Reset All</button>
+                </td>
+              </tr>
+            </table>
 
           <br>
 
