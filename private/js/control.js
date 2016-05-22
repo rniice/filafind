@@ -1,9 +1,9 @@
 var myApp = angular.module('myApp', ['ngTouch','mp.colorPicker', 'rzModule', 'ui.bootstrap']);
 
-var base_query = "http://localhost:8080/materials";
-//var base_query        = "http://filafind.com/materials";
-//var base_filter_data  = "http://filafind.com/data";
-var base_filter_data  = "http://localhost:8080/data";
+//var base_query = "http://localhost:8080/materials";
+//var base_filter_data  = "http://localhost:8080/data";
+var base_query        = "http://filafind.com/materials";
+var base_filter_data  = "http://filafind.com/data";
 
 var filtered_query = "";      
 
