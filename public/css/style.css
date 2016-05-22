@@ -76,17 +76,14 @@ h4 {
 	height: 70px;
 }
 
-.full-button {
+td .full-button {
 	width: 80%;
 	color: black;
+	horizontal-align: middle;
+	display: block;
+	margin: auto;
 }
 
-.centered-buttons {
-	float: right;
-	position: relative;
-	left: -12%; /* or right 50% */
-	/*text-align: left;*/
-}
 
 span.pull-down-heading {
 	/*font-weight: bold; */
@@ -165,21 +162,14 @@ canvas {
 
 /* ------CSS FOR THE COLOR PICKER------- */
 .angular-color-picker {
-	background: #3A3A3A;
-	/*border: 1px solid #ddd;*/
-	padding-left: 40px;
-	/*padding-left: 30px;*/
-	text-align: center;
+    background-color: #3A3A3A;
+	/*border: 2px solid black;*/
 	border: none;
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
 }
 
-.color-picker {
-    padding-left: 0;
-    padding-right: 0;
-    margin-left: auto;
-    margin-right: auto;
-    /*display: block*/;
-}
 
 /* ------CSS FOR THE SLIDERS------- */
 /* REBUILD https://github.com/angular-slider/angularjs-slider LESS FILE */
@@ -190,16 +180,18 @@ footer {
 
 
 table.table-centered {
-	border: 0;
+	border: 1;
 	text-align: left;
 	table-layout: fixed;
 	width: 100px;
 }
 
 table.table-centered td {
-	border: 0px solid black;
+	/*border: 2px solid black;*/
+	border: none;
 }
 
 table.table-centered th {
-	border: 0px solid black;
+	/*border: 2px solid black;*/
+	border: none;
 }

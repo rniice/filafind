@@ -1,7 +1,9 @@
 var myApp = angular.module('myApp', ['ngTouch','mp.colorPicker', 'rzModule', 'ui.bootstrap']);
 
-//var base_query = "http://localhost:8080/materials";
-var base_query = "http://filafind.com/materials";
+var base_query = "http://localhost:8080/materials";
+//var base_query        = "http://filafind.com/materials";
+//var base_filter_data  = "http://filafind.com/data";
+var base_filter_data  = "http://localhost:8080/data";
 
 var filtered_query = "";      
 
@@ -22,10 +24,23 @@ var scope_struct = {
 
 var scope_struct_reset = (JSON.parse(JSON.stringify(scope_struct)));   //make a deep clone of the scope struct
 
+//load the selection items (skip diameters, nozzle_diameters, opacity)
+var load_items = [
+    'technologies','compositions',
+    'tags_','bed_materials',
+    'location_options','suppliers'
+  ];
+
 
 myApp.controller('userCtrl', ['$scope', '$http', '$window', function($scope,$http,$window) {
   //$TouchProvider.ngClickOverrideEnabled(true);  //override onClick using angular with the touch provider library for mobile devices
 
+  for (index in load_items) {
+    var load_item_value = load_items[index];
+    loadJSON(base_filter_data + "/" + load_item_value + ".json", load_item_value);
+  }
+
+  //temporary response
 	$scope.server_response = "Available Materials: ";
 
   //initialize values to these settings
@@ -308,6 +323,21 @@ myApp.controller('userCtrl', ['$scope', '$http', '$window', function($scope,$htt
 	}
 
 
+  function loadJSON(address, load_item){
+
+    // Simple GET request example:
+    $http({
+      method: 'GET',
+      url: address,
+      config: "",
+      }).then(function success(response) {
+          $scope[load_item] = response.data;
+        }, function error(response) {
+          console.log("error loading json" + response);
+      });
+  }
+
+
 	function getQuery(address){
 
 	  //alert("new query is: " + filtered_query);
@@ -322,7 +352,7 @@ myApp.controller('userCtrl', ['$scope', '$http', '$window', function($scope,$htt
 			  }, function error(response) {
 			    alert("there was an error with your request");
 			});
-		}
+	}
 
 
 	function styleResponse(response) {  //takes the response from server and styles

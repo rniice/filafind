@@ -125,8 +125,7 @@
                 <td>
                   <span class="pull-down-heading" aria-hidden="true"><strong>Technology:</strong>
                     <select ng-model="technology" ng-change="changeTechnology(technology)">
-                      <option value="FDM">FDM</option>
-                      <option value="DLP">DLP</option>
+                      <option ng-repeat="technology in technologies">{{technology}}</option>
                     </select>
                   </span>
                 </td>
@@ -136,24 +135,7 @@
                   <span class="pull-down-heading" aria-hidden="true"><strong>Composition:</strong>
                     <select ng-model="composition" ng-change="changeComposition(composition)">
                       <option value="">ANY</option>
-                      <option value="PLA">PLA</option>
-                      <option value="ABS">ABS</option>
-                      <option value="NYLON">NYLON</option>
-                      <option value="PETT">PETT</option>
-                      <option value="PETG">PETG</option>
-                      <option value="TPE">TPE</option>
-                      <option value="PLA / WOOD">PLA / WOOD</option>\
-                      <option value="HIPS">HIPS</option>
-                      <option value="PLA / PHA">PLA / PHA</option>
-                      <option value="CoPolyester">CoPolyester</option>
-                      <option value="PLA / Bronze">PLA / Bronze</option>
-                      <option value="PLA / Copper">PLA / Copper</option>
-                      <option value="PLA / Stainless Steel">PLA / Stainless Steel</option>
-                      <option value="PLA / Iron">PLA / Iron</option>
-                      <option value="PLA / Carbon Fiber">PLA / Carbon Fiber</option>
-                      <option value="PETG / Carbon">PETG / Carbon</option>
-                      <option value="PLA / Mineral">PLA / Mineral</option>
-                      <option value="ABS / PC">ABS / PC</option>
+                      <option ng-repeat="composition in compositions">{{composition}}</option>
                     </select>
                   </span>    
                 </td>
@@ -171,40 +153,9 @@
               <tr> 
                 <td>
                   <span class="pull-down-heading" aria-hidden="true"><strong>Tags:</strong>
-                    <select ng-model="tags" ng-change="changeTags(tags)">
+                    <select ng-model="tags" ng-init="" ng-change="changeTags(tags)">
                       <option value="">ANY</option>
-                      <option value="bulk">bulk</option>
-                      <option value="composite">composite</option>
-                      <option value="wood">wood</option>
-                      <option value="ceramic">ceramic</option>
-                      <option value="carbon-fiber">carbon-fiber</option>
-                      <option value="hydrophillic">hydrophillic</option>
-                      <option value="heat-resistant">heat-resistant</option>
-                      <option value="metal">metal</option>\
-                      <option value="dissolvable in D-limonene">dissolvable in D-limonene</option>
-                      <option value="dissolvable in water">dissolvable in water</option>
-                      <option value="ductile">ductile</option>
-                      <option value="tough">tough</option>
-                      <option value="flexible">flexible</option>
-                      <option value="strong">strong</option>
-                      <option value="stiff">stiff</option>
-                      <option value="impact-strength">impact-strength</option>
-                      <option value="resilient">resilient</option>
-                      <option value="stretchy">stretchy</option>
-                      <option value="low-friction">low-friction</option>
-                      <option value="food-safe">food-safe</option>
-                      <option value="organic">organic</option>
-                      <option value="odor-neutral">odor-neutral</option>
-                      <option value="glow-in-the-dark">glow-in-the-dark</option>
-                      <option value="magnetic">magnetic</option>
-                      <option value="conductive">conductive</option>
-                      <option value="transparent">transparent</option>
-                      <option value="translucent">translucent</option>
-                      <option value="sparkly">sparkly</option>
-                      <option value="neon">neon</option>
-                      <option value="black-light">black-light</option>
-                      <option value="photochromatic">photochromatic</option>
-                      <option value="thermosensitive">thermosensitive</option>
+                      <option ng-repeat="tag in tags_">{{tag}}</option>
                     </select>
                   </span>
                 </td>
@@ -214,14 +165,7 @@
                   <span class="pull-down-heading" aria-hidden="true"><strong>Bed Material:</strong>
                     <select ng-model="bed_material" ng-change="changeBedMtl(bed_material)">
                       <option value="">ANY</option>
-                      <option value="blue tape">blue tape</option>
-                      <option value="glass">glass</option>
-                      <option value="glue stick">glue stick</option>
-                      <option value="kapton tape">kapton tape</option>
-                      <option value="abs slurry">abs slurry</option>
-                      <option value="acrylic">acrylic</option>
-                      <option value="hair spray">hair spray</option>
-                      <option value="buildTak">buildTak</option>
+                      <option ng-repeat="bed_material in bed_materials">{{bed_material}}</option>
                     </select>
                   </span> 
                 </td>
@@ -256,6 +200,7 @@
                       <option value="Africa">Africa</option>
                       <option value="Australia">Australia</option>
                       <option value="Antarctica">Antarctica</option>
+                      <!--<option ng-repeat="loc in location_options">{{loc}}</option>-->
                     </select>
                   </span> 
                 </td>
@@ -264,18 +209,8 @@
                 <td>
                   <span class="pull-down-heading" aria-hidden="true"><strong>Supplier:</strong>
                     <select ng-model="manufacturer" ng-change="changeManufacturer(manufacturer)">
-                      <option value="">ANY</option>-->
-                      <option value="3DFilamenta">3DFilamenta</option>
-                      <option value="ColorFabb">ColorFabb</option>
-                      <option value="Dremel">Dremel</option>
-                      <option value="eMotion Tech">eMotion Tech</option>
-                      <option value="Inventables">Inventables</option>
-                      <option value="MakerBot">MakerBot</option>\
-                      <option value="NinjaFlex">NinjaFlex</option>
-                      <option value="Polymaker">Polymaker</option>
-                      <option value="Proto-Pasta">Proto-Pasta</option>
-                      <option value="Taulman">Taulman</option>
-                      <option value="PP3DP">PP3DP</option>
+                      <option value="">ANY</option>
+                      <option ng-repeat="supplier in suppliers">{{supplier}}</option>
                     </select>
                   </span> 
                 </td>
