@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Consumer 3D Printing Materials Database",
   "engines": {
-    "node": "6.11.1"
+    "node": "4.5.x"
   },
   "main": "control.js",
   "scripts": {
