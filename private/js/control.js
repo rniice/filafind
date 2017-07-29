@@ -2,19 +2,19 @@ var myApp = angular.module('myApp', ['ngTouch','mp.colorPicker', 'rzModule', 'ui
 
 //var base_query = "http://localhost:8080/materials";
 //var base_filter_data  = "http://localhost:8080/data";
-var base_query        = "http://filafind.com/materials";
-var base_filter_data  = "http://filafind.com/data";
+var base_query        = "https://filafind.com/materials";
+var base_filter_data  = "https://filafind.com/data";
 
-var filtered_query = "";      
+var filtered_query = "";
 
 var scope_struct = {
-	technology: "FDM", 
-	composition: "", 
-	filament_diameter: "1.75", 
+	technology: "FDM",
+	composition: "",
+	filament_diameter: "1.75",
 	color: "",
 	opacity: "",                           //opacity is broken for some reason
 	location: "",
-  manufacturer: "", 
+  manufacturer: "",
 	cost: "",
 	tags: "",
 	bed_material: "",
@@ -47,8 +47,8 @@ myApp.controller('userCtrl', ['$scope', '$http', '$window', function($scope,$htt
   $scope.technology = "FDM";
   $scope.composition = "";
   $scope.filament_diameter = "1.75";
-  $scope.color = ""; 
-  $scope.opacity = "";                   
+  $scope.color = "";
+  $scope.opacity = "";
 
   //non-initialized settings values:
   $scope.location = "";
@@ -106,17 +106,17 @@ myApp.controller('userCtrl', ['$scope', '$http', '$window', function($scope,$htt
     generateFullQuery(scope_struct);
   };
 
-  
+
   $scope.changeCost = function(lowValue, highValue) {
     $scope.cost = [lowValue, highValue];
     scope_struct.cost = [lowValue, highValue]; //update the scope_struct
     generateFullQuery(scope_struct);
   };
-  
- 
+
+
   $scope.changeColor = function(color_temp) {
   	var color_parsed = color_temp.substring(1);
-    
+
     $scope.color = color_parsed;
     scope_struct.color = color_parsed; //update the scope_struct
     generateFullQuery(scope_struct);
@@ -136,12 +136,12 @@ myApp.controller('userCtrl', ['$scope', '$http', '$window', function($scope,$htt
     $scope.technology = "FDM";
     $scope.composition = "";
     $scope.filament_diameter = "1.75";
-    $scope.color = ""; 
-    $scope.opacity = "";                   
+    $scope.color = "";
+    $scope.opacity = "";
 
     //non-initialized settings values:
     $scope.location = "";
-    $scope.manufacturer = "";   
+    $scope.manufacturer = "";
     $scope.cost = ["",""];
     $scope.slider_cost.minValue = 10;
     $scope.slider_cost.maxValue = 60;
@@ -287,7 +287,7 @@ myApp.controller('userCtrl', ['$scope', '$http', '$window', function($scope,$htt
 
 	//for each value in the component,value array, run generate query
 	function generateFullQuery(obj){
-		
+
 		filtered_query = base_query;
 
 		for (var key in obj) {
@@ -301,7 +301,7 @@ myApp.controller('userCtrl', ['$scope', '$http', '$window', function($scope,$htt
 	function generateQueryItem(component, value){
 	  component = component.toString();               //make sure value is made into a string
 	  value = value.toString();                       //make sure value is made into a string
-	  
+
 	  if(value!=""){              										//the user has entered content in filter
 	    if(filtered_query.indexOf('?')>-1){  					//if there already is a filter in place
 	      filtered_query = filtered_query + "&" + component + "=" + value;
@@ -312,7 +312,7 @@ myApp.controller('userCtrl', ['$scope', '$http', '$window', function($scope,$htt
 	  }
 
 	  else {                      										//the user is trying to remove content in filter
-	    if(filtered_query.indexOf('&')>-1){  					//if there is more than one filter in place      
+	    if(filtered_query.indexOf('&')>-1){  					//if there is more than one filter in place
 	      filtered_query = filtered_query.replace("&" + component + "=", "");
 
 	    }
@@ -388,10 +388,3 @@ myApp.controller('userCtrl', ['$scope', '$http', '$window', function($scope,$htt
 
 
 }]);
-
-
-
-
-
-
-
