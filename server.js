@@ -64,9 +64,5 @@ app.post('/materials/', function(req, res){
 //starts the server listening
 app.listen(port, function() {
     console.log('Our app is running on http://localhost:' + port);
-    materials.initialize();	
+    materials.initialize();
 });
-
-
-
-

@@ -7,7 +7,7 @@
     <meta name="description" content="Use FilaFind to filter through the vast array of emerging 3D consumer 3D printer materials to discover what your project needs.">
     <meta name="keywords" content="FilaFind, 3D Printer, filament, material, diy">
     <meta name="robots" content="index, nofollow">
-    
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=320, height=device-height, target-densitydpi=medium-dpi">-->
 
@@ -15,15 +15,16 @@
     <meta name="marked method llc" content="markedmethod.com">
 
     <!--this is the image that shows up on facebook/linkedIn-->
-    <meta property="og:image" content="./img/og_image.jpg" />   
+    <meta property="og:image" content="./img/og_image.jpg" />
 
     <link rel="icon" href="./favicon.ico">
-    <link rel="canonical" href="http://filafind.com" itemprop="url">
+    <!--<link rel="canonical" href="http://filafind.com" itemprop="url">-->
+    <link rel="canonical" href="https://stark-tundra-90514.herokuapp.com" itemprop="url">
 
     <title>FilaFind - Consumer 3D Printing Materials Database - Filament Search Engine</title>
 
     <!-- Angular Color Picker Styling s inject 'mp.colorPicker' -->
-    <link rel="stylesheet" href="./css/bootstrap.min.css" >   
+    <link rel="stylesheet" href="./css/bootstrap.min.css" >
     <link rel="stylesheet" href="./css/angular-color-picker.css">
     <link rel="stylesheet" href="./css/rzslider.min.css" >
     <link rel="stylesheet" href="./css/style.css" >
@@ -70,7 +71,7 @@
       <div class="header">
         <nav>
           <ul class="nav nav-pills pull-right">
-            
+
           </ul>
         </nav>
         <h3 class="text-muted">FilaFind | Consumer 3D Printing | Filament Search Engine</h3>
@@ -121,7 +122,7 @@
           <h4>Mechanical Properties:</h4>
 
            <table class="table-centered" style="width:100%">
-              <tr> 
+              <tr>
                 <td>
                   <span class="pull-down-heading" aria-hidden="true"><strong>Technology:</strong>
                     <select ng-model="technology" ng-change="changeTechnology(technology)">
@@ -130,27 +131,27 @@
                   </span>
                 </td>
               </tr>
-              <tr> 
+              <tr>
                 <td>
                   <span class="pull-down-heading" aria-hidden="true"><strong>Composition:</strong>
                     <select ng-model="composition" ng-change="changeComposition(composition)">
                       <option value="">ANY</option>
                       <option ng-repeat="composition in compositions">{{composition}}</option>
                     </select>
-                  </span>    
+                  </span>
                 </td>
               </tr>
-              <tr> 
+              <tr>
                 <td>
                   <span class="pull-down-heading" aria-hidden="true"><strong>Diameter:</strong>
                     <select ng-model="filament_diameter" ng-change="changeFilamentDiameter(filament_diameter)">
                       <option value="1.75">1.75mm</option>
                       <option value="2.85">2.85mm</option>
                     </select>
-                  </span> 
+                  </span>
                 </td>
               </tr>
-              <tr> 
+              <tr>
                 <td>
                   <span class="pull-down-heading" aria-hidden="true"><strong>Tags:</strong>
                     <select ng-model="tags" ng-init="" ng-change="changeTags(tags)">
@@ -160,21 +161,21 @@
                   </span>
                 </td>
               </tr>
-              <tr> 
+              <tr>
                 <td>
                   <span class="pull-down-heading" aria-hidden="true"><strong>Bed Material:</strong>
                     <select ng-model="bed_material" ng-change="changeBedMtl(bed_material)">
                       <option value="">ANY</option>
                       <option ng-repeat="bed_material in bed_materials">{{bed_material}}</option>
                     </select>
-                  </span> 
+                  </span>
                 </td>
               </tr>
-              <tr> 
+              <tr>
                 <td>
                   <span class="pull-down-heading" aria-hidden="true"><strong>Nozzle Diam:</strong>
                     <select ng-model="min_nozzle_diameter" ng-change="changeNozzleDiameter(min_nozzle_diameter)">
-                      <option value="">ANY</option>         
+                      <option value="">ANY</option>
                       <option value="0.25">0.25mm</option>
                       <option value="0.30">0.30mm</option>
                       <option value="0.35">0.35mm</option>
@@ -182,10 +183,10 @@
                       <option value="0.45">0.45mm</option>
                       <option value="0.50">0.50mm</option>
                     </select>
-                  </span> 
+                  </span>
                 </td>
               </tr>
-              <tr> 
+              <tr>
                 <td>
                   <span class="pull-down-heading" aria-hidden="true"><strong>Location:</strong>
                     <select ng-model="location" ng-change="changeLocation(location)">
@@ -202,24 +203,24 @@
                       <option value="Antarctica">Antarctica</option>
                       <!--<option ng-repeat="loc in location_options">{{loc}}</option>-->
                     </select>
-                  </span> 
+                  </span>
                 </td>
               </tr>
-              <tr> 
+              <tr>
                 <td>
                   <span class="pull-down-heading" aria-hidden="true"><strong>Supplier:</strong>
                     <select ng-model="manufacturer" ng-change="changeManufacturer(manufacturer)">
                       <option value="">ANY</option>
                       <option ng-repeat="supplier in suppliers">{{supplier}}</option>
                     </select>
-                  </span> 
+                  </span>
                 </td>
               </tr>
               <tr>
                 <td>
                   <span class="pull-down-heading" aria-hidden="true"><strong>Opacity:</strong>
                     <select ng-model="opacity" ng-change="changeOpacity(opacity)">
-                      <option value="">ANY</option>            
+                      <option value="">ANY</option>
                       <option value="1">Opaque</option>
                       <option value="2">Translucent</option>
                       <option value="3">Transparent</option>
@@ -235,7 +236,7 @@
               <rzslider class="bed-temp-slider" rz-slider-model="slider_bed_temp.value"
                 rz-slider-options="slider_bed_temp.options"></rzslider>
             </span>
-            
+
             <span class="slider-heading" aria-hidden="true"><strong>Ideal Nozzle Temp [C]:</strong>
               <rzslider class="nozzle-temp-slider" rz-slider-model="slider_nozzle_temp.value"
                 rz-slider-options="slider_nozzle_temp.options"></rzslider>
@@ -259,7 +260,7 @@
                   <color-picker class="centered-color-picker" ng-model="color_temp" ng-click="changeColor(color_temp)" ng-init="">
                   </color-picker>
 
-                  <input type="text" ng-model="color_temp" ng-init="" hidden="true"> 
+                  <input type="text" ng-model="color_temp" ng-init="" hidden="true">
                 </td>
               </tr>
             </table>
@@ -283,16 +284,16 @@
 
               <br>
               <canvas id="threeJS-Canvas" width="180" height="180" style="background-color: #000000">
-            
+
               <!--Placeholder for 3JS Rendered Area-->
-              <script id="threeJS-Script"></script> 
+              <script id="threeJS-Script"></script>
 
               <script id="initialize-render">
                 render_object_instance = new RenderObject("33CC33", 0xFFFFFF );
                 render_object_instance.render();
               </script>
           </div>
-          
+
         </div>
 
 
@@ -315,7 +316,7 @@
         <table class="processing-parameters" style="width:100%">
           <tr>
             <td><strong>Name</strong></td>
-            <td><strong>Technology</strong></td>    
+            <td><strong>Technology</strong></td>
             <td><strong>Composition</strong></td>
             <td><strong>Diameter [mm]</strong></td>
             <td><strong>Supplier</strong></td>
@@ -323,7 +324,7 @@
           </tr>
           <tr>
             <td class = "processing-data">{{processing_name}}</td>
-            <td class = "processing-data">{{processing_technology}}</td>    
+            <td class = "processing-data">{{processing_technology}}</td>
             <td class = "processing-data">{{processing_composition}}</td>
             <td class = "processing-data">{{processing_filament_diameter}}</td>
             <td class = "processing-data">{{processing_manufacturer}}</td>
@@ -333,7 +334,7 @@
             <td><strong>Temp Extrude [C]</strong></td>
             <td><strong>Temp Extrude Max [C]</strong></td>
             <td><strong>Temp Extrude Max [C]</strong></td>
-            <td><strong>Temp Bed [C]</strong></td>    
+            <td><strong>Temp Bed [C]</strong></td>
             <td><strong>Fan Speed</strong></td>
             <td><strong>Bed Material</strong></td>
           </tr>
@@ -341,7 +342,7 @@
             <td class = "processing-data">{{processing_temp_extrude_default}}</td>
             <td class = "processing-data">{{processing_temp_min_extrude}}</td>
             <td class = "processing-data">{{processing_temp_max_extrude}}</td>
-            <td class = "processing-data">{{processing_temp_bed}}</td>    
+            <td class = "processing-data">{{processing_temp_bed}}</td>
             <td class = "processing-data">{{processing_extruder_fan_speed}}</td>
             <td class = "processing-data">{{processing_bed_material}}</td>
           </tr>
@@ -370,7 +371,7 @@
         <p><strong>CREDIT:</strong> Materials Database is made possible using components of the <a href="https://github.com/spark3dp/print-manager" target="_blank">Spark 3D Printing Platform.</a>  Spark is an open platform for building better 3D printing software, hardware, materials and services.
 
         <br>
-      
+
         <footer class="footer">
           <!--<div class="col-lg-2">
           </div>-->
@@ -385,7 +386,7 @@
 
       </div>
 
-    </div> 
+    </div>
 
   </body>
 </html>
